@@ -65,6 +65,7 @@ const en = {
 
   'feedback.correct': 'Correct.',
   'feedback.wrong': 'Wrong. The correct answer is {n}.',
+  'feedback.wrongOnly': 'Wrong.',
   'feedback.revealed': 'The correct answer is {n}.',
   'feedback.yourAnswer': 'your answer',
   'feedback.correctAnswer': 'correct answer',
