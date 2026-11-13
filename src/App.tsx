@@ -28,7 +28,7 @@ export default function App() {
   return (
     <div className="flex min-h-dvh flex-col">
       <header className="border-b border-border bg-surface">
-        <div className="mx-auto flex h-14 max-w-5xl items-center justify-between gap-3 px-4">
+        <div className="mx-auto flex h-14 max-w-6xl items-center justify-between gap-3 px-4">
           <a href={href.home} className="rounded font-semibold text-fg no-underline">
             {t('app.title')}
           </a>
@@ -53,12 +53,12 @@ export default function App() {
         </div>
       </header>
 
-      <main className="mx-auto w-full max-w-5xl flex-1 px-4 py-5">
+      <main className="mx-auto w-full max-w-6xl flex-1 px-4 py-5">
         <Suspense fallback={<Message text={t('common.loading')} />}>{screen}</Suspense>
       </main>
 
       <footer className="border-t border-border bg-surface">
-        <div className="mx-auto max-w-5xl px-4 py-4 text-sm text-muted">
+        <div className="mx-auto max-w-6xl px-4 py-4 text-sm text-muted">
           <p>
             {t('footer.source')}{' '}
             <a href={SOURCE_URL} target="_blank" rel="noopener noreferrer" className="rounded text-accent underline">

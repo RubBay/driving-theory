@@ -37,7 +37,7 @@ const SWIPE_MIN_PX = 60
 export default function Runner({ group, mode, title, questions, index, onIndex, onEnd, tools }: Props) {
   const progress = useGroupProgress(group.id)
   const [views, setViews] = useState<Record<string, View>>({})
-  const { navOpen } = useSettings()
+  const { panelOpen: navOpen } = useSettings()
   const [viewer, setViewer] = useState(false)
   const touchStart = useRef<{ x: number; y: number } | null>(null)
 
@@ -146,8 +146,14 @@ export default function Runner({ group, mode, title, questions, index, onIndex, 
   }
 
   return (
-    <div className="lg:grid lg:grid-cols-[minmax(0,1fr)_auto] lg:items-start lg:gap-8">
-      <section onTouchStart={onTouchStart} onTouchEnd={onTouchEnd} aria-label={title}>
+    <div className="lg:flex lg:items-start lg:justify-center lg:gap-8">
+      {/* Desktop: this spacer mirrors the panel so the question column sits in the centre
+          of the page while the panel is closed, and moves left when it opens. */}
+      <div
+        aria-hidden="true"
+        className={`hidden shrink-0 transition-[width] duration-200 motion-reduce:transition-none lg:block ${navOpen ? 'w-24' : 'w-52'}`}
+      />
+      <section onTouchStart={onTouchStart} onTouchEnd={onTouchEnd} aria-label={title} className="lg:max-w-2xl lg:min-w-0 lg:flex-1">
         <div className="flex items-center justify-between gap-3">
           <a href={href.home} className="-ml-1 inline-flex min-h-11 items-center gap-1 rounded-lg px-1 text-accent">
             <svg viewBox="0 0 24 24" className="size-5" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
@@ -284,7 +290,7 @@ export default function Runner({ group, mode, title, questions, index, onIndex, 
 
       <aside
         aria-label={t('runner.navigator')}
-        className={`mt-4 rounded-2xl border border-border bg-surface p-3 lg:sticky lg:top-4 lg:mt-0 lg:transition-[width] lg:duration-200 motion-reduce:transition-none ${
+        className={`mt-4 rounded-2xl border border-border bg-surface p-3 lg:sticky lg:top-4 lg:mt-0 lg:shrink-0 lg:transition-[width] lg:duration-200 motion-reduce:transition-none ${
           navOpen ? 'lg:w-80' : 'lg:w-52'
         }`}
       >
@@ -296,7 +302,7 @@ export default function Runner({ group, mode, title, questions, index, onIndex, 
             aria-controls="question-navigator"
             aria-label={navOpen ? t('runner.navigatorHide') : t('runner.navigatorShow')}
             title={navOpen ? t('runner.navigatorHide') : t('runner.navigatorShow')}
-            onClick={() => updateSettings({ navOpen: !navOpen })}
+            onClick={() => updateSettings({ panelOpen: !navOpen })}
             className="grid size-11 shrink-0 place-items-center rounded-lg border border-border bg-surface-2 text-2xl leading-none font-semibold text-fg"
           >
             <span aria-hidden="true">{navOpen ? '−' : '+'}</span>
