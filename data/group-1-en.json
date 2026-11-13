@@ -1,0 +1,3119 @@
+[
+  {
+    "id": "g1-q001",
+    "group": 1,
+    "number": 1,
+    "question": {
+      "en": "Which sign is called “Pass the Obstacle on the Left”?"
+    },
+    "options": [
+      {
+        "en": "1"
+      },
+      {
+        "en": "2"
+      },
+      {
+        "en": "3"
+      },
+      {
+        "en": "4"
+      },
+      {
+        "en": "5"
+      }
+    ],
+    "answer": 3,
+    "image": "images/g1/q001.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q002",
+    "group": 1,
+    "number": 2,
+    "question": {
+      "en": "In the indicated situation, from which lane must the right turn be made?"
+    },
+    "options": [
+      {
+        "en": "Only from the second lane."
+      },
+      {
+        "en": "Only from the rightmost lane marked with pavement marking “A”."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g1/q002.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q003",
+    "group": 1,
+    "number": 3,
+    "question": {
+      "en": "A roundabout is established at the intersection. The roadway on which you are approaching the intersection has two traffic lanes. When entering the intersection to make a turn, which lane are you required to occupy?"
+    },
+    "options": [
+      {
+        "en": "The right lane."
+      },
+      {
+        "en": "The left lane."
+      },
+      {
+        "en": "Either the right or the left lane."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g1-q004",
+    "group": 1,
+    "number": 4,
+    "question": {
+      "en": "Is it permitted to enter the yard at the indicated location?"
+    },
+    "options": [
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Prohibited."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g1/q004.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q005",
+    "group": 1,
+    "number": 5,
+    "question": {
+      "en": "On a marked two-way road with three lanes, except a road with reversible traffic control, where the center lane is used for traffic in both directions, entering the leftmost lane is:"
+    },
+    "options": [
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Prohibited."
+      },
+      {
+        "en": "Permitted only for passing, going around an obstruction, making a left turn, or making a U-turn."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g1-q006",
+    "group": 1,
+    "number": 6,
+    "question": {
+      "en": "Which answer correctly states the permitted direction of traffic?"
+    },
+    "options": [
+      {
+        "en": "U-turn only."
+      },
+      {
+        "en": "Straight ahead and by making a U-turn."
+      },
+      {
+        "en": "Straight ahead only."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g1/q006.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q007",
+    "group": 1,
+    "number": 7,
+    "question": {
+      "en": "In which direction is traffic prohibited?"
+    },
+    "options": [
+      {
+        "en": "To the left and to the right."
+      },
+      {
+        "en": "Straight ahead and by making a U-turn."
+      },
+      {
+        "en": "Straight ahead only."
+      },
+      {
+        "en": "In all directions."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g1/q007.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q008",
+    "group": 1,
+    "number": 8,
+    "question": {
+      "en": "A U-turn is prohibited:"
+    },
+    "options": [
+      {
+        "en": "On pedestrian crossings."
+      },
+      {
+        "en": "In tunnels."
+      },
+      {
+        "en": "On and under bridges, overpasses, and elevated roadways."
+      },
+      {
+        "en": "At railroad crossings."
+      },
+      {
+        "en": "In all of the listed cases."
+      }
+    ],
+    "answer": 5,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g1-q009",
+    "group": 1,
+    "number": 9,
+    "question": {
+      "en": "Which answer correctly states the permitted direction of traffic?"
+    },
+    "options": [
+      {
+        "en": "Straight ahead and to the left, entering the yard."
+      },
+      {
+        "en": "Straight ahead only."
+      },
+      {
+        "en": "U-turn only."
+      },
+      {
+        "en": "Straight ahead and by making a U-turn."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g1/q009.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q010",
+    "group": 1,
+    "number": 10,
+    "question": {
+      "en": "A U-turn is prohibited when visibility in at least one direction of the road is less than:"
+    },
+    "options": [
+      {
+        "en": "100 m."
+      },
+      {
+        "en": "150 m."
+      },
+      {
+        "en": "300 m."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g1-q011",
+    "group": 1,
+    "number": 11,
+    "question": {
+      "en": "You are driving on a two-way road with three lanes. In which case is it permitted to enter the center lane?"
+    },
+    "options": [
+      {
+        "en": "Only when passing."
+      },
+      {
+        "en": "Only when going around an obstruction."
+      },
+      {
+        "en": "Only when making a left turn or a U-turn."
+      },
+      {
+        "en": "In all of the listed cases."
+      }
+    ],
+    "answer": 4,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g1-q012",
+    "group": 1,
+    "number": 12,
+    "question": {
+      "en": "In which direction or directions may the truck proceed?"
+    },
+    "options": [
+      {
+        "en": "To the right only."
+      },
+      {
+        "en": "To the right, to the left, and by making a U-turn."
+      },
+      {
+        "en": "To the left only."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g1/q012.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q013",
+    "group": 1,
+    "number": 13,
+    "question": {
+      "en": "In which image is the driver performing the maneuver correctly?"
+    },
+    "options": [
+      {
+        "en": "1"
+      },
+      {
+        "en": "2"
+      },
+      {
+        "en": "3"
+      }
+    ],
+    "answer": 1,
+    "image": "images/g1/q013.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q014",
+    "group": 1,
+    "number": 14,
+    "question": {
+      "en": "Which vehicle driver is making the U-turn correctly?"
+    },
+    "options": [
+      {
+        "en": "The driver of the blue vehicle."
+      },
+      {
+        "en": "The driver of the red vehicle."
+      },
+      {
+        "en": "Both drivers."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g1/q014.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q015",
+    "group": 1,
+    "number": 15,
+    "question": {
+      "en": "In the absence of traffic signs, pavement markings, and a median, drivers on a two-way road must pass elements of road structures located on the roadway:"
+    },
+    "options": [
+      {
+        "en": "On the right."
+      },
+      {
+        "en": "On the left."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g1-q016",
+    "group": 1,
+    "number": 16,
+    "question": {
+      "en": "In which direction is traffic prohibited?"
+    },
+    "options": [
+      {
+        "en": "To the left only."
+      },
+      {
+        "en": "To the right only."
+      },
+      {
+        "en": "Straight ahead and to the left."
+      },
+      {
+        "en": "In all directions."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g1/q016.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q017",
+    "group": 1,
+    "number": 17,
+    "question": {
+      "en": "Which vehicle driver violates the rules when turning on a road with a deceleration lane?"
+    },
+    "options": [
+      {
+        "en": "Both drivers."
+      },
+      {
+        "en": "The driver of the yellow vehicle."
+      },
+      {
+        "en": "Both drivers make the turn correctly."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g1/q017.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q018",
+    "group": 1,
+    "number": 18,
+    "question": {
+      "en": "In the given situation, may the driver of the red vehicle continue driving?"
+    },
+    "options": [
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Prohibited."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g1/q018.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q019",
+    "group": 1,
+    "number": 19,
+    "question": {
+      "en": "You need to make a left turn on a two-way road with three lanes. From which lane must you make this maneuver?"
+    },
+    "options": [
+      {
+        "en": "From the right lane."
+      },
+      {
+        "en": "From the center lane."
+      },
+      {
+        "en": "From either the right or the center lane."
+      },
+      {
+        "en": "From the center lane if the right lane is occupied."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g1-q020",
+    "group": 1,
+    "number": 20,
+    "question": {
+      "en": "May the driver of the red vehicle drive on the tram tracks?"
+    },
+    "options": [
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Prohibited."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g1/q020.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q021",
+    "group": 1,
+    "number": 21,
+    "question": {
+      "en": "A U-turn is prohibited:"
+    },
+    "options": [
+      {
+        "en": "On pedestrian crossings and in tunnels."
+      },
+      {
+        "en": "On and under bridges, overpasses, and elevated roadways."
+      },
+      {
+        "en": "At railroad crossings."
+      },
+      {
+        "en": "At locations where visibility in at least one direction of the road is less than 100 m."
+      },
+      {
+        "en": "In all of the listed cases."
+      }
+    ],
+    "answer": 5,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g1-q022",
+    "group": 1,
+    "number": 22,
+    "question": {
+      "en": "In which directions is traffic permitted?"
+    },
+    "options": [
+      {
+        "en": "To the left only."
+      },
+      {
+        "en": "Straight ahead, to the left, and by making a U-turn."
+      },
+      {
+        "en": "Straight ahead only."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g1/q022.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q023",
+    "group": 1,
+    "number": 23,
+    "question": {
+      "en": "Which vehicle drivers have violated the requirements of the traffic sign?"
+    },
+    "options": [
+      {
+        "en": "The motorcycle operators."
+      },
+      {
+        "en": "The automobile driver and the operator of the motorcycle with a sidecar."
+      },
+      {
+        "en": "Only the automobile driver."
+      },
+      {
+        "en": "The drivers of all the vehicles."
+      }
+    ],
+    "answer": 4,
+    "image": "images/g1/q023.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q024",
+    "group": 1,
+    "number": 24,
+    "question": {
+      "en": "When vehicles moving in the same direction change lanes simultaneously, which driver must yield?"
+    },
+    "options": [
+      {
+        "en": "The driver of the vehicle on the left."
+      },
+      {
+        "en": "The driver of the vehicle on the right."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g1-q025",
+    "group": 1,
+    "number": 25,
+    "question": {
+      "en": "Which vehicle driver has the right-of-way?"
+    },
+    "options": [
+      {
+        "en": "The truck driver."
+      },
+      {
+        "en": "The bus driver."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g1/q025.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q026",
+    "group": 1,
+    "number": 26,
+    "question": {
+      "en": "On road sections with longitudinal grades indicated by the appropriate signs, if oncoming traffic is difficult, you must yield to:"
+    },
+    "options": [
+      {
+        "en": "The vehicle proceeding downhill."
+      },
+      {
+        "en": "The public transit vehicle."
+      },
+      {
+        "en": "The vehicle proceeding uphill."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g1-q027",
+    "group": 1,
+    "number": 27,
+    "question": {
+      "en": "Which vehicle has the right-of-way?"
+    },
+    "options": [
+      {
+        "en": "The blue vehicle, because the red vehicle is changing its direction of movement to the left."
+      },
+      {
+        "en": "The red vehicle, because during simultaneous lane changes it is on the right."
+      },
+      {
+        "en": "The blue vehicle, because during simultaneous lane changes it is on the left."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g1/q027.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q028",
+    "group": 1,
+    "number": 28,
+    "question": {
+      "en": "In populated areas, must drivers yield to public transit vehicles that are starting to move from designated and marked stops?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g1-q029",
+    "group": 1,
+    "number": 29,
+    "question": {
+      "en": "Which vehicle driver must yield?"
+    },
+    "options": [
+      {
+        "en": "The passenger-car driver."
+      },
+      {
+        "en": "The truck driver."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g1/q029.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q030",
+    "group": 1,
+    "number": 30,
+    "question": {
+      "en": "Which vehicle driver must yield?"
+    },
+    "options": [
+      {
+        "en": "The bus driver."
+      },
+      {
+        "en": "The automobile driver."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g1/q030.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q031",
+    "group": 1,
+    "number": 31,
+    "question": {
+      "en": "Which vehicle driver must yield?"
+    },
+    "options": [
+      {
+        "en": "The automobile driver."
+      },
+      {
+        "en": "The tram operator."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g1/q031.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q032",
+    "group": 1,
+    "number": 32,
+    "question": {
+      "en": "Indicate the order in which the vehicles should proceed through the intersection:"
+    },
+    "options": [
+      {
+        "en": "The bus, the truck, then the animal-drawn cart."
+      },
+      {
+        "en": "The bus and the animal-drawn cart, then the truck."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g1/q032.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q033",
+    "group": 1,
+    "number": 33,
+    "question": {
+      "en": "With oncoming traffic on a steep downgrade, you must yield to:"
+    },
+    "options": [
+      {
+        "en": "The public transit vehicle."
+      },
+      {
+        "en": "The vehicle proceeding uphill."
+      },
+      {
+        "en": "The vehicle proceeding downhill."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g1-q034",
+    "group": 1,
+    "number": 34,
+    "question": {
+      "en": "In populated areas, where there are three or more lanes for traffic in the same direction, are passenger cars permitted to use the far-left lane?"
+    },
+    "options": [
+      {
+        "en": "Permitted when overtaking."
+      },
+      {
+        "en": "Permitted when turning left or making a U-turn."
+      },
+      {
+        "en": "Permitted in both of the above cases."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g1-q035",
+    "group": 1,
+    "number": 35,
+    "question": {
+      "en": "On all roads, where there are three or more lanes for traffic in the same direction, are motorcycles permitted to use the far-left lane?"
+    },
+    "options": [
+      {
+        "en": "Permitted when overtaking."
+      },
+      {
+        "en": "Permitted when turning left or making a U-turn."
+      },
+      {
+        "en": "Permitted in both of the above cases."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g1-q036",
+    "group": 1,
+    "number": 36,
+    "question": {
+      "en": "In this situation, the driver of the white passenger car:"
+    },
+    "options": [
+      {
+        "en": "Must yield to the fixed-route bus that is starting to move from the designated stop."
+      },
+      {
+        "en": "Has the right-of-way because the fixed-route bus is changing lanes into the second lane."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g1/q036.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q037",
+    "group": 1,
+    "number": 37,
+    "question": {
+      "en": "Which vehicle driver has the right-of-way?"
+    },
+    "options": [
+      {
+        "en": "The passenger-car driver."
+      },
+      {
+        "en": "The fixed-route bus driver."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g1/q037.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q038",
+    "group": 1,
+    "number": 38,
+    "question": {
+      "en": "Which vehicle driver has the right-of-way in this situation?"
+    },
+    "options": [
+      {
+        "en": "The bus driver."
+      },
+      {
+        "en": "The passenger-car driver."
+      },
+      {
+        "en": "The passenger-car driver is not permitted to enter the right lane."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g1/q038.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q039",
+    "group": 1,
+    "number": 39,
+    "question": {
+      "en": "If you intend to proceed straight ahead, to which vehicle or vehicles must you yield?"
+    },
+    "options": [
+      {
+        "en": "Both vehicles."
+      },
+      {
+        "en": "Only the bus."
+      },
+      {
+        "en": "Only the passenger car."
+      },
+      {
+        "en": "Neither vehicle."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g1/q039.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q040",
+    "group": 1,
+    "number": 40,
+    "question": {
+      "en": "If you intend to proceed straight ahead, to whom must you yield?"
+    },
+    "options": [
+      {
+        "en": "Only the passenger car."
+      },
+      {
+        "en": "Only the bus and the passenger car."
+      },
+      {
+        "en": "All vehicles."
+      },
+      {
+        "en": "Only the motorcycle."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g1/q040.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q041",
+    "group": 1,
+    "number": 41,
+    "question": {
+      "en": "In this situation, must the motorcycle operator yield?"
+    },
+    "options": [
+      {
+        "en": "No."
+      },
+      {
+        "en": "Yes."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g1/q041.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q042",
+    "group": 1,
+    "number": 42,
+    "question": {
+      "en": "In this situation, are you permitted to perform the indicated maneuver?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g1/q042.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q043",
+    "group": 1,
+    "number": 43,
+    "question": {
+      "en": "You are proceeding straight ahead. To which vehicle or vehicles must you yield?"
+    },
+    "options": [
+      {
+        "en": "Only the passenger car."
+      },
+      {
+        "en": "The truck."
+      },
+      {
+        "en": "Both vehicles."
+      },
+      {
+        "en": "Neither vehicle."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g1/q043.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q044",
+    "group": 1,
+    "number": 44,
+    "question": {
+      "en": "You are proceeding straight ahead. Must you yield to the passenger car?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g1/q044.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q045",
+    "group": 1,
+    "number": 45,
+    "question": {
+      "en": "You are starting to move from the roadside. Must you yield to the passenger car making a U-turn?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g1/q045.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q046",
+    "group": 1,
+    "number": 46,
+    "question": {
+      "en": "You are proceeding straight ahead. To which vehicle or vehicles must you yield?"
+    },
+    "options": [
+      {
+        "en": "Only the passenger car."
+      },
+      {
+        "en": "No one."
+      },
+      {
+        "en": "Only the passenger car and the motorcycle."
+      },
+      {
+        "en": "All vehicles."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g1/q046.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q047",
+    "group": 1,
+    "number": 47,
+    "question": {
+      "en": "If you intend to make a left turn, to which vehicle or vehicles must you yield?"
+    },
+    "options": [
+      {
+        "en": "The motorcycle."
+      },
+      {
+        "en": "The patrol vehicle."
+      },
+      {
+        "en": "All vehicles."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g1/q047.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q048",
+    "group": 1,
+    "number": 48,
+    "question": {
+      "en": "If you intend to make a U-turn at the intersection, to which vehicle or vehicles must you yield?"
+    },
+    "options": [
+      {
+        "en": "The passenger car."
+      },
+      {
+        "en": "All vehicles."
+      },
+      {
+        "en": "The truck."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g1/q048.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q049",
+    "group": 1,
+    "number": 49,
+    "question": {
+      "en": "If you intend to make a left turn at the intersection, to which vehicle or vehicles must you yield?"
+    },
+    "options": [
+      {
+        "en": "The truck."
+      },
+      {
+        "en": "All vehicles."
+      },
+      {
+        "en": "No one."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g1/q049.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q050",
+    "group": 1,
+    "number": 50,
+    "question": {
+      "en": "If you intend to make a left turn at the intersection, to which vehicle or vehicles must you yield?"
+    },
+    "options": [
+      {
+        "en": "No one."
+      },
+      {
+        "en": "Only the bus."
+      },
+      {
+        "en": "Only the truck with the flashing beacon activated."
+      },
+      {
+        "en": "All vehicles."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g1/q050.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q051",
+    "group": 1,
+    "number": 51,
+    "question": {
+      "en": "If you intend to make a U-turn at the intersection, to which vehicle or vehicles must you yield?"
+    },
+    "options": [
+      {
+        "en": "The truck."
+      },
+      {
+        "en": "The passenger car."
+      },
+      {
+        "en": "All vehicles."
+      },
+      {
+        "en": "No one."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g1/q051.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q052",
+    "group": 1,
+    "number": 52,
+    "question": {
+      "en": "If you intend to make a left turn, to which vehicle or vehicles must you yield?"
+    },
+    "options": [
+      {
+        "en": "The bus."
+      },
+      {
+        "en": "The bus and the passenger car."
+      },
+      {
+        "en": "The passenger car."
+      },
+      {
+        "en": "No one."
+      }
+    ],
+    "answer": 4,
+    "image": "images/g1/q052.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q053",
+    "group": 1,
+    "number": 53,
+    "question": {
+      "en": "If you intend to make a right turn, must you yield to the passenger car?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g1/q053.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q054",
+    "group": 1,
+    "number": 54,
+    "question": {
+      "en": "If you intend to make a right turn, to which vehicle or vehicles must you yield?"
+    },
+    "options": [
+      {
+        "en": "No one."
+      },
+      {
+        "en": "The passenger car."
+      },
+      {
+        "en": "The motorcycle and the passenger car."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g1/q054.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q055",
+    "group": 1,
+    "number": 55,
+    "question": {
+      "en": "In this situation, must we yield to the driver of the automobile approaching in the oncoming lane?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g1/q055.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q056",
+    "group": 1,
+    "number": 56,
+    "question": {
+      "en": "In this situation, you must:"
+    },
+    "options": [
+      {
+        "en": "Yield."
+      },
+      {
+        "en": "Proceed first."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g1/q056.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q057",
+    "group": 1,
+    "number": 57,
+    "question": {
+      "en": "In this situation:"
+    },
+    "options": [
+      {
+        "en": "We may go around the truck on the right using the shoulder."
+      },
+      {
+        "en": "We may continue only after the truck has passed."
+      },
+      {
+        "en": "Both actions are permitted."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g1/q057.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q058",
+    "group": 1,
+    "number": 58,
+    "question": {
+      "en": "In this situation:"
+    },
+    "options": [
+      {
+        "en": "You must yield."
+      },
+      {
+        "en": "You may proceed first."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g1/q058.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q059",
+    "group": 1,
+    "number": 59,
+    "question": {
+      "en": "In this situation, when proceeding straight ahead, it is permitted to:"
+    },
+    "options": [
+      {
+        "en": "Go around the truck on the right."
+      },
+      {
+        "en": "Continue only after the truck has passed."
+      },
+      {
+        "en": "Both of the above are permitted."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g1/q059.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q060",
+    "group": 1,
+    "number": 60,
+    "question": {
+      "en": "In this situation:"
+    },
+    "options": [
+      {
+        "en": "We must yield."
+      },
+      {
+        "en": "We have the right-of-way."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g1/q060.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q061",
+    "group": 1,
+    "number": 61,
+    "question": {
+      "en": "Along which path is it permitted to approach the pedestrian waiting at the curb?"
+    },
+    "options": [
+      {
+        "en": "Only A."
+      },
+      {
+        "en": "Only B."
+      },
+      {
+        "en": "Both paths are permitted."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g1/q061.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q062",
+    "group": 1,
+    "number": 62,
+    "question": {
+      "en": "When entering the road in this situation, we must yield to:"
+    },
+    "options": [
+      {
+        "en": "Drivers approaching from the right."
+      },
+      {
+        "en": "All drivers."
+      },
+      {
+        "en": "Drivers and pedestrians."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g1/q062.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q063",
+    "group": 1,
+    "number": 63,
+    "question": {
+      "en": "In this situation, who must yield?"
+    },
+    "options": [
+      {
+        "en": "The passenger-car driver."
+      },
+      {
+        "en": "The motorcycle operator."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g1/q063.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q064",
+    "group": 1,
+    "number": 64,
+    "question": {
+      "en": "Along which path is the U-turn permitted?"
+    },
+    "options": [
+      {
+        "en": "Only A."
+      },
+      {
+        "en": "Only B."
+      },
+      {
+        "en": "Both paths are permitted."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g1/q064.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q065",
+    "group": 1,
+    "number": 65,
+    "question": {
+      "en": "In which image does the driver of the blue automobile have the right-of-way over the other driver?"
+    },
+    "options": [
+      {
+        "en": "The left image."
+      },
+      {
+        "en": "The right image."
+      },
+      {
+        "en": "Both images."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g1/q065.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q066",
+    "group": 1,
+    "number": 66,
+    "question": {
+      "en": "A U-turn at the indicated location is:"
+    },
+    "options": [
+      {
+        "en": "Permitted if no train is approaching."
+      },
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Prohibited."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g1/q066.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q067",
+    "group": 1,
+    "number": 67,
+    "question": {
+      "en": "Along which path is the right turn permitted?"
+    },
+    "options": [
+      {
+        "en": "Only A."
+      },
+      {
+        "en": "Only B."
+      },
+      {
+        "en": "Both paths are permitted."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g1/q067.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q068",
+    "group": 1,
+    "number": 68,
+    "question": {
+      "en": "Making a U-turn in the indicated manner at this intersection is:"
+    },
+    "options": [
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Prohibited."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g1/q068.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q069",
+    "group": 1,
+    "number": 69,
+    "question": {
+      "en": "Which vehicle driver must yield?"
+    },
+    "options": [
+      {
+        "en": "The truck driver."
+      },
+      {
+        "en": "The passenger-car driver."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g1/q069.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q070",
+    "group": 1,
+    "number": 70,
+    "question": {
+      "en": "Along which path is the driver permitted to make a U-turn?"
+    },
+    "options": [
+      {
+        "en": "Only A."
+      },
+      {
+        "en": "Only B."
+      },
+      {
+        "en": "Any of the paths."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g1/q070.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q071",
+    "group": 1,
+    "number": 71,
+    "question": {
+      "en": "In which direction or directions may the passenger-car driver continue from this lane?"
+    },
+    "options": [
+      {
+        "en": "Straight ahead only."
+      },
+      {
+        "en": "Straight ahead and to the right."
+      },
+      {
+        "en": "In any direction."
+      },
+      {
+        "en": "Straight ahead, to the left, and by making a U-turn."
+      }
+    ],
+    "answer": 4,
+    "image": "images/g1/q071.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q072",
+    "group": 1,
+    "number": 72,
+    "question": {
+      "en": "When making a right turn onto the road adjoining from the right, the driver must:"
+    },
+    "options": [
+      {
+        "en": "Continue in this lane and make the turn only from this lane."
+      },
+      {
+        "en": "Change to the deceleration lane and make the turn only from that lane."
+      },
+      {
+        "en": "Both options are correct."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g1/q072.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q073",
+    "group": 1,
+    "number": 73,
+    "question": {
+      "en": "When turning left into a yard, to whom must the driver yield?"
+    },
+    "options": [
+      {
+        "en": "Only to the driver of the automobile proceeding in the opposite direction."
+      },
+      {
+        "en": "To the driver and the pedestrians."
+      },
+      {
+        "en": "To no one."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g1/q073.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q074",
+    "group": 1,
+    "number": 74,
+    "question": {
+      "en": "A U-turn at this intersection is:"
+    },
+    "options": [
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Prohibited."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g1/q074.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q075",
+    "group": 1,
+    "number": 75,
+    "question": {
+      "en": "Must the passenger-car driver yield to the driver of the truck crane changing into the passenger car’s lane?"
+    },
+    "options": [
+      {
+        "en": "Yes, if the truck crane is equipped with orange flashing beacons."
+      },
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g1/q075.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q076",
+    "group": 1,
+    "number": 76,
+    "question": {
+      "en": "Is a U-turn permitted at this location?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "Permitted if visibility is 100 m or more."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g1/q076.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q077",
+    "group": 1,
+    "number": 77,
+    "question": {
+      "en": "After completing the pass, must the passenger-car driver change back to the rightmost lane?"
+    },
+    "options": [
+      {
+        "en": "No, if the passing maneuver is performed in a populated area."
+      },
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g1/q077.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q078",
+    "group": 1,
+    "number": 78,
+    "question": {
+      "en": "Along which path is the left turn permitted?"
+    },
+    "options": [
+      {
+        "en": "Only A."
+      },
+      {
+        "en": "Only B."
+      },
+      {
+        "en": "Any of the paths."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g1/q078.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q079",
+    "group": 1,
+    "number": 79,
+    "question": {
+      "en": "When the paths of vehicles intersect and the order of passage is not established by the rules, the driver who must yield is the one:"
+    },
+    "options": [
+      {
+        "en": "To whose right another vehicle is approaching."
+      },
+      {
+        "en": "To whose left another vehicle is approaching."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g1-q080",
+    "group": 1,
+    "number": 80,
+    "question": {
+      "en": "Which driver must yield?"
+    },
+    "options": [
+      {
+        "en": "The driver of the white automobile."
+      },
+      {
+        "en": "The driver of the yellow automobile."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g1/q080.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q081",
+    "group": 1,
+    "number": 81,
+    "question": {
+      "en": "A U-turn at the indicated location is:"
+    },
+    "options": [
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Permitted if it does not interfere with public transit vehicle drivers."
+      },
+      {
+        "en": "Prohibited."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g1/q081.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q082",
+    "group": 1,
+    "number": 82,
+    "question": {
+      "en": "Along which path is the left turn permitted?"
+    },
+    "options": [
+      {
+        "en": "Only A."
+      },
+      {
+        "en": "Only B."
+      },
+      {
+        "en": "Any of the paths."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g1/q082.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q083",
+    "group": 1,
+    "number": 83,
+    "question": {
+      "en": "The passenger-car driver:"
+    },
+    "options": [
+      {
+        "en": "Must yield."
+      },
+      {
+        "en": "Has the right-of-way because the vehicle is approaching from the right."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g1/q083.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q084",
+    "group": 1,
+    "number": 84,
+    "question": {
+      "en": "Along which path is the right turn permitted?"
+    },
+    "options": [
+      {
+        "en": "Only A."
+      },
+      {
+        "en": "Only B."
+      },
+      {
+        "en": "Any of the paths."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g1/q084.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q085",
+    "group": 1,
+    "number": 85,
+    "question": {
+      "en": "Along which path is the U-turn permitted?"
+    },
+    "options": [
+      {
+        "en": "Only A."
+      },
+      {
+        "en": "A or C."
+      },
+      {
+        "en": "All paths."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g1/q085.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q086",
+    "group": 1,
+    "number": 86,
+    "question": {
+      "en": "In this situation, must the driver first change to the right lane and only then make the right turn?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g1/q086.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q087",
+    "group": 1,
+    "number": 87,
+    "question": {
+      "en": "While on a bridge, is a U-turn permitted?"
+    },
+    "options": [
+      {
+        "en": "Permitted if visibility is 100 m or more."
+      },
+      {
+        "en": "Prohibited."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g1/q087.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q088",
+    "group": 1,
+    "number": 88,
+    "question": {
+      "en": "Entering the intersection from the indicated lane is:"
+    },
+    "options": [
+      {
+        "en": "Permitted only when making a U-turn."
+      },
+      {
+        "en": "Permitted in all cases."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g1/q088.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q089",
+    "group": 1,
+    "number": 89,
+    "question": {
+      "en": "Is a U-turn permitted at this location?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "Permitted if visibility is 100 m or more."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g1/q089.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q090",
+    "group": 1,
+    "number": 90,
+    "question": {
+      "en": "Must the driver proceeding straight ahead in the second lane yield to the driver changing lanes from the right?"
+    },
+    "options": [
+      {
+        "en": "No."
+      },
+      {
+        "en": "Yes."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g1/q090.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q091",
+    "group": 1,
+    "number": 91,
+    "question": {
+      "en": "A U-turn at this location is:"
+    },
+    "options": [
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Prohibited."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g1/q091.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q092",
+    "group": 1,
+    "number": 92,
+    "question": {
+      "en": "A left turn is permitted:"
+    },
+    "options": [
+      {
+        "en": "Only along path A."
+      },
+      {
+        "en": "Only along path B."
+      },
+      {
+        "en": "Along any path."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g1/q092.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q093",
+    "group": 1,
+    "number": 93,
+    "question": {
+      "en": "When starting to move simultaneously from a parking area, must you yield to the driver ahead?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g1/q093.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q094",
+    "group": 1,
+    "number": 94,
+    "question": {
+      "en": "In this situation, along which path is the driver permitted to make a left turn?"
+    },
+    "options": [
+      {
+        "en": "Only A."
+      },
+      {
+        "en": "Only B."
+      },
+      {
+        "en": "Any of the paths."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g1/q094.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q095",
+    "group": 1,
+    "number": 95,
+    "question": {
+      "en": "Is it permitted to make a U-turn at an intersection by backing?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "Yes, if it does not interfere with traffic proceeding through the intersection."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g1/q095.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q096",
+    "group": 1,
+    "number": 96,
+    "question": {
+      "en": "In this situation, is the driver permitted to make a right turn?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g1/q096.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q097",
+    "group": 1,
+    "number": 97,
+    "question": {
+      "en": "When stopping in this situation, which turn signal must the driver activate?"
+    },
+    "options": [
+      {
+        "en": "The right turn signal."
+      },
+      {
+        "en": "The right turn signal, and after changing lanes, the left turn signal."
+      },
+      {
+        "en": "The left turn signal."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g1/q097.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q098",
+    "group": 1,
+    "number": 98,
+    "question": {
+      "en": "Indicate the path or paths along which traffic is permitted."
+    },
+    "options": [
+      {
+        "en": "All paths."
+      },
+      {
+        "en": "Only A."
+      },
+      {
+        "en": "Only A or C."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g1/q098.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q099",
+    "group": 1,
+    "number": 99,
+    "question": {
+      "en": "When backing with insufficient visibility, the driver must:"
+    },
+    "options": [
+      {
+        "en": "Give a horn signal."
+      },
+      {
+        "en": "Activate the hazard warning lights."
+      },
+      {
+        "en": "Seek assistance from other persons."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g1-q100",
+    "group": 1,
+    "number": 100,
+    "question": {
+      "en": "In this situation, backing in order to enter the yard is:"
+    },
+    "options": [
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Prohibited."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g1/q100.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q101",
+    "group": 1,
+    "number": 101,
+    "question": {
+      "en": "In this situation, making a U-turn by backing and using the yard entrance is:"
+    },
+    "options": [
+      {
+        "en": "Permitted if it does not interfere with other road users."
+      },
+      {
+        "en": "Prohibited."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g1/q101.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q102",
+    "group": 1,
+    "number": 102,
+    "question": {
+      "en": "Is the passenger-car driver permitted to start moving?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "Yes, if it does not interfere with the truck driver."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g1/q102.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q103",
+    "group": 1,
+    "number": 103,
+    "question": {
+      "en": "In which case is backing permitted?"
+    },
+    "options": [
+      {
+        "en": "At intersections."
+      },
+      {
+        "en": "In lanes other than the rightmost lane."
+      },
+      {
+        "en": "At pedestrian crossings."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g1-q104",
+    "group": 1,
+    "number": 104,
+    "question": {
+      "en": "In this situation, is the driver permitted to proceed on the tram tracks?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "Permitted only when making a U-turn or a left turn."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g1/q104.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q105",
+    "group": 1,
+    "number": 105,
+    "question": {
+      "en": "In this situation, when making a left turn, must the driver give a signal with the turn indicator?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "Yes, when there is oncoming traffic."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g1/q105.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q106",
+    "group": 1,
+    "number": 106,
+    "question": {
+      "en": "A left turn is permitted:"
+    },
+    "options": [
+      {
+        "en": "Only along path A."
+      },
+      {
+        "en": "Only along path B."
+      },
+      {
+        "en": "Along both paths."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g1/q106.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q107",
+    "group": 1,
+    "number": 107,
+    "question": {
+      "en": "Is the passenger-car driver permitted to approach the passenger on the bridge by backing?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "Yes, if it does not interfere with other road users."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g1/q107.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q108",
+    "group": 1,
+    "number": 108,
+    "question": {
+      "en": "Is a U-turn permitted in this situation?"
+    },
+    "options": [
+      {
+        "en": "Permitted only if road visibility is more than 100 m."
+      },
+      {
+        "en": "Prohibited."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g1/q108.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q109",
+    "group": 1,
+    "number": 109,
+    "question": {
+      "en": "Which rule does the driver violate when entering the yard?"
+    },
+    "options": [
+      {
+        "en": "The driver makes a right turn within the area of effect of a “Straight Ahead Only” sign."
+      },
+      {
+        "en": "The driver does not activate the turn signal."
+      },
+      {
+        "en": "Both violations at the same time."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g1/q109.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q110",
+    "group": 1,
+    "number": 110,
+    "question": {
+      "en": "Must we yield to the truck driver?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "Yes, if the driver has given a hand signal indicating this."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g1/q110.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q111",
+    "group": 1,
+    "number": 111,
+    "question": {
+      "en": "Along which path is the U-turn permitted?"
+    },
+    "options": [
+      {
+        "en": "Only A."
+      },
+      {
+        "en": "Only B."
+      },
+      {
+        "en": "Any of the paths."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g1/q111.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q112",
+    "group": 1,
+    "number": 112,
+    "question": {
+      "en": "Along which path is the U-turn permitted?"
+    },
+    "options": [
+      {
+        "en": "Any of the paths."
+      },
+      {
+        "en": "Only B."
+      },
+      {
+        "en": "Only A."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g1/q112.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q113",
+    "group": 1,
+    "number": 113,
+    "question": {
+      "en": "Who must yield?"
+    },
+    "options": [
+      {
+        "en": "The passenger-car driver."
+      },
+      {
+        "en": "The truck driver."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g1/q113.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q114",
+    "group": 1,
+    "number": 114,
+    "question": {
+      "en": "After mistakenly entering an intersection, is it permitted to correct the maneuver by backing and then continue in the required direction?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g1/q114.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q115",
+    "group": 1,
+    "number": 115,
+    "question": {
+      "en": "From this lane, traffic may continue:"
+    },
+    "options": [
+      {
+        "en": "To the left only."
+      },
+      {
+        "en": "To the left and by making a U-turn."
+      },
+      {
+        "en": "To the right, to the left, and by making a U-turn."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g1/q115.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q116",
+    "group": 1,
+    "number": 116,
+    "question": {
+      "en": "In the indicated situation, is it permitted to back up in order to enter the yard by making a right turn?"
+    },
+    "options": [
+      {
+        "en": "Yes, if we do not interfere with public transit vehicle traffic."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g1/q116.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q117",
+    "group": 1,
+    "number": 117,
+    "question": {
+      "en": "In this situation, when changing to the adjacent lane:"
+    },
+    "options": [
+      {
+        "en": "You must yield to drivers proceeding in that lane."
+      },
+      {
+        "en": "You have the right-of-way."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g1/q117.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q118",
+    "group": 1,
+    "number": 118,
+    "question": {
+      "en": "Along which path is the U-turn permitted?"
+    },
+    "options": [
+      {
+        "en": "Only A."
+      },
+      {
+        "en": "Only B."
+      },
+      {
+        "en": "Any of the paths."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g1/q118.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q119",
+    "group": 1,
+    "number": 119,
+    "question": {
+      "en": "Along which path is the left turn permitted?"
+    },
+    "options": [
+      {
+        "en": "Only A."
+      },
+      {
+        "en": "Only C."
+      },
+      {
+        "en": "Any of the paths."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g1/q119.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q120",
+    "group": 1,
+    "number": 120,
+    "question": {
+      "en": "In this situation, is it permitted to approach the passenger by backing?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g1/q120.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q121",
+    "group": 1,
+    "number": 121,
+    "question": {
+      "en": "When making a left turn or U-turn outside an intersection, you must:"
+    },
+    "options": [
+      {
+        "en": "Yield to oncoming vehicles."
+      },
+      {
+        "en": "Yield to oncoming vehicles and to trams proceeding in the same direction."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g1-q122",
+    "group": 1,
+    "number": 122,
+    "question": {
+      "en": "Is driving in reverse permitted in this situation?"
+    },
+    "options": [
+      {
+        "en": "Prohibited."
+      },
+      {
+        "en": "Permitted up to the pedestrian crossing."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g1/q122.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q123",
+    "group": 1,
+    "number": 123,
+    "question": {
+      "en": "When starting to move, must you yield to the driver making a U-turn?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g1/q123.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q124",
+    "group": 1,
+    "number": 124,
+    "question": {
+      "en": "In this situation, approaching the passenger by driving in reverse is:"
+    },
+    "options": [
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Permitted if it does not interfere with other drivers."
+      },
+      {
+        "en": "Prohibited."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g1/q124.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q125",
+    "group": 1,
+    "number": 125,
+    "question": {
+      "en": "Which driver violates the traffic rules when exiting the roundabout?"
+    },
+    "options": [
+      {
+        "en": "The passenger-car driver."
+      },
+      {
+        "en": "Both drivers violate the rules."
+      },
+      {
+        "en": "Neither driver violates the rules."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g1/q125.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q126",
+    "group": 1,
+    "number": 126,
+    "question": {
+      "en": "A U-turn at this intersection is:"
+    },
+    "options": [
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Prohibited."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g1/q126.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q127",
+    "group": 1,
+    "number": 127,
+    "question": {
+      "en": "In which direction is traffic permitted?"
+    },
+    "options": [
+      {
+        "en": "To the left only."
+      },
+      {
+        "en": "Straight ahead and to the left."
+      },
+      {
+        "en": "To the left and by making a U-turn."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g1/q127.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q128",
+    "group": 1,
+    "number": 128,
+    "question": {
+      "en": "Must you activate the right turn signal at this intersection?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "No."
+      },
+      {
+        "en": "Yes, except when making a U-turn."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g1/q128.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q129",
+    "group": 1,
+    "number": 129,
+    "question": {
+      "en": "When entering an adjacent area, the driver must yield to:"
+    },
+    "options": [
+      {
+        "en": "Pedestrians only."
+      },
+      {
+        "en": "Bicyclists only."
+      },
+      {
+        "en": "Bicyclists and must not interfere with pedestrians."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g1-q130",
+    "group": 1,
+    "number": 130,
+    "question": {
+      "en": "When exiting an adjacent area, the driver must yield to:"
+    },
+    "options": [
+      {
+        "en": "Pedestrians only."
+      },
+      {
+        "en": "Vehicles proceeding on the road."
+      },
+      {
+        "en": "Vehicles proceeding on the road and must not interfere with pedestrians."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g1-q131",
+    "group": 1,
+    "number": 131,
+    "question": {
+      "en": "After this sign, making a U-turn is permitted:"
+    },
+    "options": [
+      {
+        "en": "Only if visibility is at least 100 m in both directions."
+      },
+      {
+        "en": "If it does not create an obstruction."
+      },
+      {
+        "en": "Under no circumstances."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g1/q131.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q132",
+    "group": 1,
+    "number": 132,
+    "question": {
+      "en": "Giving a signal:"
+    },
+    "options": [
+      {
+        "en": "Gives the driver right-of-way over other road users."
+      },
+      {
+        "en": "Gives the driver right-of-way only when changing lanes."
+      },
+      {
+        "en": "Does not give the driver right-of-way over other road users."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g1-q133",
+    "group": 1,
+    "number": 133,
+    "question": {
+      "en": "The right turn along the indicated path is:"
+    },
+    "options": [
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Prohibited."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g1/q133.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q134",
+    "group": 1,
+    "number": 134,
+    "question": {
+      "en": "After passing the truck, in which lane is it permitted to continue?"
+    },
+    "options": [
+      {
+        "en": "Only in the right lane."
+      },
+      {
+        "en": "In either lane proceeding in the same direction."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g1/q134.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q135",
+    "group": 1,
+    "number": 135,
+    "question": {
+      "en": "When turning into the yard, you must:"
+    },
+    "options": [
+      {
+        "en": "Yield to the bicyclist."
+      },
+      {
+        "en": "Not obstruct pedestrians."
+      },
+      {
+        "en": "Both answers are correct."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g1/q135.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q136",
+    "group": 1,
+    "number": 136,
+    "question": {
+      "en": "A U-turn at the indicated location is:"
+    },
+    "options": [
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Permitted if no public transit vehicles are present."
+      },
+      {
+        "en": "Prohibited."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g1/q136.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q137",
+    "group": 1,
+    "number": 137,
+    "question": {
+      "en": "If visibility of 100 m is provided in both directions, is it permitted to make a U-turn along the indicated path?"
+    },
+    "options": [
+      {
+        "en": "No."
+      },
+      {
+        "en": "Yes."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g1/q137.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q138",
+    "group": 1,
+    "number": 138,
+    "question": {
+      "en": "The right-of-way belongs to:"
+    },
+    "options": [
+      {
+        "en": "The passenger-car driver."
+      },
+      {
+        "en": "The truck driver."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g1/q138.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q139",
+    "group": 1,
+    "number": 139,
+    "question": {
+      "en": "When changing lanes simultaneously, which vehicle driver has the right-of-way?"
+    },
+    "options": [
+      {
+        "en": "The truck driver."
+      },
+      {
+        "en": "The passenger-car driver."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g1/q139.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q140",
+    "group": 1,
+    "number": 140,
+    "question": {
+      "en": "Is it permitted to approach the passenger by driving in reverse?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g1/q140.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q141",
+    "group": 1,
+    "number": 141,
+    "question": {
+      "en": "When entering a yard by making a right turn, we must yield to:"
+    },
+    "options": [
+      {
+        "en": "Pedestrians only."
+      },
+      {
+        "en": "The bicyclist only."
+      },
+      {
+        "en": "No one."
+      },
+      {
+        "en": "The bicyclist and the pedestrians."
+      }
+    ],
+    "answer": 4,
+    "image": "images/g1/q141.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q142",
+    "group": 1,
+    "number": 142,
+    "question": {
+      "en": "When proceeding uphill in this direction, a U-turn is:"
+    },
+    "options": [
+      {
+        "en": "Permitted if it can be completed in one maneuver."
+      },
+      {
+        "en": "Permitted if visibility of 100 m is provided in both directions."
+      },
+      {
+        "en": "Prohibited."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g1/q142.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q143",
+    "group": 1,
+    "number": 143,
+    "question": {
+      "en": "Which vehicle driver must yield?"
+    },
+    "options": [
+      {
+        "en": "The bus driver."
+      },
+      {
+        "en": "The passenger-car driver."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g1/q143.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q144",
+    "group": 1,
+    "number": 144,
+    "question": {
+      "en": "A U-turn at this location is:"
+    },
+    "options": [
+      {
+        "en": "Permitted if visibility is 100 m in both directions."
+      },
+      {
+        "en": "Prohibited."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g1/q144.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q145",
+    "group": 1,
+    "number": 145,
+    "question": {
+      "en": "Is it permitted to drive across the bridge if doing so does not interfere with the driver of the motorcycle?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g1/q145.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q146",
+    "group": 1,
+    "number": 146,
+    "question": {
+      "en": "After passing the truck, is it permitted to continue in this lane?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g1/q146.webp",
+    "explanation": null
+  },
+  {
+    "id": "g1-q147",
+    "group": 1,
+    "number": 147,
+    "question": {
+      "en": "In this situation, is it permitted to continue in the occupied lane?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g1/q147.webp",
+    "explanation": null
+  }
+]

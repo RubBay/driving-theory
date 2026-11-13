@@ -1,0 +1,82 @@
+import { lazy, Suspense, useEffect } from 'react'
+import { GROUPS, SOURCE_URL } from './config'
+import { t } from './i18n'
+import { href, useRoute } from './lib/router'
+import { updateSettings, useSettings } from './lib/settings'
+import Home from './components/Home'
+
+// The question screens are split out so the home screen loads fast.
+const Practice = lazy(() => import('./components/Practice'))
+const Mistakes = lazy(() => import('./components/Mistakes'))
+
+export default function App() {
+  const route = useRoute()
+  const { theme } = useSettings()
+
+  useEffect(() => {
+    document.documentElement.setAttribute('data-theme', theme)
+  }, [theme])
+
+  const group = route.name === 'home' ? undefined : GROUPS.find((g) => g.id === route.groupId)
+
+  let screen
+  if (route.name === 'home') screen = <Home />
+  else if (!group) screen = <Message text={t('common.notFound')} />
+  else if (route.name === 'practice') screen = <Practice key={group.id} group={group} />
+  else screen = <Mistakes key={group.id} group={group} />
+
+  return (
+    <div className="flex min-h-dvh flex-col">
+      <header className="border-b border-border bg-surface">
+        <div className="mx-auto flex h-14 max-w-5xl items-center justify-between gap-3 px-4">
+          <a href={href.home} className="rounded font-semibold text-fg no-underline">
+            {t('app.title')}
+          </a>
+          <button
+            type="button"
+            onClick={() => updateSettings({ theme: theme === 'dark' ? 'light' : 'dark' })}
+            aria-label={theme === 'dark' ? t('theme.toLight') : t('theme.toDark')}
+            title={theme === 'dark' ? t('theme.toLight') : t('theme.toDark')}
+            className="grid size-11 place-items-center rounded-lg border border-border bg-surface-2 text-fg"
+          >
+            <svg viewBox="0 0 24 24" className="size-5" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden="true">
+              {theme === 'dark' ? (
+                <>
+                  <circle cx="12" cy="12" r="4" />
+                  <path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4" />
+                </>
+              ) : (
+                <path d="M20 14.5A8 8 0 0 1 9.5 4 8 8 0 1 0 20 14.5z" />
+              )}
+            </svg>
+          </button>
+        </div>
+      </header>
+
+      <main className="mx-auto w-full max-w-5xl flex-1 px-4 py-5">
+        <Suspense fallback={<Message text={t('common.loading')} />}>{screen}</Suspense>
+      </main>
+
+      <footer className="border-t border-border bg-surface">
+        <div className="mx-auto max-w-5xl px-4 py-4 text-sm text-muted">
+          <p>
+            {t('footer.source')}{' '}
+            <a href={SOURCE_URL} target="_blank" rel="noopener noreferrer" className="rounded text-accent underline">
+              {t('footer.sourceName')}
+            </a>
+          </p>
+          <p className="mt-1">{t('footer.unofficial')}</p>
+        </div>
+      </footer>
+    </div>
+  )
+}
+
+export function Message({ text, children }: { text: string; children?: React.ReactNode }) {
+  return (
+    <div className="py-16 text-center text-muted" role="status">
+      <p>{text}</p>
+      {children && <div className="mt-4">{children}</div>}
+    </div>
+  )
+}
