@@ -1,0 +1,132 @@
+import type { StringKey } from './en'
+
+/**
+ * Russian UI strings. Same keys as en.ts.
+ * `{n|форма1|форма2|форма5}` picks the plural form for the number in `n`
+ * (1 вопрос, 2 вопроса, 5 вопросов).
+ */
+const ru: Record<StringKey, string> = {
+  'app.title': 'Теория ПДД Армении',
+  'theme.toLight': 'Включить светлую тему',
+  'theme.toDark': 'Включить тёмную тему',
+
+  'footer.source': 'Вопросы:',
+  'footer.sourceName': 'Дорожная полиция Республики Армения',
+  'footer.unofficial':
+    'Это неофициальное учебное пособие. Оно не связано с Дорожной полицией и не одобрено ею.',
+
+  'home.heading': 'Подготовка к теоретическому экзамену',
+  'home.intro': 'Официальный банк вопросов, по одному вопросу за раз.',
+  'group.title': 'Группа {n}',
+  'group.categories': 'Категории {categories}',
+  'group.questions': '{count} {count|вопрос|вопроса|вопросов}',
+  'group.answered': 'Отвечено',
+  'group.correct': 'Верно',
+  'group.wrong': 'Неверно',
+  'group.progress': 'Отвечено {answered} из {total}',
+  'group.practice': 'Тренировка',
+  'group.continue': 'Продолжить тренировку · {done} / {total}',
+  'group.mistakes': 'Мои ошибки',
+  'group.reset': 'Сбросить прогресс',
+  'group.resetTitle': 'Сбросить прогресс?',
+  'group.resetBody':
+    'Будут удалены все ответы, ошибки и незавершённая тренировка по группе {n} на этом устройстве. Отменить это нельзя.',
+  'group.resetConfirm': 'Сбросить',
+  'common.cancel': 'Отмена',
+  'common.back': 'Главная',
+  'common.loading': 'Загрузка вопросов…',
+  'common.loadError': 'Не удалось загрузить вопросы. Проверьте подключение и попробуйте ещё раз.',
+  'common.retry': 'Повторить',
+  'common.notFound': 'Такой группы нет.',
+
+  'practice.title': 'Тренировка',
+  'start.heading': 'Начать тренировку',
+  'start.intro':
+    'Выберите порядок один раз. Он не изменится, пока вы не закончите или не начнёте новую тренировку.',
+  'start.ordered': 'По порядку',
+  'start.orderedBody': 'Все {count} {count|вопрос|вопроса|вопросов} по порядку, с 1 по {count}.',
+  'start.shuffle': 'Вперемешку',
+  'start.shuffleBody': 'Все {count} {count|вопрос|вопроса|вопросов} в случайном порядке.',
+  'run.modeOrdered': 'По порядку',
+  'run.modeShuffle': 'Вперемешку',
+  'run.done': 'Пройдено {done} из {total}',
+  'run.new': 'Новая тренировка',
+  'run.newTitle': 'Начать новую тренировку?',
+  'run.newBody':
+    'Текущая тренировка завершится без результата (пройдено {done} из {total}). Ваша статистика сохранится.',
+  'run.newConfirm': 'Начать заново',
+  'run.results': 'Показать результаты',
+  'summary.title': 'Тренировка завершена',
+  'summary.intro': 'Вы ответили на все {total} {total|вопрос|вопроса|вопросов}.',
+  'summary.correct': 'Верно',
+  'summary.wrong': 'Неверно',
+  'summary.shown': 'Ответ показан без попытки: {n}',
+  'summary.time': 'Затрачено времени:',
+  'summary.timeNote': 'Считается, только пока этот экран открыт и вы им пользуетесь.',
+  'summary.review': 'Просмотреть ответы',
+  'time.seconds': '{s} с',
+  'time.minutes': '{m} мин',
+  'time.hours': '{h} ч {m} мин',
+  'mistakes.title': 'Мои ошибки',
+  'runner.position': '{current} / {total}',
+  'runner.positionLabel': 'Вопрос {current} из {total}',
+  'runner.number': '№ {n}',
+  'runner.previous': 'Назад',
+  'runner.next': 'Далее',
+  'runner.nextRound': 'Следующий круг',
+  'runner.showAnswer': 'Показать ответ',
+  'runner.navigator': 'Все вопросы',
+  'runner.navigatorShow': 'Показать список вопросов',
+  'runner.navigatorHide': 'Скрыть список вопросов',
+  'stats.record': 'Ваш результат: верно {correct} · неверно {wrong} · {pct}% верных',
+  'stats.none': 'Ещё не отвечали',
+  'group.accuracy': 'Точность: {pct}% (верных попыток: {correct} из {attempts})',
+  'runner.jumpTo': 'Вопрос {n}, {status}',
+  'runner.jumpToStats': 'Вопрос {n}, {status}, всего {pct}% верных',
+  'runner.imageAlt': 'Иллюстрация к вопросу {n}',
+  'runner.imageOpen': 'Открыть иллюстрацию к вопросу {n} на весь экран',
+  'runner.keysHint': 'Клавиши: 1–5 — ответ, ← → — переход между вопросами.',
+  'runner.explanation': 'Пояснение',
+
+  'status.unanswered': 'без ответа',
+  'status.correct': 'отвечен верно',
+  'status.wrong': 'отвечен неверно',
+  'legend.unanswered': 'Без ответа',
+  'legend.correct': 'Верно',
+  'legend.wrong': 'Неверно',
+  'legend.highlighted': 'Отмечен',
+  'highlights.title': 'Отмеченные',
+  'highlights.heading': 'Отмеченные вопросы',
+  'highlights.count': 'Отмечено: {n}',
+  'highlights.open': 'Отмеченные вопросы ({n})',
+  'highlights.add': 'Отметить вопрос {n}',
+  'highlights.remove': 'Снять отметку с вопроса {n}',
+  'highlights.empty': 'Отмеченных вопросов пока нет.',
+  'highlights.emptyHint': 'Нажмите кнопку с маркером рядом с номером вопроса, чтобы сохранить его здесь.',
+  'highlights.backToList': 'Все отмеченные',
+  'highlights.notFound': 'Этот вопрос не отмечен.',
+
+  'feedback.correct': 'Верно.',
+  'feedback.wrong': 'Неверно. Правильный ответ — {n}.',
+  'feedback.chooseAnother': 'Неверно. Выберите другой ответ.',
+  'feedback.countedWrong': 'Это всё равно считается одной ошибкой, потому что первый ответ был неверным.',
+  'feedback.revealed': 'Правильный ответ — {n}.',
+  'feedback.yourAnswer': 'ваш ответ',
+  'feedback.correctAnswer': 'правильный ответ',
+  'feedback.streak': 'Верно {streak} из {needed} раз подряд. Ещё один раз — и вопрос уйдёт из ошибок.',
+  'feedback.cleared': 'Вопрос убран из «Моих ошибок».',
+  'feedback.stays':
+    'Вопрос останется в «Моих ошибках», пока вы не ответите верно {needed} раза подряд.',
+
+  'mistakes.empty': 'Ошибок для повторения нет.',
+  'mistakes.emptyHint':
+    'Вопросы, на которые вы ответили неверно, появятся здесь и исчезнут после {needed} верных ответов подряд.',
+  'mistakes.toPractice': 'К тренировке',
+
+  'viewer.close': 'Закрыть изображение',
+  'viewer.hint': 'Сведите пальцы или прокрутите для масштаба, перетащите для перемещения, двойное касание — увеличить.',
+
+  'lang.label': 'Язык',
+}
+
+export default ru

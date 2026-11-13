@@ -1,6 +1,6 @@
 import { lazy, Suspense, useEffect } from 'react'
 import { GROUPS, SOURCE_URL } from './config'
-import { t } from './i18n'
+import { AVAILABLE_LANGS, LANG_NAMES, setLang, t } from './i18n'
 import { href, useRoute } from './lib/router'
 import { updateSettings, useSettings } from './lib/settings'
 import Home from './components/Home'
@@ -12,11 +12,18 @@ const Highlights = lazy(() => import('./components/Highlights'))
 
 export default function App() {
   const route = useRoute()
-  const { theme } = useSettings()
+  const { theme, lang } = useSettings()
+  // Set before rendering the children, so every t() call below uses the new language.
+  setLang(lang)
 
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme)
   }, [theme])
+
+  useEffect(() => {
+    document.documentElement.lang = lang
+    document.title = t('app.title')
+  }, [lang])
 
   const group = route.name === 'home' ? undefined : GROUPS.find((g) => g.id === route.groupId)
 
@@ -34,6 +41,25 @@ export default function App() {
           <a href={href.home} className="rounded font-semibold text-fg no-underline">
             {t('app.title')}
           </a>
+          <div className="flex items-center gap-2">
+          <div role="group" aria-label={t('lang.label')} className="flex h-11 rounded-lg border border-border bg-surface-2 p-0.5">
+            {AVAILABLE_LANGS.map((code) => (
+              <button
+                key={code}
+                type="button"
+                lang={code}
+                onClick={() => updateSettings({ lang: code })}
+                aria-pressed={lang === code}
+                aria-label={LANG_NAMES[code]?.name ?? code}
+                title={LANG_NAMES[code]?.name ?? code}
+                className={`min-w-10 rounded-md px-2 text-sm font-semibold ${
+                  lang === code ? 'bg-accent text-accent-fg' : 'text-muted'
+                }`}
+              >
+                {LANG_NAMES[code]?.short ?? code.toUpperCase()}
+              </button>
+            ))}
+          </div>
           <button
             type="button"
             onClick={() => updateSettings({ theme: theme === 'dark' ? 'light' : 'dark' })}
@@ -52,6 +78,7 @@ export default function App() {
               )}
             </svg>
           </button>
+          </div>
         </div>
       </header>
 

@@ -19,8 +19,11 @@ export interface Question {
 
 export interface GroupConfig {
   id: number
-  /** JSON file inside data/ (copied to public/data/ at build time). */
-  file: string
+  /**
+   * Question files inside data/ (copied to public/data/ at build time), one per
+   * language. They are merged into one list; the English file is the base.
+   */
+  files: Partial<Record<Lang, string>>
   /** Licence categories this group covers, shown on the home card. */
   categories: string
 }

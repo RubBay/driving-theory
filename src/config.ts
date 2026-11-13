@@ -6,7 +6,7 @@ import type { GroupConfig } from './types'
  * (see README) and add ONE line here.
  */
 export const GROUPS: GroupConfig[] = [
-  { id: 1, file: 'group-1-en.json', categories: 'ABC' },
+  { id: 1, files: { en: 'group-1-en.json', ru: 'group-1-ru.json' }, categories: 'ABC' },
 ]
 
 /** Correct answers in a row needed for a question to leave "My mistakes". */

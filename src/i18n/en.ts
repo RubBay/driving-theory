@@ -1,4 +1,7 @@
-/** English UI strings. Copy this file to ru.ts / hy.ts to add a language. */
+/**
+ * English UI strings. Copy this file to add a language (see ru.ts).
+ * `{n|one|other}` picks the plural form for the number in `n`.
+ */
 const en = {
   'app.title': 'Armenian Driving Theory',
   'theme.toLight': 'Switch to light theme',
@@ -13,7 +16,7 @@ const en = {
   'home.intro': 'The official question bank, one question at a time.',
   'group.title': 'Group {n}',
   'group.categories': '{categories} categories',
-  'group.questions': '{count} questions',
+  'group.questions': '{count} {count|question|questions}',
   'group.answered': 'Answered',
   'group.correct': 'Correct',
   'group.wrong': 'Wrong',
@@ -118,6 +121,8 @@ const en = {
 
   'viewer.close': 'Close full-screen image',
   'viewer.hint': 'Pinch or scroll to zoom, drag to move, double-tap to zoom.',
+
+  'lang.label': 'Language',
 } as const
 
 export type StringKey = keyof typeof en

@@ -1,19 +1,48 @@
 import { useEffect, useState } from 'react'
-import type { GroupConfig, Question } from '../types'
+import type { GroupConfig, Lang, LocalizedText, Question } from '../types'
 
 const DATA_BASE = `${import.meta.env.BASE_URL}data/`
-const cache = new Map<string, Promise<Question[]>>()
+const cache = new Map<number, Promise<Question[]>>()
 
-/** Load a group's questions (fetched once, then cached for the session). */
+async function fetchFile(file: string): Promise<Question[]> {
+  const res = await fetch(DATA_BASE + file)
+  if (!res.ok) throw new Error(`HTTP ${res.status}`)
+  return (await res.json()) as Question[]
+}
+
+const mergeText = (a: LocalizedText | null, b: LocalizedText | null): LocalizedText | null =>
+  a || b ? { ...(a ?? {}), ...(b ?? {}) } : null
+
+/**
+ * Merge the language files of a group into one list. The English file is the
+ * base (ids, answers, pictures); another language only adds its text, and only
+ * for questions whose answer and option count match.
+ */
+function merge(base: Question[], extra: Question[]): Question[] {
+  const byId = new Map(extra.map((q) => [q.id, q]))
+  return base.map((q) => {
+    const o = byId.get(q.id)
+    if (!o || o.answer !== q.answer || o.options.length !== q.options.length) return q
+    return {
+      ...q,
+      question: { ...q.question, ...o.question },
+      options: q.options.map((opt, i) => ({ ...opt, ...o.options[i] })),
+      explanation: mergeText(q.explanation, o.explanation),
+    }
+  })
+}
+
+/** Load a group's questions in all its languages (fetched once, then cached). */
 export function loadGroup(group: GroupConfig): Promise<Question[]> {
-  let promise = cache.get(group.file)
+  let promise = cache.get(group.id)
   if (!promise) {
-    promise = fetch(DATA_BASE + group.file).then((res) => {
-      if (!res.ok) throw new Error(`HTTP ${res.status}`)
-      return res.json() as Promise<Question[]>
-    })
-    promise.catch(() => cache.delete(group.file)) // allow a retry after a failure
-    cache.set(group.file, promise)
+    const entries = Object.entries(group.files) as [Lang, string][]
+    entries.sort(([a], [b]) => (a === 'en' ? -1 : b === 'en' ? 1 : 0))
+    promise = Promise.all(entries.map(([, file]) => fetchFile(file))).then(([base, ...rest]) =>
+      rest.reduce(merge, base),
+    )
+    promise.catch(() => cache.delete(group.id)) // allow a retry after a failure
+    cache.set(group.id, promise)
   }
   return promise
 }

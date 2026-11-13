@@ -12,6 +12,7 @@
       try {
         var s = JSON.parse(localStorage.getItem('adt:settings:v1') || '{}')
         if (s && s.theme === 'light') document.documentElement.setAttribute('data-theme', 'light')
+        if (s && s.lang) document.documentElement.setAttribute('lang', s.lang)
       } catch (e) {}
     </script>
   </head>

@@ -3,6 +3,7 @@
 Usage:
     python scripts/extract.py                      # Group 1, English (defaults)
     python scripts/extract.py --group 2 --expected 150 --pdf data/raw/group-2-en.pdf
+    python scripts/extract.py --lang ru --share-images-with en   # Russian edition of group 1
 
 Outputs (relative to the project root):
     data/group-<N>-<lang>.json
@@ -43,8 +44,22 @@ WEBP_QUALITY = 80
 
 RE_QNUM = re.compile(r"^(\d{1,3})\.\s*(.*)$")
 RE_OPT = re.compile(r"^([1-9])\.\s*(.*)$")
+# Words that differ between the language editions of the PDF.
+LABELS = {
+    "en": {"answer": "Answer", "page": "page"},
+    "ru": {"answer": "Ответ", "page": "стр."},
+}
 RE_ANSWER = re.compile(r"^Answer:\s*(\d+)\s*$")
 RE_FOOTER = re.compile(r"^page \d+ / \d+$")
+
+
+def set_language(lang: str) -> None:
+    global RE_ANSWER, RE_FOOTER
+    if lang not in LABELS:
+        raise SystemExit(f"ERROR: unknown language {lang!r}; add its labels to LABELS")
+    words = LABELS[lang]
+    RE_ANSWER = re.compile(rf"^{re.escape(words['answer'])}:\s*(\d+)\s*$")
+    RE_FOOTER = re.compile(rf"^{re.escape(words['page'])} \d+ / \d+$")
 
 
 @dataclass
@@ -240,7 +255,7 @@ def image_uncertainties(questions: list[Question]) -> dict[int, list[str]]:
     return out
 
 
-def save_image(doc: pymupdf.Document, im: Img, dest: Path) -> tuple[int, int]:
+def load_image(doc: pymupdf.Document, im: Img) -> Image.Image:
     pix = pymupdf.Pixmap(doc, im.xref)
     smask = doc.extract_image(im.xref).get("smask", 0)
     if smask:
@@ -259,16 +274,27 @@ def save_image(doc: pymupdf.Document, im: Img, dest: Path) -> tuple[int, int]:
         img = img.resize(
             (MAX_IMAGE_WIDTH, round(img.height * MAX_IMAGE_WIDTH / img.width)), Image.LANCZOS
         )
+    return img
+
+
+def save_image(img: Image.Image, dest: Path) -> None:
     dest.parent.mkdir(parents=True, exist_ok=True)
     img.save(dest, "WEBP", quality=WEBP_QUALITY, method=6)
-    return img.size
+
+
+def picture_difference(a: Image.Image, b: Image.Image) -> float:
+    """Mean pixel difference (0-255) of two pictures scaled to the same small size."""
+    from PIL import ImageChops, ImageStat
+    size = (200, 100)
+    diff = ImageChops.difference(a.convert("RGB").resize(size), b.convert("RGB").resize(size))
+    return sum(ImageStat.Stat(diff).mean) / 3
 
 
 def write_review(path: Path, group: int, lang: str, records: list[dict], pages: dict[int, int],
                  uncertain: dict[int, list[str]], pdf_name: str) -> None:
     esc = html.escape
     parts = [
-        "<!doctype html><html lang='en'><head><meta charset='utf-8'>",
+        f"<!doctype html><html lang='{esc(lang)}'><head><meta charset='utf-8'>",
         "<meta name='viewport' content='width=device-width, initial-scale=1'>",
         f"<title>Extraction review - Group {group}</title>",
         "<style>",
@@ -329,9 +355,13 @@ def main() -> int:
     ap.add_argument("--lang", default="en")
     ap.add_argument("--pdf", type=Path, default=None, help="default: data/raw/group-<N>-<lang>.pdf")
     ap.add_argument("--expected", type=int, default=147, help="expected number of questions")
+    ap.add_argument("--share-images-with", metavar="LANG", default=None,
+                    help="reuse the pictures already extracted for another language of the same "
+                         "group (e.g. en) when they are identical; check answers against it too")
     args = ap.parse_args()
 
     g, lang = args.group, args.lang
+    set_language(lang)
     pdf_path = args.pdf or ROOT / "data" / "raw" / f"group-{g}-{lang}.pdf"
     if not pdf_path.is_file():
         print(f"ERROR: PDF not found: {pdf_path}", file=sys.stderr)
@@ -348,20 +378,66 @@ def main() -> int:
 
     uncertain = image_uncertainties(questions)
     data_dir = ROOT / "data"
-    img_rel_dir = f"images/g{g}"
-    img_dir = data_dir / img_rel_dir
-    if img_dir.is_dir():
-        for old in img_dir.glob("q*.webp"):
+
+    # Another language of the same group: its pictures can be shared, and its answers
+    # must match question for question.
+    other: dict[int, dict] = {}
+    if args.share_images_with:
+        other_path = data_dir / f"group-{g}-{args.share_images_with}.json"
+        if not other_path.is_file():
+            print(f"ERROR: {other_path} not found; extract that language first", file=sys.stderr)
+            return 2
+        other = {r["number"]: r for r in json.loads(other_path.read_text(encoding="utf-8"))}
+        cross_errors: list[str] = []
+        if sorted(other) != [q.number for q in questions]:
+            cross_errors.append(f"question numbers differ from {other_path.name}")
+        for q in questions:
+            o = other.get(q.number)
+            if not o:
+                continue
+            if o["answer"] != q.answer:
+                cross_errors.append(f"question {q.number}: answer {q.answer}, but {o['answer']} in {other_path.name}")
+            if len(o["options"]) != len(q.option_texts):
+                cross_errors.append(f"question {q.number}: {len(q.option_texts)} options, "
+                                    f"but {len(o['options'])} in {other_path.name}")
+            if bool(o["image"]) != bool(q.images):
+                cross_errors.append(f"question {q.number}: picture {'present' if q.images else 'missing'}, "
+                                    f"but {'present' if o['image'] else 'missing'} in {other_path.name}")
+        if cross_errors:
+            print(f"CROSS-CHECK FAILED against {other_path.name} ({len(cross_errors)}) - nothing written:",
+                  file=sys.stderr)
+            for e in cross_errors:
+                print(f"  - {e}", file=sys.stderr)
+            return 1
+
+    own_rel_dir = f"images/g{g}" if not args.share_images_with else f"images/g{g}-{lang}"
+    own_dir = data_dir / own_rel_dir
+    if own_dir.is_dir():
+        for old in own_dir.glob("q*.webp"):
             old.unlink()
 
     records: list[dict] = []
     total_bytes = 0
+    shared = 0
+    worst_diff = 0.0
     for q in questions:
         image = None
         if q.images:
-            image = f"{img_rel_dir}/q{q.number:03d}.webp"
-            save_image(doc, q.images[0], data_dir / image)
-            total_bytes += (data_dir / image).stat().st_size
+            img = load_image(doc, q.images[0])
+            o_img = other.get(q.number, {}).get("image")
+            if o_img and (data_dir / o_img).is_file():
+                diff = picture_difference(img, Image.open(data_dir / o_img))
+                worst_diff = max(worst_diff, diff)
+                if diff <= 6:
+                    image = o_img
+                    shared += 1
+                else:
+                    uncertain.setdefault(q.number, []).append(
+                        f"picture differs from the {args.share_images_with} edition (diff {diff:.1f}); saved separately")
+            if image is None:
+                image = f"{own_rel_dir}/q{q.number:03d}.webp"
+                save_image(img, data_dir / image)
+                total_bytes += (data_dir / image).stat().st_size
         records.append({
             "id": f"g{g}-q{q.number:03d}",
             "group": g,
@@ -372,21 +448,29 @@ def main() -> int:
             "image": image,
             "explanation": None,
         })
+    if own_dir.is_dir() and not any(own_dir.iterdir()):
+        own_dir.rmdir()
 
     json_path = data_dir / f"group-{g}-{lang}.json"
     json_path.write_text(json.dumps(records, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    review_path = data_dir / ("review.html" if g == 1 else f"review-g{g}.html")
+    review_path = data_dir / (f"review{'' if g == 1 else f'-g{g}'}{'' if lang == 'en' else f'-{lang}'}.html")
     write_review(review_path, g, lang, records, {q.number: q.page for q in questions},
                  uncertain, pdf_path.name)
 
     with_img = sum(1 for r in records if r["image"])
     print(f"OK: {len(records)} questions, numbers 1..{len(records)}, all answers in range,")
-    print("    every 'Answer:' line agrees with the bold option in the PDF.")
+    print("    every answer line agrees with the bold option in the PDF.")
     print(f"    {with_img} with a picture, {len(records) - with_img} without "
-          f"({total_bytes / 1024:.0f} KB of WebP).")
+          f"({total_bytes / 1024:.0f} KB of new WebP).")
+    if args.share_images_with:
+        print(f"    cross-check with {args.share_images_with}: same numbers, answers, option counts "
+              f"and pictured questions.")
+        print(f"    {shared} of {with_img} pictures identical to the {args.share_images_with} edition "
+              f"and shared (worst difference {worst_diff:.2f}/255).")
     print(f"    option counts: " + ", ".join(
         f"{k} options x{sum(1 for r in records if len(r['options']) == k)}" for k in range(2, 6)))
-    print(f"    wrote {json_path.relative_to(ROOT)}, {img_rel_dir}/, {review_path.relative_to(ROOT)}")
+    print(f"    wrote {json_path.relative_to(ROOT)}, {review_path.relative_to(ROOT)}"
+          + (f", {own_rel_dir}/" if total_bytes else ""))
     if uncertain:
         print(f"UNCERTAIN image mapping ({len(uncertain)} question(s)):")
         for n in sorted(uncertain):

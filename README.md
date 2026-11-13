@@ -1,7 +1,7 @@
 # Armenian Driving Theory — study app
 
 An unofficial study tool for the Armenian driving-licence theory exam.
-v1 covers **Group 1 (ABC categories)**: 147 questions, in English.
+Covers **Group 1 (ABC categories)**: 147 questions, in English and Russian.
 
 Questions: [Road Police of the Republic of Armenia](https://roadpolice.am).
 Question text, options and answers are copied from the official PDF unchanged.
@@ -89,6 +89,22 @@ nothing if validation fails:
 It also lists every question whose picture mapping is uncertain. After a run,
 open `data/review.html` and compare it with the PDF.
 
+### Other languages
+
+The Russian edition of Group 1 is `data/raw/group-1-ru.pdf`. Extract it after
+the English one:
+
+```bash
+.venv\Scripts\python -X utf8 scripts/extract.py --lang ru --share-images-with en
+```
+
+This writes `data/group-1-ru.json` and `data/review-ru.html`. With
+`--share-images-with en` the script also checks that question numbers, answers,
+option counts and which questions have a picture are identical to the English
+file, and reuses the English pictures when they are the same (any picture that
+differs is saved to `data/images/g1-ru/` and listed as uncertain). A new
+language needs its "Answer" and "page" words added to `LABELS` in the script.
+
 ## Add a new group
 
 1. Put the PDF at `data/raw/group-2-en.pdf`.
@@ -103,7 +119,7 @@ open `data/review.html` and compare it with the PDF.
 3. Add one line to `src/config.ts`:
 
    ```ts
-   { id: 2, file: 'group-2-en.json', categories: 'ABC' },
+   { id: 2, files: { en: 'group-2-en.json' }, categories: 'ABC' },
    ```
 
 The home screen, practice, mistakes and progress tracking pick it up from there.
@@ -139,12 +155,24 @@ differently, validation fails rather than producing wrong data.
 - If localStorage is unavailable, the app still works; progress then lasts only
   until the page is closed.
 
+## Languages
+
+English and Russian. The EN / RU switch in the top-right corner changes the
+interface and the questions at once; the choice is saved. On a first visit the
+app picks Russian if the browser prefers it, otherwise English. Progress,
+statistics, highlights and a practice in progress are shared between languages.
+
+- UI strings live in `src/i18n/en.ts` and `src/i18n/ru.ts` (same keys).
+  `{n|form|forms}` picks a plural form, e.g. `{count|вопрос|вопроса|вопросов}`.
+- Each group lists one question file per language in `src/config.ts`. The app
+  loads them all and merges them by question id; the English file supplies the
+  answers and pictures.
+- To add Armenian: extract `group-1-hy.json` (add its words to `LABELS` in
+  `scripts/extract.py`), add `hy.ts`, register it in `src/i18n/index.ts`
+  (`dictionaries` and `LANG_NAMES`), and add `hy: 'group-1-hy.json'` to the group.
+
 ## Built to grow (not built yet)
 
-- **Languages**: content fields are keyed by language (`{"en": "..."}`), and UI
-  strings live in `src/i18n/`. To add Russian or Armenian, add `ru.ts` / `hy.ts`
-  with the same keys, register it in `src/i18n/index.ts`, add the `ru` / `hy`
-  keys to the question JSON, and add a language switch.
 - **Explanations**: when a question's `explanation` is not `null`, it is shown
   under the answer once the question is answered or revealed.
 - **Exam simulation** (timed test): not implemented.
