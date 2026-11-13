@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import { GROUPS } from '../config'
 import { t } from '../i18n'
 import { useGroupQuestions } from '../lib/data'
-import { resetGroup, summarize, useGroupProgress } from '../lib/progress'
+import { percentages, resetGroup, summarize, useGroupProgress } from '../lib/progress'
 import { href } from '../lib/router'
 import { rememberLastQuestion } from '../lib/settings'
 import type { GroupConfig } from '../types'
@@ -28,7 +28,7 @@ function GroupCard({ group }: { group: GroupConfig }) {
   const [confirming, setConfirming] = useState(false)
 
   const total = data.status === 'ready' ? data.questions.length : null
-  const { answered, correct, wrong } = summarize(progress)
+  const { answered, correct, wrong, mistakes, attemptsCorrect, attempts } = summarize(progress)
   const pct = (n: number) => (total ? `${(n / total) * 100}%` : '0%')
 
   return (
@@ -71,6 +71,15 @@ function GroupCard({ group }: { group: GroupConfig }) {
         <div className="bg-bad-border" style={{ width: pct(wrong) }} />
       </div>
       <p className="mt-1 text-sm text-muted">{t('group.progress', { answered, total: total ?? '…' })}</p>
+      {attempts > 0 && (
+        <p className="text-sm text-muted">
+          {t('group.accuracy', {
+            pct: percentages(attemptsCorrect, attempts - attemptsCorrect).correct,
+            correct: attemptsCorrect,
+            attempts,
+          })}
+        </p>
+      )}
 
       <div className="mt-4 grid gap-2 sm:grid-cols-2">
         <a href={href.practice(group.id)} className={`${btn.primary} sm:col-span-2`}>
@@ -78,7 +87,7 @@ function GroupCard({ group }: { group: GroupConfig }) {
         </a>
         <a href={href.mistakes(group.id)} className={btn.secondary}>
           {t('group.mistakes')}
-          <span className="rounded-full bg-bad-bg px-2 py-0.5 text-sm text-bad-fg">{wrong}</span>
+          <span className="rounded-full bg-bad-bg px-2 py-0.5 text-sm text-bad-fg">{mistakes}</span>
         </a>
         <button type="button" className={btn.danger} onClick={() => setConfirming(true)} disabled={answered === 0}>
           {t('group.reset')}

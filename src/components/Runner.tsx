@@ -2,8 +2,9 @@ import { useCallback, useEffect, useMemo, useRef, useState, type ReactNode } fro
 import { MISTAKE_CLEAR_STREAK } from '../config'
 import { t, tx } from '../i18n'
 import { imageUrl, preloadImage } from '../lib/data'
-import { recordAnswer, useGroupProgress, type QuestionProgress } from '../lib/progress'
+import { percentages, recordAnswer, useGroupProgress, type QuestionProgress } from '../lib/progress'
 import { href } from '../lib/router'
+import { updateSettings, useSettings } from '../lib/settings'
 import type { GroupConfig, Question } from '../types'
 import ImageViewer from './ImageViewer'
 import { btn } from './ui'
@@ -36,7 +37,7 @@ const SWIPE_MIN_PX = 60
 export default function Runner({ group, mode, title, questions, index, onIndex, onEnd, tools }: Props) {
   const progress = useGroupProgress(group.id)
   const [views, setViews] = useState<Record<string, View>>({})
-  const [navOpen, setNavOpen] = useState(false)
+  const { navOpen } = useSettings()
   const [viewer, setViewer] = useState(false)
   const touchStart = useRef<{ x: number; y: number } | null>(null)
 
@@ -73,6 +74,10 @@ export default function Runner({ group, mode, title, questions, index, onIndex, 
   )
 
   const reveal = () => setViews((v) => ({ ...v, [q.id]: { choice: null, revealed: true } }))
+  /** Unlock the answers for a new attempt (statistics are kept). */
+  const tryAgain = () => setViews((v) => ({ ...v, [q.id]: { choice: null, revealed: false } }))
+
+  const record = percentages(saved?.correctCount ?? 0, saved?.wrongCount ?? 0)
 
   // New question: back to the top, and warm up the neighbouring pictures.
   useEffect(() => {
@@ -124,24 +129,24 @@ export default function Runner({ group, mode, title, questions, index, onIndex, 
   if (view.revealed) {
     feedback = <p>{t('feedback.revealed', { n: q.answer })}</p>
   } else if (view.choice != null) {
-    const status = view.result?.status ?? saved?.status
-    const streak = view.result?.streak ?? saved?.streak ?? 0
+    const latest = view.result ?? saved
+    const streak = latest?.streak ?? 0
     feedback = (
       <>
         <p className="font-semibold">
           {isCorrect ? t('feedback.correct') : t('feedback.wrong', { n: q.answer })}
         </p>
-        {isCorrect && status === 'wrong' && (
+        {isCorrect && latest?.mistake && (
           <p>{t('feedback.streak', { streak, needed: MISTAKE_CLEAR_STREAK })}</p>
         )}
-        {isCorrect && mode === 'mistakes' && status === 'correct' && <p>{t('feedback.cleared')}</p>}
+        {isCorrect && mode === 'mistakes' && latest && !latest.mistake && <p>{t('feedback.cleared')}</p>}
         {!isCorrect && mode === 'mistakes' && <p>{t('feedback.stays', { needed: MISTAKE_CLEAR_STREAK })}</p>}
       </>
     )
   }
 
   return (
-    <div className="lg:grid lg:grid-cols-[minmax(0,1fr)_20rem] lg:items-start lg:gap-8">
+    <div className="lg:grid lg:grid-cols-[minmax(0,1fr)_auto] lg:items-start lg:gap-8">
       <section onTouchStart={onTouchStart} onTouchEnd={onTouchEnd} aria-label={title}>
         <div className="flex items-center justify-between gap-3">
           <a href={href.home} className="-ml-1 inline-flex min-h-11 items-center gap-1 rounded-lg px-1 text-accent">
@@ -163,6 +168,26 @@ export default function Runner({ group, mode, title, questions, index, onIndex, 
             {t('runner.position', { current: index + 1, total })}
           </p>
           {q.number !== index + 1 && <p className="text-sm text-muted">{t('runner.number', { n: q.number })}</p>}
+        </div>
+
+        <div className="mt-1 text-sm text-muted">
+          {record.attempts === 0 ? (
+            <p>{t('stats.none')}</p>
+          ) : (
+            <>
+              <p>
+                {t('stats.record', {
+                  correct: saved!.correctCount,
+                  wrong: saved!.wrongCount,
+                  pct: record.correct,
+                })}
+              </p>
+              <div className="mt-1 flex h-1.5 max-w-xs overflow-hidden rounded-full" aria-hidden="true">
+                <div className="bg-ok-border" style={{ width: `${record.correct}%` }} />
+                <div className="bg-bad-border" style={{ width: `${record.wrong}%` }} />
+              </div>
+            </>
+          )}
         </div>
 
         <h1 className="mt-3 text-lg leading-snug font-semibold sm:text-xl">{tx(q.question)}</h1>
@@ -233,19 +258,12 @@ export default function Runner({ group, mode, title, questions, index, onIndex, 
           <button type="button" className={btn.secondary} onClick={reveal} disabled={locked}>
             {t('runner.showAnswer')}
           </button>
+          {mode === 'practice' && locked && (
+            <button type="button" className={btn.secondary} onClick={tryAgain}>
+              {t('runner.tryAgain')}
+            </button>
+          )}
           {tools}
-          <button
-            type="button"
-            className={`${btn.secondary} lg:hidden`}
-            aria-expanded={navOpen}
-            aria-controls="question-navigator"
-            onClick={() => setNavOpen((o) => !o)}
-          >
-            {t('runner.navigator')}
-            <svg viewBox="0 0 24 24" className={`size-4 ${navOpen ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-              <path d="M6 9l6 6 6-6" />
-            </svg>
-          </button>
         </div>
 
         <div className="sticky bottom-0 z-10 -mx-4 mt-4 grid grid-cols-2 gap-2 border-t border-border bg-bg px-4 py-3 lg:static lg:mx-0 lg:border-0 lg:px-0">
@@ -265,11 +283,33 @@ export default function Runner({ group, mode, title, questions, index, onIndex, 
       </section>
 
       <aside
-        id="question-navigator"
         aria-label={t('runner.navigator')}
-        className={`${navOpen ? 'block' : 'hidden'} mt-4 rounded-2xl border border-border bg-surface p-3 lg:sticky lg:top-4 lg:mt-0 lg:block`}
+        className={`mt-4 rounded-2xl border border-border bg-surface p-3 lg:sticky lg:top-4 lg:mt-0 lg:transition-[width] lg:duration-200 motion-reduce:transition-none ${
+          navOpen ? 'lg:w-80' : 'lg:w-52'
+        }`}
       >
-        <h2 className="font-semibold">{t('runner.navigator')}</h2>
+        <div className="flex items-center justify-between gap-2">
+          <h2 className="font-semibold whitespace-nowrap">{t('runner.navigator')}</h2>
+          <button
+            type="button"
+            aria-expanded={navOpen}
+            aria-controls="question-navigator"
+            aria-label={navOpen ? t('runner.navigatorHide') : t('runner.navigatorShow')}
+            title={navOpen ? t('runner.navigatorHide') : t('runner.navigatorShow')}
+            onClick={() => updateSettings({ navOpen: !navOpen })}
+            className="grid size-11 shrink-0 place-items-center rounded-lg border border-border bg-surface-2 text-2xl leading-none font-semibold text-fg"
+          >
+            <span aria-hidden="true">{navOpen ? '−' : '+'}</span>
+          </button>
+        </div>
+        {/* Height animates via grid rows (0fr <-> 1fr); `inert` keeps the hidden grid out of tab order. */}
+        <div
+          className={`grid transition-[grid-template-rows] duration-200 motion-reduce:transition-none ${
+            navOpen ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'
+          }`}
+        >
+        <div id="question-navigator" className="min-h-0 overflow-hidden" inert={!navOpen}>
+        <div className="lg:w-[calc(20rem-1.5rem-2px)]">
         <ul className="mt-1 flex flex-wrap gap-x-4 gap-y-1 p-0 text-sm text-muted">
           <Legend cls="border-border bg-surface-2" label={t('legend.unanswered')} />
           <Legend cls="border-ok-border bg-ok-bg" label={t('legend.correct')} />
@@ -277,7 +317,7 @@ export default function Runner({ group, mode, title, questions, index, onIndex, 
         </ul>
         <ol className="mt-3 grid max-h-[26rem] list-none grid-cols-6 gap-1.5 overflow-y-auto p-1">
           {byNumber.map(({ item, i }) => {
-            const st = progress[item.id]?.status
+            const st = progress[item.id]?.lastResult
             const current = i === index
             const cls =
               st === 'correct'
@@ -289,10 +329,7 @@ export default function Runner({ group, mode, title, questions, index, onIndex, 
               <li key={item.id}>
                 <button
                   type="button"
-                  onClick={() => {
-                    onIndex(i)
-                    setNavOpen(false)
-                  }}
+                  onClick={() => onIndex(i)}
                   aria-current={current ? 'true' : undefined}
                   aria-label={t('runner.jumpTo', {
                     n: item.number,
@@ -308,6 +345,9 @@ export default function Runner({ group, mode, title, questions, index, onIndex, 
             )
           })}
         </ol>
+        </div>
+        </div>
+        </div>
       </aside>
 
       {viewer && img && <ImageViewer src={img} alt={imgAlt} onClose={() => setViewer(false)} />}

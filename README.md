@@ -112,12 +112,18 @@ differently, validation fails rather than producing wrong data.
 
 ## How progress works
 
-- **Practice**: the first tap on an answer is recorded and the question locks.
-  "Show answer" reveals the answer without recording anything.
-- **My mistakes**: every question currently marked wrong. A question leaves the
-  list after 2 correct answers in a row (`MISTAKE_CLEAR_STREAK` in
-  `src/config.ts`). The list is refreshed at the start of each round.
-- **Reset progress** clears a group's answers on this device.
+- **Practice**: the first tap on an answer counts as one attempt and the
+  question locks. A question you already answered opens locked on your last
+  answer; "Try again" unlocks it for a new attempt. "Show answer" reveals the
+  answer without recording anything.
+- **Statistics**: every attempt is counted per question (`correctCount`,
+  `wrongCount`, `lastResult`, `lastAnsweredAt`) and shown under the question
+  counter. The question grid is coloured by the last attempt.
+- **My mistakes**: a wrong answer puts a question on the list; it leaves after
+  2 correct answers in a row (`MISTAKE_CLEAR_STREAK` in `src/config.ts`). The
+  list is refreshed at the start of each round.
+- **Reset progress** clears a group's answers and statistics on this device.
+- Progress saved by the first version is upgraded automatically on load.
 - If localStorage is unavailable, the app still works; progress then lasts only
   until the page is closed.
 

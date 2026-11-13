@@ -31,7 +31,7 @@ function MistakesRunner({ group, questions }: { group: GroupConfig; questions: Q
   const [index, setIndex] = useState(0)
   const list = useMemo(() => {
     const progress = getGroupProgress(group.id)
-    return questions.filter((q) => progress[q.id]?.status === 'wrong')
+    return questions.filter((q) => progress[q.id]?.mistake)
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [questions, group.id, round])
 

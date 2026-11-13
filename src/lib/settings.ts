@@ -5,6 +5,8 @@ export type Theme = 'dark' | 'light'
 export interface Settings {
   theme: Theme
   shuffle: boolean
+  /** "All questions" panel expanded. */
+  navOpen: boolean
   /** Last question number opened in Practice, per group id. */
   last: Record<string, number>
 }
@@ -12,6 +14,7 @@ export interface Settings {
 export const settingsStore = createStore<Settings>('adt:settings:v1', {
   theme: 'dark',
   shuffle: false,
+  navOpen: true,
   last: {},
 })
 
