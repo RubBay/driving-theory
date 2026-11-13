@@ -50,6 +50,7 @@ const en = {
   'stats.none': 'Not answered yet',
   'group.accuracy': 'Accuracy: {pct}% ({correct} of {attempts} attempts correct)',
   'runner.jumpTo': 'Question {n}, {status}',
+  'runner.jumpToStats': 'Question {n}, {status}, {pct}% correct overall',
   'runner.imageAlt': 'Illustration for question {n}',
   'runner.imageOpen': 'View the illustration for question {n} full screen',
   'runner.keysHint': 'Keys: 1–5 answer, ← → move between questions.',

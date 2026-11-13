@@ -49,6 +49,7 @@ function PracticeRunner({ group, questions }: { group: GroupConfig; questions: Q
       title={t('practice.title')}
       questions={order}
       index={index}
+      hideNavigator={shuffle}
       onIndex={(i) => {
         setCurrentId(order[i].id)
         rememberLastQuestion(group.id, order[i].number)

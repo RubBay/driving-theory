@@ -30,11 +30,13 @@ interface Props {
   onEnd?: () => void
   /** Extra controls shown next to "Show answer" (e.g. the shuffle toggle). */
   tools?: ReactNode
+  /** Hide the "All questions" panel (used while shuffle is on). */
+  hideNavigator?: boolean
 }
 
 const SWIPE_MIN_PX = 60
 
-export default function Runner({ group, mode, title, questions, index, onIndex, onEnd, tools }: Props) {
+export default function Runner({ group, mode, title, questions, index, onIndex, onEnd, tools, hideNavigator }: Props) {
   const progress = useGroupProgress(group.id)
   const [views, setViews] = useState<Record<string, View>>({})
   const { panelOpen: navOpen } = useSettings()
@@ -151,7 +153,7 @@ export default function Runner({ group, mode, title, questions, index, onIndex, 
           of the page while the panel is closed, and moves left when it opens. */}
       <div
         aria-hidden="true"
-        className={`hidden shrink-0 transition-[width] duration-200 motion-reduce:transition-none lg:block ${navOpen ? 'w-24' : 'w-52'}`}
+        className={`hidden shrink-0 transition-[width] duration-200 motion-reduce:transition-none ${hideNavigator ? '' : 'lg:block'} ${navOpen ? 'w-24' : 'w-52'}`}
       />
       <section onTouchStart={onTouchStart} onTouchEnd={onTouchEnd} aria-label={title} className="lg:max-w-2xl lg:min-w-0 lg:flex-1">
         <div className="flex items-center justify-between gap-3">
@@ -290,7 +292,7 @@ export default function Runner({ group, mode, title, questions, index, onIndex, 
 
       <aside
         aria-label={t('runner.navigator')}
-        className={`mt-4 rounded-2xl border border-border bg-surface p-3 lg:sticky lg:top-4 lg:mt-0 lg:shrink-0 lg:transition-[width] lg:duration-200 motion-reduce:transition-none ${
+        className={`${hideNavigator ? 'hidden' : ''} mt-4 rounded-2xl border border-border bg-surface p-3 lg:sticky lg:top-4 lg:mt-0 lg:shrink-0 lg:transition-[width] lg:duration-200 motion-reduce:transition-none ${
           navOpen ? 'lg:w-80' : 'lg:w-52'
         }`}
       >
@@ -323,7 +325,10 @@ export default function Runner({ group, mode, title, questions, index, onIndex, 
         </ul>
         <ol className="mt-3 grid max-h-[26rem] list-none grid-cols-6 gap-1.5 overflow-y-auto p-1">
           {byNumber.map(({ item, i }) => {
-            const st = progress[item.id]?.lastResult
+            const entry = progress[item.id]
+            const st = entry?.lastResult
+            const pct = entry ? percentages(entry.correctCount, entry.wrongCount).correct : null
+            const status = t(st === 'correct' ? 'status.correct' : st === 'wrong' ? 'status.wrong' : 'status.unanswered')
             const current = i === index
             const cls =
               st === 'correct'
@@ -337,15 +342,21 @@ export default function Runner({ group, mode, title, questions, index, onIndex, 
                   type="button"
                   onClick={() => onIndex(i)}
                   aria-current={current ? 'true' : undefined}
-                  aria-label={t('runner.jumpTo', {
-                    n: item.number,
-                    status: t(st === 'correct' ? 'status.correct' : st === 'wrong' ? 'status.wrong' : 'status.unanswered'),
-                  })}
-                  className={`grid aspect-square w-full min-w-0 place-items-center rounded-lg border text-sm font-semibold tabular-nums ${cls} ${
+                  aria-label={
+                    pct == null
+                      ? t('runner.jumpTo', { n: item.number, status })
+                      : t('runner.jumpToStats', { n: item.number, status, pct })
+                  }
+                  className={`flex aspect-square w-full min-w-0 flex-col items-center justify-center gap-0.5 rounded-lg border text-sm font-semibold tabular-nums ${cls} ${
                     current ? 'ring-2 ring-accent ring-offset-2 ring-offset-surface' : ''
                   }`}
                 >
-                  {item.number}
+                  <span className="leading-none">{item.number}</span>
+                  {pct != null && (
+                    <span className="text-[0.6875rem] leading-none font-normal" aria-hidden="true">
+                      {pct}%
+                    </span>
+                  )}
                 </button>
               </li>
             )
