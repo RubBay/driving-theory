@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { GROUPS } from '../config'
-import { t } from '../i18n'
+import { t, tx } from '../i18n'
+import { updateSettings, useSettings } from '../lib/settings'
 import { useGroupQuestions } from '../lib/data'
 import { percentages, resetGroup, summarize, useGroupProgress } from '../lib/progress'
 import { href } from '../lib/router'
@@ -33,23 +34,67 @@ function GroupCard({ group }: { group: GroupConfig }) {
   const highlighted = useHighlights(group.id).length
   const runSummary = run && !run.finishedAt ? summarizeRun(run) : null
 
+  const { openGroups } = useSettings()
+  const open = openGroups.includes(group.id)
+  const toggle = () =>
+    updateSettings({ openGroups: open ? openGroups.filter((id) => id !== group.id) : [...openGroups, group.id] })
+
   const total = data.status === 'ready' ? data.questions.length : null
   const { answered, correct, wrong, mistakes, attemptsCorrect, attempts } = summarize(progress)
   const pct = (n: number) => (total ? `${(n / total) * 100}%` : '0%')
+  const bodyId = `g${group.id}-body`
 
   return (
-    <section className="rounded-2xl border border-border bg-surface p-4 sm:p-5" aria-labelledby={`g${group.id}-title`}>
-      <div className="flex items-baseline justify-between gap-3">
-        <h2 id={`g${group.id}-title`} className="text-xl font-bold">
-          {t('group.title', { n: group.id })}
-        </h2>
-        <p className="text-sm text-muted">
-          {data.status === 'ready' && t('group.questions', { count: data.questions.length })}
-          {data.status === 'loading' && t('common.loading')}
-        </p>
-      </div>
-      <p className="text-muted">{t('group.categories', { categories: group.categories })}</p>
+    <section className="rounded-2xl border border-border bg-surface" aria-labelledby={`g${group.id}-title`}>
+      {/* Header: always visible, says in detail which group this is; tapping it opens or closes the card. */}
+      <button
+        type="button"
+        onClick={toggle}
+        aria-expanded={open}
+        aria-controls={bodyId}
+        className="flex w-full items-start gap-3 rounded-2xl p-4 text-left text-fg sm:p-5"
+      >
+        <span className="min-w-0 flex-1">
+          <span className="flex flex-wrap items-baseline justify-between gap-x-3">
+            <span id={`g${group.id}-title`} className="text-xl font-bold">
+              {t('group.title', { n: group.id })}
+            </span>
+            <span className="text-sm text-muted">
+              {t('group.categories', { categories: group.categories })}
+              {total != null && ` · ${t('group.questions', { count: total })}`}
+            </span>
+          </span>
+          {group.topic && <span className="mt-1 block font-medium">{tx(group.topic)}</span>}
+          <span className="mt-2 block text-sm text-muted">
+            {t('group.summary', { answered, total: total ?? '…', mistakes, highlighted })}
+          </span>
+          {runSummary && (
+            <span className="block text-sm text-accent">
+              {t('group.inProgress', { done: runSummary.done, total: runSummary.total })}
+            </span>
+          )}
+          {!open && (
+            <span className="mt-2 flex h-1.5 overflow-hidden rounded-full bg-surface-2" aria-hidden="true">
+              <span className="bg-ok-border" style={{ width: pct(correct) }} />
+              <span className="bg-bad-border" style={{ width: pct(wrong) }} />
+            </span>
+          )}
+        </span>
+        <span
+          className="grid size-11 shrink-0 place-items-center rounded-lg border border-border bg-surface-2 text-2xl leading-none font-semibold"
+          title={open ? t('group.hide', { n: group.id }) : t('group.show', { n: group.id })}
+        >
+          <span aria-hidden="true">{open ? '−' : '+'}</span>
+        </span>
+      </button>
 
+      <div
+        className={`grid transition-[grid-template-rows] duration-200 motion-reduce:transition-none ${
+          open ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'
+        }`}
+      >
+      <div id={bodyId} className="min-h-0 overflow-hidden" inert={!open}>
+      <div className="px-4 pb-4 sm:px-5 sm:pb-5">
       {data.status === 'error' && (
         <div className="mt-3 rounded-lg border border-bad-border bg-bad-bg p-3 text-bad-fg" role="alert">
           <p>{t('common.loadError')}</p>
@@ -59,7 +104,7 @@ function GroupCard({ group }: { group: GroupConfig }) {
         </div>
       )}
 
-      <dl className="mt-4 grid grid-cols-3 gap-2 text-center">
+      <dl className="grid grid-cols-3 gap-2 text-center">
         <Stat label={t('group.answered')} value={answered} />
         <Stat label={t('group.correct')} value={correct} tone="ok" />
         <Stat label={t('group.wrong')} value={wrong} tone="bad" />
@@ -105,6 +150,9 @@ function GroupCard({ group }: { group: GroupConfig }) {
         <button type="button" className={`${btn.danger} sm:col-span-2`} onClick={() => setConfirming(true)} disabled={answered === 0 && !run}>
           {t('group.reset')}
         </button>
+      </div>
+      </div>
+      </div>
       </div>
 
       {confirming && (

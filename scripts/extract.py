@@ -11,7 +11,8 @@ Outputs (relative to the project root):
     data/review-g<N>.html  (data/review.html for group 1)
 
 The text is copied from the PDF verbatim. The only normalisation is joining
-soft-wrapped lines of one paragraph with a single space.
+soft-wrapped lines of one paragraph with a single space (a line that ends in a
+hyphen, such as "18-" / "year-old", is joined without the space).
 
 The script exits with a non-zero status if validation fails.
 """
@@ -62,6 +63,22 @@ def set_language(lang: str) -> None:
     RE_FOOTER = re.compile(rf"^{re.escape(words['page'])} \d+ / \d+$")
 
 
+def join_lines(lines: list[str]) -> str:
+    """Join the wrapped lines of one paragraph. A space goes between lines, except
+    after a line that ends in a hyphen right after a letter or digit ("18-" + "year-old")."""
+    out = ""
+    for line in (s.strip() for s in lines):
+        if not line:
+            continue
+        if not out:
+            out = line
+        elif re.search(r"\w-$", out):
+            out += line
+        else:
+            out += " " + line
+    return out
+
+
 @dataclass
 class Line:
     page: int          # 1-based
@@ -98,11 +115,11 @@ class Question:
 
     @property
     def text(self) -> str:
-        return " ".join(s.strip() for s in self.q_lines if s.strip())
+        return join_lines(self.q_lines)
 
     @property
     def option_texts(self) -> list[str]:
-        return [" ".join(s.strip() for s in parts if s.strip()) for parts in self.options]
+        return [join_lines(parts) for parts in self.options]
 
 
 def read_items(doc: pymupdf.Document) -> list[Line | Img]:

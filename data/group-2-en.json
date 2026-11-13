@@ -1,0 +1,1746 @@
+[
+  {
+    "id": "g2-q001",
+    "group": 2,
+    "number": 1,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, a passenger is:"
+    },
+    "options": [
+      {
+        "en": "A person located in the passenger compartment (cab) of a vehicle or on a vehicle, except the driver and the driving instructor."
+      },
+      {
+        "en": "A person located in the passenger compartment (cab) of a vehicle or on a vehicle, as well as a person entering or exiting the vehicle, except the driver and the driving instructor."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q002",
+    "group": 2,
+    "number": 2,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, a driver’s license authorizing the operation of category A vehicles may be issued to:"
+    },
+    "options": [
+      {
+        "en": "Persons who have reached 16 years of age."
+      },
+      {
+        "en": "Persons who have reached 17 years of age."
+      },
+      {
+        "en": "Persons who have reached 18 years of age."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q003",
+    "group": 2,
+    "number": 3,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, a driver’s license authorizing the operation of category BE vehicles may be issued to:"
+    },
+    "options": [
+      {
+        "en": "Persons who have reached 17 years of age."
+      },
+      {
+        "en": "Persons who have reached 18 years of age."
+      },
+      {
+        "en": "Persons who have reached 19 years of age."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q004",
+    "group": 2,
+    "number": 4,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, a roadway is:"
+    },
+    "options": [
+      {
+        "en": "An element of a road intended for the movement of vehicles."
+      },
+      {
+        "en": "An element of a road intended for the movement of non-rail vehicles."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q005",
+    "group": 2,
+    "number": 5,
+    "question": {
+      "en": "During driving instruction, must the learner driver wear a seat belt?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "No."
+      },
+      {
+        "en": "No, if it makes operating the vehicle difficult."
+      },
+      {
+        "en": "No, if permitted by the driving instructor."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q006",
+    "group": 2,
+    "number": 6,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, a pedestrian is:"
+    },
+    "options": [
+      {
+        "en": "A person who is outside a vehicle and on the road, except a person authorized to perform work on the road and performing that work in accordance with the procedure established by law."
+      },
+      {
+        "en": "A person who is outside a vehicle and on the road, including a person authorized to perform work on the road and performing that work in accordance with the procedure established by law."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q007",
+    "group": 2,
+    "number": 7,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, initial practical driving instruction is conducted:"
+    },
+    "options": [
+      {
+        "en": "On roads outside populated areas, taking into account the intensity of vehicle traffic."
+      },
+      {
+        "en": "On a closed training area or driving range."
+      },
+      {
+        "en": "On any road, except freeways, taking into account the intensity of vehicle traffic."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q008",
+    "group": 2,
+    "number": 8,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, is an exit from an adjacent area onto a road considered an intersection?"
+    },
+    "options": [
+      {
+        "en": "No."
+      },
+      {
+        "en": "Yes."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q009",
+    "group": 2,
+    "number": 9,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, persons holding a driver’s license for categories B, C, and D may also operate those vehicles with trailers if the trailer’s maximum authorized mass does not exceed:"
+    },
+    "options": [
+      {
+        "en": "750 kg."
+      },
+      {
+        "en": "800 kg."
+      },
+      {
+        "en": "1,000 kg."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q010",
+    "group": 2,
+    "number": 10,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, bicyclists are prohibited from riding:"
+    },
+    "options": [
+      {
+        "en": "Without protective eyewear."
+      },
+      {
+        "en": "Without a helmet."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q011",
+    "group": 2,
+    "number": 11,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, a driver’s license authorizing the operation of category B and C vehicles may be issued to:"
+    },
+    "options": [
+      {
+        "en": "Persons who have reached 16 years of age."
+      },
+      {
+        "en": "Persons who have reached 17 years of age."
+      },
+      {
+        "en": "Persons who have reached 18 years of age."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q012",
+    "group": 2,
+    "number": 12,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, a moped is:"
+    },
+    "options": [
+      {
+        "en": "A two- or three-wheeled vehicle with an engine displacement not exceeding 50 cm³ and a maximum speed not exceeding 50 km/h."
+      },
+      {
+        "en": "A two- or three-wheeled vehicle with an engine displacement not exceeding 60 cm³ and a maximum speed not exceeding 60 km/h."
+      },
+      {
+        "en": "A two- or three-wheeled vehicle with an engine displacement not exceeding 70 cm³ and a maximum speed not exceeding 70 km/h."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q013",
+    "group": 2,
+    "number": 13,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, a forced stop is:"
+    },
+    "options": [
+      {
+        "en": "An interruption of movement caused by the unexpected activation of a prohibitory traffic signal."
+      },
+      {
+        "en": "An interruption of movement caused by a traffic jam on the road."
+      },
+      {
+        "en": "Bringing a vehicle to a stationary position because of a vehicle malfunction, the physical and/or mental condition of the driver or passenger, a hazard related to the cargo being transported, or another obstruction that has appeared on the road."
+      },
+      {
+        "en": "All of the listed cases."
+      }
+    ],
+    "answer": 4,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q014",
+    "group": 2,
+    "number": 14,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, insufficient visibility is:"
+    },
+    "options": [
+      {
+        "en": "The visibility distance of the road during nighttime."
+      },
+      {
+        "en": "The visibility distance of the road in populated areas when the roadway has no artificial lighting."
+      },
+      {
+        "en": "Road visibility and/or a visibility distance of up to 300 meters in fog, rain, snowfall, and/or other adverse weather conditions affecting road traffic safety."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q015",
+    "group": 2,
+    "number": 15,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, stopping is:"
+    },
+    "options": [
+      {
+        "en": "Intentionally bringing a vehicle to a stationary position for up to 5 minutes, or for the time necessary to pick up or drop off passengers and/or to load or unload the vehicle."
+      },
+      {
+        "en": "Bringing a vehicle to a stationary position for more than 5 minutes when this is not related to picking up or dropping off passengers or loading or unloading the vehicle."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q016",
+    "group": 2,
+    "number": 16,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, a public transit vehicle is:"
+    },
+    "options": [
+      {
+        "en": "A vehicle that operates along a route, has designated stops, and carries passengers and/or baggage, including a tram, trolleybus, or bus."
+      },
+      {
+        "en": "A vehicle that operates along a route, has designated stops, and carries passengers and/or baggage, including a tram, trolleybus, or bus, as well as a passenger taxi."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q017",
+    "group": 2,
+    "number": 17,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, the following are considered equivalent to pedestrians:"
+    },
+    "options": [
+      {
+        "en": "Persons with disabilities moving in non-motorized wheelchairs."
+      },
+      {
+        "en": "Persons pulling or pushing a handcart, sled, stroller, or wheelchair."
+      },
+      {
+        "en": "All of the listed persons."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q018",
+    "group": 2,
+    "number": 18,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, a trailer (semitrailer) is:"
+    },
+    "options": [
+      {
+        "en": "Any motor vehicle towed by means of a rigid coupling."
+      },
+      {
+        "en": "A vehicle not equipped with an engine that is designed to be moved by a motor vehicle and to proceed with it as a single unit, including a special-purpose trailer."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q019",
+    "group": 2,
+    "number": 19,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, traffic on the roads of the Republic of Armenia is:"
+    },
+    "options": [
+      {
+        "en": "Right-hand traffic."
+      },
+      {
+        "en": "Left-hand traffic."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q020",
+    "group": 2,
+    "number": 20,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, parking is:"
+    },
+    "options": [
+      {
+        "en": "Intentionally bringing a vehicle to a stationary position for more than 5 minutes when this is not related to picking up or dropping off passengers or loading or unloading the vehicle."
+      },
+      {
+        "en": "Intentionally bringing a vehicle to a stationary position for more than 5 minutes, except when necessary to prevent a collision with another road user or an obstruction, to pick up or drop off passengers and/or load or unload the vehicle, or in other cases provided by law."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q021",
+    "group": 2,
+    "number": 21,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, persons conscripted into the Armed Forces of the Republic of Armenia or other troops may be issued a driver’s license authorizing the operation of category D and subcategory D1 vehicles upon reaching:"
+    },
+    "options": [
+      {
+        "en": "18 years of age."
+      },
+      {
+        "en": "19 years of age."
+      },
+      {
+        "en": "20 years of age."
+      },
+      {
+        "en": "21 years of age."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q022",
+    "group": 2,
+    "number": 22,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, within what period from the date a vehicle is acquired must it be presented for state registration to the registration and examination division of the Ministry of Internal Affairs?"
+    },
+    "options": [
+      {
+        "en": "Within 15 days."
+      },
+      {
+        "en": "Within 10 days."
+      },
+      {
+        "en": "Within 20 days."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q023",
+    "group": 2,
+    "number": 23,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, responsibility for maintaining a vehicle participating in road traffic in technically sound condition is borne by:"
+    },
+    "options": [
+      {
+        "en": "The owner or user of the vehicle."
+      },
+      {
+        "en": "The organization that sold the vehicle."
+      },
+      {
+        "en": "The organization that performed the vehicle’s most recent annual technical inspection."
+      },
+      {
+        "en": "All of the listed persons and organizations."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q024",
+    "group": 2,
+    "number": 24,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, before starting to drive, the driver must check:"
+    },
+    "options": [
+      {
+        "en": "The serviceability of the braking system and steering system."
+      },
+      {
+        "en": "Whether the remaining tire tread depth meets the established standards."
+      },
+      {
+        "en": "All of the listed items."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q025",
+    "group": 2,
+    "number": 25,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, a driver must provide the vehicle for assistance:"
+    },
+    "options": [
+      {
+        "en": "To police officers for transporting persons in need of urgent medical care to a medical facility."
+      },
+      {
+        "en": "To medical personnel proceeding in the same direction to provide medical assistance, with the driver’s consent."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q026",
+    "group": 2,
+    "number": 26,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, if a driver is involved in a road traffic crash, the driver must:"
+    },
+    "options": [
+      {
+        "en": "Immediately stop the vehicle."
+      },
+      {
+        "en": "Activate the hazard warning lights."
+      },
+      {
+        "en": "Not move objects related to the crash."
+      },
+      {
+        "en": "Perform all of the listed actions."
+      }
+    ],
+    "answer": 4,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q027",
+    "group": 2,
+    "number": 27,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, the driver of a motor vehicle must carry:"
+    },
+    "options": [
+      {
+        "en": "A driver’s license authorizing the operation of that category of vehicle and the vehicle registration documents, or, within the Republic of Armenia, their digital versions."
+      },
+      {
+        "en": "A power of attorney when operating a vehicle belonging to another person."
+      },
+      {
+        "en": "All of the listed documents."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q028",
+    "group": 2,
+    "number": 28,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, a traffic lane is:"
+    },
+    "options": [
+      {
+        "en": "A marked longitudinal strip of the roadway wide enough for vehicles to proceed in a single line."
+      },
+      {
+        "en": "A marked or unmarked longitudinal strip of the roadway wide enough for vehicles to proceed in a single line."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q029",
+    "group": 2,
+    "number": 29,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, maximum authorized mass is:"
+    },
+    "options": [
+      {
+        "en": "The mass of a fully equipped and fueled vehicle."
+      },
+      {
+        "en": "The mass of a fully equipped and fueled vehicle, including the driver, passengers and load, established by the manufacturer as the maximum permissible mass."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q030",
+    "group": 2,
+    "number": 30,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, a traffic controller is:"
+    },
+    "options": [
+      {
+        "en": "A person authorized to regulate road traffic and carrying out that regulation in accordance with the procedure established by law."
+      },
+      {
+        "en": "Any road user, including a driver, passenger, or pedestrian, who performs traffic-control actions when necessary."
+      },
+      {
+        "en": "All of the listed persons."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q031",
+    "group": 2,
+    "number": 31,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, a bicycle is:"
+    },
+    "options": [
+      {
+        "en": "A vehicle with at least two wheels, normally propelled by the muscular power of a person on it, particularly by means of pedals or hand cranks, as well as a wheelchair."
+      },
+      {
+        "en": "A vehicle with at least two wheels, normally propelled by the muscular power of a person on it, particularly by means of pedals or hand cranks, excluding a wheelchair; it may also have an electric motor with a maximum continuous rated power not exceeding 0.25 kW that switches off automatically at speeds above 25 km/h."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q032",
+    "group": 2,
+    "number": 32,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, a person providing driving instruction:"
+    },
+    "options": [
+      {
+        "en": "Is considered equivalent to a driver."
+      },
+      {
+        "en": "Is not considered equivalent to a driver."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q033",
+    "group": 2,
+    "number": 33,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, an emergency situation is:"
+    },
+    "options": [
+      {
+        "en": "A situation caused by the action and/or inaction of a road user in which a real danger of a road traffic crash is created."
+      },
+      {
+        "en": "A situation caused by the action and/or inaction of a road user and/or traffic controller in which a real danger of a road traffic crash is created."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q034",
+    "group": 2,
+    "number": 34,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, nighttime is:"
+    },
+    "options": [
+      {
+        "en": "In fall and winter, the period from 8:00 p.m. to 8:00 a.m.; in spring and summer, the period from 10:00 p.m. to 6:00 a.m."
+      },
+      {
+        "en": "The period between the end of evening twilight and the beginning of morning twilight."
+      },
+      {
+        "en": "The period during which sunlight is absent."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q035",
+    "group": 2,
+    "number": 35,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, a passenger car is:"
+    },
+    "options": [
+      {
+        "en": "An automobile with no more than 8 seats intended for passengers and designed and equipped for the safe and comfortable transportation of passengers and baggage."
+      },
+      {
+        "en": "An automobile with no more than 4 seats intended for passengers, excluding children under 12 years of age, and designed and equipped for the safe and comfortable transportation of passengers and baggage."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q036",
+    "group": 2,
+    "number": 36,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, the following are considered equivalent to pedestrians:"
+    },
+    "options": [
+      {
+        "en": "Persons with disabilities moving at pedestrian speed in motorized wheelchairs."
+      },
+      {
+        "en": "Persons leading a bicycle, moped, or motorcycle."
+      },
+      {
+        "en": "All of the listed persons."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q037",
+    "group": 2,
+    "number": 37,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, the right to operate a vehicle arises:"
+    },
+    "options": [
+      {
+        "en": "Upon successfully passing the practical driving examination at the registration and examination division of the Ministry of Internal Affairs."
+      },
+      {
+        "en": "Upon receiving a driver’s license."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q038",
+    "group": 2,
+    "number": 38,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, international driving permits authorizing the operation of category A and B vehicles may be issued to:"
+    },
+    "options": [
+      {
+        "en": "Persons who have reached 16 years of age."
+      },
+      {
+        "en": "Persons who have reached 17 years of age."
+      },
+      {
+        "en": "Persons who have reached 18 years of age."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q039",
+    "group": 2,
+    "number": 39,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, an international driving permit authorizing the operation of category C vehicles may be issued to:"
+    },
+    "options": [
+      {
+        "en": "Persons who have reached 18 years of age."
+      },
+      {
+        "en": "Persons who have reached 20 years of age."
+      },
+      {
+        "en": "Persons who have reached 21 years of age."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q040",
+    "group": 2,
+    "number": 40,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, a national driver’s license is issued for:"
+    },
+    "options": [
+      {
+        "en": "5 years."
+      },
+      {
+        "en": "10 years."
+      },
+      {
+        "en": "20 years."
+      },
+      {
+        "en": "An unlimited period."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q041",
+    "group": 2,
+    "number": 41,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, an international driving permit is issued for:"
+    },
+    "options": [
+      {
+        "en": "1 year."
+      },
+      {
+        "en": "3 years."
+      },
+      {
+        "en": "5 years."
+      },
+      {
+        "en": "An unlimited period."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q042",
+    "group": 2,
+    "number": 42,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, a person may become a driver candidate, except a candidate for a subcategory AM vehicle, upon reaching:"
+    },
+    "options": [
+      {
+        "en": "15 years of age."
+      },
+      {
+        "en": "16 years of age."
+      },
+      {
+        "en": "17 years of age."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q043",
+    "group": 2,
+    "number": 43,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, stopping is:"
+    },
+    "options": [
+      {
+        "en": "Bringing a vehicle to a stationary position in response to a passenger’s request."
+      },
+      {
+        "en": "Intentionally bringing a vehicle to a stationary position for more than 5 minutes when this is not related to picking up or dropping off passengers or loading or unloading the vehicle."
+      },
+      {
+        "en": "Intentionally bringing a vehicle to a stationary position for up to 5 minutes, or for the time necessary to pick up or drop off passengers and/or to load or unload the vehicle."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q044",
+    "group": 2,
+    "number": 44,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, the maximum authorized mass of a vehicle is:"
+    },
+    "options": [
+      {
+        "en": "The maximum mass of a fully equipped and fueled vehicle."
+      },
+      {
+        "en": "The mass of a fully equipped and fueled vehicle loaded with the driver, passengers, and cargo, established by the manufacturer as the maximum permitted mass."
+      },
+      {
+        "en": "The mass of a vehicle loaded with the driver, passengers, and cargo, established by the manufacturer as the maximum permitted mass."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q045",
+    "group": 2,
+    "number": 45,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, persons authorized to operate category B, C, and D vehicles and subcategory C1 and D1 vehicles may also operate them with trailers if the trailer’s maximum authorized mass is:"
+    },
+    "options": [
+      {
+        "en": "950 kg."
+      },
+      {
+        "en": "850 kg."
+      },
+      {
+        "en": "750 kg."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q046",
+    "group": 2,
+    "number": 46,
+    "question": {
+      "en": "When entering a road with an asphalt-concrete surface from an unpaved road, the asphalt-concrete road:"
+    },
+    "options": [
+      {
+        "en": "Must be considered the priority road."
+      },
+      {
+        "en": "Must be considered a road of equal priority."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g2/q046.webp",
+    "explanation": null
+  },
+  {
+    "id": "g2-q047",
+    "group": 2,
+    "number": 47,
+    "question": {
+      "en": "How many traffic lanes are there on this roadway?"
+    },
+    "options": [
+      {
+        "en": "One."
+      },
+      {
+        "en": "Two."
+      },
+      {
+        "en": "Three."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g2/q047.webp",
+    "explanation": null
+  },
+  {
+    "id": "g2-q048",
+    "group": 2,
+    "number": 48,
+    "question": {
+      "en": "Under the indicated roadway width, is it permitted to proceed along the center of the roadway?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "Yes, when there is no oncoming traffic."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g2/q048.webp",
+    "explanation": null
+  },
+  {
+    "id": "g2-q049",
+    "group": 2,
+    "number": 49,
+    "question": {
+      "en": "Which of the following stationary objects is not considered an obstruction?"
+    },
+    "options": [
+      {
+        "en": "Damage to the roadway surface."
+      },
+      {
+        "en": "A foreign object."
+      },
+      {
+        "en": "A disabled or stationary automobile."
+      },
+      {
+        "en": "An automobile stopped because of traffic congestion."
+      }
+    ],
+    "answer": 4,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q050",
+    "group": 2,
+    "number": 50,
+    "question": {
+      "en": "Are the sidewalk and shoulders considered part of the road?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "Only the shoulder."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q051",
+    "group": 2,
+    "number": 51,
+    "question": {
+      "en": "How many roadways does this road have?"
+    },
+    "options": [
+      {
+        "en": "One."
+      },
+      {
+        "en": "Two."
+      },
+      {
+        "en": "Four."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g2/q051.webp",
+    "explanation": null
+  },
+  {
+    "id": "g2-q052",
+    "group": 2,
+    "number": 52,
+    "question": {
+      "en": "How many intersections are shown in this image?"
+    },
+    "options": [
+      {
+        "en": "One."
+      },
+      {
+        "en": "Two."
+      },
+      {
+        "en": "Four."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g2/q052.webp",
+    "explanation": null
+  },
+  {
+    "id": "g2-q053",
+    "group": 2,
+    "number": 53,
+    "question": {
+      "en": "How many intersections of roadways are there at this intersection?"
+    },
+    "options": [
+      {
+        "en": "One."
+      },
+      {
+        "en": "Two."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g2/q053.webp",
+    "explanation": null
+  },
+  {
+    "id": "g2-q054",
+    "group": 2,
+    "number": 54,
+    "question": {
+      "en": "How many traffic lanes does this road have?"
+    },
+    "options": [
+      {
+        "en": "Two."
+      },
+      {
+        "en": "Four."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g2/q054.webp",
+    "explanation": null
+  },
+  {
+    "id": "g2-q055",
+    "group": 2,
+    "number": 55,
+    "question": {
+      "en": "In which image does the road have a median?"
+    },
+    "options": [
+      {
+        "en": "Only in the right image."
+      },
+      {
+        "en": "In both images."
+      },
+      {
+        "en": "Only in the left image."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g2/q055.webp",
+    "explanation": null
+  },
+  {
+    "id": "g2-q056",
+    "group": 2,
+    "number": 56,
+    "question": {
+      "en": "To yield to other vehicles means that:"
+    },
+    "options": [
+      {
+        "en": "The driver must not continue or resume driving or perform any maneuver if doing so could force the drivers of other vehicles to change direction or speed."
+      },
+      {
+        "en": "The driver must not continue or resume driving or perform any maneuver if doing so could force the drivers of other vehicles to unexpectedly change direction or speed."
+      },
+      {
+        "en": "The driver must stop the vehicle unconditionally."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q057",
+    "group": 2,
+    "number": 57,
+    "question": {
+      "en": "In which image is an intersection shown?"
+    },
+    "options": [
+      {
+        "en": "Only in the left image."
+      },
+      {
+        "en": "Only in the right image."
+      },
+      {
+        "en": "In both images."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g2/q057.webp",
+    "explanation": null
+  },
+  {
+    "id": "g2-q058",
+    "group": 2,
+    "number": 58,
+    "question": {
+      "en": "How many intersections of roadways are there at the intersection?"
+    },
+    "options": [
+      {
+        "en": "One."
+      },
+      {
+        "en": "Two."
+      },
+      {
+        "en": "Four."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g2/q058.webp",
+    "explanation": null
+  },
+  {
+    "id": "g2-q059",
+    "group": 2,
+    "number": 59,
+    "question": {
+      "en": "A lane change means:"
+    },
+    "options": [
+      {
+        "en": "Leaving the traffic lane occupied by the vehicle while maintaining the original direction of movement."
+      },
+      {
+        "en": "Leaving the row occupied by the vehicle within a marked traffic lane while maintaining the original direction of movement."
+      },
+      {
+        "en": "Both of the listed cases."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q060",
+    "group": 2,
+    "number": 60,
+    "question": {
+      "en": "A turn means:"
+    },
+    "options": [
+      {
+        "en": "A maneuver performed for the purpose of entering another road."
+      },
+      {
+        "en": "A maneuver performed for the purpose of entering another road or an adjacent area from the road."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q061",
+    "group": 2,
+    "number": 61,
+    "question": {
+      "en": "A U-turn means:"
+    },
+    "options": [
+      {
+        "en": "Driving a vehicle in the opposite direction."
+      },
+      {
+        "en": "A maneuver performed for the purpose of changing the vehicle’s direction of movement to the opposite direction."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q062",
+    "group": 2,
+    "number": 62,
+    "question": {
+      "en": "Passing without leaving the lane means:"
+    },
+    "options": [
+      {
+        "en": "Proceeding ahead of one or more moving vehicles without leaving the occupied lane."
+      },
+      {
+        "en": "Proceeding ahead of one or more moving vehicles by leaving the occupied lane."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q063",
+    "group": 2,
+    "number": 63,
+    "question": {
+      "en": "Starting to move means:"
+    },
+    "options": [
+      {
+        "en": "The moment a vehicle begins moving from a stopping or parking location, with or without changing to an adjacent traffic lane."
+      },
+      {
+        "en": "The moment a vehicle begins moving from a stopping or parking location while changing to an adjacent traffic lane."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q064",
+    "group": 2,
+    "number": 64,
+    "question": {
+      "en": "Maneuvering means:"
+    },
+    "options": [
+      {
+        "en": "Starting to move a vehicle (involving entry into an adjacent traffic lane), changing lanes, changing direction, stopping (with a lane change), and backing."
+      },
+      {
+        "en": "Starting to move a vehicle, changing lanes, changing direction, stopping, and backing."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q065",
+    "group": 2,
+    "number": 65,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, a truck is:"
+    },
+    "options": [
+      {
+        "en": "An automobile designed by its construction and equipment for the transportation of cargo."
+      },
+      {
+        "en": "An automobile weighing more than 3.5 metric tons and designed by its construction and equipment for the transportation of cargo."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q066",
+    "group": 2,
+    "number": 66,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, a median is:"
+    },
+    "options": [
+      {
+        "en": "A structurally separated road element that divides adjacent roadways and is not intended for vehicle or pedestrian traffic or stopping."
+      },
+      {
+        "en": "A road element that divides adjacent roadways, is separated structurally and/or by appropriate pavement markings, and is not intended for vehicle or pedestrian traffic or stopping."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q067",
+    "group": 2,
+    "number": 67,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, a vehicle is:"
+    },
+    "options": [
+      {
+        "en": "An automobile and a motorcycle."
+      },
+      {
+        "en": "A device designed to transport a person, cargo, or equipment installed on it along a road."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q068",
+    "group": 2,
+    "number": 68,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, the following persons are considered equivalent to drivers:"
+    },
+    "options": [
+      {
+        "en": "A person driving pack and/or riding animals or livestock along a road."
+      },
+      {
+        "en": "A person driving pack and/or riding animals or livestock."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q069",
+    "group": 2,
+    "number": 69,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, the following are considered equivalent to motorcycles:"
+    },
+    "options": [
+      {
+        "en": "Three-wheeled motor vehicles with a mass of up to 400 kg in fully equipped and fueled condition, excluding the driver, cargo, and passengers."
+      },
+      {
+        "en": "All-terrain motor vehicles (quadricycles)."
+      },
+      {
+        "en": "Quadricycles with a motorcycle-type seating position or motorcycle-type handlebars."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q070",
+    "group": 2,
+    "number": 70,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, a sidewalk is:"
+    },
+    "options": [
+      {
+        "en": "A road element adjacent to the roadway and intended for pedestrian movement in accordance with the procedure established by law."
+      },
+      {
+        "en": "A road element separated from the roadway in any manner and intended for pedestrian movement in accordance with the procedure established by law."
+      },
+      {
+        "en": "Both of the listed cases."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q071",
+    "group": 2,
+    "number": 71,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, an automobile is:"
+    },
+    "options": [
+      {
+        "en": "A motor vehicle designed for transporting people or cargo on a road, or for towing a vehicle used to transport cargo, excluding vehicles such as agricultural tractors for which transporting people or cargo on a road, or towing a vehicle used to transport cargo, is only an additional function."
+      },
+      {
+        "en": "A motor vehicle designed for transporting people or cargo on a road, or for towing a vehicle used to transport cargo, including vehicles such as agricultural tractors for which transporting people or cargo on a road, or towing a vehicle used to transport cargo, is only an additional function."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q072",
+    "group": 2,
+    "number": 72,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, a national driver’s license of the Republic of Armenia authorizing the operation of Category “A” vehicles also authorizes the operation of:"
+    },
+    "options": [
+      {
+        "en": "Vehicles of subcategory “A1.”"
+      },
+      {
+        "en": "Vehicles of subcategory “AM.”"
+      },
+      {
+        "en": "Vehicles of subcategory “B1” having a motorcycle-type seat or handlebar."
+      },
+      {
+        "en": "All of the listed vehicles."
+      }
+    ],
+    "answer": 4,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q073",
+    "group": 2,
+    "number": 73,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, a national driver’s license of the Republic of Armenia authorizing the operation of Category “B” vehicles also authorizes the operation of:"
+    },
+    "options": [
+      {
+        "en": "Vehicles of subcategory “B1,” except vehicles having a motorcycle-type seat or handlebar."
+      },
+      {
+        "en": "Vehicles of subcategory “AM.”"
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q074",
+    "group": 2,
+    "number": 74,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, international driving permits issued by the competent authorities of the Republic of Armenia are considered, for purposes of driving vehicles within the territory of the Republic of Armenia:"
+    },
+    "options": [
+      {
+        "en": "Valid."
+      },
+      {
+        "en": "Invalid."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q075",
+    "group": 2,
+    "number": 75,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, the right to drive vehicles arises:"
+    },
+    "options": [
+      {
+        "en": "Upon receipt of the driver’s license."
+      },
+      {
+        "en": "Upon assignment of the digital version of the driver’s license."
+      },
+      {
+        "en": "In either case."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q076",
+    "group": 2,
+    "number": 76,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, driver’s licenses obtained in other countries by citizens of the Republic of Armenia, including dual citizens, that comply with the requirements for driver’s licenses under the 1968 Vienna Convention on Road Traffic and its subsequent amendments and supplements are considered valid within the territory of the Republic of Armenia, from the date those persons enter the Republic of Armenia, for:"
+    },
+    "options": [
+      {
+        "en": "One year."
+      },
+      {
+        "en": "Six months."
+      },
+      {
+        "en": "Three months."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q077",
+    "group": 2,
+    "number": 77,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, persons applying for a driver’s license for the first time to operate vehicles of which of the following categories must submit to the registration and examination division of the Ministry of Internal Affairs a certificate confirming that they have undergone medical certification?"
+    },
+    "options": [
+      {
+        "en": "Categories “B,” “C,” and “D.”"
+      },
+      {
+        "en": "Categories “C,” “D,” and “T.”"
+      },
+      {
+        "en": "Categories “B,” “D,” and “T.”"
+      },
+      {
+        "en": "Categories “B,” “C,” and “D1.”"
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q078",
+    "group": 2,
+    "number": 78,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, if a driver candidate undergoing practical driving instruction violates the traffic rules, liability in accordance with the law is borne by:"
+    },
+    "options": [
+      {
+        "en": "The driver candidate."
+      },
+      {
+        "en": "The driving instructor of the training center or the person providing individual practical driving instruction."
+      },
+      {
+        "en": "Both."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q079",
+    "group": 2,
+    "number": 79,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, when may an 18-year-old who holds a national driver’s license for Categories “B” and “C” obtain an international driving permit for the same categories?"
+    },
+    "options": [
+      {
+        "en": "At the same time as the national driver’s license is obtained."
+      },
+      {
+        "en": "After reaching 19 years of age."
+      },
+      {
+        "en": "After reaching 20 years of age."
+      },
+      {
+        "en": "After reaching 21 years of age."
+      }
+    ],
+    "answer": 4,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q080",
+    "group": 2,
+    "number": 80,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, when may a 19-year-old who holds a national driver’s license for Categories “BE” and “CE” obtain an international driving permit for the same categories?"
+    },
+    "options": [
+      {
+        "en": "At the same time as the national driver’s license is obtained."
+      },
+      {
+        "en": "After reaching 20 years of age."
+      },
+      {
+        "en": "After reaching 21 years of age."
+      },
+      {
+        "en": "After reaching 22 years of age."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q081",
+    "group": 2,
+    "number": 81,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, is a person holding a driver’s license for subcategory “C1” permitted to drive a truck whose maximum authorized mass exceeds 8500 kg?"
+    },
+    "options": [
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Not permitted."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g2-q082",
+    "group": 2,
+    "number": 82,
+    "question": {
+      "en": "According to the Law of the Republic of Armenia on Ensuring Road Traffic Safety, which of the following may be operated on public roads?"
+    },
+    "options": [
+      {
+        "en": "A quadricycle."
+      },
+      {
+        "en": "An all-terrain vehicle (ATV)."
+      },
+      {
+        "en": "Both."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  }
+]

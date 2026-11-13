@@ -10,6 +10,8 @@ export interface Settings {
   panelOpen: boolean
   /** Interface and question language. */
   lang: Lang
+  /** Group cards opened on the home screen (all closed by default). */
+  openGroups: number[]
 }
 
 /** First visit: Russian if the browser prefers it, otherwise English. */
@@ -26,6 +28,7 @@ export const settingsStore = createStore<Settings>('adt:settings:v1', {
   theme: 'dark',
   panelOpen: false,
   lang: defaultLang(),
+  openGroups: [],
 })
 
 export const useSettings = () => useStore(settingsStore)

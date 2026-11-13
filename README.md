@@ -1,7 +1,8 @@
 # Armenian Driving Theory — study app
 
 An unofficial study tool for the Armenian driving-licence theory exam.
-Covers **Group 1 (ABC categories)**: 147 questions, in English and Russian.
+Covers **Group 1** (147 questions) and **Group 2** (82 questions), ABC categories,
+in English and Russian.
 
 Questions: [Road Police of the Republic of Armenia](https://roadpolice.am).
 Question text, options and answers are copied from the official PDF unchanged.
@@ -107,19 +108,25 @@ language needs its "Answer" and "page" words added to `LABELS` in the script.
 
 ## Add a new group
 
-1. Put the PDF at `data/raw/group-2-en.pdf`.
-2. Extract it (set the real question count):
+Example: Group 3 with 90 questions.
+
+1. Put the PDFs at `data/raw/group-3-en.pdf` and `data/raw/group-3-ru.pdf`.
+2. Extract them (set the real question count, printed on the PDF's first page):
 
    ```bash
-   .venv\Scripts\python scripts/extract.py --group 2 --expected 150
+   .venv\Scripts\python -X utf8 scripts/extract.py --group 3 --expected 90
+   .venv\Scripts\python -X utf8 scripts/extract.py --group 3 --lang ru --expected 90 --share-images-with en
    ```
 
-   This writes `data/group-2-en.json`, `data/images/g2/` and
-   `data/review-g2.html`. Check the review page against the PDF.
-3. Add one line to `src/config.ts`:
+   This writes `data/group-3-en.json`, `data/group-3-ru.json`,
+   `data/images/g3/`, `data/review-g3.html` and `data/review-g3-ru.html`.
+   Check the review pages against the PDFs.
+3. Add one entry to `GROUPS` in `src/config.ts` (`topic` is the short
+   description shown on the home card):
 
    ```ts
-   { id: 2, files: { en: 'group-2-en.json' }, categories: 'ABC' },
+   { id: 3, files: { en: 'group-3-en.json', ru: 'group-3-ru.json' }, categories: 'ABC',
+     topic: { en: '…', ru: '…' } },
    ```
 
 The home screen, practice, mistakes and progress tracking pick it up from there.
@@ -139,6 +146,10 @@ differently, validation fails rather than producing wrong data.
   - When every question has been answered, a summary shows how many were right
     and wrong and the time spent. Time counts only while the practice screen is
     visible and in use (it pauses after 5 minutes without a tap or key press).
+- **Home screen**: each group is a card that opens and closes with the + / −
+  button (all closed at first; the choice is remembered). A closed card still
+  shows the group number, categories, question count, topic, how many are
+  answered, mistakes, highlights and a practice in progress.
 - **Highlighted questions**: the highlighter button next to the question
   number saves a question (a yellow dot marks it in the question grid). On the
   home screen, "Highlighted" lists them all; open one to see it with a grid of

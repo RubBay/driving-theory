@@ -26,4 +26,6 @@ export interface GroupConfig {
   files: Partial<Record<Lang, string>>
   /** Licence categories this group covers, shown on the home card. */
   categories: string
+  /** Short description of what the group is about, shown on the home card. */
+  topic?: LocalizedText
 }
