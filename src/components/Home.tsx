@@ -1,11 +1,12 @@
-import { useEffect, useRef, useState } from 'react'
+import { useState } from 'react'
 import { GROUPS } from '../config'
 import { t } from '../i18n'
 import { useGroupQuestions } from '../lib/data'
 import { percentages, resetGroup, summarize, useGroupProgress } from '../lib/progress'
 import { href } from '../lib/router'
-import { rememberLastQuestion } from '../lib/settings'
+import { clearRun, summarizeRun, useRun } from '../lib/run'
 import type { GroupConfig } from '../types'
+import { ConfirmDialog } from './Dialog'
 import { btn } from './ui'
 
 export default function Home() {
@@ -26,6 +27,8 @@ function GroupCard({ group }: { group: GroupConfig }) {
   const data = useGroupQuestions(group)
   const progress = useGroupProgress(group.id)
   const [confirming, setConfirming] = useState(false)
+  const run = useRun(group.id)
+  const runSummary = run && !run.finishedAt ? summarizeRun(run) : null
 
   const total = data.status === 'ready' ? data.questions.length : null
   const { answered, correct, wrong, mistakes, attemptsCorrect, attempts } = summarize(progress)
@@ -83,13 +86,15 @@ function GroupCard({ group }: { group: GroupConfig }) {
 
       <div className="mt-4 grid gap-2 sm:grid-cols-2">
         <a href={href.practice(group.id)} className={`${btn.primary} sm:col-span-2`}>
-          {t('group.practice')}
+          {runSummary
+            ? t('group.continue', { done: runSummary.done, total: runSummary.total })
+            : t('group.practice')}
         </a>
         <a href={href.mistakes(group.id)} className={btn.secondary}>
           {t('group.mistakes')}
           <span className="rounded-full bg-bad-bg px-2 py-0.5 text-sm text-bad-fg">{mistakes}</span>
         </a>
-        <button type="button" className={btn.danger} onClick={() => setConfirming(true)} disabled={answered === 0}>
+        <button type="button" className={btn.danger} onClick={() => setConfirming(true)} disabled={answered === 0 && !run}>
           {t('group.reset')}
         </button>
       </div>
@@ -101,7 +106,7 @@ function GroupCard({ group }: { group: GroupConfig }) {
           confirmLabel={t('group.resetConfirm')}
           onConfirm={() => {
             resetGroup(group.id)
-            rememberLastQuestion(group.id, 1) // Practice starts over from question 1
+            clearRun(group.id) // a practice in progress starts over too
             setConfirming(false)
           }}
           onCancel={() => setConfirming(false)}
@@ -118,43 +123,5 @@ function Stat({ label, value, tone }: { label: string; value: number; tone?: 'ok
       <dt className="text-sm text-muted">{label}</dt>
       <dd className={`text-2xl font-bold tabular-nums ${color}`}>{value}</dd>
     </div>
-  )
-}
-
-function ConfirmDialog(props: {
-  title: string
-  body: string
-  confirmLabel: string
-  onConfirm: () => void
-  onCancel: () => void
-}) {
-  const ref = useRef<HTMLDialogElement>(null)
-  useEffect(() => {
-    const dialog = ref.current
-    if (dialog && !dialog.open) dialog.showModal()
-  }, [])
-  return (
-    <dialog
-      ref={ref}
-      onCancel={(e) => {
-        e.preventDefault()
-        props.onCancel()
-      }}
-      aria-labelledby="confirm-title"
-      className="m-auto w-[min(92vw,26rem)] rounded-2xl border border-border bg-surface p-5 text-fg"
-    >
-      <h3 id="confirm-title" className="text-lg font-bold">
-        {props.title}
-      </h3>
-      <p className="mt-2 text-muted">{props.body}</p>
-      <div className="mt-5 grid grid-cols-2 gap-2">
-        <button type="button" className={btn.secondary} onClick={props.onCancel} autoFocus>
-          {t('common.cancel')}
-        </button>
-        <button type="button" className={btn.danger} onClick={props.onConfirm}>
-          {props.confirmLabel}
-        </button>
-      </div>
-    </dialog>
   )
 }

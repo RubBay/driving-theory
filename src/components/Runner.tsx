@@ -2,28 +2,13 @@ import { useCallback, useEffect, useMemo, useRef, useState, type ReactNode } fro
 import { MISTAKE_CLEAR_STREAK } from '../config'
 import { t, tx } from '../i18n'
 import { imageUrl, preloadImage } from '../lib/data'
-import { percentages, recordAnswer, useGroupProgress, type QuestionProgress } from '../lib/progress'
+import { percentages, recordAnswer, useGroupProgress } from '../lib/progress'
+import { FRESH_VIEW, type View } from '../lib/run'
 import { href } from '../lib/router'
 import { updateSettings, useSettings } from '../lib/settings'
 import type { GroupConfig, Question } from '../types'
 import ImageViewer from './ImageViewer'
 import { btn } from './ui'
-
-interface View {
-  /** Wrong options picked on this question during this visit, in order (1-based). They stay red. */
-  wrongs: number[]
-  /** The correct option was picked. */
-  correct: boolean
-  /** "Show answer" was pressed: the correct option is marked without recording an attempt. */
-  revealed: boolean
-  /** Progress entry produced by the latest answer given in this session. */
-  result?: QuestionProgress
-  /**
-   * Result recorded for this visit. Only the first pick of a visit is recorded,
-   * so several wrong picks (or wrong, then right) count as a single mistake.
-   */
-  counted?: 'correct' | 'wrong'
-}
 
 interface Props {
   group: GroupConfig
@@ -39,13 +24,34 @@ interface Props {
   tools?: ReactNode
   /** Hide the "All questions" panel (used while shuffle is on). */
   hideNavigator?: boolean
+  /** Controlled per-question state (Practice keeps it with the run); otherwise kept in memory. */
+  views?: Record<string, View>
+  onViewChange?: (id: string, view: View) => void
+  /** Shown under the question counter (e.g. run progress). */
+  status?: ReactNode
 }
 
 const SWIPE_MIN_PX = 60
 
-export default function Runner({ group, mode, title, questions, index, onIndex, onEnd, tools, hideNavigator }: Props) {
+export default function Runner({
+  group,
+  mode,
+  title,
+  questions,
+  index,
+  onIndex,
+  onEnd,
+  tools,
+  hideNavigator,
+  views: controlledViews,
+  onViewChange,
+  status,
+}: Props) {
   const progress = useGroupProgress(group.id)
-  const [views, setViews] = useState<Record<string, View>>({})
+  const [localViews, setLocalViews] = useState<Record<string, View>>({})
+  const views = controlledViews ?? localViews
+  const setView = (id: string, next: View) =>
+    onViewChange ? onViewChange(id, next) : setLocalViews((v) => ({ ...v, [id]: next }))
   const { panelOpen: navOpen } = useSettings()
   const [viewer, setViewer] = useState(false)
   const touchStart = useRef<{ x: number; y: number } | null>(null)
@@ -54,16 +60,8 @@ export default function Runner({ group, mode, title, questions, index, onIndex, 
   const q = questions[index]
   const saved = progress[q.id]
 
-  // Practice reopens a question as you last left it: locked on a correct answer,
-  // or with your wrong pick still red and the other options open.
-  // "My mistakes" always starts fresh.
-  const view: View =
-    views[q.id] ??
-    (mode === 'practice' && saved
-      ? saved.lastResult === 'correct'
-        ? { wrongs: [], correct: true, revealed: false }
-        : { wrongs: [saved.choice], correct: false, revealed: false }
-      : { wrongs: [], correct: false, revealed: false })
+  // Each question starts unanswered in a new practice run or mistakes round.
+  const view: View = views[q.id] ?? FRESH_VIEW
   /** Every wrong option has been picked: only the correct one is left. */
   const allWrong = view.wrongs.length >= q.options.length - 1
   /** The question is finished: correct answer picked, shown, or no wrong options left. */
@@ -94,17 +92,14 @@ export default function Runner({ group, mode, title, questions, index, onIndex, 
       const first = view.counted === undefined
       const result = first ? recordAnswer(group.id, q, choice) : view.result
       const counted = first ? (correct ? 'correct' : 'wrong') : view.counted
-      setViews((v) => ({
-        ...v,
-        [q.id]: { ...view, wrongs: correct ? view.wrongs : [...view.wrongs, choice], correct, result, counted },
-      }))
+      setView(q.id, { ...view, wrongs: correct ? view.wrongs : [...view.wrongs, choice], correct, result, counted })
       if (!correct) focusOptions.current = true
     },
-    [locked, q, group.id, view],
+    [locked, q, group.id, view, setView],
   )
 
   /** Mark the correct option without recording an attempt. */
-  const reveal = () => setViews((v) => ({ ...v, [q.id]: { ...view, revealed: true } }))
+  const reveal = () => setView(q.id, { ...view, revealed: true })
 
   // A wrong pick disables that button, so move focus to the first option still open.
   const focusOptions = useRef(false)
@@ -223,6 +218,7 @@ export default function Runner({ group, mode, title, questions, index, onIndex, 
           </p>
           {q.number !== index + 1 && <p className="text-sm text-muted">{t('runner.number', { n: q.number })}</p>}
         </div>
+        {status}
 
         <div className="mt-1 text-sm text-muted">
           {record.attempts === 0 ? (

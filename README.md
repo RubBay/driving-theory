@@ -112,15 +112,17 @@ differently, validation fails rather than producing wrong data.
 
 ## How progress works
 
-- **Practice**: each visit to a question counts as one attempt, decided by
-  your first pick: several wrong picks (or wrong, then right) count as a single
-  mistake. A wrong pick
-  turns red and stays red; the other options stay open, without giving the
-  correct one away. The question locks when you pick the correct answer, press
-  "Show answer" (which records nothing), or have picked every wrong option, in
-  which case the correct one is marked automatically. A question you already
-  answered reopens locked if you last got it right, or with your last wrong
-  pick in red otherwise.
+- **Practice**: you start by choosing "Question by question" (1 to N in order)
+  or "Shuffle". The order is fixed for the whole practice and saved, so you can
+  close the app and continue later; "New practice" starts over.
+  - Each question is answered once per practice, decided by your first pick:
+    several wrong picks (or wrong, then right) count as a single mistake. Wrong
+    picks turn red and stay red; the other options stay open, without giving
+    the correct one away. The correct answer is marked when you pick it, press
+    "Show answer" (which records nothing), or have picked every wrong option.
+  - When every question has been answered, a summary shows how many were right
+    and wrong and the time spent. Time counts only while the practice screen is
+    visible and in use (it pauses after 5 minutes without a tap or key press).
 - **Statistics**: every attempt is counted per question (`correctCount`,
   `wrongCount`, `lastResult`, `lastAnsweredAt`) and shown under the question
   counter. The question grid is coloured by the last attempt.

@@ -34,6 +34,17 @@ export interface Store<T> {
 export function createStore<T extends object>(key: string, defaults: T): Store<T> {
   let state: T = { ...defaults, ...readJSON<Partial<T>>(key, {}) }
   const listeners = new Set<() => void>()
+  // Another tab changed the same key: take its version, so this tab does not
+  // later write stale data over it.
+  try {
+    window.addEventListener('storage', (e) => {
+      if (e.key !== key) return
+      state = { ...defaults, ...readJSON<Partial<T>>(key, {}) }
+      listeners.forEach((l) => l())
+    })
+  } catch {
+    /* no window events: nothing to sync */
+  }
   return {
     get: () => state,
     set(next) {
