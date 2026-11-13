@@ -3,16 +3,18 @@ import { MISTAKE_CLEAR_STREAK } from '../config'
 import { t, tx } from '../i18n'
 import { imageUrl, preloadImage } from '../lib/data'
 import { percentages, recordAnswer, useGroupProgress } from '../lib/progress'
+import { toggleHighlight, useHighlights } from '../lib/highlights'
 import { FRESH_VIEW, type View } from '../lib/run'
 import { href } from '../lib/router'
 import { updateSettings, useSettings } from '../lib/settings'
 import type { GroupConfig, Question } from '../types'
 import ImageViewer from './ImageViewer'
+import { HighlighterIcon } from './icons'
 import { btn } from './ui'
 
 interface Props {
   group: GroupConfig
-  mode: 'practice' | 'mistakes'
+  mode: 'practice' | 'mistakes' | 'highlights'
   title: string
   /** Questions in display order. */
   questions: Question[]
@@ -29,6 +31,13 @@ interface Props {
   onViewChange?: (id: string, view: View) => void
   /** Shown under the question counter (e.g. run progress). */
   status?: ReactNode
+  /** Where the back link at the top goes (default: home). */
+  backHref?: string
+  backLabel?: string
+  /** Keep the "All questions" panel open, without its toggle. */
+  forceNavigatorOpen?: boolean
+  /** Heading of the question panel (default "All questions"). */
+  navigatorTitle?: string
 }
 
 const SWIPE_MIN_PX = 60
@@ -46,13 +55,19 @@ export default function Runner({
   views: controlledViews,
   onViewChange,
   status,
+  backHref = href.home,
+  backLabel,
+  forceNavigatorOpen = false,
+  navigatorTitle,
 }: Props) {
   const progress = useGroupProgress(group.id)
   const [localViews, setLocalViews] = useState<Record<string, View>>({})
   const views = controlledViews ?? localViews
   const setView = (id: string, next: View) =>
     onViewChange ? onViewChange(id, next) : setLocalViews((v) => ({ ...v, [id]: next }))
-  const { panelOpen: navOpen } = useSettings()
+  const { panelOpen } = useSettings()
+  const navOpen = forceNavigatorOpen || panelOpen
+  const highlights = useHighlights(group.id)
   const [viewer, setViewer] = useState(false)
   const touchStart = useRef<{ x: number; y: number } | null>(null)
 
@@ -198,11 +213,11 @@ export default function Runner({
       />
       <section onTouchStart={onTouchStart} onTouchEnd={onTouchEnd} aria-label={title} className="lg:max-w-2xl lg:min-w-0 lg:flex-1">
         <div className="flex items-center justify-between gap-3">
-          <a href={href.home} className="-ml-1 inline-flex min-h-11 items-center gap-1 rounded-lg px-1 text-accent">
+          <a href={backHref} className="-ml-1 inline-flex min-h-11 items-center gap-1 rounded-lg px-1 text-accent">
             <svg viewBox="0 0 24 24" className="size-5" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
               <path d="M15 5l-7 7 7 7" />
             </svg>
-            {t('common.back')}
+            {backLabel ?? t('common.back')}
           </a>
           <p className="text-sm text-muted">
             {title} · {t('group.title', { n: group.id })}
@@ -217,6 +232,11 @@ export default function Runner({
             {t('runner.position', { current: index + 1, total })}
           </p>
           {q.number !== index + 1 && <p className="text-sm text-muted">{t('runner.number', { n: q.number })}</p>}
+          <HighlightButton
+            on={highlights.includes(q.id)}
+            number={q.number}
+            onClick={() => toggleHighlight(group.id, q.id)}
+          />
         </div>
         {status}
 
@@ -335,9 +355,9 @@ export default function Runner({
           navOpen ? 'lg:w-80' : 'lg:w-52'
         }`}
       >
-        <div className="flex items-center justify-between gap-2">
-          <h2 className="font-semibold whitespace-nowrap">{t('runner.navigator')}</h2>
-          <button
+        <div className="flex min-h-11 items-center justify-between gap-2">
+          <h2 className="font-semibold whitespace-nowrap">{navigatorTitle ?? t('runner.navigator')}</h2>
+          {!forceNavigatorOpen && <button
             type="button"
             aria-expanded={navOpen}
             aria-controls="question-navigator"
@@ -347,7 +367,7 @@ export default function Runner({
             className="grid size-11 shrink-0 place-items-center rounded-lg border border-border bg-surface-2 text-2xl leading-none font-semibold text-fg"
           >
             <span aria-hidden="true">{navOpen ? '−' : '+'}</span>
-          </button>
+          </button>}
         </div>
         {/* Height animates via grid rows (0fr <-> 1fr); `inert` keeps the hidden grid out of tab order. */}
         <div
@@ -361,6 +381,7 @@ export default function Runner({
           <Legend cls="border-border bg-surface-2" label={t('legend.unanswered')} />
           <Legend cls="border-ok-border bg-ok-bg" label={t('legend.correct')} />
           <Legend cls="border-bad-border bg-bad-bg" label={t('legend.wrong')} />
+          {highlights.length > 0 && <Legend cls="rounded-full border-hl bg-hl" label={t('legend.highlighted')} />}
         </ul>
         <ol className="mt-3 grid max-h-[26rem] list-none grid-cols-6 gap-1.5 overflow-y-auto p-1">
           {byNumber.map(({ item, i }) => {
@@ -386,10 +407,13 @@ export default function Runner({
                       ? t('runner.jumpTo', { n: item.number, status })
                       : t('runner.jumpToStats', { n: item.number, status, pct })
                   }
-                  className={`flex aspect-square w-full min-w-0 flex-col items-center justify-center gap-0.5 rounded-lg border text-sm font-semibold tabular-nums ${cls} ${
+                  className={`relative flex aspect-square w-full min-w-0 flex-col items-center justify-center gap-0.5 rounded-lg border text-sm font-semibold tabular-nums ${cls} ${
                     current ? 'ring-2 ring-accent ring-offset-2 ring-offset-surface' : ''
                   }`}
                 >
+                  {highlights.includes(item.id) && (
+                    <span className="absolute top-0.5 right-0.5 size-2 rounded-full bg-hl" aria-hidden="true" />
+                  )}
                   <span className="leading-none">{item.number}</span>
                   {pct != null && (
                     <span className="text-[0.6875rem] leading-none font-normal" aria-hidden="true">
@@ -428,5 +452,23 @@ function Legend({ cls, label }: { cls: string; label: string }) {
       <span className={`inline-block size-3.5 rounded border ${cls}`} aria-hidden="true" />
       {label}
     </li>
+  )
+}
+
+/** Highlighter toggle: saves the question to "Highlighted questions". */
+export function HighlightButton({ on, number, onClick }: { on: boolean; number: number; onClick: () => void }) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      aria-pressed={on}
+      aria-label={t(on ? 'highlights.remove' : 'highlights.add', { n: number })}
+      title={t(on ? 'highlights.remove' : 'highlights.add', { n: number })}
+      className={`ml-auto grid size-11 shrink-0 place-items-center self-center rounded-lg border-2 ${
+        on ? 'border-hl bg-hl-bg text-hl' : 'border-border bg-surface-2 text-muted'
+      }`}
+    >
+      <HighlighterIcon filled={on} />
+    </button>
   )
 }

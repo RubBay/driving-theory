@@ -5,10 +5,14 @@ export type Route =
   | { name: 'home' }
   | { name: 'practice'; groupId: number }
   | { name: 'mistakes'; groupId: number }
+  /** Highlighted questions: the list, or one question (by its number) with the grid. */
+  | { name: 'highlights'; groupId: number; number: number | null }
 
 function parse(hash: string): Route {
   const m = /^#\/(practice|mistakes)\/(\d+)$/.exec(hash)
   if (m) return { name: m[1] as 'practice' | 'mistakes', groupId: Number(m[2]) }
+  const h = /^#\/highlights\/(\d+)(?:\/(\d+))?$/.exec(hash)
+  if (h) return { name: 'highlights', groupId: Number(h[1]), number: h[2] ? Number(h[2]) : null }
   return { name: 'home' }
 }
 
@@ -26,4 +30,6 @@ export const href = {
   home: '#/',
   practice: (groupId: number) => `#/practice/${groupId}`,
   mistakes: (groupId: number) => `#/mistakes/${groupId}`,
+  highlights: (groupId: number, number?: number) =>
+    number == null ? `#/highlights/${groupId}` : `#/highlights/${groupId}/${number}`,
 }

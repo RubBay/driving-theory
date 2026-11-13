@@ -8,6 +8,7 @@ import Home from './components/Home'
 // The question screens are split out so the home screen loads fast.
 const Practice = lazy(() => import('./components/Practice'))
 const Mistakes = lazy(() => import('./components/Mistakes'))
+const Highlights = lazy(() => import('./components/Highlights'))
 
 export default function App() {
   const route = useRoute()
@@ -23,6 +24,7 @@ export default function App() {
   if (route.name === 'home') screen = <Home />
   else if (!group) screen = <Message text={t('common.notFound')} />
   else if (route.name === 'practice') screen = <Practice key={group.id} group={group} />
+  else if (route.name === 'highlights') screen = <Highlights key={group.id} group={group} number={route.number} />
   else screen = <Mistakes key={group.id} group={group} />
 
   return (

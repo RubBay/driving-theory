@@ -18,6 +18,8 @@
   --bad-border: #f4707b;
   --bad-fg: #ffd6d9;
   --focus: #ffd24a;
+  --hl: #f5c518;
+  --hl-bg: #3d3310;
 }
 
 :root[data-theme='light'] {
@@ -37,6 +39,8 @@
   --bad-border: #c22d3a;
   --bad-fg: #74131c;
   --focus: #b3470a;
+  --hl: #9a6b00;
+  --hl-bg: #fff1c2;
 }
 
 @theme inline {
@@ -54,6 +58,8 @@
   --color-bad-bg: var(--bad-bg);
   --color-bad-border: var(--bad-border);
   --color-bad-fg: var(--bad-fg);
+  --color-hl: var(--hl);
+  --color-hl-bg: var(--hl-bg);
 }
 
 html {

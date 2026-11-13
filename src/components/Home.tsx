@@ -4,9 +4,11 @@ import { t } from '../i18n'
 import { useGroupQuestions } from '../lib/data'
 import { percentages, resetGroup, summarize, useGroupProgress } from '../lib/progress'
 import { href } from '../lib/router'
+import { useHighlights } from '../lib/highlights'
 import { clearRun, summarizeRun, useRun } from '../lib/run'
 import type { GroupConfig } from '../types'
 import { ConfirmDialog } from './Dialog'
+import { HighlighterIcon } from './icons'
 import { btn } from './ui'
 
 export default function Home() {
@@ -28,6 +30,7 @@ function GroupCard({ group }: { group: GroupConfig }) {
   const progress = useGroupProgress(group.id)
   const [confirming, setConfirming] = useState(false)
   const run = useRun(group.id)
+  const highlighted = useHighlights(group.id).length
   const runSummary = run && !run.finishedAt ? summarizeRun(run) : null
 
   const total = data.status === 'ready' ? data.questions.length : null
@@ -94,7 +97,12 @@ function GroupCard({ group }: { group: GroupConfig }) {
           {t('group.mistakes')}
           <span className="rounded-full bg-bad-bg px-2 py-0.5 text-sm text-bad-fg">{mistakes}</span>
         </a>
-        <button type="button" className={btn.danger} onClick={() => setConfirming(true)} disabled={answered === 0 && !run}>
+        <a href={href.highlights(group.id)} className={btn.secondary}>
+          <HighlighterIcon className="size-5 text-hl" />
+          {t('highlights.title')}
+          <span className="rounded-full bg-hl-bg px-2 py-0.5 text-sm text-hl">{highlighted}</span>
+        </a>
+        <button type="button" className={`${btn.danger} sm:col-span-2`} onClick={() => setConfirming(true)} disabled={answered === 0 && !run}>
           {t('group.reset')}
         </button>
       </div>

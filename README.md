@@ -123,6 +123,11 @@ differently, validation fails rather than producing wrong data.
   - When every question has been answered, a summary shows how many were right
     and wrong and the time spent. Time counts only while the practice screen is
     visible and in use (it pauses after 5 minutes without a tap or key press).
+- **Highlighted questions**: the highlighter button next to the question
+  number saves a question (a yellow dot marks it in the question grid). On the
+  home screen, "Highlighted" lists them all; open one to see it with a grid of
+  only the highlighted questions on the right. Highlights are kept when you
+  reset progress.
 - **Statistics**: every attempt is counted per question (`correctCount`,
   `wrongCount`, `lastResult`, `lastAnsweredAt`) and shown under the question
   counter. The question grid is coloured by the last attempt.
