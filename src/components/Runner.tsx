@@ -18,6 +18,11 @@ interface View {
   revealed: boolean
   /** Progress entry produced by the latest answer given in this session. */
   result?: QuestionProgress
+  /**
+   * Result recorded for this visit. Only the first pick of a visit is recorded,
+   * so several wrong picks (or wrong, then right) count as a single mistake.
+   */
+  counted?: 'correct' | 'wrong'
 }
 
 interface Props {
@@ -78,15 +83,20 @@ export default function Runner({ group, mode, title, questions, index, onIndex, 
     [total, onIndex, onEnd],
   )
 
-  /** Every tap on an open option counts as one attempt. */
+  /**
+   * One attempt per visit: the first pick is recorded in the statistics; later
+   * picks on the same visit only update what is shown.
+   */
   const answer = useCallback(
     (choice: number) => {
       if (locked || choice < 1 || choice > q.options.length || view.wrongs.includes(choice)) return
-      const result = recordAnswer(group.id, q, choice)
       const correct = choice === q.answer
+      const first = view.counted === undefined
+      const result = first ? recordAnswer(group.id, q, choice) : view.result
+      const counted = first ? (correct ? 'correct' : 'wrong') : view.counted
       setViews((v) => ({
         ...v,
-        [q.id]: { ...view, wrongs: correct ? view.wrongs : [...view.wrongs, choice], correct, result },
+        [q.id]: { ...view, wrongs: correct ? view.wrongs : [...view.wrongs, choice], correct, result, counted },
       }))
       if (!correct) focusOptions.current = true
     },
@@ -155,7 +165,14 @@ export default function Runner({ group, mode, title, questions, index, onIndex, 
   const latest = view.result ?? saved
   const streak = latest?.streak ?? 0
   let feedback: ReactNode = null
-  if (view.correct) {
+  if (view.correct && view.counted === 'wrong') {
+    feedback = (
+      <>
+        <p className="font-semibold">{t('feedback.correct')}</p>
+        <p>{t('feedback.countedWrong')}</p>
+      </>
+    )
+  } else if (view.correct) {
     feedback = (
       <>
         <p className="font-semibold">{t('feedback.correct')}</p>

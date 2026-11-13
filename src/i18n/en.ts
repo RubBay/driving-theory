@@ -65,6 +65,7 @@ const en = {
   'feedback.correct': 'Correct.',
   'feedback.wrong': 'Wrong. The correct answer is {n}.',
   'feedback.chooseAnother': 'Wrong. Choose another answer.',
+  'feedback.countedWrong': 'It still counts as one mistake, because your first answer was wrong.',
   'feedback.revealed': 'The correct answer is {n}.',
   'feedback.yourAnswer': 'your answer',
   'feedback.correctAnswer': 'correct answer',

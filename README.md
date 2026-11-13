@@ -112,7 +112,9 @@ differently, validation fails rather than producing wrong data.
 
 ## How progress works
 
-- **Practice**: every tap on an answer counts as one attempt. A wrong pick
+- **Practice**: each visit to a question counts as one attempt, decided by
+  your first pick: several wrong picks (or wrong, then right) count as a single
+  mistake. A wrong pick
   turns red and stays red; the other options stay open, without giving the
   correct one away. The question locks when you pick the correct answer, press
   "Show answer" (which records nothing), or have picked every wrong option, in
