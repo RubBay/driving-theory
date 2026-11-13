@@ -10,13 +10,13 @@ import ImageViewer from './ImageViewer'
 import { btn } from './ui'
 
 interface View {
-  /** Option picked in this view (1-based), or null. */
-  choice: number | null
-  /** "Show answer" was used: the answer is visible but nothing is recorded. */
+  /** Wrong options picked on this question during this visit, in order (1-based). They stay red. */
+  wrongs: number[]
+  /** The correct option was picked. */
+  correct: boolean
+  /** "Show answer" was pressed: the correct option is marked without recording an attempt. */
   revealed: boolean
-  /** After a wrong answer: "Show answer" was pressed, so the correct option is marked. */
-  shown?: boolean
-  /** Progress entry produced by the answer given in this session. */
+  /** Progress entry produced by the latest answer given in this session. */
   result?: QuestionProgress
 }
 
@@ -49,15 +49,21 @@ export default function Runner({ group, mode, title, questions, index, onIndex, 
   const q = questions[index]
   const saved = progress[q.id]
 
-  // Practice shows earlier answers as locked; "My mistakes" always starts fresh.
+  // Practice reopens a question as you last left it: locked on a correct answer,
+  // or with your wrong pick still red and the other options open.
+  // "My mistakes" always starts fresh.
   const view: View =
     views[q.id] ??
-    (mode === 'practice' && saved ? { choice: saved.choice, revealed: false } : { choice: null, revealed: false })
-  const locked = view.choice != null || view.revealed
-  const isCorrect = view.choice === q.answer
-  const isWrong = view.choice != null && !isCorrect
-  /** A wrong answer does not give the correct one away until "Show answer" is pressed. */
-  const answerVisible = view.revealed || isCorrect || Boolean(view.shown)
+    (mode === 'practice' && saved
+      ? saved.lastResult === 'correct'
+        ? { wrongs: [], correct: true, revealed: false }
+        : { wrongs: [saved.choice], correct: false, revealed: false }
+      : { wrongs: [], correct: false, revealed: false })
+  /** Every wrong option has been picked: only the correct one is left. */
+  const allWrong = view.wrongs.length >= q.options.length - 1
+  /** The question is finished: correct answer picked, shown, or no wrong options left. */
+  const locked = view.correct || view.revealed || allWrong
+  const hasWrong = view.wrongs.length > 0
   const optionsRef = useRef<HTMLOListElement>(null)
 
   const go = useCallback(
@@ -72,33 +78,30 @@ export default function Runner({ group, mode, title, questions, index, onIndex, 
     [total, onIndex, onEnd],
   )
 
+  /** Every tap on an open option counts as one attempt. */
   const answer = useCallback(
     (choice: number) => {
-      if (locked || choice < 1 || choice > q.options.length) return
+      if (locked || choice < 1 || choice > q.options.length || view.wrongs.includes(choice)) return
       const result = recordAnswer(group.id, q, choice)
-      setViews((v) => ({ ...v, [q.id]: { choice, revealed: false, result } }))
+      const correct = choice === q.answer
+      setViews((v) => ({
+        ...v,
+        [q.id]: { ...view, wrongs: correct ? view.wrongs : [...view.wrongs, choice], correct, result },
+      }))
+      if (!correct) focusOptions.current = true
     },
-    [locked, q, group.id],
+    [locked, q, group.id, view],
   )
 
-  /** Before answering: show the answer without recording an attempt. */
-  const reveal = () => setViews((v) => ({ ...v, [q.id]: { choice: null, revealed: true } }))
-  /** After a wrong answer: mark the correct option. */
-  const showAfterWrong = () => setViews((v) => ({ ...v, [q.id]: { ...view, shown: true } }))
-  /** Unlock the answers for a new attempt (statistics are kept). */
-  const tryAgain = () => {
-    setViews((v) => ({ ...v, [q.id]: { choice: null, revealed: false } }))
-    focusOptions.current = true
-  }
+  /** Mark the correct option without recording an attempt. */
+  const reveal = () => setViews((v) => ({ ...v, [q.id]: { ...view, revealed: true } }))
 
-  // After "Try again" the button disappears, so move focus to the first answer
-  // (once the re-render has enabled the answer buttons again).
+  // A wrong pick disables that button, so move focus to the first option still open.
   const focusOptions = useRef(false)
   useEffect(() => {
-    if (focusOptions.current && !locked) {
-      focusOptions.current = false
-      optionsRef.current?.querySelector('button')?.focus()
-    }
+    if (!focusOptions.current) return
+    focusOptions.current = false
+    if (!locked) optionsRef.current?.querySelector<HTMLButtonElement>('button:not(:disabled)')?.focus()
   })
 
   const record = percentages(saved?.correctCount ?? 0, saved?.wrongCount ?? 0)
@@ -149,28 +152,28 @@ export default function Runner({ group, mode, title, questions, index, onIndex, 
   const imgAlt = t('runner.imageAlt', { n: q.number })
   const isLast = index === total - 1
 
+  const latest = view.result ?? saved
+  const streak = latest?.streak ?? 0
   let feedback: ReactNode = null
-  if (view.revealed) {
-    feedback = <p>{t('feedback.revealed', { n: q.answer })}</p>
-  } else if (view.choice != null) {
-    const latest = view.result ?? saved
-    const streak = latest?.streak ?? 0
+  if (view.correct) {
+    feedback = (
+      <>
+        <p className="font-semibold">{t('feedback.correct')}</p>
+        {latest?.mistake && <p>{t('feedback.streak', { streak, needed: MISTAKE_CLEAR_STREAK })}</p>}
+        {mode === 'mistakes' && latest && !latest.mistake && <p>{t('feedback.cleared')}</p>}
+      </>
+    )
+  } else if (hasWrong) {
     feedback = (
       <>
         <p className="font-semibold">
-          {isCorrect
-            ? t('feedback.correct')
-            : view.shown
-              ? t('feedback.wrong', { n: q.answer })
-              : t('feedback.wrongOnly')}
+          {locked ? t('feedback.wrong', { n: q.answer }) : t('feedback.chooseAnother')}
         </p>
-        {isCorrect && latest?.mistake && (
-          <p>{t('feedback.streak', { streak, needed: MISTAKE_CLEAR_STREAK })}</p>
-        )}
-        {isCorrect && mode === 'mistakes' && latest && !latest.mistake && <p>{t('feedback.cleared')}</p>}
-        {!isCorrect && mode === 'mistakes' && <p>{t('feedback.stays', { needed: MISTAKE_CLEAR_STREAK })}</p>}
+        {mode === 'mistakes' && <p>{t('feedback.stays', { needed: MISTAKE_CLEAR_STREAK })}</p>}
       </>
     )
+  } else if (view.revealed) {
+    feedback = <p>{t('feedback.revealed', { n: q.answer })}</p>
   }
 
   return (
@@ -240,8 +243,8 @@ export default function Runner({ group, mode, title, questions, index, onIndex, 
         <ol ref={optionsRef} className="mt-4 grid list-none gap-2.5 p-0">
           {q.options.map((opt, i) => {
             const n = i + 1
-            const showCorrect = answerVisible && n === q.answer
-            const showWrong = view.choice === n && n !== q.answer
+            const showCorrect = locked && n === q.answer
+            const showWrong = view.wrongs.includes(n)
             let cls = 'border-border bg-surface text-fg'
             if (showCorrect) cls = 'border-ok-border bg-ok-bg text-ok-fg'
             else if (showWrong) cls = 'border-bad-border bg-bad-bg text-bad-fg'
@@ -251,7 +254,7 @@ export default function Runner({ group, mode, title, questions, index, onIndex, 
                 <button
                   type="button"
                   onClick={() => answer(n)}
-                  disabled={locked}
+                  disabled={locked || showWrong}
                   className={`flex min-h-14 w-full items-center gap-3 rounded-xl border-2 px-3 py-3 text-left text-base ${cls}`}
                 >
                   <span className="grid size-8 shrink-0 place-items-center rounded-full border border-current text-sm font-bold" aria-hidden="true">
@@ -271,7 +274,7 @@ export default function Runner({ group, mode, title, questions, index, onIndex, 
           {feedback && (
             <div
               className={`rounded-xl border px-3 py-2 ${
-                view.choice != null && !isCorrect
+                hasWrong && !view.correct
                   ? 'border-bad-border bg-bad-bg text-bad-fg'
                   : 'border-ok-border bg-ok-bg text-ok-fg'
               }`}
@@ -281,22 +284,7 @@ export default function Runner({ group, mode, title, questions, index, onIndex, 
           )}
         </div>
 
-        {/* After a wrong answer (or "Show answer" before answering): offer a new attempt,
-            and reveal the correct option only on request. Not shown after a correct answer. */}
-        {(isWrong || view.revealed) && (
-          <div className="mt-3 grid grid-cols-2 gap-2 sm:flex">
-            <button type="button" className={btn.primary} onClick={tryAgain}>
-              {t('runner.tryAgain')}
-            </button>
-            {isWrong && !view.shown && (
-              <button type="button" className={btn.secondary} onClick={showAfterWrong}>
-                {t('runner.showAnswer')}
-              </button>
-            )}
-          </div>
-        )}
-
-        {answerVisible && q.explanation && (
+        {locked && q.explanation && (
           <div className="mt-3 rounded-xl border border-border bg-surface p-3">
             <h2 className="text-sm font-semibold text-muted">{t('runner.explanation')}</h2>
             <p className="mt-1">{tx(q.explanation)}</p>

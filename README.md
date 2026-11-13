@@ -112,10 +112,13 @@ differently, validation fails rather than producing wrong data.
 
 ## How progress works
 
-- **Practice**: the first tap on an answer counts as one attempt and the
-  question locks. A question you already answered opens locked on your last
-  answer; "Try again" unlocks it for a new attempt. "Show answer" reveals the
-  answer without recording anything.
+- **Practice**: every tap on an answer counts as one attempt. A wrong pick
+  turns red and stays red; the other options stay open, without giving the
+  correct one away. The question locks when you pick the correct answer, press
+  "Show answer" (which records nothing), or have picked every wrong option, in
+  which case the correct one is marked automatically. A question you already
+  answered reopens locked if you last got it right, or with your last wrong
+  pick in red otherwise.
 - **Statistics**: every attempt is counted per question (`correctCount`,
   `wrongCount`, `lastResult`, `lastAnsweredAt`) and shown under the question
   counter. The question grid is coloured by the last attempt.

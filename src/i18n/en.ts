@@ -42,7 +42,6 @@ const en = {
   'runner.nextRound': 'Next round',
   'runner.shuffle': 'Shuffle question order',
   'runner.showAnswer': 'Show answer',
-  'runner.tryAgain': 'Try again',
   'runner.navigator': 'All questions',
   'runner.navigatorShow': 'Show question list',
   'runner.navigatorHide': 'Hide question list',
@@ -65,7 +64,7 @@ const en = {
 
   'feedback.correct': 'Correct.',
   'feedback.wrong': 'Wrong. The correct answer is {n}.',
-  'feedback.wrongOnly': 'Wrong.',
+  'feedback.chooseAnother': 'Wrong. Choose another answer.',
   'feedback.revealed': 'The correct answer is {n}.',
   'feedback.yourAnswer': 'your answer',
   'feedback.correctAnswer': 'correct answer',
