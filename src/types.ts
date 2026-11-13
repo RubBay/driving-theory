@@ -24,6 +24,8 @@ export interface GroupConfig {
    * language. They are merged into one list; the English file is the base.
    */
   files: Partial<Record<Lang, string>>
+  /** Number of questions (shown on the home card without loading the files). */
+  questions: number
   /** Licence categories this group covers, shown on the home card. */
   categories: string
   /** Short description of what the group is about, shown on the home card. */

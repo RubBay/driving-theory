@@ -1,0 +1,2026 @@
+[
+  {
+    "id": "g6-q001",
+    "group": 6,
+    "number": 1,
+    "question": {
+      "en": "Traffic is prohibited for:"
+    },
+    "options": [
+      {
+        "en": "The red and white automobiles."
+      },
+      {
+        "en": "The blue, green, and white automobiles."
+      },
+      {
+        "en": "The white, blue, and yellow automobiles."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g6/q001.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q002",
+    "group": 6,
+    "number": 2,
+    "question": {
+      "en": "Which drivers are permitted to proceed straight ahead?"
+    },
+    "options": [
+      {
+        "en": "The bus driver and the motorcycle operator."
+      },
+      {
+        "en": "The passenger-car driver and the truck driver."
+      },
+      {
+        "en": "The passenger-car driver."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g6/q002.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q003",
+    "group": 6,
+    "number": 3,
+    "question": {
+      "en": "Which vehicle driver must yield?"
+    },
+    "options": [
+      {
+        "en": "The automobile driver."
+      },
+      {
+        "en": "The tram operator."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g6/q003.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q004",
+    "group": 6,
+    "number": 4,
+    "question": {
+      "en": "If the traffic controller’s right arm is extended forward, traffic of non-rail vehicles is permitted:"
+    },
+    "options": [
+      {
+        "en": "From the left side, to the left and by making a U-turn."
+      },
+      {
+        "en": "From the right side, to the right only."
+      },
+      {
+        "en": "From the left side, in all directions."
+      },
+      {
+        "en": "From the rear, to the right only."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g6-q005",
+    "group": 6,
+    "number": 5,
+    "question": {
+      "en": "The vehicles will proceed through the intersection in the following order:"
+    },
+    "options": [
+      {
+        "en": "The tram and the bus, then the passenger car."
+      },
+      {
+        "en": "The tram, the passenger car, the bus."
+      },
+      {
+        "en": "The passenger car, then the tram and the bus."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g6/q005.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q006",
+    "group": 6,
+    "number": 6,
+    "question": {
+      "en": "Which answer correctly identifies the vehicle or vehicles permitted to proceed?"
+    },
+    "options": [
+      {
+        "en": "The motorcycle."
+      },
+      {
+        "en": "The truck."
+      },
+      {
+        "en": "The bus."
+      },
+      {
+        "en": "The passenger car."
+      },
+      {
+        "en": "The passenger car and the truck."
+      }
+    ],
+    "answer": 4,
+    "image": "images/g6/q006.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q007",
+    "group": 6,
+    "number": 7,
+    "question": {
+      "en": "Which vehicle driver must yield?"
+    },
+    "options": [
+      {
+        "en": "The motorcycle operator."
+      },
+      {
+        "en": "The automobile driver."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g6/q007.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q008",
+    "group": 6,
+    "number": 8,
+    "question": {
+      "en": "This signal given by the traffic controller means that traffic is permitted for:"
+    },
+    "options": [
+      {
+        "en": "The blue and green automobiles; traffic is prohibited for the red, yellow, and white automobiles."
+      },
+      {
+        "en": "The blue, red, and green automobiles; traffic is prohibited for the yellow and white automobiles."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g6/q008.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q009",
+    "group": 6,
+    "number": 9,
+    "question": {
+      "en": "Which vehicles may make a right turn?"
+    },
+    "options": [
+      {
+        "en": "Only the red automobile."
+      },
+      {
+        "en": "All vehicles."
+      },
+      {
+        "en": "The red and green automobiles."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g6/q009.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q010",
+    "group": 6,
+    "number": 10,
+    "question": {
+      "en": "Traffic is permitted:"
+    },
+    "options": [
+      {
+        "en": "Straight ahead."
+      },
+      {
+        "en": "To the right through the first passage."
+      },
+      {
+        "en": "To the right through the second passage."
+      },
+      {
+        "en": "To the right through the first and second passages."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g6/q010.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q011",
+    "group": 6,
+    "number": 11,
+    "question": {
+      "en": "Traffic is permitted:"
+    },
+    "options": [
+      {
+        "en": "To the right through the first passage."
+      },
+      {
+        "en": "Straight ahead and to the right through the first passage."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g6/q011.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q012",
+    "group": 6,
+    "number": 12,
+    "question": {
+      "en": "If the traffic controller’s arms are extended to the sides or lowered, traffic of non-rail vehicles is permitted:"
+    },
+    "options": [
+      {
+        "en": "From the front and rear, to the right only."
+      },
+      {
+        "en": "From the left and right sides, straight ahead and to the right."
+      },
+      {
+        "en": "From the left and right sides, straight ahead only."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g6-q013",
+    "group": 6,
+    "number": 13,
+    "question": {
+      "en": "The driver of the red automobile:"
+    },
+    "options": [
+      {
+        "en": "Must yield."
+      },
+      {
+        "en": "Has the right-of-way."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g6/q013.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q014",
+    "group": 6,
+    "number": 14,
+    "question": {
+      "en": "Which vehicles are permitted to proceed?"
+    },
+    "options": [
+      {
+        "en": "The yellow and red automobiles."
+      },
+      {
+        "en": "The green, red, and white automobiles."
+      },
+      {
+        "en": "The white and green automobiles."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g6/q014.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q015",
+    "group": 6,
+    "number": 15,
+    "question": {
+      "en": "Under which traffic signal may the automobile driver complete the U-turn?"
+    },
+    "options": [
+      {
+        "en": "Red."
+      },
+      {
+        "en": "Green."
+      },
+      {
+        "en": "Any signal."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g6/q015.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q016",
+    "group": 6,
+    "number": 16,
+    "question": {
+      "en": "What does the combination of yellow and red traffic signals mean?"
+    },
+    "options": [
+      {
+        "en": "Traffic may begin."
+      },
+      {
+        "en": "Traffic is prohibited, and the signals indicate that the green signal will turn on shortly."
+      },
+      {
+        "en": "A vehicle with a special audible signal and flashing beacons activated is approaching the intersection."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g6/q016.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q017",
+    "group": 6,
+    "number": 17,
+    "question": {
+      "en": "In which image is the driver making the turn correctly?"
+    },
+    "options": [
+      {
+        "en": "In the left image."
+      },
+      {
+        "en": "In the right image."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g6/q017.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q018",
+    "group": 6,
+    "number": 18,
+    "question": {
+      "en": "When the traffic signal is green, must the tram operator yield to vehicles approaching from other directions?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g6/q018.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q019",
+    "group": 6,
+    "number": 19,
+    "question": {
+      "en": "This traffic signal is used to regulate traffic:"
+    },
+    "options": [
+      {
+        "en": "Across the entire width of the roadway."
+      },
+      {
+        "en": "In roadway lanes where the direction of traffic may change to the opposite direction."
+      },
+      {
+        "en": "Only in lanes designated for public transit vehicles."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g6/q019.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q020",
+    "group": 6,
+    "number": 20,
+    "question": {
+      "en": "If the traffic controller’s right arm is extended forward, traffic of non-rail vehicles from the controller’s left side is permitted:"
+    },
+    "options": [
+      {
+        "en": "In all directions."
+      },
+      {
+        "en": "To the left only."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g6-q021",
+    "group": 6,
+    "number": 21,
+    "question": {
+      "en": "Which vehicles are permitted to proceed under this traffic signal?"
+    },
+    "options": [
+      {
+        "en": "The tram, the yellow automobile, and the red automobile."
+      },
+      {
+        "en": "The yellow and red automobiles."
+      },
+      {
+        "en": "All vehicles."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g6/q021.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q022",
+    "group": 6,
+    "number": 22,
+    "question": {
+      "en": "Traffic is permitted for:"
+    },
+    "options": [
+      {
+        "en": "All vehicles."
+      },
+      {
+        "en": "The motorcycle."
+      },
+      {
+        "en": "The automobile and the motorcycle."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g6/q022.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q023",
+    "group": 6,
+    "number": 23,
+    "question": {
+      "en": "If the traffic controller’s arms are extended to the sides or lowered, traffic of non-rail vehicles from the controller’s left and right sides is permitted:"
+    },
+    "options": [
+      {
+        "en": "Straight ahead and to the right."
+      },
+      {
+        "en": "Straight ahead only."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g6-q024",
+    "group": 6,
+    "number": 24,
+    "question": {
+      "en": "Which vehicle driver has the right-of-way?"
+    },
+    "options": [
+      {
+        "en": "The automobile driver."
+      },
+      {
+        "en": "The tram operator."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g6/q024.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q025",
+    "group": 6,
+    "number": 25,
+    "question": {
+      "en": "Traffic is prohibited for:"
+    },
+    "options": [
+      {
+        "en": "The green and white automobiles."
+      },
+      {
+        "en": "The white, blue, and green automobiles."
+      },
+      {
+        "en": "The white and yellow automobiles."
+      },
+      {
+        "en": "The green and yellow automobiles."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g6/q025.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q026",
+    "group": 6,
+    "number": 26,
+    "question": {
+      "en": "When this traffic signal is red, traffic is prohibited:"
+    },
+    "options": [
+      {
+        "en": "Across the entire width of the roadway."
+      },
+      {
+        "en": "At a speed not exceeding 50 km/h."
+      },
+      {
+        "en": "In the lane over which the signal is located."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g6/q026.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q027",
+    "group": 6,
+    "number": 27,
+    "question": {
+      "en": "What is the meaning of the circular flashing green traffic signal?"
+    },
+    "options": [
+      {
+        "en": "It indicates that entering the intersection is prohibited."
+      },
+      {
+        "en": "It permits traffic and indicates that its display period is ending and a prohibitory signal will be activated shortly."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g6-q028",
+    "group": 6,
+    "number": 28,
+    "question": {
+      "en": "The vehicles will proceed through the intersection in the following order:"
+    },
+    "options": [
+      {
+        "en": "The tram, the red automobile, the green automobile."
+      },
+      {
+        "en": "The red automobile, then the tram simultaneously with the green automobile."
+      },
+      {
+        "en": "The tram simultaneously with the green automobile, then the red automobile."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g6/q028.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q029",
+    "group": 6,
+    "number": 29,
+    "question": {
+      "en": "Which answer correctly identifies the vehicles that are permitted to proceed?"
+    },
+    "options": [
+      {
+        "en": "The automobiles and the motorcycle."
+      },
+      {
+        "en": "All vehicles."
+      },
+      {
+        "en": "The automobiles and the tram."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g6/q029.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q030",
+    "group": 6,
+    "number": 30,
+    "question": {
+      "en": "If the traffic controller’s right arm is extended forward, traffic of non-rail vehicles from the controller’s left side is permitted:"
+    },
+    "options": [
+      {
+        "en": "Straight ahead and to the left."
+      },
+      {
+        "en": "In all directions."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g6-q031",
+    "group": 6,
+    "number": 31,
+    "question": {
+      "en": "Traffic is prohibited for:"
+    },
+    "options": [
+      {
+        "en": "The blue-and-yellow automobile when proceeding to the left."
+      },
+      {
+        "en": "The blue-and-yellow automobile when proceeding straight ahead, and the red automobile when proceeding straight ahead and to the right."
+      },
+      {
+        "en": "The red automobile."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g6/q031.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q032",
+    "group": 6,
+    "number": 32,
+    "question": {
+      "en": "In which direction is traffic permitted?"
+    },
+    "options": [
+      {
+        "en": "Straight ahead and to the right through the first passage."
+      },
+      {
+        "en": "To the right through the first passage."
+      },
+      {
+        "en": "To the right through the second passage."
+      },
+      {
+        "en": "To the right through the first and second passages."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g6/q032.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q033",
+    "group": 6,
+    "number": 33,
+    "question": {
+      "en": "Which vehicle will proceed through the intersection first?"
+    },
+    "options": [
+      {
+        "en": "The red automobile."
+      },
+      {
+        "en": "The blue automobile."
+      },
+      {
+        "en": "The green automobile."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g6/q033.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q034",
+    "group": 6,
+    "number": 34,
+    "question": {
+      "en": "In which image is the driver making the turn correctly?"
+    },
+    "options": [
+      {
+        "en": "In the left image."
+      },
+      {
+        "en": "In the right image."
+      },
+      {
+        "en": "In both images."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g6/q034.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q035",
+    "group": 6,
+    "number": 35,
+    "question": {
+      "en": "The red automobile will proceed through the intersection:"
+    },
+    "options": [
+      {
+        "en": "First."
+      },
+      {
+        "en": "Second."
+      },
+      {
+        "en": "Third."
+      },
+      {
+        "en": "Last."
+      }
+    ],
+    "answer": 4,
+    "image": "images/g6/q035.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q036",
+    "group": 6,
+    "number": 36,
+    "question": {
+      "en": "The automobile will proceed through the intersection:"
+    },
+    "options": [
+      {
+        "en": "First."
+      },
+      {
+        "en": "Second."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g6/q036.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q037",
+    "group": 6,
+    "number": 37,
+    "question": {
+      "en": "Traffic is permitted for:"
+    },
+    "options": [
+      {
+        "en": "The blue-and-yellow automobile straight ahead, and the red automobile to the right."
+      },
+      {
+        "en": "The red automobile straight ahead and to the right, and the blue-and-yellow automobile straight ahead."
+      },
+      {
+        "en": "Both automobiles straight ahead only."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g6/q037.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q038",
+    "group": 6,
+    "number": 38,
+    "question": {
+      "en": "Traffic is permitted for:"
+    },
+    "options": [
+      {
+        "en": "The red automobile."
+      },
+      {
+        "en": "The motorcycle."
+      },
+      {
+        "en": "The tram and the red automobile."
+      },
+      {
+        "en": "The tram."
+      },
+      {
+        "en": "The blue automobile."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g6/q038.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q039",
+    "group": 6,
+    "number": 39,
+    "question": {
+      "en": "Is it permitted to proceed along the indicated path when the reversible traffic signals are off?"
+    },
+    "options": [
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Permitted for the purpose of passing."
+      },
+      {
+        "en": "Prohibited."
+      },
+      {
+        "en": "Permitted if there are no oncoming vehicles."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g6/q039.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q040",
+    "group": 6,
+    "number": 40,
+    "question": {
+      "en": "In this situation, which vehicles are permitted to continue?"
+    },
+    "options": [
+      {
+        "en": "The passenger car straight ahead, the patrol vehicle in all directions, and the bus to the right only."
+      },
+      {
+        "en": "Only the patrol vehicle, in all directions."
+      },
+      {
+        "en": "The patrol vehicle in all directions and the bus to the right only."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g6/q040.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q041",
+    "group": 6,
+    "number": 41,
+    "question": {
+      "en": "What does the traffic signal indicate?"
+    },
+    "options": [
+      {
+        "en": "The traffic signal is malfunctioning."
+      },
+      {
+        "en": "When proceeding through the intersection, drivers must follow the requirements of the traffic sign."
+      },
+      {
+        "en": "Drivers must wait for a permissive traffic signal."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g6/q041.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q042",
+    "group": 6,
+    "number": 42,
+    "question": {
+      "en": "Is the passenger-car driver permitted to pass the bus when the reversible traffic signal is off?"
+    },
+    "options": [
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Permitted if the bus is moving at 30 km/h."
+      },
+      {
+        "en": "Permitted if there are no oncoming vehicles."
+      },
+      {
+        "en": "Prohibited."
+      }
+    ],
+    "answer": 4,
+    "image": "images/g6/q042.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q043",
+    "group": 6,
+    "number": 43,
+    "question": {
+      "en": "Which vehicle must yield?"
+    },
+    "options": [
+      {
+        "en": "The bus."
+      },
+      {
+        "en": "The motorcycle and the passenger car."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g6/q043.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q044",
+    "group": 6,
+    "number": 44,
+    "question": {
+      "en": "The following drivers are permitted to continue along the indicated paths:"
+    },
+    "options": [
+      {
+        "en": "The truck driver."
+      },
+      {
+        "en": "The bus driver and the truck driver."
+      },
+      {
+        "en": "The passenger-car driver and the bus driver."
+      },
+      {
+        "en": "The bus driver."
+      }
+    ],
+    "answer": 4,
+    "image": "images/g6/q044.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q045",
+    "group": 6,
+    "number": 45,
+    "question": {
+      "en": "The vehicles will proceed through the intersection in the following order:"
+    },
+    "options": [
+      {
+        "en": "The tram, the passenger car, the bus."
+      },
+      {
+        "en": "The passenger car, the tram, the bus."
+      },
+      {
+        "en": "The passenger car, the bus, the tram."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g6/q045.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q046",
+    "group": 6,
+    "number": 46,
+    "question": {
+      "en": "In which direction may the driver continue?"
+    },
+    "options": [
+      {
+        "en": "To the right through the first passage."
+      },
+      {
+        "en": "To the right through the first and second passages."
+      },
+      {
+        "en": "To the left through the first passage."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g6/q046.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q047",
+    "group": 6,
+    "number": 47,
+    "question": {
+      "en": "When making a right turn, the driver must yield to:"
+    },
+    "options": [
+      {
+        "en": "Only the bicyclist."
+      },
+      {
+        "en": "Only the pedestrians."
+      },
+      {
+        "en": "The pedestrians and the bicyclist."
+      },
+      {
+        "en": "The driver may continue without stopping."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g6/q047.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q048",
+    "group": 6,
+    "number": 48,
+    "question": {
+      "en": "The vehicles will proceed through the intersection in the following order:"
+    },
+    "options": [
+      {
+        "en": "The tram, the bus, the truck, the motorcycle."
+      },
+      {
+        "en": "The bus, the truck, the tram, the motorcycle."
+      },
+      {
+        "en": "The bus, then the tram and the motorcycle, then the truck."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g6/q048.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q049",
+    "group": 6,
+    "number": 49,
+    "question": {
+      "en": "In this situation, to which tram operator must you yield?"
+    },
+    "options": [
+      {
+        "en": "Neither of them."
+      },
+      {
+        "en": "Both tram operators."
+      },
+      {
+        "en": "Only A."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g6/q049.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q050",
+    "group": 6,
+    "number": 50,
+    "question": {
+      "en": "Which driver has the right-of-way?"
+    },
+    "options": [
+      {
+        "en": "The bus driver."
+      },
+      {
+        "en": "The passenger-car driver."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g6/q050.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q051",
+    "group": 6,
+    "number": 51,
+    "question": {
+      "en": "In this situation, when making a left turn:"
+    },
+    "options": [
+      {
+        "en": "I will yield to the tram."
+      },
+      {
+        "en": "I will proceed through the intersection first."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g6/q051.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q052",
+    "group": 6,
+    "number": 52,
+    "question": {
+      "en": "What should you do in this situation?"
+    },
+    "options": [
+      {
+        "en": "Enter the intersection and, after yielding to the passenger-car driver, proceed through the intersection."
+      },
+      {
+        "en": "Wait before the “Stop Line” until the passenger-car driver has proceeded through the intersection."
+      },
+      {
+        "en": "Proceed first."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g6/q052.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q053",
+    "group": 6,
+    "number": 53,
+    "question": {
+      "en": "Which driver violates the traffic rules when making the turn?"
+    },
+    "options": [
+      {
+        "en": "The passenger-car driver."
+      },
+      {
+        "en": "The driver of the motorcycle."
+      },
+      {
+        "en": "Both drivers."
+      },
+      {
+        "en": "No one."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g6/q053.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q054",
+    "group": 6,
+    "number": 54,
+    "question": {
+      "en": "In this situation, when making a right turn, must you yield?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g6/q054.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q055",
+    "group": 6,
+    "number": 55,
+    "question": {
+      "en": "Is a right turn permitted in this situation?"
+    },
+    "options": [
+      {
+        "en": "Yes, provided you do not interfere with pedestrians."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g6/q055.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q056",
+    "group": 6,
+    "number": 56,
+    "question": {
+      "en": "In this situation, must you yield to the tram operator?"
+    },
+    "options": [
+      {
+        "en": "No."
+      },
+      {
+        "en": "Yes."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g6/q056.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q057",
+    "group": 6,
+    "number": 57,
+    "question": {
+      "en": "When the green traffic signal turns on, the driver:"
+    },
+    "options": [
+      {
+        "en": "Must yield to the truck driver."
+      },
+      {
+        "en": "Has the right-of-way."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g6/q057.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q058",
+    "group": 6,
+    "number": 58,
+    "question": {
+      "en": "At this intersection, the driver:"
+    },
+    "options": [
+      {
+        "en": "Will proceed first."
+      },
+      {
+        "en": "Must yield to the tram."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g6/q058.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q059",
+    "group": 6,
+    "number": 59,
+    "question": {
+      "en": "When proceeding straight through the intersection, the driver:"
+    },
+    "options": [
+      {
+        "en": "May proceed first."
+      },
+      {
+        "en": "Must yield to the tram."
+      },
+      {
+        "en": "Must yield to both drivers."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g6/q059.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q060",
+    "group": 6,
+    "number": 60,
+    "question": {
+      "en": "When making the turn, the driver must yield to:"
+    },
+    "options": [
+      {
+        "en": "Pedestrians only."
+      },
+      {
+        "en": "The bicyclist."
+      },
+      {
+        "en": "The bicyclist and the pedestrians."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g6/q060.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q061",
+    "group": 6,
+    "number": 61,
+    "question": {
+      "en": "When making a right turn, must you yield to the driver approaching in the oncoming lane?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g6/q061.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q062",
+    "group": 6,
+    "number": 62,
+    "question": {
+      "en": "When proceeding straight through the intersection:"
+    },
+    "options": [
+      {
+        "en": "We may proceed first."
+      },
+      {
+        "en": "We must yield to the passenger-car driver."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g6/q062.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q063",
+    "group": 6,
+    "number": 63,
+    "question": {
+      "en": "When making a left turn, you must yield to:"
+    },
+    "options": [
+      {
+        "en": "Only the passenger-car driver."
+      },
+      {
+        "en": "Pedestrians only."
+      },
+      {
+        "en": "The passenger-car driver and the pedestrians."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g6/q063.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q064",
+    "group": 6,
+    "number": 64,
+    "question": {
+      "en": "In this situation, is a right turn permitted?"
+    },
+    "options": [
+      {
+        "en": "No."
+      },
+      {
+        "en": "Yes, provided you do not interfere with the pedestrian."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g6/q064.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q065",
+    "group": 6,
+    "number": 65,
+    "question": {
+      "en": "When making a left turn:"
+    },
+    "options": [
+      {
+        "en": "You must yield to the tram operator."
+      },
+      {
+        "en": "You will proceed through the intersection first."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g6/q065.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q066",
+    "group": 6,
+    "number": 66,
+    "question": {
+      "en": "Which traffic signs do not apply when their requirements conflict with traffic signal indications?"
+    },
+    "options": [
+      {
+        "en": "Priority signs."
+      },
+      {
+        "en": "Prohibitory signs."
+      },
+      {
+        "en": "Mandatory signs."
+      },
+      {
+        "en": "All of the above."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g6-q067",
+    "group": 6,
+    "number": 67,
+    "question": {
+      "en": "In this situation, who must yield?"
+    },
+    "options": [
+      {
+        "en": "The passenger-car driver."
+      },
+      {
+        "en": "The tram operator."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g6/q067.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q068",
+    "group": 6,
+    "number": 68,
+    "question": {
+      "en": "When making a right turn:"
+    },
+    "options": [
+      {
+        "en": "We must yield to the tram operator."
+      },
+      {
+        "en": "We will proceed through the intersection first."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g6/q068.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q069",
+    "group": 6,
+    "number": 69,
+    "question": {
+      "en": "You intend to make a left turn. To whom must you yield?"
+    },
+    "options": [
+      {
+        "en": "Only the tram operator."
+      },
+      {
+        "en": "No one."
+      },
+      {
+        "en": "The automobile driver and the tram operator."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g6/q069.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q070",
+    "group": 6,
+    "number": 70,
+    "question": {
+      "en": "When making a left turn:"
+    },
+    "options": [
+      {
+        "en": "I will complete the maneuver without stopping."
+      },
+      {
+        "en": "After entering the intersection, I will stop before the second “Stop Line” and wait for the green signal."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g6/q070.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q071",
+    "group": 6,
+    "number": 71,
+    "question": {
+      "en": "In this situation, must we yield to the truck driver?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g6/q071.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q072",
+    "group": 6,
+    "number": 72,
+    "question": {
+      "en": "In this situation, when making a left turn, you must:"
+    },
+    "options": [
+      {
+        "en": "Enter the intersection and wait for the traffic controller’s signal permitting a left turn."
+      },
+      {
+        "en": "Stop before the “Stop Line” pavement marking and wait for the traffic controller’s signal permitting a left turn."
+      },
+      {
+        "en": "Enter the intersection and, after yielding to the driver approaching in the oncoming lane, proceed through the intersection."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g6/q072.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q073",
+    "group": 6,
+    "number": 73,
+    "question": {
+      "en": "In which case may you proceed through the intersection without yielding to another road user?"
+    },
+    "options": [
+      {
+        "en": "When proceeding straight ahead."
+      },
+      {
+        "en": "When making a right turn."
+      },
+      {
+        "en": "When making a left turn."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g6/q073.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q074",
+    "group": 6,
+    "number": 74,
+    "question": {
+      "en": "When making a right turn, you must:"
+    },
+    "options": [
+      {
+        "en": "Stop before the “Stop Line” so as not to interfere with pedestrians."
+      },
+      {
+        "en": "Enter the intersection and stop so as not to interfere with pedestrians."
+      },
+      {
+        "en": "Proceed through the intersection without stopping."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g6/q074.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q075",
+    "group": 6,
+    "number": 75,
+    "question": {
+      "en": "When making a right turn:"
+    },
+    "options": [
+      {
+        "en": "You must yield to the passenger-car driver."
+      },
+      {
+        "en": "You will proceed through the intersection first."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g6/q075.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q076",
+    "group": 6,
+    "number": 76,
+    "question": {
+      "en": "After the permissive traffic signal turns on, we may enter the intersection:"
+    },
+    "options": [
+      {
+        "en": "Only when making a turn or a U-turn."
+      },
+      {
+        "en": "In all cases."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g6/q076.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q077",
+    "group": 6,
+    "number": 77,
+    "question": {
+      "en": "When the green traffic signal turns on, we must:"
+    },
+    "options": [
+      {
+        "en": "Make sure that there are no pedestrians who have not finished crossing in the part of the pedestrian crossing that is not visible."
+      },
+      {
+        "en": "Immediately start moving in accordance with the traffic signal."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g6/q077.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q078",
+    "group": 6,
+    "number": 78,
+    "question": {
+      "en": "In this situation, when making a left turn, you must yield to:"
+    },
+    "options": [
+      {
+        "en": "Only the pedestrian."
+      },
+      {
+        "en": "The bus driver."
+      },
+      {
+        "en": "The bus driver and the pedestrian."
+      },
+      {
+        "en": "No one."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g6/q078.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q079",
+    "group": 6,
+    "number": 79,
+    "question": {
+      "en": "Must you yield to the bus?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g6/q079.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q080",
+    "group": 6,
+    "number": 80,
+    "question": {
+      "en": "In this situation, when making a U-turn, must you yield to the other driver?"
+    },
+    "options": [
+      {
+        "en": "No."
+      },
+      {
+        "en": "Yes."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g6/q080.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q081",
+    "group": 6,
+    "number": 81,
+    "question": {
+      "en": "In which direction or directions may the driver continue in this situation?"
+    },
+    "options": [
+      {
+        "en": "Straight ahead only."
+      },
+      {
+        "en": "Straight ahead and to the right."
+      },
+      {
+        "en": "Straight ahead and to the left."
+      },
+      {
+        "en": "In all directions."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g6/q081.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q082",
+    "group": 6,
+    "number": 82,
+    "question": {
+      "en": "Which driver may continue?"
+    },
+    "options": [
+      {
+        "en": "Neither driver."
+      },
+      {
+        "en": "Only the bus driver."
+      },
+      {
+        "en": "Both drivers."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g6/q082.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q083",
+    "group": 6,
+    "number": 83,
+    "question": {
+      "en": "Proceeding across the railroad crossing is:"
+    },
+    "options": [
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Prohibited."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g6/q083.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q084",
+    "group": 6,
+    "number": 84,
+    "question": {
+      "en": "The driver is:"
+    },
+    "options": [
+      {
+        "en": "Prohibited from proceeding through the intersection."
+      },
+      {
+        "en": "Permitted to proceed through the intersection in all cases."
+      },
+      {
+        "en": "Permitted to proceed through the intersection if the driver cannot stop before the “Stop Line” without sudden braking."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g6/q084.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q085",
+    "group": 6,
+    "number": 85,
+    "question": {
+      "en": "When complying with the traffic signal, where must the driver stop?"
+    },
+    "options": [
+      {
+        "en": "Before the traffic signal."
+      },
+      {
+        "en": "Before the intersecting roadway."
+      },
+      {
+        "en": "At any location."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g6/q085.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q086",
+    "group": 6,
+    "number": 86,
+    "question": {
+      "en": "A left turn is permitted:"
+    },
+    "options": [
+      {
+        "en": "From the reversible traffic lane."
+      },
+      {
+        "en": "From the lane indicated in the image."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g6/q086.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q087",
+    "group": 6,
+    "number": 87,
+    "question": {
+      "en": "Traffic is permitted:"
+    },
+    "options": [
+      {
+        "en": "Straight ahead only."
+      },
+      {
+        "en": "To the right only."
+      },
+      {
+        "en": "Straight ahead and to the right."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g6/q087.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q088",
+    "group": 6,
+    "number": 88,
+    "question": {
+      "en": "Traffic is permitted:"
+    },
+    "options": [
+      {
+        "en": "Straight ahead and to the right."
+      },
+      {
+        "en": "Straight ahead only."
+      },
+      {
+        "en": "To the right only."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g6/q088.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q089",
+    "group": 6,
+    "number": 89,
+    "question": {
+      "en": "The arrows shown in the green traffic signal indicate that:"
+    },
+    "options": [
+      {
+        "en": "A right turn is prohibited."
+      },
+      {
+        "en": "Traffic to the right is controlled by an additional traffic-signal section."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g6/q089.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q090",
+    "group": 6,
+    "number": 90,
+    "question": {
+      "en": "Is passing the truck permitted?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g6/q090.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q091",
+    "group": 6,
+    "number": 91,
+    "question": {
+      "en": "In which direction or directions may the driver continue in this situation?"
+    },
+    "options": [
+      {
+        "en": "To the left only."
+      },
+      {
+        "en": "The driver must wait for a permissive signal."
+      },
+      {
+        "en": "To the left and by making a U-turn."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g6/q091.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q092",
+    "group": 6,
+    "number": 92,
+    "question": {
+      "en": "In this situation, entering the reversible traffic lane is:"
+    },
+    "options": [
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Permitted only for the purpose of passing."
+      },
+      {
+        "en": "Prohibited."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g6/q092.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q093",
+    "group": 6,
+    "number": 93,
+    "question": {
+      "en": "Proceeding straight ahead from the indicated lane is:"
+    },
+    "options": [
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Permitted only after the main green signal turns on."
+      },
+      {
+        "en": "Prohibited."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g6/q093.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q094",
+    "group": 6,
+    "number": 94,
+    "question": {
+      "en": "Traffic is permitted:"
+    },
+    "options": [
+      {
+        "en": "Straight ahead and to the right."
+      },
+      {
+        "en": "To the right only."
+      },
+      {
+        "en": "In all directions."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g6/q094.webp",
+    "explanation": null
+  },
+  {
+    "id": "g6-q095",
+    "group": 6,
+    "number": 95,
+    "question": {
+      "en": "In this situation, traffic is:"
+    },
+    "options": [
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Prohibited."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g6/q095.webp",
+    "explanation": null
+  }
+]

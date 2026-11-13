@@ -1,0 +1,4122 @@
+[
+  {
+    "id": "g4-q001",
+    "group": 4,
+    "number": 1,
+    "question": {
+      "en": "When making a right turn, is it permitted to enter the lane indicated by this sign?"
+    },
+    "options": [
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Prohibited."
+      },
+      {
+        "en": "Permitted if the lane is not separated from the rest of the roadway by a solid pavement marking."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q001.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q002",
+    "group": 4,
+    "number": 2,
+    "question": {
+      "en": "This traffic sign indicates:"
+    },
+    "options": [
+      {
+        "en": "A section of road where a sidewalk or pedestrian path is present."
+      },
+      {
+        "en": "A section of road where a pedestrian crossing is present."
+      },
+      {
+        "en": "A section of road where there is no sidewalk or pedestrian path."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q002.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q003",
+    "group": 4,
+    "number": 3,
+    "question": {
+      "en": "Which sign prohibits vehicles from proceeding with a distance between them that is less than the distance shown on the sign?"
+    },
+    "options": [
+      {
+        "en": "1"
+      },
+      {
+        "en": "2"
+      },
+      {
+        "en": "3"
+      },
+      {
+        "en": "4"
+      },
+      {
+        "en": "5"
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q003.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q004",
+    "group": 4,
+    "number": 4,
+    "question": {
+      "en": "Within populated areas, how far before a hazardous section of road are these signs installed?"
+    },
+    "options": [
+      {
+        "en": "15–25 m."
+      },
+      {
+        "en": "25–50 m."
+      },
+      {
+        "en": "50–100 m."
+      },
+      {
+        "en": "100–150 m."
+      },
+      {
+        "en": "150–300 m."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q004.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q005",
+    "group": 4,
+    "number": 5,
+    "question": {
+      "en": "This traffic sign:"
+    },
+    "options": [
+      {
+        "en": "Prohibits all motor vehicles except two-wheeled motorcycles without sidecars."
+      },
+      {
+        "en": "Prohibits all vehicles except wheeled tractors."
+      },
+      {
+        "en": "Prohibits tractors and self-propelled machines."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q005.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q006",
+    "group": 4,
+    "number": 6,
+    "question": {
+      "en": "Which sign requires a driver to yield to vehicles entering or approaching the narrow section of road from the opposite direction?"
+    },
+    "options": [
+      {
+        "en": "1"
+      },
+      {
+        "en": "2"
+      },
+      {
+        "en": "3"
+      },
+      {
+        "en": "4"
+      },
+      {
+        "en": "5"
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q006.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q007",
+    "group": 4,
+    "number": 7,
+    "question": {
+      "en": "Which sign warns of an approaching intersection of roads of equal priority?"
+    },
+    "options": [
+      {
+        "en": "1"
+      },
+      {
+        "en": "2"
+      },
+      {
+        "en": "3"
+      },
+      {
+        "en": "4"
+      },
+      {
+        "en": "5"
+      }
+    ],
+    "answer": 5,
+    "image": "images/g4/q007.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q008",
+    "group": 4,
+    "number": 8,
+    "question": {
+      "en": "Which sign is installed immediately before the intersection of roadways?"
+    },
+    "options": [
+      {
+        "en": "1"
+      },
+      {
+        "en": "2"
+      },
+      {
+        "en": "3"
+      },
+      {
+        "en": "4"
+      },
+      {
+        "en": "5"
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q008.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q009",
+    "group": 4,
+    "number": 9,
+    "question": {
+      "en": "These signs permit traffic:"
+    },
+    "options": [
+      {
+        "en": "To the left only."
+      },
+      {
+        "en": "Straight ahead only."
+      },
+      {
+        "en": "To the right only."
+      },
+      {
+        "en": "Straight ahead, to the right, and by making a U-turn."
+      }
+    ],
+    "answer": 4,
+    "image": "images/g4/q009.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q010",
+    "group": 4,
+    "number": 10,
+    "question": {
+      "en": "Which sign gives a driver the right-of-way over oncoming vehicles?"
+    },
+    "options": [
+      {
+        "en": "1"
+      },
+      {
+        "en": "2"
+      },
+      {
+        "en": "3"
+      },
+      {
+        "en": "4"
+      },
+      {
+        "en": "5"
+      }
+    ],
+    "answer": 4,
+    "image": "images/g4/q010.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q011",
+    "group": 4,
+    "number": 11,
+    "question": {
+      "en": "What does the supplemental plaque below the sign indicate?"
+    },
+    "options": [
+      {
+        "en": "The distance from the sign to the beginning of the first turn."
+      },
+      {
+        "en": "The distance from the first turn to the beginning of the second turn."
+      },
+      {
+        "en": "The length of the road section with hazardous turns."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q011.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q012",
+    "group": 4,
+    "number": 12,
+    "question": {
+      "en": "What does the following combination of signs indicate?"
+    },
+    "options": [
+      {
+        "en": "Motorcycle traffic to the right is prohibited."
+      },
+      {
+        "en": "Motorcycle traffic to the right is permitted."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g4/q012.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q013",
+    "group": 4,
+    "number": 13,
+    "question": {
+      "en": "Which sign prohibits parking on even-numbered days of the month?"
+    },
+    "options": [
+      {
+        "en": "1"
+      },
+      {
+        "en": "2"
+      },
+      {
+        "en": "3"
+      },
+      {
+        "en": "4"
+      },
+      {
+        "en": "5"
+      }
+    ],
+    "answer": 5,
+    "image": "images/g4/q013.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q014",
+    "group": 4,
+    "number": 14,
+    "question": {
+      "en": "This traffic sign:"
+    },
+    "options": [
+      {
+        "en": "Permits driving only at the indicated speed or higher."
+      },
+      {
+        "en": "Prohibits driving at a speed higher than the speed shown on the sign."
+      },
+      {
+        "en": "Indicates the speed recommended for driving on this section of road."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g4/q014.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q015",
+    "group": 4,
+    "number": 15,
+    "question": {
+      "en": "Which of the following signs requires a driver to yield to oncoming vehicles?"
+    },
+    "options": [
+      {
+        "en": "1"
+      },
+      {
+        "en": "2"
+      },
+      {
+        "en": "3"
+      },
+      {
+        "en": "4"
+      },
+      {
+        "en": "5"
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q015.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q016",
+    "group": 4,
+    "number": 16,
+    "question": {
+      "en": "This sign is called:"
+    },
+    "options": [
+      {
+        "en": "Advance indication for going around an obstruction."
+      },
+      {
+        "en": "Advance indication for changing to another roadway."
+      },
+      {
+        "en": "Advance indication for entering the oncoming traffic lane."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q016.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q017",
+    "group": 4,
+    "number": 17,
+    "question": {
+      "en": "Which sign requires a driver to yield to vehicles proceeding on the intersecting road?"
+    },
+    "options": [
+      {
+        "en": "1"
+      },
+      {
+        "en": "2"
+      },
+      {
+        "en": "3"
+      },
+      {
+        "en": "4"
+      },
+      {
+        "en": "5"
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q017.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q018",
+    "group": 4,
+    "number": 18,
+    "question": {
+      "en": "Which of the following signs permits driving only at the indicated speed or higher (km/h)?"
+    },
+    "options": [
+      {
+        "en": "1"
+      },
+      {
+        "en": "2"
+      },
+      {
+        "en": "3"
+      },
+      {
+        "en": "4"
+      },
+      {
+        "en": "5"
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q018.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q019",
+    "group": 4,
+    "number": 19,
+    "question": {
+      "en": "Which sign indicates a section of one-way road?"
+    },
+    "options": [
+      {
+        "en": "1"
+      },
+      {
+        "en": "2"
+      },
+      {
+        "en": "3"
+      },
+      {
+        "en": "4"
+      },
+      {
+        "en": "5"
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q019.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q020",
+    "group": 4,
+    "number": 20,
+    "question": {
+      "en": "What does the supplemental plaque used with the main sign indicate?"
+    },
+    "options": [
+      {
+        "en": "The length of the narrow section of road."
+      },
+      {
+        "en": "The distance from the sign to the location where the restriction begins."
+      },
+      {
+        "en": "The distance to the location for going around the narrow section of road."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q020.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q021",
+    "group": 4,
+    "number": 21,
+    "question": {
+      "en": "This traffic sign warns that ahead there is:"
+    },
+    "options": [
+      {
+        "en": "A road section with a water crossing that has no bridge or ferry."
+      },
+      {
+        "en": "A road section crossing water by means of a drawbridge."
+      },
+      {
+        "en": "A location where the road reaches a riverbank or shoreline."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q021.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q022",
+    "group": 4,
+    "number": 22,
+    "question": {
+      "en": "Which of the following indicates the area of effect of traffic signs prohibiting stopping and parking?"
+    },
+    "options": [
+      {
+        "en": "1"
+      },
+      {
+        "en": "2"
+      },
+      {
+        "en": "3"
+      },
+      {
+        "en": "4"
+      },
+      {
+        "en": "5"
+      }
+    ],
+    "answer": 4,
+    "image": "images/g4/q022.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q023",
+    "group": 4,
+    "number": 23,
+    "question": {
+      "en": "Which sign indicates the length of a hazardous road section covered by the warning signs?"
+    },
+    "options": [
+      {
+        "en": "1"
+      },
+      {
+        "en": "2"
+      },
+      {
+        "en": "3"
+      },
+      {
+        "en": "4"
+      },
+      {
+        "en": "5"
+      }
+    ],
+    "answer": 4,
+    "image": "images/g4/q023.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q024",
+    "group": 4,
+    "number": 24,
+    "question": {
+      "en": "This traffic sign indicates:"
+    },
+    "options": [
+      {
+        "en": "A one-way road on which only trucks are permitted."
+      },
+      {
+        "en": "A lane designated only for trucks."
+      },
+      {
+        "en": "The recommended direction of traffic for trucks."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q024.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q025",
+    "group": 4,
+    "number": 25,
+    "question": {
+      "en": "Which sign indicates a “Hotel” or “Motel”?"
+    },
+    "options": [
+      {
+        "en": "1"
+      },
+      {
+        "en": "2"
+      },
+      {
+        "en": "3"
+      },
+      {
+        "en": "4"
+      },
+      {
+        "en": "5"
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q025.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q026",
+    "group": 4,
+    "number": 26,
+    "question": {
+      "en": "Vehicles displaying this identification sign are:"
+    },
+    "options": [
+      {
+        "en": "Carrying hazardous cargo."
+      },
+      {
+        "en": "Driven by persons with disabilities."
+      },
+      {
+        "en": "Driven by deaf or deaf-mute drivers."
+      },
+      {
+        "en": "Driven by drivers with less than 3 years of driving experience."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q026.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q027",
+    "group": 4,
+    "number": 27,
+    "question": {
+      "en": "Which sign indicates the end of a zone with a maximum speed limit of 50 km/h?"
+    },
+    "options": [
+      {
+        "en": "1"
+      },
+      {
+        "en": "2"
+      },
+      {
+        "en": "3"
+      },
+      {
+        "en": "4"
+      },
+      {
+        "en": "5"
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q027.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q028",
+    "group": 4,
+    "number": 28,
+    "question": {
+      "en": "What do this sign and supplemental plaque warn about?"
+    },
+    "options": [
+      {
+        "en": "Stopping on the shoulder is prohibited because of roadwork."
+      },
+      {
+        "en": "Entering the shoulder is dangerous because of roadwork."
+      },
+      {
+        "en": "Parking on the shoulder is prohibited because of roadwork."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q028.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q029",
+    "group": 4,
+    "number": 29,
+    "question": {
+      "en": "Vehicles displaying this identification sign are:"
+    },
+    "options": [
+      {
+        "en": "Driven by persons with disabilities."
+      },
+      {
+        "en": "Carrying heavy and oversized cargo."
+      },
+      {
+        "en": "Carrying hazardous cargo."
+      },
+      {
+        "en": "Driven by deaf or deaf-mute drivers."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q029.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q030",
+    "group": 4,
+    "number": 30,
+    "question": {
+      "en": "Which sign cancels all previously imposed restrictions?"
+    },
+    "options": [
+      {
+        "en": "1"
+      },
+      {
+        "en": "2"
+      },
+      {
+        "en": "3"
+      },
+      {
+        "en": "4"
+      },
+      {
+        "en": "5"
+      }
+    ],
+    "answer": 4,
+    "image": "images/g4/q030.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q031",
+    "group": 4,
+    "number": 31,
+    "question": {
+      "en": "In which case has the driver correctly complied with the requirements of this sign?"
+    },
+    "options": [
+      {
+        "en": "The driver yielded to motor vehicles proceeding on the intersecting road."
+      },
+      {
+        "en": "The driver yielded to vehicles proceeding on the intersecting road."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q031.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q032",
+    "group": 4,
+    "number": 32,
+    "question": {
+      "en": "Which of the displayed signs is used as the identification sign for a road train?"
+    },
+    "options": [
+      {
+        "en": "The sign on the left."
+      },
+      {
+        "en": "The sign on the right."
+      },
+      {
+        "en": "Both signs."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q032.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q033",
+    "group": 4,
+    "number": 33,
+    "question": {
+      "en": "Which sign requires a driver to yield to vehicles proceeding on the intersecting road?"
+    },
+    "options": [
+      {
+        "en": "1"
+      },
+      {
+        "en": "2"
+      },
+      {
+        "en": "3"
+      },
+      {
+        "en": "4"
+      },
+      {
+        "en": "5"
+      }
+    ],
+    "answer": 4,
+    "image": "images/g4/q033.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q034",
+    "group": 4,
+    "number": 34,
+    "question": {
+      "en": "Which of the following signs (supplemental plaques) indicates how a vehicle must be positioned when parked?"
+    },
+    "options": [
+      {
+        "en": "1"
+      },
+      {
+        "en": "2"
+      },
+      {
+        "en": "3"
+      },
+      {
+        "en": "4"
+      },
+      {
+        "en": "5"
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q034.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q035",
+    "group": 4,
+    "number": 35,
+    "question": {
+      "en": "Is it permitted to stop in the lane indicated by this sign to pick up passengers?"
+    },
+    "options": [
+      {
+        "en": "Permitted if the lane is located along the right edge of the roadway and is not separated from the rest of the roadway by a solid pavement marking."
+      },
+      {
+        "en": "Prohibited."
+      },
+      {
+        "en": "Permitted."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g4/q035.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q036",
+    "group": 4,
+    "number": 36,
+    "question": {
+      "en": "When this traffic sign is present:"
+    },
+    "options": [
+      {
+        "en": "Passing by all types of vehicles is prohibited, except when passing slow-moving vehicles, animal-drawn carts, two-wheeled motorcycles without sidecars, mopeds, and bicycles."
+      },
+      {
+        "en": "Trucks with a maximum authorized mass not exceeding 3.5 metric tons are permitted to pass."
+      },
+      {
+        "en": "Passing is permitted if the speed of the passing vehicle does not exceed 30 km/h."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g4/q036.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q037",
+    "group": 4,
+    "number": 37,
+    "question": {
+      "en": "Which sign indicates “Intersection with a Bicycle Path”?"
+    },
+    "options": [
+      {
+        "en": "1"
+      },
+      {
+        "en": "2"
+      },
+      {
+        "en": "3"
+      },
+      {
+        "en": "4"
+      },
+      {
+        "en": "5"
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q037.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q038",
+    "group": 4,
+    "number": 38,
+    "question": {
+      "en": "Which sign indicates the end of the no-passing zone?"
+    },
+    "options": [
+      {
+        "en": "1"
+      },
+      {
+        "en": "2"
+      },
+      {
+        "en": "3"
+      },
+      {
+        "en": "4"
+      },
+      {
+        "en": "5"
+      }
+    ],
+    "answer": 1,
+    "image": "images/g4/q038.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q039",
+    "group": 4,
+    "number": 39,
+    "question": {
+      "en": "Which sign indicates the permitted directions of traffic at a T-intersection?"
+    },
+    "options": [
+      {
+        "en": "1"
+      },
+      {
+        "en": "2"
+      },
+      {
+        "en": "3"
+      },
+      {
+        "en": "4"
+      },
+      {
+        "en": "5"
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q039.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q040",
+    "group": 4,
+    "number": 40,
+    "question": {
+      "en": "This traffic sign indicates:"
+    },
+    "options": [
+      {
+        "en": "A dead-end road."
+      },
+      {
+        "en": "The direction of traffic toward a destination located within a populated area."
+      },
+      {
+        "en": "The end of an acceleration lane or an additional lane on an uphill grade."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g4/q040.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q041",
+    "group": 4,
+    "number": 41,
+    "question": {
+      "en": "Which vehicles are permitted within the area where this sign is in effect?"
+    },
+    "options": [
+      {
+        "en": "Motor vehicles."
+      },
+      {
+        "en": "All vehicles."
+      },
+      {
+        "en": "Automobiles and motorcycles."
+      },
+      {
+        "en": "Vehicles whose maximum speed exceeds 40 km/h."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q041.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q042",
+    "group": 4,
+    "number": 42,
+    "question": {
+      "en": "Which of these traffic signs is not a prohibitory sign?"
+    },
+    "options": [
+      {
+        "en": "1"
+      },
+      {
+        "en": "2"
+      },
+      {
+        "en": "3"
+      },
+      {
+        "en": "4"
+      },
+      {
+        "en": "5"
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q042.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q043",
+    "group": 4,
+    "number": 43,
+    "question": {
+      "en": "What does this identification sign indicate?"
+    },
+    "options": [
+      {
+        "en": "Ahead is a section of road with an uneven roadway surface."
+      },
+      {
+        "en": "Ahead is a section of road with three lanes for traffic in this direction."
+      },
+      {
+        "en": "The motor vehicle is equipped with studded tires."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q043.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q044",
+    "group": 4,
+    "number": 44,
+    "question": {
+      "en": "Which sign is called “End of One-Way Road”?"
+    },
+    "options": [
+      {
+        "en": "1"
+      },
+      {
+        "en": "2"
+      },
+      {
+        "en": "3"
+      },
+      {
+        "en": "4"
+      },
+      {
+        "en": "5"
+      }
+    ],
+    "answer": 4,
+    "image": "images/g4/q044.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q045",
+    "group": 4,
+    "number": 45,
+    "question": {
+      "en": "Which sign requires a driver to yield to vehicles proceeding on the intersecting road?"
+    },
+    "options": [
+      {
+        "en": "1"
+      },
+      {
+        "en": "2"
+      },
+      {
+        "en": "3"
+      },
+      {
+        "en": "4"
+      },
+      {
+        "en": "5"
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q045.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q046",
+    "group": 4,
+    "number": 46,
+    "question": {
+      "en": "The following signs indicate:"
+    },
+    "options": [
+      {
+        "en": "A parking place 30 meters away for automobiles displaying the “Disabled” identification sign."
+      },
+      {
+        "en": "A parking place within a 30-meter-long area for vehicles, except motorized wheelchairs."
+      },
+      {
+        "en": "A parking place within a 30-meter-long area for motorized wheelchairs and automobiles displaying the “Disabled” identification sign."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q046.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q047",
+    "group": 4,
+    "number": 47,
+    "question": {
+      "en": "Which of these signs is considered a vehicle identification sign?"
+    },
+    "options": [
+      {
+        "en": "1"
+      },
+      {
+        "en": "2"
+      },
+      {
+        "en": "3"
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q047.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q048",
+    "group": 4,
+    "number": 48,
+    "question": {
+      "en": "Traffic of which vehicles is prohibited by this traffic sign?"
+    },
+    "options": [
+      {
+        "en": "Motor vehicles."
+      },
+      {
+        "en": "Automobiles only."
+      },
+      {
+        "en": "Passenger cars only."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g4/q048.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q049",
+    "group": 4,
+    "number": 49,
+    "question": {
+      "en": "Which sign indicates that an obstruction may be passed on either the right or the left?"
+    },
+    "options": [
+      {
+        "en": "1"
+      },
+      {
+        "en": "2"
+      },
+      {
+        "en": "3"
+      },
+      {
+        "en": "4"
+      },
+      {
+        "en": "5"
+      }
+    ],
+    "answer": 5,
+    "image": "images/g4/q049.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q050",
+    "group": 4,
+    "number": 50,
+    "question": {
+      "en": "Which sign is placed on the front and rear of vehicles transporting organized groups of children?"
+    },
+    "options": [
+      {
+        "en": "1"
+      },
+      {
+        "en": "2"
+      },
+      {
+        "en": "3"
+      },
+      {
+        "en": "4"
+      }
+    ],
+    "answer": 1,
+    "image": "images/g4/q050.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q051",
+    "group": 4,
+    "number": 51,
+    "question": {
+      "en": "What do the indicated traffic signs show?"
+    },
+    "options": [
+      {
+        "en": "The priority road continues to the left at the intersection."
+      },
+      {
+        "en": "The priority road continues straight ahead and to the left at the intersection."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g4/q051.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q052",
+    "group": 4,
+    "number": 52,
+    "question": {
+      "en": "What do the indicated traffic signs show?"
+    },
+    "options": [
+      {
+        "en": "Within the area of effect of the supplemental plaque, drivers must proceed at a speed higher than the speed shown on the sign."
+      },
+      {
+        "en": "Within the area of effect of the supplemental plaque, drivers are advised to proceed at the speed shown on the sign."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q052.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q053",
+    "group": 4,
+    "number": 53,
+    "question": {
+      "en": "Which signs apply only during the period when the roadway surface is wet?"
+    },
+    "options": [
+      {
+        "en": "Only A and C."
+      },
+      {
+        "en": "Only B."
+      },
+      {
+        "en": "Only C."
+      },
+      {
+        "en": "All of them."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q053.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q054",
+    "group": 4,
+    "number": 54,
+    "question": {
+      "en": "What should the driver do in this situation?"
+    },
+    "options": [
+      {
+        "en": "Continue straight ahead."
+      },
+      {
+        "en": "Move into the part of the roadway intended for oncoming traffic."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q054.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q055",
+    "group": 4,
+    "number": 55,
+    "question": {
+      "en": "What do the following traffic signs indicate?"
+    },
+    "options": [
+      {
+        "en": "There is a narrowing of the road from the right 150–300 m beyond the sign, and the narrowed section is 100 m long."
+      },
+      {
+        "en": "There is a narrowing of the road from the right 100 m beyond the sign."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g4/q055.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q056",
+    "group": 4,
+    "number": 56,
+    "question": {
+      "en": "In which direction is the driver permitted to proceed?"
+    },
+    "options": [
+      {
+        "en": "To the right and left only."
+      },
+      {
+        "en": "Straight ahead only."
+      },
+      {
+        "en": "Straight ahead and by making a U-turn."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q056.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q057",
+    "group": 4,
+    "number": 57,
+    "question": {
+      "en": "What do the indicated traffic signs show?"
+    },
+    "options": [
+      {
+        "en": "Stopping is prohibited on Saturdays."
+      },
+      {
+        "en": "Stopping is prohibited on Sundays."
+      },
+      {
+        "en": "Stopping is prohibited on Saturdays, Sundays, and holidays."
+      },
+      {
+        "en": "Stopping is prohibited during snowfall."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q057.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q058",
+    "group": 4,
+    "number": 58,
+    "question": {
+      "en": "Which traffic sign prohibits a U-turn?"
+    },
+    "options": [
+      {
+        "en": "1"
+      },
+      {
+        "en": "2"
+      },
+      {
+        "en": "3"
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q058.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q059",
+    "group": 4,
+    "number": 59,
+    "question": {
+      "en": "What do these traffic signs indicate?"
+    },
+    "options": [
+      {
+        "en": "Entering the shoulder is dangerous because of roadwork."
+      },
+      {
+        "en": "Roadwork is being carried out on the road."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g4/q059.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q060",
+    "group": 4,
+    "number": 60,
+    "question": {
+      "en": "What must the driver do when the following traffic sign is installed before an intersection?"
+    },
+    "options": [
+      {
+        "en": "Proceed through the intersection while maintaining safety."
+      },
+      {
+        "en": "Yield to vehicles proceeding on the intersecting road."
+      },
+      {
+        "en": "Stop before the sign and yield to vehicles proceeding on the intersecting road."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q060.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q061",
+    "group": 4,
+    "number": 61,
+    "question": {
+      "en": "Which traffic signs do not apply to public transit vehicles?"
+    },
+    "options": [
+      {
+        "en": "None of them."
+      },
+      {
+        "en": "Only the first."
+      },
+      {
+        "en": "Only the fourth."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q061.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q062",
+    "group": 4,
+    "number": 62,
+    "question": {
+      "en": "The following traffic sign indicates:"
+    },
+    "options": [
+      {
+        "en": "At the intersection, traffic must proceed to the left or to the right."
+      },
+      {
+        "en": "Reversible traffic is established on the intersecting road."
+      },
+      {
+        "en": "One-way traffic is established on the intersecting road."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q062.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q063",
+    "group": 4,
+    "number": 63,
+    "question": {
+      "en": "In this situation, must the driver yield to the truck?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g4/q063.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q064",
+    "group": 4,
+    "number": 64,
+    "question": {
+      "en": "What do the following traffic signs indicate?"
+    },
+    "options": [
+      {
+        "en": "When the road is icy, traffic must proceed at a speed of 40 km/h."
+      },
+      {
+        "en": "When the roadway surface is wet, the maximum permitted speed is 40 km/h."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q064.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q065",
+    "group": 4,
+    "number": 65,
+    "question": {
+      "en": "What do the following traffic signs indicate?"
+    },
+    "options": [
+      {
+        "en": "Stopping is prohibited on Saturdays."
+      },
+      {
+        "en": "Stopping is prohibited on Sundays."
+      },
+      {
+        "en": "Stopping is prohibited on weekdays."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q065.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q066",
+    "group": 4,
+    "number": 66,
+    "question": {
+      "en": "What do the following traffic signs indicate?"
+    },
+    "options": [
+      {
+        "en": "On this section of road, the maximum permitted speed is 50 km/h."
+      },
+      {
+        "en": "A speed of 50 km/h is recommended on this section of road."
+      },
+      {
+        "en": "Driving is permitted only at the speed indicated on the sign or higher."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q066.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q067",
+    "group": 4,
+    "number": 67,
+    "question": {
+      "en": "Which traffic sign requires a driver to proceed only to the left or to the right?"
+    },
+    "options": [
+      {
+        "en": "1"
+      },
+      {
+        "en": "2"
+      },
+      {
+        "en": "3"
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q067.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q068",
+    "group": 4,
+    "number": 68,
+    "question": {
+      "en": "What do the following traffic signs indicate?"
+    },
+    "options": [
+      {
+        "en": "When the roadway surface is wet, a speed of 40 km/h is recommended."
+      },
+      {
+        "en": "When the roadway surface is wet, the maximum permitted speed is 40 km/h."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g4/q068.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q069",
+    "group": 4,
+    "number": 69,
+    "question": {
+      "en": "The effect of these traffic signs applies:"
+    },
+    "options": [
+      {
+        "en": "On the left side of the road."
+      },
+      {
+        "en": "On the right side of the road."
+      },
+      {
+        "en": "On the side of the road where they are installed."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q069.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q070",
+    "group": 4,
+    "number": 70,
+    "question": {
+      "en": "In this situation, along which path or paths is it permitted to go around the obstruction?"
+    },
+    "options": [
+      {
+        "en": "Only A."
+      },
+      {
+        "en": "Only B."
+      },
+      {
+        "en": "A and B."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q070.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q071",
+    "group": 4,
+    "number": 71,
+    "question": {
+      "en": "What should the driver do in this situation?"
+    },
+    "options": [
+      {
+        "en": "Stop at the first sign."
+      },
+      {
+        "en": "Stop before the second sign."
+      },
+      {
+        "en": "Stop at least 5 meters before the first railroad track."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q071.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q072",
+    "group": 4,
+    "number": 72,
+    "question": {
+      "en": "What should the driver do if intending to make a right turn at the intersection?"
+    },
+    "options": [
+      {
+        "en": "The driver may change into the right traffic lane and then make the right turn."
+      },
+      {
+        "en": "The driver may approach the intersection and then make the right turn."
+      },
+      {
+        "en": "Both answers are correct."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q072.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q073",
+    "group": 4,
+    "number": 73,
+    "question": {
+      "en": "In this situation, at a distance of 200 m from the sign, is the driver permitted to make a U-turn?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g4/q073.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q074",
+    "group": 4,
+    "number": 74,
+    "question": {
+      "en": "In this case, must the driver stop at the location indicated by the traffic controller?"
+    },
+    "options": [
+      {
+        "en": "No, because the sign prohibits stopping."
+      },
+      {
+        "en": "Yes."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q074.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q075",
+    "group": 4,
+    "number": 75,
+    "question": {
+      "en": "What should the driver do in this situation?"
+    },
+    "options": [
+      {
+        "en": "Proceed through the railroad crossing while ensuring safety."
+      },
+      {
+        "en": "Proceed through the railroad crossing without stopping."
+      },
+      {
+        "en": "Stop before the sign and then, while ensuring safety, proceed through the multiple-track railroad crossing."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q075.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q076",
+    "group": 4,
+    "number": 76,
+    "question": {
+      "en": "What does the pavement marking on the roadway indicate?"
+    },
+    "options": [
+      {
+        "en": "The boundaries of lanes designated for vehicles proceeding in the same direction."
+      },
+      {
+        "en": "The boundaries of a reversible traffic lane."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q076.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q077",
+    "group": 4,
+    "number": 77,
+    "question": {
+      "en": "In which direction or directions is the passenger car permitted to proceed?"
+    },
+    "options": [
+      {
+        "en": "To the left and by making a U-turn."
+      },
+      {
+        "en": "In any direction."
+      },
+      {
+        "en": "Straight ahead, to the left, and by making a U-turn."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q077.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q078",
+    "group": 4,
+    "number": 78,
+    "question": {
+      "en": "What should the driver do in this situation?"
+    },
+    "options": [
+      {
+        "en": "If necessary, yield to a vehicle proceeding on the intersecting road."
+      },
+      {
+        "en": "Stop and yield to a vehicle proceeding on the intersecting road."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q078.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q079",
+    "group": 4,
+    "number": 79,
+    "question": {
+      "en": "Outside populated areas, at what distance before the beginning of a hazardous section is this warning sign installed?"
+    },
+    "options": [
+      {
+        "en": "50–100 m."
+      },
+      {
+        "en": "150–300 m."
+      },
+      {
+        "en": "300–500 m."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q079.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q080",
+    "group": 4,
+    "number": 80,
+    "question": {
+      "en": "In which direction is traffic permitted?"
+    },
+    "options": [
+      {
+        "en": "Straight ahead only."
+      },
+      {
+        "en": "Straight ahead and to the right."
+      },
+      {
+        "en": "Straight ahead, to the right, and to the left."
+      },
+      {
+        "en": "In all directions."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q080.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q081",
+    "group": 4,
+    "number": 81,
+    "question": {
+      "en": "Which of the following traffic signs prohibits entering an intersection area if congestion has formed ahead in the direction of traffic, except when making a right or left turn?"
+    },
+    "options": [
+      {
+        "en": "1"
+      },
+      {
+        "en": "2"
+      },
+      {
+        "en": "3"
+      },
+      {
+        "en": "4"
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q081.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q082",
+    "group": 4,
+    "number": 82,
+    "question": {
+      "en": "At what maximum distance may the “Intersection Area” traffic sign be installed at a complex intersection if it cannot be installed at the boundary of the intersection?"
+    },
+    "options": [
+      {
+        "en": "10 m."
+      },
+      {
+        "en": "20 m."
+      },
+      {
+        "en": "30 m."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q082.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q083",
+    "group": 4,
+    "number": 83,
+    "question": {
+      "en": "What does the following traffic sign warn about?"
+    },
+    "options": [
+      {
+        "en": "Stopping is prohibited."
+      },
+      {
+        "en": "Entering the intersection area is prohibited if congestion has formed ahead in the direction of traffic and would force the driver to stop."
+      },
+      {
+        "en": "Entering the intersection area is prohibited if congestion has formed ahead in the direction of traffic."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q083.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q084",
+    "group": 4,
+    "number": 84,
+    "question": {
+      "en": "What does the following pavement marking indicate?"
+    },
+    "options": [
+      {
+        "en": "A vehicle parking area."
+      },
+      {
+        "en": "A pedestrian crossing."
+      },
+      {
+        "en": "A safety island."
+      },
+      {
+        "en": "A section of an intersection that may not be entered if congestion has formed ahead in the direction of traffic and would force the driver to stop."
+      }
+    ],
+    "answer": 4,
+    "image": "images/g4/q084.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q085",
+    "group": 4,
+    "number": 85,
+    "question": {
+      "en": "Which of the following pavement markings indicates a section of an intersection that may not be entered if congestion has formed ahead in the direction of traffic and would force the driver to stop?"
+    },
+    "options": [
+      {
+        "en": "1"
+      },
+      {
+        "en": "2"
+      },
+      {
+        "en": "3"
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q085.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q086",
+    "group": 4,
+    "number": 86,
+    "question": {
+      "en": "Making a U-turn from the indicated lane is:"
+    },
+    "options": [
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Prohibited."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q086.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q087",
+    "group": 4,
+    "number": 87,
+    "question": {
+      "en": "Along which path is it permitted to make a U-turn?"
+    },
+    "options": [
+      {
+        "en": "Only A."
+      },
+      {
+        "en": "Only B."
+      },
+      {
+        "en": "Prohibited along both paths."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g4/q087.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q088",
+    "group": 4,
+    "number": 88,
+    "question": {
+      "en": "Along which path is it permitted to make a U-turn?"
+    },
+    "options": [
+      {
+        "en": "Only A."
+      },
+      {
+        "en": "Only B."
+      },
+      {
+        "en": "Neither path."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q088.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q089",
+    "group": 4,
+    "number": 89,
+    "question": {
+      "en": "Which vehicle driver may continue straight ahead through this intersection?"
+    },
+    "options": [
+      {
+        "en": "The public transit vehicle driver."
+      },
+      {
+        "en": "The motorcycle operator."
+      },
+      {
+        "en": "The bicyclist."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g4/q089.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q090",
+    "group": 4,
+    "number": 90,
+    "question": {
+      "en": "Along which path is a U-turn permitted?"
+    },
+    "options": [
+      {
+        "en": "At the intersection, along path A."
+      },
+      {
+        "en": "Before the intersection, along path B."
+      },
+      {
+        "en": "Permitted along both paths."
+      },
+      {
+        "en": "Prohibited along both paths."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g4/q090.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q091",
+    "group": 4,
+    "number": 91,
+    "question": {
+      "en": "Must you stop before the “Stop Line”?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q091.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q092",
+    "group": 4,
+    "number": 92,
+    "question": {
+      "en": "Traffic is permitted:"
+    },
+    "options": [
+      {
+        "en": "Only in direction B."
+      },
+      {
+        "en": "Only in directions A or B."
+      },
+      {
+        "en": "In any direction."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q092.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q093",
+    "group": 4,
+    "number": 93,
+    "question": {
+      "en": "This traffic sign indicates:"
+    },
+    "options": [
+      {
+        "en": "The distance from the end of the tunnel."
+      },
+      {
+        "en": "The distance from a location hazardous to children."
+      },
+      {
+        "en": "The location of an emergency exit and the distance to it."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q093.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q094",
+    "group": 4,
+    "number": 94,
+    "question": {
+      "en": "In this situation:"
+    },
+    "options": [
+      {
+        "en": "We must yield to the truck driver."
+      },
+      {
+        "en": "We may proceed through the narrow section first."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q094.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q095",
+    "group": 4,
+    "number": 95,
+    "question": {
+      "en": "After these signs, the driver of a truck with a maximum authorized mass not exceeding 3.5 metric tons may proceed at a maximum speed of:"
+    },
+    "options": [
+      {
+        "en": "60 km/h."
+      },
+      {
+        "en": "70 km/h."
+      },
+      {
+        "en": "80 km/h."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q095.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q096",
+    "group": 4,
+    "number": 96,
+    "question": {
+      "en": "What is prohibited by this traffic sign?"
+    },
+    "options": [
+      {
+        "en": "Proceeding at a speed greater than 20 km/h."
+      },
+      {
+        "en": "Traffic of motor vehicles."
+      },
+      {
+        "en": "Traffic of all vehicles."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q096.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q097",
+    "group": 4,
+    "number": 97,
+    "question": {
+      "en": "Where must the driver stop in order to comply with the sign?"
+    },
+    "options": [
+      {
+        "en": "Before the sign (A)."
+      },
+      {
+        "en": "Before the intersection (B)."
+      },
+      {
+        "en": "Before the intersection of the roadways (C)."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q097.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q098",
+    "group": 4,
+    "number": 98,
+    "question": {
+      "en": "Which sign limits speed?"
+    },
+    "options": [
+      {
+        "en": "1 and 3."
+      },
+      {
+        "en": "1 and 4."
+      },
+      {
+        "en": "Only 2."
+      },
+      {
+        "en": "2 and 3."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q098.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q099",
+    "group": 4,
+    "number": 99,
+    "question": {
+      "en": "Which sign applies only to the lane above which it is installed?"
+    },
+    "options": [
+      {
+        "en": "Only A."
+      },
+      {
+        "en": "Only B."
+      },
+      {
+        "en": "A and B."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g4/q099.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q100",
+    "group": 4,
+    "number": 100,
+    "question": {
+      "en": "Parking at the indicated location is:"
+    },
+    "options": [
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Permitted only during daylight hours."
+      },
+      {
+        "en": "Prohibited."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g4/q100.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q101",
+    "group": 4,
+    "number": 101,
+    "question": {
+      "en": "Has the truck driver violated the parking rules?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "Yes, if the maximum authorized mass exceeds 3.5 metric tons."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g4/q101.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q102",
+    "group": 4,
+    "number": 102,
+    "question": {
+      "en": "In which direction is traffic permitted?"
+    },
+    "options": [
+      {
+        "en": "Straight ahead only."
+      },
+      {
+        "en": "Straight ahead and by making a U-turn."
+      },
+      {
+        "en": "In all directions."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q102.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q103",
+    "group": 4,
+    "number": 103,
+    "question": {
+      "en": "Which sign does not apply to you if you reside within the area where the sign is in effect?"
+    },
+    "options": [
+      {
+        "en": "Only A."
+      },
+      {
+        "en": "Only B."
+      },
+      {
+        "en": "Only A and C."
+      },
+      {
+        "en": "Only C."
+      },
+      {
+        "en": "All of them."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q103.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q104",
+    "group": 4,
+    "number": 104,
+    "question": {
+      "en": "What does the supplemental plaque indicate?"
+    },
+    "options": [
+      {
+        "en": "The distance from the sign to the intersection when a “Yield” sign is installed immediately before the intersection."
+      },
+      {
+        "en": "The distance from the sign to the intersection when a “STOP” sign is installed immediately before the intersection."
+      },
+      {
+        "en": "The location of a border checkpoint."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q104.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q105",
+    "group": 4,
+    "number": 105,
+    "question": {
+      "en": "Stopping at the indicated location is:"
+    },
+    "options": [
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Prohibited."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g4/q105.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q106",
+    "group": 4,
+    "number": 106,
+    "question": {
+      "en": "Which signs remain in effect in the direction of traffic up to the nearest intersection?"
+    },
+    "options": [
+      {
+        "en": "A and C."
+      },
+      {
+        "en": "B and D."
+      },
+      {
+        "en": "C and D."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q106.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q107",
+    "group": 4,
+    "number": 107,
+    "question": {
+      "en": "What speed regulation is established on the road by these signs?"
+    },
+    "options": [
+      {
+        "en": "Minimum speed: 50 km/h."
+      },
+      {
+        "en": "Recommended speed: 50 km/h."
+      },
+      {
+        "en": "Minimum speed in the left lane proceeding in the same direction: 50 km/h."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q107.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q108",
+    "group": 4,
+    "number": 108,
+    "question": {
+      "en": "Which of the signs prohibits making a left turn?"
+    },
+    "options": [
+      {
+        "en": "Only A."
+      },
+      {
+        "en": "Only A and B."
+      },
+      {
+        "en": "Only A and C."
+      },
+      {
+        "en": "All of them."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q108.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q109",
+    "group": 4,
+    "number": 109,
+    "question": {
+      "en": "Is the driver permitted to make a left turn?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g4/q109.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q110",
+    "group": 4,
+    "number": 110,
+    "question": {
+      "en": "The signs indicate that:"
+    },
+    "options": [
+      {
+        "en": "Within a 150 m section of road, there is a danger of pedestrians entering the roadway."
+      },
+      {
+        "en": "There is an uncontrolled pedestrian crossing 150 m ahead."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q110.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q111",
+    "group": 4,
+    "number": 111,
+    "question": {
+      "en": "Along which paths is traffic permitted?"
+    },
+    "options": [
+      {
+        "en": "Only B."
+      },
+      {
+        "en": "A or B."
+      },
+      {
+        "en": "B or C."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g4/q111.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q112",
+    "group": 4,
+    "number": 112,
+    "question": {
+      "en": "Which of the signs prohibits proceeding at a speed below 40 km/h?"
+    },
+    "options": [
+      {
+        "en": "Only A."
+      },
+      {
+        "en": "Only C."
+      },
+      {
+        "en": "A and B."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q112.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q113",
+    "group": 4,
+    "number": 113,
+    "question": {
+      "en": "With which sign must you yield to oncoming traffic at a narrow section?"
+    },
+    "options": [
+      {
+        "en": "Only C."
+      },
+      {
+        "en": "A and C."
+      },
+      {
+        "en": "B and C."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q113.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q114",
+    "group": 4,
+    "number": 114,
+    "question": {
+      "en": "In which direction or directions may you continue through this intersection if you are driving a truck with a maximum authorized mass of 3.5 metric tons?"
+    },
+    "options": [
+      {
+        "en": "To the left only."
+      },
+      {
+        "en": "To the right, to the left, or by making a U-turn."
+      },
+      {
+        "en": "In any direction."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q114.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q115",
+    "group": 4,
+    "number": 115,
+    "question": {
+      "en": "Is a right turn onto the unpaved road permitted?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g4/q115.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q116",
+    "group": 4,
+    "number": 116,
+    "question": {
+      "en": "Is stopping at the indicated location to pick up a passenger permitted?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g4/q116.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q117",
+    "group": 4,
+    "number": 117,
+    "question": {
+      "en": "Which sign indicates a pedestrian path?"
+    },
+    "options": [
+      {
+        "en": "B."
+      },
+      {
+        "en": "B and C."
+      },
+      {
+        "en": "All of them."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g4/q117.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q118",
+    "group": 4,
+    "number": 118,
+    "question": {
+      "en": "This traffic sign:"
+    },
+    "options": [
+      {
+        "en": "Warns of an approaching narrow section."
+      },
+      {
+        "en": "Prohibits crossing the bridge."
+      },
+      {
+        "en": "Requires the driver to yield to oncoming traffic at narrow sections."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q118.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q119",
+    "group": 4,
+    "number": 119,
+    "question": {
+      "en": "What should you do if you need to reverse your direction of movement?"
+    },
+    "options": [
+      {
+        "en": "Make a U-turn at this intersection."
+      },
+      {
+        "en": "Proceed straight through the intersection and then make a U-turn."
+      },
+      {
+        "en": "Both options are permitted."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q119.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q120",
+    "group": 4,
+    "number": 120,
+    "question": {
+      "en": "Parking at the indicated location is:"
+    },
+    "options": [
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Prohibited."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q120.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q121",
+    "group": 4,
+    "number": 121,
+    "question": {
+      "en": "When this supplemental plaque is used, the sign with which it is used applies to:"
+    },
+    "options": [
+      {
+        "en": "Passenger cars only."
+      },
+      {
+        "en": "Passenger cars and trucks with a maximum authorized mass not exceeding 3.5 metric tons."
+      },
+      {
+        "en": "Passenger cars and motorcycles."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q121.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q122",
+    "group": 4,
+    "number": 122,
+    "question": {
+      "en": "This traffic sign indicates that:"
+    },
+    "options": [
+      {
+        "en": "Stopping on the shoulder is prohibited."
+      },
+      {
+        "en": "Entering the shoulder is dangerous because of roadwork."
+      },
+      {
+        "en": "Stopping is permitted only on the roadway."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q122.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q123",
+    "group": 4,
+    "number": 123,
+    "question": {
+      "en": "In which direction or directions is traffic permitted from the indicated lane?"
+    },
+    "options": [
+      {
+        "en": "To the left only."
+      },
+      {
+        "en": "Straight ahead and to the left."
+      },
+      {
+        "en": "Straight ahead, to the left, and by making a U-turn."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q123.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q124",
+    "group": 4,
+    "number": 124,
+    "question": {
+      "en": "In which of the indicated directions may you continue through this intersection?"
+    },
+    "options": [
+      {
+        "en": "Only A."
+      },
+      {
+        "en": "B and C."
+      },
+      {
+        "en": "A and B."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q124.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q125",
+    "group": 4,
+    "number": 125,
+    "question": {
+      "en": "This traffic sign:"
+    },
+    "options": [
+      {
+        "en": "Recommends proceeding at a speed of 40 km/h."
+      },
+      {
+        "en": "Permits proceeding only at a speed of 40 km/h or higher."
+      },
+      {
+        "en": "Prohibits proceeding at a speed higher than 40 km/h."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q125.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q126",
+    "group": 4,
+    "number": 126,
+    "question": {
+      "en": "Which supplemental plaques indicate the area of effect of the sign with which they are used?"
+    },
+    "options": [
+      {
+        "en": "Only A."
+      },
+      {
+        "en": "Only B."
+      },
+      {
+        "en": "B and C."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q126.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q127",
+    "group": 4,
+    "number": 127,
+    "question": {
+      "en": "Which yard is the driver permitted to enter?"
+    },
+    "options": [
+      {
+        "en": "The left yard."
+      },
+      {
+        "en": "The right yard."
+      },
+      {
+        "en": "Neither yard."
+      },
+      {
+        "en": "Both yards."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q127.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q128",
+    "group": 4,
+    "number": 128,
+    "question": {
+      "en": "Which sign takes effect immediately from the location where it is installed?"
+    },
+    "options": [
+      {
+        "en": "Only A and B."
+      },
+      {
+        "en": "Only B."
+      },
+      {
+        "en": "All of them."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g4/q128.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q129",
+    "group": 4,
+    "number": 129,
+    "question": {
+      "en": "Along which path is it permitted to continue?"
+    },
+    "options": [
+      {
+        "en": "Only A."
+      },
+      {
+        "en": "Only A or C."
+      },
+      {
+        "en": "Only A or D."
+      },
+      {
+        "en": "Any path except B."
+      }
+    ],
+    "answer": 4,
+    "image": "images/g4/q129.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q130",
+    "group": 4,
+    "number": 130,
+    "question": {
+      "en": "What does this traffic sign warn about?"
+    },
+    "options": [
+      {
+        "en": "An approaching slippery section of road."
+      },
+      {
+        "en": "An approaching wet and dirty section of road."
+      },
+      {
+        "en": "An approaching section of road where loose gravel may be thrown up by vehicle tires."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q130.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q131",
+    "group": 4,
+    "number": 131,
+    "question": {
+      "en": "Within the area of effect of which sign do the traffic rules applicable in populated areas not apply?"
+    },
+    "options": [
+      {
+        "en": "Only A."
+      },
+      {
+        "en": "Only C."
+      },
+      {
+        "en": "B and C."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q131.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q132",
+    "group": 4,
+    "number": 132,
+    "question": {
+      "en": "In which direction or directions is the passenger-car driver permitted to proceed in this situation?"
+    },
+    "options": [
+      {
+        "en": "Straight ahead only."
+      },
+      {
+        "en": "Straight ahead and to the right."
+      },
+      {
+        "en": "In any direction."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q132.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q133",
+    "group": 4,
+    "number": 133,
+    "question": {
+      "en": "Unloading an automobile within the area where this traffic sign is in effect is:"
+    },
+    "options": [
+      {
+        "en": "Permitted if it takes no more than 5 minutes."
+      },
+      {
+        "en": "Permitted regardless of duration."
+      },
+      {
+        "en": "Prohibited."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q133.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q134",
+    "group": 4,
+    "number": 134,
+    "question": {
+      "en": "Which of the signs prohibits a U-turn?"
+    },
+    "options": [
+      {
+        "en": "Only A."
+      },
+      {
+        "en": "Only A and C."
+      },
+      {
+        "en": "None of them."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q134.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q135",
+    "group": 4,
+    "number": 135,
+    "question": {
+      "en": "Is it permitted to enter the indicated yard?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g4/q135.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q136",
+    "group": 4,
+    "number": 136,
+    "question": {
+      "en": "In this situation, stopping to pick up a passenger is:"
+    },
+    "options": [
+      {
+        "en": "Permitted after the sign."
+      },
+      {
+        "en": "Permitted before the sign."
+      },
+      {
+        "en": "Prohibited in both cases."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q136.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q137",
+    "group": 4,
+    "number": 137,
+    "question": {
+      "en": "After which signs is proceeding prohibited without permission?"
+    },
+    "options": [
+      {
+        "en": "Only A and D."
+      },
+      {
+        "en": "Only B and C."
+      },
+      {
+        "en": "Only D and C."
+      },
+      {
+        "en": "All of them."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q137.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q138",
+    "group": 4,
+    "number": 138,
+    "question": {
+      "en": "What is the minimum distance from the location of this sign at which an intersection of roads of equal priority may be encountered?"
+    },
+    "options": [
+      {
+        "en": "100 m."
+      },
+      {
+        "en": "150 m."
+      },
+      {
+        "en": "50 m."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q138.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q139",
+    "group": 4,
+    "number": 139,
+    "question": {
+      "en": "In which of the directions indicated by the arrows may towing continue?"
+    },
+    "options": [
+      {
+        "en": "Only A."
+      },
+      {
+        "en": "Only B."
+      },
+      {
+        "en": "In both directions."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g4/q139.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q140",
+    "group": 4,
+    "number": 140,
+    "question": {
+      "en": "From what point do the requirements regulating traffic in a populated area take effect?"
+    },
+    "options": [
+      {
+        "en": "After the “Beginning of Populated Area” sign with a white background."
+      },
+      {
+        "en": "Only after signs with a white or blue background that contain the name of the populated area."
+      },
+      {
+        "en": "Only after the beginning of the developed area."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g4-q141",
+    "group": 4,
+    "number": 141,
+    "question": {
+      "en": "This traffic sign:"
+    },
+    "options": [
+      {
+        "en": "Warns of an intersection with tram tracks."
+      },
+      {
+        "en": "Warns of an approaching tram stop."
+      },
+      {
+        "en": "Requires yielding to the tram operator."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g4/q141.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q142",
+    "group": 4,
+    "number": 142,
+    "question": {
+      "en": "These signs require you to maintain between your vehicle and the vehicle ahead:"
+    },
+    "options": [
+      {
+        "en": "A distance of up to 70 m over a 900 m section of road."
+      },
+      {
+        "en": "A distance of at least 70 m over a 900 m section of road."
+      },
+      {
+        "en": "A distance of 70 m after proceeding 900 m."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q142.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q143",
+    "group": 4,
+    "number": 143,
+    "question": {
+      "en": "In which direction or directions may you continue from the indicated lane?"
+    },
+    "options": [
+      {
+        "en": "Straight ahead only."
+      },
+      {
+        "en": "To the left and straight ahead."
+      },
+      {
+        "en": "To the left, straight ahead, and by making a U-turn."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q143.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q144",
+    "group": 4,
+    "number": 144,
+    "question": {
+      "en": "These signs warn that:"
+    },
+    "options": [
+      {
+        "en": "There is a three-track railroad crossing ahead."
+      },
+      {
+        "en": "There is a railroad crossing without a barrier gate 150–300 m ahead."
+      },
+      {
+        "en": "There is a railroad crossing 50–100 m ahead."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q144.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q145",
+    "group": 4,
+    "number": 145,
+    "question": {
+      "en": "Is parking permitted at the indicated location?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "Permitted only for residents of the indicated area."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g4/q145.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q146",
+    "group": 4,
+    "number": 146,
+    "question": {
+      "en": "Which sign requires the driver of a 5-metric-ton truck to make a right turn at the intersection?"
+    },
+    "options": [
+      {
+        "en": "Only A."
+      },
+      {
+        "en": "Only B."
+      },
+      {
+        "en": "A and B."
+      },
+      {
+        "en": "B and C."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q146.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q147",
+    "group": 4,
+    "number": 147,
+    "question": {
+      "en": "In which direction or directions may you continue through the indicated intersection if you are driving a truck with a maximum authorized mass of 3 metric tons?"
+    },
+    "options": [
+      {
+        "en": "Straight ahead only."
+      },
+      {
+        "en": "Straight ahead and to the right only."
+      },
+      {
+        "en": "In any direction."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q147.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q148",
+    "group": 4,
+    "number": 148,
+    "question": {
+      "en": "In this situation, the horn may be used:"
+    },
+    "options": [
+      {
+        "en": "Only to warn of an intention to pass."
+      },
+      {
+        "en": "Only when necessary to prevent a traffic accident."
+      },
+      {
+        "en": "In both of the listed cases."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q148.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q149",
+    "group": 4,
+    "number": 149,
+    "question": {
+      "en": "Which sign is used to mark a speed hump?"
+    },
+    "options": [
+      {
+        "en": "Only A."
+      },
+      {
+        "en": "Only B."
+      },
+      {
+        "en": "B and C."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g4/q149.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q150",
+    "group": 4,
+    "number": 150,
+    "question": {
+      "en": "Along which path may you continue?"
+    },
+    "options": [
+      {
+        "en": "Only A."
+      },
+      {
+        "en": "Only B."
+      },
+      {
+        "en": "Along both indicated paths."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g4/q150.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q151",
+    "group": 4,
+    "number": 151,
+    "question": {
+      "en": "At an uncontrolled intersection, which signs give the driver the right-of-way over vehicles proceeding on the intersecting road?"
+    },
+    "options": [
+      {
+        "en": "Only A."
+      },
+      {
+        "en": "A and C."
+      },
+      {
+        "en": "All of them."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q151.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q152",
+    "group": 4,
+    "number": 152,
+    "question": {
+      "en": "Is passing permitted in this situation?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "Yes, if the motorcycle is proceeding at a speed below 30 km/h."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g4/q152.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q153",
+    "group": 4,
+    "number": 153,
+    "question": {
+      "en": "Has the truck driver violated the parking rules?"
+    },
+    "options": [
+      {
+        "en": "No."
+      },
+      {
+        "en": "Yes, if the maximum authorized mass exceeds 3.5 metric tons."
+      },
+      {
+        "en": "Yes."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q153.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q154",
+    "group": 4,
+    "number": 154,
+    "question": {
+      "en": "Along which path is the U-turn permitted?"
+    },
+    "options": [
+      {
+        "en": "Only A."
+      },
+      {
+        "en": "Only B."
+      },
+      {
+        "en": "Any of the paths."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q154.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q155",
+    "group": 4,
+    "number": 155,
+    "question": {
+      "en": "On odd-numbered dates of the month, is parking permitted at the indicated location?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "Yes, after 7:00 PM."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q155.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q156",
+    "group": 4,
+    "number": 156,
+    "question": {
+      "en": "Which signs indicate the section where drivers must yield to pedestrians crossing the roadway?"
+    },
+    "options": [
+      {
+        "en": "Only A and B."
+      },
+      {
+        "en": "Only B and C."
+      },
+      {
+        "en": "All of them."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q156.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q157",
+    "group": 4,
+    "number": 157,
+    "question": {
+      "en": "Which sign warns that you are approaching the beginning of a road with two-way traffic?"
+    },
+    "options": [
+      {
+        "en": "Only A."
+      },
+      {
+        "en": "Only A and B."
+      },
+      {
+        "en": "All of them."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g4/q157.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q158",
+    "group": 4,
+    "number": 158,
+    "question": {
+      "en": "Are you permitted to enter your workplace located within the area where these signs are in effect?"
+    },
+    "options": [
+      {
+        "en": "Permitted only on working days."
+      },
+      {
+        "en": "Permitted only on non-working days."
+      },
+      {
+        "en": "Permitted on all days."
+      },
+      {
+        "en": "Prohibited."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q158.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q159",
+    "group": 4,
+    "number": 159,
+    "question": {
+      "en": "Is a passenger car towing a trailer permitted to proceed straight ahead through the intersection?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "Permitted only for persons residing within the area where the sign is in effect."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g4/q159.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q160",
+    "group": 4,
+    "number": 160,
+    "question": {
+      "en": "In which of the indicated directions is traffic permitted?"
+    },
+    "options": [
+      {
+        "en": "Only B."
+      },
+      {
+        "en": "Only A and B."
+      },
+      {
+        "en": "Only B and C."
+      },
+      {
+        "en": "All of them."
+      }
+    ],
+    "answer": 4,
+    "image": "images/g4/q160.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q161",
+    "group": 4,
+    "number": 161,
+    "question": {
+      "en": "This sign:"
+    },
+    "options": [
+      {
+        "en": "Indicates the directions of traffic at the intersection."
+      },
+      {
+        "en": "Prohibits proceeding through the intersection."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g4/q161.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q162",
+    "group": 4,
+    "number": 162,
+    "question": {
+      "en": "Which sign indicates the length of the lane provided for making a U-turn?"
+    },
+    "options": [
+      {
+        "en": "A."
+      },
+      {
+        "en": "B."
+      },
+      {
+        "en": "A and B."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q162.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q163",
+    "group": 4,
+    "number": 163,
+    "question": {
+      "en": "At what minimum distance from the sign will a slippery section of road begin in a populated area?"
+    },
+    "options": [
+      {
+        "en": "At least 100 m."
+      },
+      {
+        "en": "At least 50 m."
+      },
+      {
+        "en": "Immediately after the sign."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q163.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q164",
+    "group": 4,
+    "number": 164,
+    "question": {
+      "en": "Which vehicles are not subject to the “No Stopping” sign in this situation?"
+    },
+    "options": [
+      {
+        "en": "Passenger-car taxis."
+      },
+      {
+        "en": "Only motorized wheelchairs and automobiles displaying the “Disabled” identification sign."
+      },
+      {
+        "en": "All of the listed vehicles."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q164.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q165",
+    "group": 4,
+    "number": 165,
+    "question": {
+      "en": "At the next intersection, in which of the indicated directions may you continue?"
+    },
+    "options": [
+      {
+        "en": "Only B."
+      },
+      {
+        "en": "A or B."
+      },
+      {
+        "en": "All of them."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q165.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q166",
+    "group": 4,
+    "number": 166,
+    "question": {
+      "en": "Within the area of effect of which sign may you proceed at a speed of 60 km/h?"
+    },
+    "options": [
+      {
+        "en": "Only B."
+      },
+      {
+        "en": "B and C."
+      },
+      {
+        "en": "None of them."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q166.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q167",
+    "group": 4,
+    "number": 167,
+    "question": {
+      "en": "Which driver has violated the parking rules?"
+    },
+    "options": [
+      {
+        "en": "No one."
+      },
+      {
+        "en": "The truck driver."
+      },
+      {
+        "en": "The motorcycle operator and the passenger-car driver."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g4/q167.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q168",
+    "group": 4,
+    "number": 168,
+    "question": {
+      "en": "Which of the indicated directions is permitted?"
+    },
+    "options": [
+      {
+        "en": "Only C."
+      },
+      {
+        "en": "A or C."
+      },
+      {
+        "en": "All except D."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q168.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q169",
+    "group": 4,
+    "number": 169,
+    "question": {
+      "en": "When used with which supplemental plaque does the sign apply to the driver of a truck with a maximum authorized mass of less than 3.5 metric tons?"
+    },
+    "options": [
+      {
+        "en": "Only B."
+      },
+      {
+        "en": "Only C."
+      },
+      {
+        "en": "B and C."
+      },
+      {
+        "en": "All of them."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q169.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q170",
+    "group": 4,
+    "number": 170,
+    "question": {
+      "en": "Which case indicates a railroad crossing with two or more tracks?"
+    },
+    "options": [
+      {
+        "en": "A and C."
+      },
+      {
+        "en": "A and B."
+      },
+      {
+        "en": "Only C."
+      },
+      {
+        "en": "B and C."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q170.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q171",
+    "group": 4,
+    "number": 171,
+    "question": {
+      "en": "A U-turn along the indicated path is:"
+    },
+    "options": [
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Prohibited."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q171.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q172",
+    "group": 4,
+    "number": 172,
+    "question": {
+      "en": "Parking beyond the overpass is:"
+    },
+    "options": [
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Prohibited."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q172.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q173",
+    "group": 4,
+    "number": 173,
+    "question": {
+      "en": "These traffic signs indicate:"
+    },
+    "options": [
+      {
+        "en": "Construction of a railroad crossing."
+      },
+      {
+        "en": "An approaching railroad crossing with a barrier gate."
+      },
+      {
+        "en": "A railroad crossing without a barrier gate."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q173.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q174",
+    "group": 4,
+    "number": 174,
+    "question": {
+      "en": "Which signs permit a U-turn?"
+    },
+    "options": [
+      {
+        "en": "All except C."
+      },
+      {
+        "en": "All of them."
+      },
+      {
+        "en": "Only A."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q174.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q175",
+    "group": 4,
+    "number": 175,
+    "question": {
+      "en": "From the indicated lane, traffic is permitted:"
+    },
+    "options": [
+      {
+        "en": "To the left only."
+      },
+      {
+        "en": "Straight ahead only."
+      },
+      {
+        "en": "To the left and by making a U-turn."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q175.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q176",
+    "group": 4,
+    "number": 176,
+    "question": {
+      "en": "This sign indicates that you are approaching a tunnel:"
+    },
+    "options": [
+      {
+        "en": "Where pavement markings are absent."
+      },
+      {
+        "en": "Where artificial lighting is absent."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q176.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q177",
+    "group": 4,
+    "number": 177,
+    "question": {
+      "en": "At which of the indicated locations is stopping permitted?"
+    },
+    "options": [
+      {
+        "en": "Only A."
+      },
+      {
+        "en": "Only B."
+      },
+      {
+        "en": "Stopping is prohibited at all of the indicated locations."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q177.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q178",
+    "group": 4,
+    "number": 178,
+    "question": {
+      "en": "With which sign may you make a left turn?"
+    },
+    "options": [
+      {
+        "en": "Only B."
+      },
+      {
+        "en": "A and B."
+      },
+      {
+        "en": "B and C."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q178.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q179",
+    "group": 4,
+    "number": 179,
+    "question": {
+      "en": "This sign gives advance warning of:"
+    },
+    "options": [
+      {
+        "en": "The need to yield to bicyclists."
+      },
+      {
+        "en": "An intersection with a bicycle path."
+      },
+      {
+        "en": "An approaching bicycle area."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g4/q179.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q180",
+    "group": 4,
+    "number": 180,
+    "question": {
+      "en": "Which vehicle drivers are subject to these signs?"
+    },
+    "options": [
+      {
+        "en": "Passenger-car drivers and motorcycle operators."
+      },
+      {
+        "en": "All drivers."
+      },
+      {
+        "en": "Passenger-car drivers only."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g4/q180.webp",
+    "explanation": null
+  },
+  {
+    "id": "g4-q181",
+    "group": 4,
+    "number": 181,
+    "question": {
+      "en": "Under which sign, after stopping, may you not resume proceeding without permission?"
+    },
+    "options": [
+      {
+        "en": "Only 2."
+      },
+      {
+        "en": "1 and 5."
+      },
+      {
+        "en": "Only 5."
+      },
+      {
+        "en": "All of them."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g4/q181.webp",
+    "explanation": null
+  }
+]

@@ -1,0 +1,2551 @@
+[
+  {
+    "id": "g9-q001",
+    "group": 9,
+    "number": 1,
+    "question": {
+      "en": "When approaching a stopped vehicle with a flashing red beacon switched on, drivers of vehicles proceeding in that direction must:"
+    },
+    "options": [
+      {
+        "en": "Stop and continue only after receiving permission."
+      },
+      {
+        "en": "Reduce speed so that they can stop immediately if necessary."
+      },
+      {
+        "en": "Continue driving."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g9-q002",
+    "group": 9,
+    "number": 2,
+    "question": {
+      "en": "When a vehicle with a flashing blue beacon and a special audible signal activated is approaching, drivers of vehicles must:"
+    },
+    "options": [
+      {
+        "en": "Continue driving."
+      },
+      {
+        "en": "Yield to ensure the unobstructed passage of that vehicle."
+      },
+      {
+        "en": "Reduce speed and yield to ensure the unobstructed passage of that vehicle."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g9-q003",
+    "group": 9,
+    "number": 3,
+    "question": {
+      "en": "Is it mandatory to have the low-beam headlights switched on during daylight hours on mopeds?"
+    },
+    "options": [
+      {
+        "en": "Mandatory"
+      },
+      {
+        "en": "Not mandatory"
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g9-q004",
+    "group": 9,
+    "number": 4,
+    "question": {
+      "en": "In which case do the rules not require a warning signal to be given?"
+    },
+    "options": [
+      {
+        "en": "Before stopping at the edge of the roadway."
+      },
+      {
+        "en": "Before a curve in the road within the area of effect of a “Dangerous Turn” sign."
+      },
+      {
+        "en": "Before changing to an adjacent traffic lane."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g9-q005",
+    "group": 9,
+    "number": 5,
+    "question": {
+      "en": "Before changing lanes, a warning signal must be given:"
+    },
+    "options": [
+      {
+        "en": "Immediately before beginning the maneuver."
+      },
+      {
+        "en": "Immediately after beginning the maneuver."
+      },
+      {
+        "en": "In advance, before beginning the maneuver."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g9-q006",
+    "group": 9,
+    "number": 6,
+    "question": {
+      "en": "When performing a maneuver, a warning signal must be given:"
+    },
+    "options": [
+      {
+        "en": "Before changing the direction of traffic."
+      },
+      {
+        "en": "While changing the direction of traffic."
+      },
+      {
+        "en": "In advance, before changing the direction of traffic."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g9-q007",
+    "group": 9,
+    "number": 7,
+    "question": {
+      "en": "A warning signal given by hand must be discontinued:"
+    },
+    "options": [
+      {
+        "en": "Immediately before beginning the maneuver."
+      },
+      {
+        "en": "Immediately after completing the maneuver."
+      },
+      {
+        "en": "While performing the maneuver."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g9-q008",
+    "group": 9,
+    "number": 8,
+    "question": {
+      "en": "In which case must the driver give a warning signal before stopping?"
+    },
+    "options": [
+      {
+        "en": "If another vehicle is proceeding behind the driver."
+      },
+      {
+        "en": "Only in populated areas."
+      },
+      {
+        "en": "In all cases."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g9-q009",
+    "group": 9,
+    "number": 9,
+    "question": {
+      "en": "If forced to stop on a railroad crossing, what general alarm signal must the driver give by repeated horn signals?"
+    },
+    "options": [
+      {
+        "en": "Three long and one short."
+      },
+      {
+        "en": "One long and three short."
+      },
+      {
+        "en": "One long and two short."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g9-q010",
+    "group": 9,
+    "number": 10,
+    "question": {
+      "en": "If a turn signal is absent or malfunctioning, a warning signal given by hand must be discontinued:"
+    },
+    "options": [
+      {
+        "en": "Immediately before beginning the maneuver."
+      },
+      {
+        "en": "Immediately after completing the maneuver."
+      },
+      {
+        "en": "While performing the maneuver."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g9-q011",
+    "group": 9,
+    "number": 11,
+    "question": {
+      "en": "The following combination of horn signals constitutes the general alarm signal given at a railroad crossing:"
+    },
+    "options": [
+      {
+        "en": "Two long and two short."
+      },
+      {
+        "en": "One long and three short."
+      },
+      {
+        "en": "Three long and three short."
+      },
+      {
+        "en": "Three long and one short."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g9-q012",
+    "group": 9,
+    "number": 12,
+    "question": {
+      "en": "In which image is the driver giving a left-turn signal?"
+    },
+    "options": [
+      {
+        "en": "1"
+      },
+      {
+        "en": "2"
+      },
+      {
+        "en": "3"
+      }
+    ],
+    "answer": 1,
+    "image": "images/g9/q012.webp",
+    "explanation": null
+  },
+  {
+    "id": "g9-q013",
+    "group": 9,
+    "number": 13,
+    "question": {
+      "en": "When approaching a stationary vehicle with a red flashing beacon activated, drivers proceeding in the same direction must:"
+    },
+    "options": [
+      {
+        "en": "Stop and continue only after receiving permission."
+      },
+      {
+        "en": "Reduce speed so that they can stop immediately if necessary."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g9-q014",
+    "group": 9,
+    "number": 14,
+    "question": {
+      "en": "For what purpose are orange or yellow flashing beacons installed on vehicles?"
+    },
+    "options": [
+      {
+        "en": "To obtain right-of-way over other road users."
+      },
+      {
+        "en": "To warn other road users of danger."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g9-q015",
+    "group": 9,
+    "number": 15,
+    "question": {
+      "en": "When a vehicle with a blue flashing beacon and a special audible signal activated is approaching, drivers must:"
+    },
+    "options": [
+      {
+        "en": "Yield to ensure the unobstructed passage of that vehicle."
+      },
+      {
+        "en": "Reduce speed and yield to ensure the unobstructed passage of that vehicle."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g9-q016",
+    "group": 9,
+    "number": 16,
+    "question": {
+      "en": "The blue automobile will proceed through the intersection:"
+    },
+    "options": [
+      {
+        "en": "First, simultaneously with the red automobile."
+      },
+      {
+        "en": "Second, simultaneously with the red automobile."
+      },
+      {
+        "en": "Third, simultaneously with the red automobile."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g9/q016.webp",
+    "explanation": null
+  },
+  {
+    "id": "g9-q017",
+    "group": 9,
+    "number": 17,
+    "question": {
+      "en": "When a vehicle with blue and red flashing beacons and a special audible signal activated is approaching, drivers must:"
+    },
+    "options": [
+      {
+        "en": "Yield to ensure the unobstructed passage of that vehicle."
+      },
+      {
+        "en": "Reduce speed and yield to ensure the unobstructed passage of that vehicle and the vehicles it is escorting."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g9-q018",
+    "group": 9,
+    "number": 18,
+    "question": {
+      "en": "Which vehicle driver has the right-of-way?"
+    },
+    "options": [
+      {
+        "en": "The driver of the road-cleaning vehicle."
+      },
+      {
+        "en": "The passenger-car driver."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g9/q018.webp",
+    "explanation": null
+  },
+  {
+    "id": "g9-q019",
+    "group": 9,
+    "number": 19,
+    "question": {
+      "en": "The black automobile will proceed through the intersection:"
+    },
+    "options": [
+      {
+        "en": "First."
+      },
+      {
+        "en": "Second."
+      },
+      {
+        "en": "Last."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g9/q019.webp",
+    "explanation": null
+  },
+  {
+    "id": "g9-q020",
+    "group": 9,
+    "number": 20,
+    "question": {
+      "en": "Which vehicle driver must yield?"
+    },
+    "options": [
+      {
+        "en": "The ambulance driver."
+      },
+      {
+        "en": "The passenger-car driver."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g9/q020.webp",
+    "explanation": null
+  },
+  {
+    "id": "g9-q021",
+    "group": 9,
+    "number": 21,
+    "question": {
+      "en": "The blue automobile will proceed through the intersection:"
+    },
+    "options": [
+      {
+        "en": "First."
+      },
+      {
+        "en": "Second."
+      },
+      {
+        "en": "Third."
+      },
+      {
+        "en": "Last."
+      }
+    ],
+    "answer": 4,
+    "image": "images/g9/q021.webp",
+    "explanation": null
+  },
+  {
+    "id": "g9-q022",
+    "group": 9,
+    "number": 22,
+    "question": {
+      "en": "Does an activated yellow (orange) flashing beacon give a vehicle the right-of-way?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g9-q023",
+    "group": 9,
+    "number": 23,
+    "question": {
+      "en": "The driver of a vehicle with white flashing beacons activated gives a special audible signal in order to:"
+    },
+    "options": [
+      {
+        "en": "Obtain right-of-way over other road users."
+      },
+      {
+        "en": "Attract the attention of police officers and other persons."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g9-q024",
+    "group": 9,
+    "number": 24,
+    "question": {
+      "en": "The driver of a vehicle equipped with a blue flashing beacon has the right-of-way over other road users if the driver:"
+    },
+    "options": [
+      {
+        "en": "Has activated the flashing beacon."
+      },
+      {
+        "en": "Is giving a special audible signal."
+      },
+      {
+        "en": "Has activated the blue flashing beacon and the special audible signal."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g9-q025",
+    "group": 9,
+    "number": 25,
+    "question": {
+      "en": "Within what distance before a railroad crossing is passing prohibited?"
+    },
+    "options": [
+      {
+        "en": "Within 50 m before the crossing."
+      },
+      {
+        "en": "Within 100 m before the crossing."
+      },
+      {
+        "en": "Within 150 m before the crossing."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g9-q026",
+    "group": 9,
+    "number": 26,
+    "question": {
+      "en": "Is passing vehicles at an intersection permitted when proceeding on a road that is the priority road relative to the intersecting road?"
+    },
+    "options": [
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Prohibited."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g9-q027",
+    "group": 9,
+    "number": 27,
+    "question": {
+      "en": "Is the passenger-car driver permitted to pass in the indicated situation?"
+    },
+    "options": [
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Permitted if the motorcycle’s speed does not exceed 30 km/h."
+      },
+      {
+        "en": "Prohibited."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g9/q027.webp",
+    "explanation": null
+  },
+  {
+    "id": "g9-q028",
+    "group": 9,
+    "number": 28,
+    "question": {
+      "en": "Passing is prohibited:"
+    },
+    "options": [
+      {
+        "en": "At intersections."
+      },
+      {
+        "en": "Within 150 m before railroad crossings."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g9-q029",
+    "group": 9,
+    "number": 29,
+    "question": {
+      "en": "Passing is prohibited:"
+    },
+    "options": [
+      {
+        "en": "At controlled intersections."
+      },
+      {
+        "en": "At uncontrolled intersections."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g9-q030",
+    "group": 9,
+    "number": 30,
+    "question": {
+      "en": "Is it permitted to pass the road train in this situation if its speed does not exceed 30 km/h?"
+    },
+    "options": [
+      {
+        "en": "Prohibited."
+      },
+      {
+        "en": "Permitted."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g9/q030.webp",
+    "explanation": null
+  },
+  {
+    "id": "g9-q031",
+    "group": 9,
+    "number": 31,
+    "question": {
+      "en": "Is the driver of the green automobile permitted to pass?"
+    },
+    "options": [
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Prohibited."
+      },
+      {
+        "en": "Permitted if the red automobile is proceeding at a speed below 30 km/h."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g9/q031.webp",
+    "explanation": null
+  },
+  {
+    "id": "g9-q032",
+    "group": 9,
+    "number": 32,
+    "question": {
+      "en": "Is the driver of the red automobile permitted to pass in this situation?"
+    },
+    "options": [
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Prohibited."
+      },
+      {
+        "en": "Permitted if the speed of the automobile being passed does not exceed 30 km/h."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g9/q032.webp",
+    "explanation": null
+  },
+  {
+    "id": "g9-q033",
+    "group": 9,
+    "number": 33,
+    "question": {
+      "en": "Is it permitted to pass the bus at the indicated location?"
+    },
+    "options": [
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Prohibited."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g9/q033.webp",
+    "explanation": null
+  },
+  {
+    "id": "g9-q034",
+    "group": 9,
+    "number": 34,
+    "question": {
+      "en": "Passing vehicles means:"
+    },
+    "options": [
+      {
+        "en": "Proceeding ahead of one or more moving vehicles by leaving the occupied lane and entering the oncoming traffic lane."
+      },
+      {
+        "en": "Proceeding ahead of one or more moving vehicles by leaving the occupied lane."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g9-q035",
+    "group": 9,
+    "number": 35,
+    "question": {
+      "en": "At night and under conditions of insufficient visibility, regardless of road lighting, moving motor vehicles must have the following activated:"
+    },
+    "options": [
+      {
+        "en": "High-beam headlights."
+      },
+      {
+        "en": "Low-beam headlights."
+      },
+      {
+        "en": "High-beam or low-beam headlights."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g9-q036",
+    "group": 9,
+    "number": 36,
+    "question": {
+      "en": "In which case must a motorcycle have its low-beam headlights activated during daylight?"
+    },
+    "options": [
+      {
+        "en": "When proceeding under conditions of insufficient visibility."
+      },
+      {
+        "en": "When proceeding to a parking location on a motorcycle with a malfunction."
+      },
+      {
+        "en": "In all cases while participating in traffic."
+      },
+      {
+        "en": "When carrying an ill passenger."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g9-q037",
+    "group": 9,
+    "number": 37,
+    "question": {
+      "en": "What must the driver do first if dazzled by the headlights of an oncoming vehicle?"
+    },
+    "options": [
+      {
+        "en": "Switch the high-beam headlights (if activated) to low beam."
+      },
+      {
+        "en": "Activate the hazard warning lights."
+      },
+      {
+        "en": "Give a horn signal consisting of one long and three short signals."
+      },
+      {
+        "en": "Give a horn signal consisting of one short and three long signals."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g9-q038",
+    "group": 9,
+    "number": 38,
+    "question": {
+      "en": "Horn signals may be used only:"
+    },
+    "options": [
+      {
+        "en": "In populated areas, to warn other drivers of the intention to pass."
+      },
+      {
+        "en": "When necessary to prevent a traffic accident."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g9-q039",
+    "group": 9,
+    "number": 39,
+    "question": {
+      "en": "At night, on unlit sections of road, a moving motor vehicle must have the following activated:"
+    },
+    "options": [
+      {
+        "en": "High-beam or low-beam headlights."
+      },
+      {
+        "en": "Low-beam headlights only."
+      },
+      {
+        "en": "High-beam headlights only."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g9-q040",
+    "group": 9,
+    "number": 40,
+    "question": {
+      "en": "Rear fog lights may be used:"
+    },
+    "options": [
+      {
+        "en": "At night when proceeding as part of a convoy."
+      },
+      {
+        "en": "When proceeding through tunnels."
+      },
+      {
+        "en": "Only under conditions of insufficient visibility."
+      },
+      {
+        "en": "At night when unloading a vehicle."
+      },
+      {
+        "en": "In all of the listed cases."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g9-q041",
+    "group": 9,
+    "number": 41,
+    "question": {
+      "en": "At what distance from an oncoming vehicle must high-beam headlights be switched to low beam?"
+    },
+    "options": [
+      {
+        "en": "At least 100 m."
+      },
+      {
+        "en": "At least 150 m."
+      },
+      {
+        "en": "At least 300 m."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g9-q042",
+    "group": 9,
+    "number": 42,
+    "question": {
+      "en": "A searchlight may be used:"
+    },
+    "options": [
+      {
+        "en": "Only outside populated areas when there are no oncoming or preceding vehicles."
+      },
+      {
+        "en": "Only under conditions of insufficient visibility."
+      },
+      {
+        "en": "Anywhere, when necessary."
+      },
+      {
+        "en": "At night on all sections of road."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g9-q043",
+    "group": 9,
+    "number": 43,
+    "question": {
+      "en": "In populated areas, at what distance before the beginning of a hazardous section is this warning sign installed?"
+    },
+    "options": [
+      {
+        "en": "25–50 m."
+      },
+      {
+        "en": "50–100 m."
+      },
+      {
+        "en": "100–150 m."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g9/q043.webp",
+    "explanation": null
+  },
+  {
+    "id": "g9-q044",
+    "group": 9,
+    "number": 44,
+    "question": {
+      "en": "Is it permitted to transport agricultural, road-construction, construction, and other machines and mechanisms across a railroad crossing?"
+    },
+    "options": [
+      {
+        "en": "Permitted if the crossing is not equipped with a barrier gate."
+      },
+      {
+        "en": "Permitted if they are in a non-transport position."
+      },
+      {
+        "en": "Permitted if they are in a transport position."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g9-q045",
+    "group": 9,
+    "number": 45,
+    "question": {
+      "en": "Where is it permitted to cross railroad tracks?"
+    },
+    "options": [
+      {
+        "en": "At locations where visibility in both directions is at least 1,000 m."
+      },
+      {
+        "en": "At locations most convenient at the driver’s discretion."
+      },
+      {
+        "en": "At locations designated for crossing."
+      },
+      {
+        "en": "At least 1,000 m from railroad stations."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g9-q046",
+    "group": 9,
+    "number": 46,
+    "question": {
+      "en": "While performing an official assignment, is it permitted to open or bypass a barrier gate without authorization?"
+    },
+    "options": [
+      {
+        "en": "Prohibited."
+      },
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Permitted at the driver’s discretion if no train is approaching nearby."
+      },
+      {
+        "en": "Permitted if the railroad crossing attendant is absent."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g9-q047",
+    "group": 9,
+    "number": 47,
+    "question": {
+      "en": "Is it permitted to transport agricultural, road-construction, construction, and other machines and mechanisms across a railroad crossing?"
+    },
+    "options": [
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Permitted if they are in a transport position."
+      },
+      {
+        "en": "Prohibited."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g9-q048",
+    "group": 9,
+    "number": 48,
+    "question": {
+      "en": "What must the driver follow when approaching a railroad crossing?"
+    },
+    "options": [
+      {
+        "en": "The position of the barrier gate and the traffic signals."
+      },
+      {
+        "en": "The requirements of traffic signs and pavement markings."
+      },
+      {
+        "en": "The instructions of the railroad crossing attendant."
+      },
+      {
+        "en": "All of the listed requirements."
+      }
+    ],
+    "answer": 4,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g9-q049",
+    "group": 9,
+    "number": 49,
+    "question": {
+      "en": "Are pedestrians permitted to proceed on a road marked with the “Freeway” sign?"
+    },
+    "options": [
+      {
+        "en": "Prohibited."
+      },
+      {
+        "en": "Permitted outside populated areas, against the direction of vehicle traffic."
+      },
+      {
+        "en": "Permitted outside populated areas, in the same direction as vehicle traffic."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g9-q050",
+    "group": 9,
+    "number": 50,
+    "question": {
+      "en": "Vehicles whose speed, because of their technical characteristics or condition, does not exceed 40 km/h are:"
+    },
+    "options": [
+      {
+        "en": "Permitted on freeways only in the rightmost lane."
+      },
+      {
+        "en": "Prohibited from proceeding on freeways."
+      },
+      {
+        "en": "Permitted on freeways if there is no “Minimum Speed Limit” sign."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g9-q051",
+    "group": 9,
+    "number": 51,
+    "question": {
+      "en": "The hazard warning lights on a vehicle must be activated:"
+    },
+    "options": [
+      {
+        "en": "In the event of a traffic accident."
+      },
+      {
+        "en": "In the event of a forced stop where stopping is prohibited."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g9-q052",
+    "group": 9,
+    "number": 52,
+    "question": {
+      "en": "The hazard warning lights on a vehicle must be activated:"
+    },
+    "options": [
+      {
+        "en": "In the event of a traffic accident."
+      },
+      {
+        "en": "During towing, on the towed motor vehicle."
+      },
+      {
+        "en": "In the event of a forced stop where stopping is prohibited."
+      },
+      {
+        "en": "In all of the listed cases."
+      }
+    ],
+    "answer": 4,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g9-q053",
+    "group": 9,
+    "number": 53,
+    "question": {
+      "en": "At what distance from the vehicle must the emergency warning triangle be placed?"
+    },
+    "options": [
+      {
+        "en": "At least 15 m in populated areas and at least 30 m outside populated areas."
+      },
+      {
+        "en": "At least 10 m in populated areas and at least 20 m outside populated areas."
+      },
+      {
+        "en": "At least 5 m in populated areas and at least 10 m outside populated areas."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g9-q054",
+    "group": 9,
+    "number": 54,
+    "question": {
+      "en": "The hazard warning lights on a vehicle must be activated:"
+    },
+    "options": [
+      {
+        "en": "If the driver is dazzled by headlights."
+      },
+      {
+        "en": "During towing, on the towed motor vehicle."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g9-q055",
+    "group": 9,
+    "number": 55,
+    "question": {
+      "en": "The hazard warning lights on a vehicle must be activated:"
+    },
+    "options": [
+      {
+        "en": "In the event of a traffic accident."
+      },
+      {
+        "en": "During towing, on the towed motor vehicle."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g9-q056",
+    "group": 9,
+    "number": 56,
+    "question": {
+      "en": "In developed areas where the entrance and exit are marked by the “Residential Zone” and “End of Residential Zone” traffic signs, the following is not prohibited:"
+    },
+    "options": [
+      {
+        "en": "Pedestrians proceeding on the roadway."
+      },
+      {
+        "en": "Through traffic of vehicles."
+      },
+      {
+        "en": "Driving instruction."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g9-q057",
+    "group": 9,
+    "number": 57,
+    "question": {
+      "en": "An intersection is considered controlled if the order of traffic is determined by:"
+    },
+    "options": [
+      {
+        "en": "Traffic signals only."
+      },
+      {
+        "en": "Traffic controller signals only."
+      },
+      {
+        "en": "Either of the above."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g9-q058",
+    "group": 9,
+    "number": 58,
+    "question": {
+      "en": "On an unpaved dirt road, does the presence of a paved section immediately before an intersection make that road equal in priority to the intersecting road?"
+    },
+    "options": [
+      {
+        "en": "No."
+      },
+      {
+        "en": "Yes."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g9-q059",
+    "group": 9,
+    "number": 59,
+    "question": {
+      "en": "Which image shows the permitted directions of traffic?"
+    },
+    "options": [
+      {
+        "en": "The left image."
+      },
+      {
+        "en": "The center image."
+      },
+      {
+        "en": "The right image."
+      },
+      {
+        "en": "The center and right images."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g9/q059.webp",
+    "explanation": null
+  },
+  {
+    "id": "g9-q060",
+    "group": 9,
+    "number": 60,
+    "question": {
+      "en": "If the meanings of the traffic signals conflict with the requirements of the priority signs, drivers must follow:"
+    },
+    "options": [
+      {
+        "en": "The requirements of the signs."
+      },
+      {
+        "en": "The traffic signals."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g9-q061",
+    "group": 9,
+    "number": 61,
+    "question": {
+      "en": "Is the driver permitted to continue when the yellow traffic signal turns on or the traffic controller raises an arm?"
+    },
+    "options": [
+      {
+        "en": "Prohibited."
+      },
+      {
+        "en": "Permitted if the driver cannot stop without sudden braking."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g9-q062",
+    "group": 9,
+    "number": 62,
+    "question": {
+      "en": "A traffic controller gives a whistle signal:"
+    },
+    "options": [
+      {
+        "en": "Only when requiring a vehicle to stop."
+      },
+      {
+        "en": "To attract the attention of road users."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g9-q063",
+    "group": 9,
+    "number": 63,
+    "question": {
+      "en": "In this situation, is the road train permitted to proceed across the bridge?"
+    },
+    "options": [
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Prohibited."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g9/q063.webp",
+    "explanation": null
+  },
+  {
+    "id": "g9-q064",
+    "group": 9,
+    "number": 64,
+    "question": {
+      "en": "May a warning signal be given by hand in order to proceed along the indicated path?"
+    },
+    "options": [
+      {
+        "en": "Yes, if the turn signal is malfunctioning."
+      },
+      {
+        "en": "Yes, if the turn signal is malfunctioning during daylight hours."
+      },
+      {
+        "en": "Yes, in all cases."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g9/q064.webp",
+    "explanation": null
+  },
+  {
+    "id": "g9-q065",
+    "group": 9,
+    "number": 65,
+    "question": {
+      "en": "Must the driver activate the turn signal before starting to move in a residential zone?"
+    },
+    "options": [
+      {
+        "en": "No."
+      },
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "Yes, if other vehicles are present."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g9-q066",
+    "group": 9,
+    "number": 66,
+    "question": {
+      "en": "To obtain right-of-way over other road users, the driver of a patrol vehicle must activate:"
+    },
+    "options": [
+      {
+        "en": "The blue flashing beacon."
+      },
+      {
+        "en": "The blue and red flashing beacons."
+      },
+      {
+        "en": "The blue flashing beacon and the special audible signal."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g9-q067",
+    "group": 9,
+    "number": 67,
+    "question": {
+      "en": "Passing is prohibited:"
+    },
+    "options": [
+      {
+        "en": "At railroad crossings and within 100 m before them."
+      },
+      {
+        "en": "At railroad crossings and within 150 m before them."
+      },
+      {
+        "en": "At railroad crossings and within 250 m before them."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g9-q068",
+    "group": 9,
+    "number": 68,
+    "question": {
+      "en": "What does the hand signal given by the passenger-car driver indicate?"
+    },
+    "options": [
+      {
+        "en": "The driver is making a right turn."
+      },
+      {
+        "en": "The driver is continuing straight ahead."
+      },
+      {
+        "en": "The driver is braking."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g9/q068.webp",
+    "explanation": null
+  },
+  {
+    "id": "g9-q069",
+    "group": 9,
+    "number": 69,
+    "question": {
+      "en": "The hazard warning lights must be activated:"
+    },
+    "options": [
+      {
+        "en": "Before entering a tunnel."
+      },
+      {
+        "en": "In the event of a traffic accident."
+      },
+      {
+        "en": "When proceeding as part of an organized convoy."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g9-q070",
+    "group": 9,
+    "number": 70,
+    "question": {
+      "en": "What does the hand signal given by the motorcycle operator indicate?"
+    },
+    "options": [
+      {
+        "en": "The motorcycle will proceed to the left or make a U-turn."
+      },
+      {
+        "en": "The motorcycle will proceed straight ahead or to the right."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g9/q070.webp",
+    "explanation": null
+  },
+  {
+    "id": "g9-q071",
+    "group": 9,
+    "number": 71,
+    "question": {
+      "en": "What does the hand signal given by the passenger-car driver indicate?"
+    },
+    "options": [
+      {
+        "en": "The driver is making a right turn."
+      },
+      {
+        "en": "The driver is continuing straight ahead."
+      },
+      {
+        "en": "The driver is braking in order to yield to the motorcycle."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g9/q071.webp",
+    "explanation": null
+  },
+  {
+    "id": "g9-q072",
+    "group": 9,
+    "number": 72,
+    "question": {
+      "en": "What does the hand signal given by the passenger-car driver indicate?"
+    },
+    "options": [
+      {
+        "en": "The driver intends to make a left turn or a U-turn."
+      },
+      {
+        "en": "The driver is braking in order to yield to the truck."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g9/q072.webp",
+    "explanation": null
+  },
+  {
+    "id": "g9-q073",
+    "group": 9,
+    "number": 73,
+    "question": {
+      "en": "In this case, must the driver activate the turn signal?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g9/q073.webp",
+    "explanation": null
+  },
+  {
+    "id": "g9-q074",
+    "group": 9,
+    "number": 74,
+    "question": {
+      "en": "Is the truck driver permitted to pass the bus that is proceeding at a speed of 60 km/h?"
+    },
+    "options": [
+      {
+        "en": "Prohibited."
+      },
+      {
+        "en": "Permitted."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g9/q074.webp",
+    "explanation": null
+  },
+  {
+    "id": "g9-q075",
+    "group": 9,
+    "number": 75,
+    "question": {
+      "en": "Is passing permitted in this situation?"
+    },
+    "options": [
+      {
+        "en": "Prohibited."
+      },
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Permitted if the bus is proceeding at a speed below 30 km/h."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g9/q075.webp",
+    "explanation": null
+  },
+  {
+    "id": "g9-q076",
+    "group": 9,
+    "number": 76,
+    "question": {
+      "en": "Is it permitted to enter the railroad crossing in this situation?"
+    },
+    "options": [
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Prohibited."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g9/q076.webp",
+    "explanation": null
+  },
+  {
+    "id": "g9-q077",
+    "group": 9,
+    "number": 77,
+    "question": {
+      "en": "Is it permitted to enter the railroad crossing in this situation?"
+    },
+    "options": [
+      {
+        "en": "Permitted if no train is approaching."
+      },
+      {
+        "en": "Permitted if the barrier gate is open."
+      },
+      {
+        "en": "Prohibited."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g9/q077.webp",
+    "explanation": null
+  },
+  {
+    "id": "g9-q078",
+    "group": 9,
+    "number": 78,
+    "question": {
+      "en": "What should the driver do in this situation?"
+    },
+    "options": [
+      {
+        "en": "If no train is approaching, go around the barrier gate and continue."
+      },
+      {
+        "en": "Stop and wait for the barrier gate to open."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g9/q078.webp",
+    "explanation": null
+  },
+  {
+    "id": "g9-q079",
+    "group": 9,
+    "number": 79,
+    "question": {
+      "en": "In this situation, is it permitted to cross the railroad crossing?"
+    },
+    "options": [
+      {
+        "en": "Permitted if no train is approaching."
+      },
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Prohibited."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g9/q079.webp",
+    "explanation": null
+  },
+  {
+    "id": "g9-q080",
+    "group": 9,
+    "number": 80,
+    "question": {
+      "en": "In this situation, is it permitted to cross the railroad crossing?"
+    },
+    "options": [
+      {
+        "en": "Prohibited."
+      },
+      {
+        "en": "Permitted if no train is approaching."
+      },
+      {
+        "en": "Permitted because the railroad crossing attendant is prohibiting the oncoming vehicle from crossing."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g9/q080.webp",
+    "explanation": null
+  },
+  {
+    "id": "g9-q081",
+    "group": 9,
+    "number": 81,
+    "question": {
+      "en": "In this situation, where may passing be started?"
+    },
+    "options": [
+      {
+        "en": "At the railroad crossing."
+      },
+      {
+        "en": "After crossing the railroad crossing."
+      },
+      {
+        "en": "After proceeding 100 m beyond the railroad crossing."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g9/q081.webp",
+    "explanation": null
+  },
+  {
+    "id": "g9-q082",
+    "group": 9,
+    "number": 82,
+    "question": {
+      "en": "In this situation, is passing permitted?"
+    },
+    "options": [
+      {
+        "en": "Permitted because there is no oncoming vehicle."
+      },
+      {
+        "en": "Prohibited."
+      },
+      {
+        "en": "Permitted if the animal-drawn cart is moving at a speed below 30 km/h."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g9/q082.webp",
+    "explanation": null
+  },
+  {
+    "id": "g9-q083",
+    "group": 9,
+    "number": 83,
+    "question": {
+      "en": "What maneuver is the passenger-car driver performing?"
+    },
+    "options": [
+      {
+        "en": "Passing without leaving the lane."
+      },
+      {
+        "en": "Passing."
+      },
+      {
+        "en": "Driving around an obstruction."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g9/q083.webp",
+    "explanation": null
+  },
+  {
+    "id": "g9-q084",
+    "group": 9,
+    "number": 84,
+    "question": {
+      "en": "Is passing the motorcycle permitted?"
+    },
+    "options": [
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Prohibited."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g9/q084.webp",
+    "explanation": null
+  },
+  {
+    "id": "g9-q085",
+    "group": 9,
+    "number": 85,
+    "question": {
+      "en": "On a road with one lane in each direction, when is passing in the oncoming traffic lane permitted?"
+    },
+    "options": [
+      {
+        "en": "Only when the oncoming traffic lane is clear for a sufficient distance."
+      },
+      {
+        "en": "Only when no vehicle is passing us."
+      },
+      {
+        "en": "Both conditions must be met."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g9-q086",
+    "group": 9,
+    "number": 86,
+    "question": {
+      "en": "Is passing permitted in the indicated situation?"
+    },
+    "options": [
+      {
+        "en": "Prohibited."
+      },
+      {
+        "en": "Permitted if the maneuver can be completed within the visible section of the road."
+      },
+      {
+        "en": "Permitted."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g9/q086.webp",
+    "explanation": null
+  },
+  {
+    "id": "g9-q087",
+    "group": 9,
+    "number": 87,
+    "question": {
+      "en": "Is passing the truck permitted?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "Yes, if the passing maneuver is completed before the intersection."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g9/q087.webp",
+    "explanation": null
+  },
+  {
+    "id": "g9-q088",
+    "group": 9,
+    "number": 88,
+    "question": {
+      "en": "What is required of the driver of the vehicle being passed?"
+    },
+    "options": [
+      {
+        "en": "The driver must yield to the passing vehicle."
+      },
+      {
+        "en": "The driver must not interfere with the passing vehicle by increasing speed or by taking any other action."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g9-q089",
+    "group": 9,
+    "number": 89,
+    "question": {
+      "en": "Is passing permitted in this situation?"
+    },
+    "options": [
+      {
+        "en": "Prohibited."
+      },
+      {
+        "en": "Permitted if the truck is moving at less than 30 km/h."
+      },
+      {
+        "en": "Permitted."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g9/q089.webp",
+    "explanation": null
+  },
+  {
+    "id": "g9-q090",
+    "group": 9,
+    "number": 90,
+    "question": {
+      "en": "Is the driver of a truck with a maximum authorized mass of 3 metric tons permitted to pass the tractor?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "Yes, if the tractor is moving at less than 30 km/h."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g9/q090.webp",
+    "explanation": null
+  },
+  {
+    "id": "g9-q091",
+    "group": 9,
+    "number": 91,
+    "question": {
+      "en": "If oncoming traffic is difficult in this situation, who must yield?"
+    },
+    "options": [
+      {
+        "en": "The truck driver."
+      },
+      {
+        "en": "The passenger-car driver."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g9/q091.webp",
+    "explanation": null
+  },
+  {
+    "id": "g9-q092",
+    "group": 9,
+    "number": 92,
+    "question": {
+      "en": "Passing at a pedestrian crossing is:"
+    },
+    "options": [
+      {
+        "en": "Prohibited only when pedestrians are present."
+      },
+      {
+        "en": "Prohibited."
+      },
+      {
+        "en": "Permitted."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g9-q093",
+    "group": 9,
+    "number": 93,
+    "question": {
+      "en": "Along which path is passing permitted?"
+    },
+    "options": [
+      {
+        "en": "Either path."
+      },
+      {
+        "en": "Only A."
+      },
+      {
+        "en": "Only B."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g9/q093.webp",
+    "explanation": null
+  },
+  {
+    "id": "g9-q094",
+    "group": 9,
+    "number": 94,
+    "question": {
+      "en": "What does the traffic sign indicate?"
+    },
+    "options": [
+      {
+        "en": "There is a fallen tree 500 meters ahead."
+      },
+      {
+        "en": "There is a rest area 500 meters ahead."
+      },
+      {
+        "en": "There is a rest area along the next 500 meters."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g9/q094.webp",
+    "explanation": null
+  },
+  {
+    "id": "g9-q095",
+    "group": 9,
+    "number": 95,
+    "question": {
+      "en": "In this situation, is the driver required to activate the turn signal?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "Yes, if a vehicle is approaching from behind."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g9/q095.webp",
+    "explanation": null
+  },
+  {
+    "id": "g9-q096",
+    "group": 9,
+    "number": 96,
+    "question": {
+      "en": "By raising an arm, the driver indicates:"
+    },
+    "options": [
+      {
+        "en": "An intention to make a left turn."
+      },
+      {
+        "en": "An intention to proceed straight ahead."
+      },
+      {
+        "en": "An intention to slow down."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g9/q096.webp",
+    "explanation": null
+  },
+  {
+    "id": "g9-q097",
+    "group": 9,
+    "number": 97,
+    "question": {
+      "en": "Giving a signal:"
+    },
+    "options": [
+      {
+        "en": "Gives the driver the right-of-way over other road users."
+      },
+      {
+        "en": "Does not give the driver the right-of-way over other road users."
+      },
+      {
+        "en": "Gives the driver the right-of-way only when starting to move."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g9-q098",
+    "group": 9,
+    "number": 98,
+    "question": {
+      "en": "When making a right turn while following the priority road, giving a turn signal is:"
+    },
+    "options": [
+      {
+        "en": "Required."
+      },
+      {
+        "en": "Required only at night."
+      },
+      {
+        "en": "Not required."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g9/q098.webp",
+    "explanation": null
+  },
+  {
+    "id": "g9-q099",
+    "group": 9,
+    "number": 99,
+    "question": {
+      "en": "What is the driver of the motorcycle indicating?"
+    },
+    "options": [
+      {
+        "en": "An intention to continue straight ahead."
+      },
+      {
+        "en": "An intention to make a left turn."
+      },
+      {
+        "en": "An intention to slow down in order to yield to the passenger car."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g9/q099.webp",
+    "explanation": null
+  },
+  {
+    "id": "g9-q100",
+    "group": 9,
+    "number": 100,
+    "question": {
+      "en": "In this situation, when making a left turn, giving a turn signal is:"
+    },
+    "options": [
+      {
+        "en": "Required."
+      },
+      {
+        "en": "Not required."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g9/q100.webp",
+    "explanation": null
+  },
+  {
+    "id": "g9-q101",
+    "group": 9,
+    "number": 101,
+    "question": {
+      "en": "When passing, the left turn signal must be turned off:"
+    },
+    "options": [
+      {
+        "en": "Immediately after changing to the left lane."
+      },
+      {
+        "en": "Only after proceeding ahead of the vehicle in front."
+      },
+      {
+        "en": "At the driver’s discretion."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g9/q101.webp",
+    "explanation": null
+  },
+  {
+    "id": "g9-q102",
+    "group": 9,
+    "number": 102,
+    "question": {
+      "en": "When making a U-turn at this intersection, which turn signal must be activated?"
+    },
+    "options": [
+      {
+        "en": "Right."
+      },
+      {
+        "en": "Left."
+      },
+      {
+        "en": "Neither."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g9/q102.webp",
+    "explanation": null
+  },
+  {
+    "id": "g9-q103",
+    "group": 9,
+    "number": 103,
+    "question": {
+      "en": "In the indicated situation, must you give a turn signal?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "No."
+      },
+      {
+        "en": "Yes, if there is a driver proceeding in the right lane."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g9/q103.webp",
+    "explanation": null
+  },
+  {
+    "id": "g9-q104",
+    "group": 9,
+    "number": 104,
+    "question": {
+      "en": "What is the driver of the motorcycle indicating?"
+    },
+    "options": [
+      {
+        "en": "An intention to continue straight ahead."
+      },
+      {
+        "en": "An intention to make a right turn."
+      },
+      {
+        "en": "An intention to make a left turn or U-turn."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g9/q104.webp",
+    "explanation": null
+  },
+  {
+    "id": "g9-q105",
+    "group": 9,
+    "number": 105,
+    "question": {
+      "en": "The turn signal must be canceled"
+    },
+    "options": [
+      {
+        "en": "Immediately before the maneuver."
+      },
+      {
+        "en": "Immediately after the maneuver."
+      },
+      {
+        "en": "During the maneuver."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g9-q106",
+    "group": 9,
+    "number": 106,
+    "question": {
+      "en": "In the indicated situation, giving a turn signal is:"
+    },
+    "options": [
+      {
+        "en": "Required."
+      },
+      {
+        "en": "At the driver’s discretion."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g9/q106.webp",
+    "explanation": null
+  },
+  {
+    "id": "g9-q107",
+    "group": 9,
+    "number": 107,
+    "question": {
+      "en": "Which driver is giving a right-turn signal?"
+    },
+    "options": [
+      {
+        "en": "Only the driver on the right."
+      },
+      {
+        "en": "Both drivers."
+      },
+      {
+        "en": "Only the driver on the left."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g9/q107.webp",
+    "explanation": null
+  },
+  {
+    "id": "g9-q108",
+    "group": 9,
+    "number": 108,
+    "question": {
+      "en": "When maneuvering in parking areas or at gas stations, you:"
+    },
+    "options": [
+      {
+        "en": "Must use the turn signal."
+      },
+      {
+        "en": "Are not required to use the turn signal."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g9-q109",
+    "group": 9,
+    "number": 109,
+    "question": {
+      "en": "In this situation, what can the driver’s outstretched arm indicate?"
+    },
+    "options": [
+      {
+        "en": "An intention to start moving."
+      },
+      {
+        "en": "An intention to stop."
+      },
+      {
+        "en": "A general emergency signal."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g9/q109.webp",
+    "explanation": null
+  },
+  {
+    "id": "g9-q110",
+    "group": 9,
+    "number": 110,
+    "question": {
+      "en": "Which turn signals must you use when making a U-turn along the indicated path?"
+    },
+    "options": [
+      {
+        "en": "Right."
+      },
+      {
+        "en": "Left."
+      },
+      {
+        "en": "First right, then left."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g9/q110.webp",
+    "explanation": null
+  },
+  {
+    "id": "g9-q111",
+    "group": 9,
+    "number": 111,
+    "question": {
+      "en": "If you intend to stop immediately after the intersection, when should you activate the right turn signal so as not to mislead other road users?"
+    },
+    "options": [
+      {
+        "en": "In advance, before the intersection."
+      },
+      {
+        "en": "After entering the intersection."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g9/q111.webp",
+    "explanation": null
+  },
+  {
+    "id": "g9-q112",
+    "group": 9,
+    "number": 112,
+    "question": {
+      "en": "When changing back into the lane proceeding in the same direction after completing a passing maneuver, does the driver have the right-of-way over a driver already proceeding in that lane?"
+    },
+    "options": [
+      {
+        "en": "No."
+      },
+      {
+        "en": "Yes."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g9/q112.webp",
+    "explanation": null
+  },
+  {
+    "id": "g9-q113",
+    "group": 9,
+    "number": 113,
+    "question": {
+      "en": "Must we yield to a driver exiting an adjacent area with flashing beacons and a special audible signal activated?"
+    },
+    "options": [
+      {
+        "en": "No."
+      },
+      {
+        "en": "Yes."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g9/q113.webp",
+    "explanation": null
+  },
+  {
+    "id": "g9-q114",
+    "group": 9,
+    "number": 114,
+    "question": {
+      "en": "When proceeding straight through the intersection, must we yield to the driver of the truck with flashing yellow beacons activated?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g9/q114.webp",
+    "explanation": null
+  },
+  {
+    "id": "g9-q115",
+    "group": 9,
+    "number": 115,
+    "question": {
+      "en": "In this situation, to whom must you yield?"
+    },
+    "options": [
+      {
+        "en": "The driver of the motorcycle."
+      },
+      {
+        "en": "The driver of the automobile with special light and audible signals activated."
+      },
+      {
+        "en": "Both drivers."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g9/q115.webp",
+    "explanation": null
+  },
+  {
+    "id": "g9-q116",
+    "group": 9,
+    "number": 116,
+    "question": {
+      "en": "We must yield to:"
+    },
+    "options": [
+      {
+        "en": "Both drivers."
+      },
+      {
+        "en": "The driver of the truck with a flashing yellow beacon."
+      },
+      {
+        "en": "Only the bus driver."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g9/q116.webp",
+    "explanation": null
+  },
+  {
+    "id": "g9-q117",
+    "group": 9,
+    "number": 117,
+    "question": {
+      "en": "In this situation:"
+    },
+    "options": [
+      {
+        "en": "You will proceed through the intersection first."
+      },
+      {
+        "en": "You must yield to the driver approaching from the left."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g9/q117.webp",
+    "explanation": null
+  },
+  {
+    "id": "g9-q118",
+    "group": 9,
+    "number": 118,
+    "question": {
+      "en": "We must yield to:"
+    },
+    "options": [
+      {
+        "en": "Everyone."
+      },
+      {
+        "en": "The driver of the police automobile."
+      },
+      {
+        "en": "No one."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g9/q118.webp",
+    "explanation": null
+  },
+  {
+    "id": "g9-q119",
+    "group": 9,
+    "number": 119,
+    "question": {
+      "en": "When making a left turn:"
+    },
+    "options": [
+      {
+        "en": "You will proceed through the intersection first."
+      },
+      {
+        "en": "You will yield only to the driver of the police automobile."
+      },
+      {
+        "en": "You will yield to all drivers."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g9/q119.webp",
+    "explanation": null
+  }
+]

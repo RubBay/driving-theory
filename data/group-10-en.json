@@ -1,0 +1,1169 @@
+[
+  {
+    "id": "g10-q001",
+    "group": 10,
+    "number": 1,
+    "question": {
+      "en": "When providing first aid to a person with a head injury, you should:"
+    },
+    "options": [
+      {
+        "en": "Lay the person down with the legs raised."
+      },
+      {
+        "en": "Lay the person down with the head and torso raised, in a semi-reclined position."
+      },
+      {
+        "en": "Lay the person flat in a horizontal position."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g10-q002",
+    "group": 10,
+    "number": 2,
+    "question": {
+      "en": "At a traffic crash, which of the following injured persons should receive assistance first?"
+    },
+    "options": [
+      {
+        "en": "A frightened pregnant woman."
+      },
+      {
+        "en": "A child with abrasions."
+      },
+      {
+        "en": "A man with a fractured arm."
+      },
+      {
+        "en": "An unconscious man."
+      }
+    ],
+    "answer": 4,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g10-q003",
+    "group": 10,
+    "number": 3,
+    "question": {
+      "en": "When providing first aid for a nosebleed, you should:"
+    },
+    "options": [
+      {
+        "en": "Tilt the person’s head back."
+      },
+      {
+        "en": "Tilt the person’s head forward and pinch the upper part of the nose."
+      },
+      {
+        "en": "Place a cotton swab in the person’s nose."
+      },
+      {
+        "en": "Allow the bleeding to continue until it stops on its own."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g10-q004",
+    "group": 10,
+    "number": 4,
+    "question": {
+      "en": "While driving, the driver suddenly begins complaining of severe pressure-like chest pain and difficulty breathing. What should be done?"
+    },
+    "options": [
+      {
+        "en": "Advise the driver to go to the nearest hospital."
+      },
+      {
+        "en": "Give the driver a glass of water and two valerian tablets."
+      },
+      {
+        "en": "Stop the vehicle immediately and activate the hazard warning lights."
+      },
+      {
+        "en": "Advise the driver to walk a little and breathe fresh air."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g10-q005",
+    "group": 10,
+    "number": 5,
+    "question": {
+      "en": "What assistance should be provided to a person having a seizure?"
+    },
+    "options": [
+      {
+        "en": "Hold the person and try to restrain the convulsions."
+      },
+      {
+        "en": "Try to open the mouth, hold the tongue, and place an object between the teeth."
+      },
+      {
+        "en": "Try to open the airway by tilting the person’s head back."
+      },
+      {
+        "en": "Do not interfere; allow the seizure to end."
+      }
+    ],
+    "answer": 4,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g10-q006",
+    "group": 10,
+    "number": 6,
+    "question": {
+      "en": "What should be done when providing first aid for a burn?"
+    },
+    "options": [
+      {
+        "en": "Leave the burn uncovered."
+      },
+      {
+        "en": "Open the fluid-filled blisters and then apply a tight bandage."
+      },
+      {
+        "en": "Apply oil to the burn."
+      },
+      {
+        "en": "Cool the burn with water, then cover it with sterile dressing material or clean cloth."
+      }
+    ],
+    "answer": 4,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g10-q007",
+    "group": 10,
+    "number": 7,
+    "question": {
+      "en": "As a result of a crash, a pedestrian has fallen and injured an arm. There is a large wound on the forearm (about 5 cm long) from which dark-colored blood is flowing steadily. What should be done to stop the bleeding?"
+    },
+    "options": [
+      {
+        "en": "Wash the wound with water."
+      },
+      {
+        "en": "Raise the injured person’s arm and apply a pressure bandage."
+      },
+      {
+        "en": "Apply an alcoholic iodine solution to the wound."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g10-q008",
+    "group": 10,
+    "number": 8,
+    "question": {
+      "en": "When providing first aid during the first hours after a closed soft-tissue injury to a limb, you should:"
+    },
+    "options": [
+      {
+        "en": "Apply a warm compress to the injury."
+      },
+      {
+        "en": "Apply a cold compress to the injured area and elevate it."
+      },
+      {
+        "en": "Apply a cold compress to the injured area and keep it below heart level."
+      },
+      {
+        "en": "Apply an alcohol compress to the injury."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g10-q009",
+    "group": 10,
+    "number": 9,
+    "question": {
+      "en": "A driver had been crouching for a long time while changing a vehicle’s wheel. After suddenly standing up, the driver grabs the head, loses consciousness, and falls. What should be done?"
+    },
+    "options": [
+      {
+        "en": "Try to seat the driver."
+      },
+      {
+        "en": "Raise the driver’s legs."
+      },
+      {
+        "en": "Pour cold water on the driver’s face."
+      },
+      {
+        "en": "Slap the driver’s face."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g10-q010",
+    "group": 10,
+    "number": 10,
+    "question": {
+      "en": "What should be done if the scene cannot be made safe?"
+    },
+    "options": [
+      {
+        "en": "Provide assistance to everyone, but be careful."
+      },
+      {
+        "en": "Provide assistance to the injured person who is closest to you."
+      },
+      {
+        "en": "Do not approach; immediately call for emergency assistance and prevent bystanders from approaching the scene."
+      },
+      {
+        "en": "Do not approach; ask someone else to provide assistance."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g10-q011",
+    "group": 10,
+    "number": 11,
+    "question": {
+      "en": "You see a person lying on the ground and notice a bone protruding from the lower leg with bleeding. If the scene is safe, what should be done first?"
+    },
+    "options": [
+      {
+        "en": "Call emergency medical services."
+      },
+      {
+        "en": "Check consciousness and breathing."
+      },
+      {
+        "en": "Immobilize the leg."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g10-q012",
+    "group": 10,
+    "number": 12,
+    "question": {
+      "en": "When an injured person has an open fracture of a limb, first aid requires you to:"
+    },
+    "options": [
+      {
+        "en": "Immediately elevate the injured limb."
+      },
+      {
+        "en": "Cover the wound with a sterile dressing and immobilize the injured limb."
+      },
+      {
+        "en": "Stop the bleeding by direct pressure."
+      },
+      {
+        "en": "Apply cold compresses to the wound."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g10-q013",
+    "group": 10,
+    "number": 13,
+    "question": {
+      "en": "In case of a chest injury, you should:"
+    },
+    "options": [
+      {
+        "en": "Lay the injured person in a horizontal position."
+      },
+      {
+        "en": "Seat the injured person, supporting the injured side."
+      },
+      {
+        "en": "Seat the injured person, supporting the uninjured side."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g10-q014",
+    "group": 10,
+    "number": 14,
+    "question": {
+      "en": "If organs protrude through an open abdominal wound, you should:"
+    },
+    "options": [
+      {
+        "en": "Wash them and carefully try to place the protruding organs back inside."
+      },
+      {
+        "en": "Cover the protruding organs with a clean moist cloth and plastic film."
+      },
+      {
+        "en": "Cut off the protruding organs and bandage the wound."
+      },
+      {
+        "en": "Do not touch them; transport the injured person to a hospital in that condition."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g10-q015",
+    "group": 10,
+    "number": 15,
+    "question": {
+      "en": "An unconscious injured person who is breathing should be:"
+    },
+    "options": [
+      {
+        "en": "Laid on the back."
+      },
+      {
+        "en": "Have the mouth opened and the tongue pulled out."
+      },
+      {
+        "en": "Turned onto the side with the head tilted back."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g10-q016",
+    "group": 10,
+    "number": 16,
+    "question": {
+      "en": "In case of severe bleeding, you should:"
+    },
+    "options": [
+      {
+        "en": "Only cover the wound with a bandage."
+      },
+      {
+        "en": "Apply a pressure bandage to the injured area and apply pressure at the arterial pressure point."
+      },
+      {
+        "en": "Put ash into the wound."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g10-q017",
+    "group": 10,
+    "number": 17,
+    "question": {
+      "en": "In case of a motor-vehicle crash, the first action should be to:"
+    },
+    "options": [
+      {
+        "en": "Place the injured person in a comfortable position."
+      },
+      {
+        "en": "Assess the scene and ensure safety."
+      },
+      {
+        "en": "Check the injured person for severe bleeding."
+      },
+      {
+        "en": "Remove the injured person from the vehicle."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g10-q018",
+    "group": 10,
+    "number": 18,
+    "question": {
+      "en": "If there is a foreign object in the injured person’s wound, first aid requires you to:"
+    },
+    "options": [
+      {
+        "en": "Remove the foreign object from the wound."
+      },
+      {
+        "en": "Allow the injured area to bleed."
+      },
+      {
+        "en": "Keep the foreign object immobilized."
+      },
+      {
+        "en": "Treat the area around the wound with alcohol."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g10-q019",
+    "group": 10,
+    "number": 19,
+    "question": {
+      "en": "At rest, an adult’s pulse rate is:"
+    },
+    "options": [
+      {
+        "en": "40–60 beats per minute."
+      },
+      {
+        "en": "60–80 beats per minute."
+      },
+      {
+        "en": "80–100 beats per minute."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g10-q020",
+    "group": 10,
+    "number": 20,
+    "question": {
+      "en": "At rest, an adult’s respiratory rate is:"
+    },
+    "options": [
+      {
+        "en": "12–18 breaths per minute."
+      },
+      {
+        "en": "20–30 breaths per minute."
+      },
+      {
+        "en": "40–60 breaths per minute."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g10-q021",
+    "group": 10,
+    "number": 21,
+    "question": {
+      "en": "After a crash, an injured person should be removed from the vehicle if:"
+    },
+    "options": [
+      {
+        "en": "The injured person has serious injuries."
+      },
+      {
+        "en": "The scene is dangerous, for example, there is a risk of explosion."
+      },
+      {
+        "en": "An electrical wire has fallen onto the vehicle."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g10-q022",
+    "group": 10,
+    "number": 22,
+    "question": {
+      "en": "If internal abdominal bleeding is suspected, first aid requires you to:"
+    },
+    "options": [
+      {
+        "en": "Lay the injured person down and apply a cold compress to the injured area."
+      },
+      {
+        "en": "Apply a hot-water bottle to the abdomen."
+      },
+      {
+        "en": "Apply a pressure bandage to the abdomen."
+      },
+      {
+        "en": "Give the injured person a large amount of fluid."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g10-q023",
+    "group": 10,
+    "number": 23,
+    "question": {
+      "en": "You hear a vehicle engine running in your neighbor’s garage. When you open the door, you see your neighbor lying on the floor. What should you do first?"
+    },
+    "options": [
+      {
+        "en": "Open the doors wide and turn off the engine; if possible, remove the injured person from the scene."
+      },
+      {
+        "en": "Carefully examine the injured person’s body for injuries."
+      },
+      {
+        "en": "Turn the injured person onto the side into the recovery position."
+      },
+      {
+        "en": "Help the injured person into a semi-sitting position."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g10-q024",
+    "group": 10,
+    "number": 24,
+    "question": {
+      "en": "After finding an unconscious injured person, the first action should be to:"
+    },
+    "options": [
+      {
+        "en": "Give the person cold water."
+      },
+      {
+        "en": "Turn the person onto the side into the recovery position."
+      },
+      {
+        "en": "Maintain the person’s normal body temperature."
+      },
+      {
+        "en": "Open the airway and check for breathing."
+      }
+    ],
+    "answer": 4,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g10-q025",
+    "group": 10,
+    "number": 25,
+    "question": {
+      "en": "To check circulation in an injured limb, press and release the nail below the bandage. Circulation in the limb is impaired if:"
+    },
+    "options": [
+      {
+        "en": "The injured person feels pain."
+      },
+      {
+        "en": "The injured person feels discomfort."
+      },
+      {
+        "en": "The nail is difficult to blanch when pressed."
+      },
+      {
+        "en": "The nail is slow to return to a pink color."
+      }
+    ],
+    "answer": 4,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g10-q026",
+    "group": 10,
+    "number": 26,
+    "question": {
+      "en": "Your friend with diabetes feels unwell and cannot remember when insulin was last taken. What should you do first?"
+    },
+    "options": [
+      {
+        "en": "Give the person sugar or a sweet drink."
+      },
+      {
+        "en": "Suggest resting for several hours."
+      },
+      {
+        "en": "Advise taking insulin."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g10-q027",
+    "group": 10,
+    "number": 27,
+    "question": {
+      "en": "Bleeding is most dangerous if:"
+    },
+    "options": [
+      {
+        "en": "The blood clots within 10 minutes."
+      },
+      {
+        "en": "The blood spurts from the wound."
+      },
+      {
+        "en": "The blood is dark red."
+      },
+      {
+        "en": "The blood flows steadily from the wound."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g10-q028",
+    "group": 10,
+    "number": 28,
+    "question": {
+      "en": "A vehicle has struck a utility pole, and an electrical wire has fallen onto an unconscious injured person lying beside the vehicle. When providing assistance, the first action should be to:"
+    },
+    "options": [
+      {
+        "en": "Remove the injured person from the source of electrical current."
+      },
+      {
+        "en": "Perform a primary assessment."
+      },
+      {
+        "en": "Remove the wire from the injured person using an insulating object."
+      },
+      {
+        "en": "Look for electrical entry and exit points (burns) on the body."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g10-q029",
+    "group": 10,
+    "number": 29,
+    "question": {
+      "en": "When providing first aid, to protect yourself from infection, you should:"
+    },
+    "options": [
+      {
+        "en": "Avoid direct contact with the wound and provide assistance only while wearing sterile gloves."
+      },
+      {
+        "en": "Do not assist injured persons who are bleeding."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g10-q030",
+    "group": 10,
+    "number": 30,
+    "question": {
+      "en": "During an asthma attack, an injured person with bronchial asthma should be:"
+    },
+    "options": [
+      {
+        "en": "Helped into a semi-sitting position."
+      },
+      {
+        "en": "Laid down with the legs elevated."
+      },
+      {
+        "en": "Laid down with the knees bent."
+      },
+      {
+        "en": "Laid down with the head elevated."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g10-q031",
+    "group": 10,
+    "number": 31,
+    "question": {
+      "en": "An injured person with an abdominal injury should be:"
+    },
+    "options": [
+      {
+        "en": "Laid down with the head elevated."
+      },
+      {
+        "en": "Laid down with the legs elevated."
+      },
+      {
+        "en": "Laid down with the knees bent."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g10-q032",
+    "group": 10,
+    "number": 32,
+    "question": {
+      "en": "In the event of fainting, the injured person should be:"
+    },
+    "options": [
+      {
+        "en": "Helped into a semi-sitting position."
+      },
+      {
+        "en": "Laid down with the legs elevated."
+      },
+      {
+        "en": "Laid down with the knees bent."
+      },
+      {
+        "en": "Laid down with the head elevated."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g10-q033",
+    "group": 10,
+    "number": 33,
+    "question": {
+      "en": "If a low-front vehicle strikes an adult pedestrian who is 1.55 m or taller, injuries are most likely to occur in the:"
+    },
+    "options": [
+      {
+        "en": "Lower limbs and head."
+      },
+      {
+        "en": "Pelvis and chest."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g10-q034",
+    "group": 10,
+    "number": 34,
+    "question": {
+      "en": "If a low-front vehicle strikes a child 3–5 years old, injuries are most likely to occur in the:"
+    },
+    "options": [
+      {
+        "en": "Lower limbs and head."
+      },
+      {
+        "en": "Pelvis and chest."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g10-q035",
+    "group": 10,
+    "number": 35,
+    "question": {
+      "en": "If an electrical wire has fallen onto a vehicle, you should:"
+    },
+    "options": [
+      {
+        "en": "Help the occupants get out of the vehicle immediately."
+      },
+      {
+        "en": "Ask the occupants to remain in the vehicle until the electrical current is disconnected."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g10-q036",
+    "group": 10,
+    "number": 36,
+    "question": {
+      "en": "When treating minor wounds, you should:"
+    },
+    "options": [
+      {
+        "en": "Wash the wound with soap and clean water, then bandage it."
+      },
+      {
+        "en": "Treat the wound with alcohol-containing substances (iodine, vodka, perfume, etc.)."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g10-q037",
+    "group": 10,
+    "number": 37,
+    "question": {
+      "en": "When treating serious wounds, you should:"
+    },
+    "options": [
+      {
+        "en": "Wash the wound with soap and clean water."
+      },
+      {
+        "en": "Treat the wound with alcohol-containing substances (iodine, vodka, perfume, etc.)."
+      },
+      {
+        "en": "Stop the bleeding and bandage the wound."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g10-q038",
+    "group": 10,
+    "number": 38,
+    "question": {
+      "en": "In case of a crash, what information should be provided to the emergency dispatcher when requesting an ambulance?"
+    },
+    "options": [
+      {
+        "en": "State the landmark nearest to the crash location. Report the number of injured persons and indicate their sex and age."
+      },
+      {
+        "en": "State the street and house number nearest to the crash location. Indicate who was injured in the crash (pedestrian, driver, or passenger) and describe the injuries sustained."
+      },
+      {
+        "en": "State the crash location (street, house number, and the landmarks nearest to the scene). Report the number of injured persons, their sex, approximate age, state of consciousness, breathing and circulation, and whether there is severe bleeding, fractures, or other injuries. Wait until the dispatcher confirms that the call has been received."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g10-q039",
+    "group": 10,
+    "number": 39,
+    "question": {
+      "en": "What is the optimal position for a conscious injured person when a spinal injury is suspected?"
+    },
+    "options": [
+      {
+        "en": "Lay the injured person on their side."
+      },
+      {
+        "en": "Lay the injured person on their back on a firm, flat surface; do not move them or change their position unless necessary."
+      },
+      {
+        "en": "Lay the injured person on their back, place a roll made from clothing under the neck, and raise the legs."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g10-q040",
+    "group": 10,
+    "number": 40,
+    "question": {
+      "en": "How should first aid be provided in case of frostbite and hypothermia?"
+    },
+    "options": [
+      {
+        "en": "Rub the affected areas of the body with snow or a woolen cloth, then warm them, give the injured person an alcoholic drink, and move them to a warm place."
+      },
+      {
+        "en": "Warm and immobilize the affected areas of the body, cover the injured person with warm clothing or a blanket, give a warm drink, and move the person to a warm place."
+      },
+      {
+        "en": "Apply ointment to the affected areas of the body, apply a warming compress and a heating pad, move the injured person to a warm place, and give a warm drink."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g10-q041",
+    "group": 10,
+    "number": 41,
+    "question": {
+      "en": "What first aid should be provided for a head injury with a scalp wound?"
+    },
+    "options": [
+      {
+        "en": "Stop the bleeding by applying direct pressure to the wound and apply a pressure bandage. If the injured person loses consciousness, place them in the recovery position. If possible, apply a cold compress to the injured area of the head."
+      },
+      {
+        "en": "Immobilize the cervical spine using an improvised splint (collar). Place a sterile cotton pad over the wound and lay the injured person on their back with the legs raised. If possible, apply a cold compress to the head."
+      },
+      {
+        "en": "A cervical splint must not be applied. Cover the wound with medical adhesive tape and lay the injured person on their side."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g10-q042",
+    "group": 10,
+    "number": 42,
+    "question": {
+      "en": "When providing first aid to an unconscious injured person who has circulation and breathing, in what position should the person be placed?"
+    },
+    "options": [
+      {
+        "en": "On their back, with a roll placed under the head."
+      },
+      {
+        "en": "On their back, with the legs spread apart."
+      },
+      {
+        "en": "Place the injured person in the recovery position so that the bent knees touch the ground and the upper hand is positioned under the cheek."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g10-q043",
+    "group": 10,
+    "number": 43,
+    "question": {
+      "en": "How long may a tourniquet used to stop bleeding remain in place?"
+    },
+    "options": [
+      {
+        "en": "In warm weather, no more than half an hour; in cold weather, no more than one hour."
+      },
+      {
+        "en": "In warm weather, no more than one hour; in cold weather, no more than half an hour."
+      },
+      {
+        "en": "There is no limit on how long the tourniquet may remain in place."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g10-q044",
+    "group": 10,
+    "number": 44,
+    "question": {
+      "en": "How should you determine whether an unconscious injured person is breathing?"
+    },
+    "options": [
+      {
+        "en": "Hold the injured person by the chin, tilt the head back, and observe chest movement for 10 seconds."
+      },
+      {
+        "en": "Place one hand on the injured person’s forehead and, with two fingers of the other hand, lift the chin and tilt the head back. For 10 seconds, check for breathing by trying to feel exhaled air on your cheek and observing movement of the chest."
+      },
+      {
+        "en": "Without tilting the injured person’s head, lean toward the person’s face and, for 10 seconds, check for breathing by trying to feel exhaled air on your cheek and observing movement of the chest."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g10-q045",
+    "group": 10,
+    "number": 45,
+    "question": {
+      "en": "What are the main signs of severe arterial bleeding, and what action should be taken first when providing first aid in such a situation?"
+    },
+    "options": [
+      {
+        "en": "Dark-colored blood slowly flows from the wound. Apply a pressure bandage to the wound and note on it how long it should remain in place."
+      },
+      {
+        "en": "Bright red blood spurts forcefully from the wound in an intermittent jet or fountain-like stream. Compress the injured artery with your fingers, then apply a tourniquet above the wound, as close to the wound as possible, and note the time it was applied."
+      },
+      {
+        "en": "Blood slowly flows from the wound. Apply a tourniquet below the injury and note the time it was applied."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g10-q046",
+    "group": 10,
+    "number": 46,
+    "question": {
+      "en": "Is it permitted to give medication to an injured person while providing first aid?"
+    },
+    "options": [
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Permitted in case of extreme necessity."
+      },
+      {
+        "en": "Prohibited."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g10-q047",
+    "group": 10,
+    "number": 47,
+    "question": {
+      "en": "How should bleeding be stopped in case of injury to veins or small arteries?"
+    },
+    "options": [
+      {
+        "en": "Apply a pressure bandage directly over the injured area."
+      },
+      {
+        "en": "Apply a pressure bandage above the wound."
+      },
+      {
+        "en": "Apply a pressure bandage below the wound."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g10-q048",
+    "group": 10,
+    "number": 48,
+    "question": {
+      "en": "For injuries sustained in a crash, what are the initial first-aid steps?"
+    },
+    "options": [
+      {
+        "en": "Rinse the wound with water, remove foreign objects from the wound, place sterile cotton on the wound, and secure it with a bandage."
+      },
+      {
+        "en": "Put on medical gloves, clean the wound with an alcohol solution of iodine, apply medicated ointment, and cover it with adhesive tape."
+      },
+      {
+        "en": "Put on medical gloves and, without cleaning the wound, cover it with a sterile gauze pad, securing the edges with adhesive tape or a bandage."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g10-q049",
+    "group": 10,
+    "number": 49,
+    "question": {
+      "en": "How should first aid be provided for limb fractures when no splints or materials for making a splint are available?"
+    },
+    "options": [
+      {
+        "en": "Secure the upper limb to the torso with the arm extended along the body. Tie the lower limbs together, placing soft material between them."
+      },
+      {
+        "en": "With the upper limb bent at the elbow and supported in a sling, secure it to the torso. Tie the lower limbs together, placing soft material between them."
+      },
+      {
+        "en": "With the upper limb bent at the elbow and supported in a sling, secure it to the torso. Tie the lower limbs together."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g10-q050",
+    "group": 10,
+    "number": 50,
+    "question": {
+      "en": "In which cases should an injured person be removed from the vehicle?"
+    },
+    "options": [
+      {
+        "en": "If the vehicle has overturned, caught fire, there is a high risk of explosion, or the injured person has lost consciousness."
+      },
+      {
+        "en": "If the vehicle has overturned, caught fire, there is a high risk of explosion, or the injured person has hypothermia, has lost consciousness or breathing, or it is impossible to provide first aid directly inside the vehicle."
+      },
+      {
+        "en": "If the vehicle has overturned, caught fire, there is a high risk of explosion, or the injured person has severe bleeding or a head injury."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g10-q051",
+    "group": 10,
+    "number": 51,
+    "question": {
+      "en": "When providing first aid for a superficial thermal burn (skin redness, swelling, blisters filled with clear fluid at the burn site, and severe pain), what should be done?"
+    },
+    "options": [
+      {
+        "en": "Pour cold water over the burned area, cover it with a sterile pad, and bandage it tightly."
+      },
+      {
+        "en": "Open the blisters, remove clothing remnants from the burned area, cover it with a sterile pad without bandaging it, apply a cold compress if possible, and give the injured person water to drink."
+      },
+      {
+        "en": "Cool the burned area with water for 20 minutes. Without opening the blisters or removing clothing remnants, cover the burned area with a sterile pad without bandaging it, apply a cold compress if possible, and give the injured person water to drink."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  }
+]

@@ -1,0 +1,1309 @@
+[
+  {
+    "id": "g3-q001",
+    "group": 3,
+    "number": 1,
+    "question": {
+      "en": "A vehicle may not be operated if:"
+    },
+    "options": [
+      {
+        "en": "The remaining tread depth of the tires of a passenger car is 1.8 mm."
+      },
+      {
+        "en": "The hydraulic brake system is not leak-tight."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g3-q002",
+    "group": 3,
+    "number": 2,
+    "question": {
+      "en": "A vehicle may not be operated if:"
+    },
+    "options": [
+      {
+        "en": "The remaining tread depth of the tires of a truck is 1.6 mm."
+      },
+      {
+        "en": "The pressure gauge of the pneumatic brake system does not operate."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g3-q003",
+    "group": 3,
+    "number": 3,
+    "question": {
+      "en": "A vehicle may not be operated if:"
+    },
+    "options": [
+      {
+        "en": "There is movement in steering parts or assemblies that is not provided for by the design, or threaded connections are not tightened."
+      },
+      {
+        "en": "A fire extinguisher is missing from a truck."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g3-q004",
+    "group": 3,
+    "number": 4,
+    "question": {
+      "en": "A vehicle may not be operated if:"
+    },
+    "options": [
+      {
+        "en": "The exterior lighting devices do not operate in the prescribed mode."
+      },
+      {
+        "en": "The remaining tread depth of the tires of a motorcycle is 0.6 mm."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g3-q005",
+    "group": 3,
+    "number": 5,
+    "question": {
+      "en": "A vehicle may not be operated if:"
+    },
+    "options": [
+      {
+        "en": "The rear fog lights are connected to the vehicle’s brake lights."
+      },
+      {
+        "en": "The engine coolant temperature gauge does not operate."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g3-q006",
+    "group": 3,
+    "number": 6,
+    "question": {
+      "en": "A vehicle may not be operated if:"
+    },
+    "options": [
+      {
+        "en": "The engine operates intermittently."
+      },
+      {
+        "en": "The tires have localized damage exposing the tire cord."
+      },
+      {
+        "en": "The interior lighting devices of a passenger car do not operate."
+      },
+      {
+        "en": "In all of the listed cases."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g3-q007",
+    "group": 3,
+    "number": 7,
+    "question": {
+      "en": "A vehicle may not be operated if:"
+    },
+    "options": [
+      {
+        "en": "A motorcycle without a sidecar does not have an emergency warning triangle."
+      },
+      {
+        "en": "The tires do not correspond to the vehicle model in size or permitted load capacity."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g3-q008",
+    "group": 3,
+    "number": 8,
+    "question": {
+      "en": "A vehicle may not be operated if:"
+    },
+    "options": [
+      {
+        "en": "Even one wheel-fastening bolt is missing."
+      },
+      {
+        "en": "Tires with different tread patterns are installed on the same axle."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g3-q009",
+    "group": 3,
+    "number": 9,
+    "question": {
+      "en": "A vehicle may not be operated if:"
+    },
+    "options": [
+      {
+        "en": "The head restraints provided by the vehicle’s design are missing."
+      },
+      {
+        "en": "New and retreaded tires are installed on the same axle."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g3-q010",
+    "group": 3,
+    "number": 10,
+    "question": {
+      "en": "A vehicle may not be operated if:"
+    },
+    "options": [
+      {
+        "en": "The content of harmful substances in the exhaust gases exceeds the limits established by the legislation of the Republic of Armenia."
+      },
+      {
+        "en": "The footrests provided by the motorcycle’s design are missing."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g3-q011",
+    "group": 3,
+    "number": 11,
+    "question": {
+      "en": "A vehicle may not be operated if:"
+    },
+    "options": [
+      {
+        "en": "The engine crankcase ventilation system is not leak-tight."
+      },
+      {
+        "en": "The engine fuel system is not leak-tight."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g3-q012",
+    "group": 3,
+    "number": 12,
+    "question": {
+      "en": "A vehicle may not be operated if:"
+    },
+    "options": [
+      {
+        "en": "The engine crankcase ventilation system is not leak-tight."
+      },
+      {
+        "en": "Winter and non-winter tires are installed on the same axle."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g3-q013",
+    "group": 3,
+    "number": 13,
+    "question": {
+      "en": "A vehicle may not be operated if:"
+    },
+    "options": [
+      {
+        "en": "The windshield washers provided by the vehicle’s design do not operate."
+      },
+      {
+        "en": "The engine’s external noise level exceeds the limits established by the standard."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g3-q014",
+    "group": 3,
+    "number": 14,
+    "question": {
+      "en": "A vehicle may not be operated if:"
+    },
+    "options": [
+      {
+        "en": "The engine operates intermittently."
+      },
+      {
+        "en": "The rear fog lights are not connected to the brake lights."
+      },
+      {
+        "en": "The windshield washers provided by the vehicle’s design do not operate."
+      },
+      {
+        "en": "In all of the listed cases."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g3-q015",
+    "group": 3,
+    "number": 15,
+    "question": {
+      "en": "A vehicle may not be operated if:"
+    },
+    "options": [
+      {
+        "en": "Items or objects that may cause injury to road users are installed on the vehicle."
+      },
+      {
+        "en": "The horn does not operate."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g3-q016",
+    "group": 3,
+    "number": 16,
+    "question": {
+      "en": "A vehicle may not be operated if:"
+    },
+    "options": [
+      {
+        "en": "There is excessive play in the connections between the motorcycle frame and the sidecar frame."
+      },
+      {
+        "en": "Yellow-light fog lamps are installed at the front."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g3-q017",
+    "group": 3,
+    "number": 17,
+    "question": {
+      "en": "A vehicle may not be operated if:"
+    },
+    "options": [
+      {
+        "en": "A first-aid kit is missing from a truck."
+      },
+      {
+        "en": "White reflectors are installed at the front."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g3-q018",
+    "group": 3,
+    "number": 18,
+    "question": {
+      "en": "A vehicle may not be operated if:"
+    },
+    "options": [
+      {
+        "en": "A first-aid kit is missing from a motorcycle with a sidecar."
+      },
+      {
+        "en": "The trailer support-coupling device is defective."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g3-q019",
+    "group": 3,
+    "number": 19,
+    "question": {
+      "en": "A vehicle may not be operated if:"
+    },
+    "options": [
+      {
+        "en": "The seat belts provided by the vehicle’s design do not operate."
+      },
+      {
+        "en": "Items or objects that restrict the driver’s field of vision are installed within the driver’s field of view."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g3-q020",
+    "group": 3,
+    "number": 20,
+    "question": {
+      "en": "A vehicle may not be operated if:"
+    },
+    "options": [
+      {
+        "en": "Changes or modifications have been made to the vehicle’s design without permission from the vehicle registration authority."
+      },
+      {
+        "en": "Yellow-light turn signals are installed at the front."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g3-q021",
+    "group": 3,
+    "number": 21,
+    "question": {
+      "en": "A vehicle may not be operated if:"
+    },
+    "options": [
+      {
+        "en": "A motor vehicle used for practical driving instruction does not have the required identification sign."
+      },
+      {
+        "en": "The fuel gauge does not operate."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g3-q022",
+    "group": 3,
+    "number": 22,
+    "question": {
+      "en": "A motorcycle may not be operated if:"
+    },
+    "options": [
+      {
+        "en": "The safety bars provided by its design are missing."
+      },
+      {
+        "en": "The minimum remaining tire tread depth is 1.6 mm."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g3-q023",
+    "group": 3,
+    "number": 23,
+    "question": {
+      "en": "A vehicle may not be operated if:"
+    },
+    "options": [
+      {
+        "en": "Yellow-light turn signals are installed at the front."
+      },
+      {
+        "en": "Even one wheel-fastening bolt is missing."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g3-q024",
+    "group": 3,
+    "number": 24,
+    "question": {
+      "en": "A vehicle may not be operated if:"
+    },
+    "options": [
+      {
+        "en": "Amber-light turn signals are installed at the front."
+      },
+      {
+        "en": "The trailer towing device is defective."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g3-q025",
+    "group": 3,
+    "number": 25,
+    "question": {
+      "en": "A vehicle may not be operated if:"
+    },
+    "options": [
+      {
+        "en": "White reflectors are installed at the front."
+      },
+      {
+        "en": "The trailer towing device is defective."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g3-q026",
+    "group": 3,
+    "number": 26,
+    "question": {
+      "en": "A vehicle may not be operated if:"
+    },
+    "options": [
+      {
+        "en": "The seat belts provided by the vehicle’s design are missing."
+      },
+      {
+        "en": "White-light backup lamps are installed at the rear."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g3-q027",
+    "group": 3,
+    "number": 27,
+    "question": {
+      "en": "A motorcycle with a sidecar may not be operated if:"
+    },
+    "options": [
+      {
+        "en": "The transverse passenger handhold on the seat, as provided by the design, is missing."
+      },
+      {
+        "en": "The remaining tire tread depth is 0.6 mm."
+      },
+      {
+        "en": "A first-aid kit is missing."
+      },
+      {
+        "en": "In all of the listed cases."
+      }
+    ],
+    "answer": 4,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g3-q028",
+    "group": 3,
+    "number": 28,
+    "question": {
+      "en": "A vehicle may not be operated if:"
+    },
+    "options": [
+      {
+        "en": "The interior lighting devices of a passenger car do not operate."
+      },
+      {
+        "en": "The head restraints provided by the vehicle’s design are missing."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g3-q029",
+    "group": 3,
+    "number": 29,
+    "question": {
+      "en": "A vehicle may not be operated if:"
+    },
+    "options": [
+      {
+        "en": "Red reflectors are installed at the rear."
+      },
+      {
+        "en": "The speedometer provided by the vehicle’s design does not operate."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g3-q030",
+    "group": 3,
+    "number": 30,
+    "question": {
+      "en": "A vehicle may not be operated if:"
+    },
+    "options": [
+      {
+        "en": "The total play in the steering system of a passenger car exceeds 10 degrees."
+      },
+      {
+        "en": "The mud flaps and splash guards provided by the vehicle design are missing."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g3-q031",
+    "group": 3,
+    "number": 31,
+    "question": {
+      "en": "A vehicle may not be operated if:"
+    },
+    "options": [
+      {
+        "en": "A first-aid kit is missing from a passenger car."
+      },
+      {
+        "en": "Red-light backup lamps are installed at the rear."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g3-q032",
+    "group": 3,
+    "number": 32,
+    "question": {
+      "en": "A vehicle may not be operated if:"
+    },
+    "options": [
+      {
+        "en": "The remaining tread depth of the tires on a passenger-car trailer is less than 1.6 mm."
+      },
+      {
+        "en": "Amber-light turn signals are installed at the rear."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g3-q033",
+    "group": 3,
+    "number": 33,
+    "question": {
+      "en": "A vehicle may not be operated if:"
+    },
+    "options": [
+      {
+        "en": "The hydraulic brake system is not leak-tight."
+      },
+      {
+        "en": "White-light turn signals are installed at the rear."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g3-q034",
+    "group": 3,
+    "number": 34,
+    "question": {
+      "en": "A vehicle may not be operated if:"
+    },
+    "options": [
+      {
+        "en": "Tires of different constructions are installed on the same axle."
+      },
+      {
+        "en": "The engine fuel system is not leak-tight."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g3-q035",
+    "group": 3,
+    "number": 35,
+    "question": {
+      "en": "A vehicle may not be operated if:"
+    },
+    "options": [
+      {
+        "en": "The horn does not operate."
+      },
+      {
+        "en": "The cooling system does not maintain a stable operating temperature for the engine."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g3-q036",
+    "group": 3,
+    "number": 36,
+    "question": {
+      "en": "A vehicle may not be operated if:"
+    },
+    "options": [
+      {
+        "en": "There is movement in steering parts or assemblies that is not provided for by the design."
+      },
+      {
+        "en": "White-light turn signals are installed at the front."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g3-q037",
+    "group": 3,
+    "number": 37,
+    "question": {
+      "en": "A vehicle may not be operated if:"
+    },
+    "options": [
+      {
+        "en": "The engine operates intermittently."
+      },
+      {
+        "en": "The tires have localized damage exposing the tire cord."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g3-q038",
+    "group": 3,
+    "number": 38,
+    "question": {
+      "en": "A passenger-car may not be operated if:"
+    },
+    "options": [
+      {
+        "en": "A first-aid kit is missing."
+      },
+      {
+        "en": "The remaining tire tread depth is 2.2 mm."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g3-q039",
+    "group": 3,
+    "number": 39,
+    "question": {
+      "en": "A vehicle may not be operated if:"
+    },
+    "options": [
+      {
+        "en": "For a bus built on a passenger-car chassis, the total play in the steering system exceeds 10 degrees."
+      },
+      {
+        "en": "The mudguards and splash guards provided by the vehicle’s design are missing."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g3-q040",
+    "group": 3,
+    "number": 40,
+    "question": {
+      "en": "A vehicle may not be operated if:"
+    },
+    "options": [
+      {
+        "en": "The cargo-bed door latch provided by the vehicle’s design does not operate."
+      },
+      {
+        "en": "The cab door latch provided by the vehicle’s design does not operate."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g3-q041",
+    "group": 3,
+    "number": 41,
+    "question": {
+      "en": "A vehicle may not be operated if:"
+    },
+    "options": [
+      {
+        "en": "Red-light turn signals are installed at the rear."
+      },
+      {
+        "en": "The rear protective device provided by the vehicle’s design is missing."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g3-q042",
+    "group": 3,
+    "number": 42,
+    "question": {
+      "en": "A vehicle may not be operated if:"
+    },
+    "options": [
+      {
+        "en": "The power steering system provided by the vehicle’s design is defective or missing."
+      },
+      {
+        "en": "The car audio system is not functioning."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g3-q043",
+    "group": 3,
+    "number": 43,
+    "question": {
+      "en": "A vehicle may not be operated if:"
+    },
+    "options": [
+      {
+        "en": "The parking brake system does not hold the vehicle stationary on the gradient specified by the standard."
+      },
+      {
+        "en": "The leak-tightness of the transmission seals is compromised."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g3-q044",
+    "group": 3,
+    "number": 44,
+    "question": {
+      "en": "A vehicle may not be operated if:"
+    },
+    "options": [
+      {
+        "en": "The spare-wheel holder does not operate."
+      },
+      {
+        "en": "The leak-tightness of the rear-axle seals is compromised."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g3-q045",
+    "group": 3,
+    "number": 45,
+    "question": {
+      "en": "A vehicle may not be operated if:"
+    },
+    "options": [
+      {
+        "en": "There are visible tears in the webbing of the seat belts provided by the vehicle’s design."
+      },
+      {
+        "en": "The vehicle is not equipped with fog lamps."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g3-q046",
+    "group": 3,
+    "number": 46,
+    "question": {
+      "en": "A vehicle may not be operated if:"
+    },
+    "options": [
+      {
+        "en": "The engine-hood latch provided by the vehicle’s design does not operate."
+      },
+      {
+        "en": "The rear side windows are curtained and two side rear-view mirrors are installed."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g3-q047",
+    "group": 3,
+    "number": 47,
+    "question": {
+      "en": "A vehicle may not be operated if:"
+    },
+    "options": [
+      {
+        "en": "The rear side windows are curtained and two side rear-view mirrors are missing."
+      },
+      {
+        "en": "The window heating and defogging devices provided by the vehicle’s design do not operate."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g3-q048",
+    "group": 3,
+    "number": 48,
+    "question": {
+      "en": "A vehicle may not be operated if:"
+    },
+    "options": [
+      {
+        "en": "The fuel-tank cap provided by the vehicle’s design does not operate."
+      },
+      {
+        "en": "The front side windows are curtained."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g3-q049",
+    "group": 3,
+    "number": 49,
+    "question": {
+      "en": "A vehicle may not be operated if:"
+    },
+    "options": [
+      {
+        "en": "The horn does not operate."
+      },
+      {
+        "en": "The windows provided by the vehicle’s design are missing."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g3-q050",
+    "group": 3,
+    "number": 50,
+    "question": {
+      "en": "A vehicle may not be operated if:"
+    },
+    "options": [
+      {
+        "en": "There are cracks in a wheel rim or wheel disc."
+      },
+      {
+        "en": "There are visible distortions in the shape or dimensions of the wheel-rim mounting holes."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g3-q051",
+    "group": 3,
+    "number": 51,
+    "question": {
+      "en": "A vehicle may not be operated if:"
+    },
+    "options": [
+      {
+        "en": "The exterior lighting devices and reflectors are dirty."
+      },
+      {
+        "en": "The front and rear protective devices are dirty."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g3-q052",
+    "group": 3,
+    "number": 52,
+    "question": {
+      "en": "A vehicle may not be operated if:"
+    },
+    "options": [
+      {
+        "en": "Lamps or lenses are missing from the lighting devices."
+      },
+      {
+        "en": "Lenses or lamps that do not correspond to the type of the lighting device are used."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g3-q053",
+    "group": 3,
+    "number": 53,
+    "question": {
+      "en": "A vehicle may not be operated if:"
+    },
+    "options": [
+      {
+        "en": "The exterior lighting devices and reflectors are dirty."
+      },
+      {
+        "en": "Exterior lighting devices from a different make of vehicle are installed on a discontinued vehicle."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g3-q054",
+    "group": 3,
+    "number": 54,
+    "question": {
+      "en": "A vehicle may not be operated if:"
+    },
+    "options": [
+      {
+        "en": "Tires with different tread patterns are installed on the same axle."
+      },
+      {
+        "en": "The remaining tire tread depth of a passenger car is 1.6 mm."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g3-q055",
+    "group": 3,
+    "number": 55,
+    "question": {
+      "en": "A vehicle may not be operated if:"
+    },
+    "options": [
+      {
+        "en": "The remaining tire tread depth of a truck is 1.4 mm."
+      },
+      {
+        "en": "Yellow reflectors are installed at the front."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g3-q056",
+    "group": 3,
+    "number": 56,
+    "question": {
+      "en": "A vehicle may not be operated if:"
+    },
+    "options": [
+      {
+        "en": "Yellow reflectors are installed at the rear."
+      },
+      {
+        "en": "Yellow reflectors are installed at the front."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g3-q057",
+    "group": 3,
+    "number": 57,
+    "question": {
+      "en": "A vehicle may not be operated if:"
+    },
+    "options": [
+      {
+        "en": "An “Oversized Cargo” identification sign with white and red reflective stripes is installed at the rear."
+      },
+      {
+        "en": "The remaining tire tread depth of a moped is 0.7 mm."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g3-q058",
+    "group": 3,
+    "number": 58,
+    "question": {
+      "en": "A vehicle may not be operated if:"
+    },
+    "options": [
+      {
+        "en": "The “Doctor” identification sign is missing from an automobile driven by a physician-driver."
+      },
+      {
+        "en": "The fuel-tank cap provided by the vehicle’s design does not operate."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g3-q059",
+    "group": 3,
+    "number": 59,
+    "question": {
+      "en": "A vehicle may not be operated if:"
+    },
+    "options": [
+      {
+        "en": "Tires with different tread patterns are installed on the same axle."
+      },
+      {
+        "en": "A “Transportation of Children” identification sign with a yellow reflective background and red reflective border is installed at the front."
+      },
+      {
+        "en": "In both cases."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  }
+]

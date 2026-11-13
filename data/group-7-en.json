@@ -1,0 +1,2826 @@
+[
+  {
+    "id": "g7-q001",
+    "group": 7,
+    "number": 1,
+    "question": {
+      "en": "Which vehicles are permitted to park?"
+    },
+    "options": [
+      {
+        "en": "Only the motorcycle."
+      },
+      {
+        "en": "Only the truck."
+      },
+      {
+        "en": "Only the passenger car."
+      },
+      {
+        "en": "The passenger car and the motorcycle."
+      },
+      {
+        "en": "All vehicles."
+      }
+    ],
+    "answer": 4,
+    "image": "images/g7/q001.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q002",
+    "group": 7,
+    "number": 2,
+    "question": {
+      "en": "Parking is prohibited:"
+    },
+    "options": [
+      {
+        "en": "On bridges, elevated roadways, and overpasses."
+      },
+      {
+        "en": "Under bridges, elevated roadways, and overpasses."
+      },
+      {
+        "en": "In all of the listed cases."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g7-q003",
+    "group": 7,
+    "number": 3,
+    "question": {
+      "en": "Is it permitted to drop off a passenger at a location where a solid yellow line is marked on the upper surface of the curb and a “No Stopping” sign is posted?"
+    },
+    "options": [
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Prohibited."
+      },
+      {
+        "en": "Permitted if no public transit vehicles are present."
+      },
+      {
+        "en": "Permitted only for public transit vehicles."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g7/q003.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q004",
+    "group": 7,
+    "number": 4,
+    "question": {
+      "en": "Does the prohibitory sign apply to the section of road where the driver has stopped?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g7/q004.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q005",
+    "group": 7,
+    "number": 5,
+    "question": {
+      "en": "Is parking the automobile at the indicated location permitted?"
+    },
+    "options": [
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Prohibited."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g7/q005.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q006",
+    "group": 7,
+    "number": 6,
+    "question": {
+      "en": "Within what distance of a railroad crossing is parking prohibited?"
+    },
+    "options": [
+      {
+        "en": "300 m."
+      },
+      {
+        "en": "150 m."
+      },
+      {
+        "en": "100 m."
+      },
+      {
+        "en": "50 m."
+      },
+      {
+        "en": "25 m."
+      }
+    ],
+    "answer": 5,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g7-q007",
+    "group": 7,
+    "number": 7,
+    "question": {
+      "en": "In this situation, is stopping to drop off a passenger permitted?"
+    },
+    "options": [
+      {
+        "en": "Permitted if it does not interfere with the movement of public transit vehicles."
+      },
+      {
+        "en": "Prohibited."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g7/q007.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q008",
+    "group": 7,
+    "number": 8,
+    "question": {
+      "en": "Which driver is required to stop?"
+    },
+    "options": [
+      {
+        "en": "The passenger-car driver."
+      },
+      {
+        "en": "The bus driver."
+      },
+      {
+        "en": "Both drivers."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g7/q008.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q009",
+    "group": 7,
+    "number": 9,
+    "question": {
+      "en": "This pavement marking permits traffic:"
+    },
+    "options": [
+      {
+        "en": "To the left only."
+      },
+      {
+        "en": "To the left and by making a U-turn."
+      },
+      {
+        "en": "By making a U-turn only."
+      },
+      {
+        "en": "Straight ahead, to the left, and by making a U-turn."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g7/q009.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q010",
+    "group": 7,
+    "number": 10,
+    "question": {
+      "en": "Which vehicles are permitted to park within the area where this traffic sign is in effect?"
+    },
+    "options": [
+      {
+        "en": "Only public transit vehicles."
+      },
+      {
+        "en": "Vehicles driven by persons with disabilities and taxis with the taximeter activated."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g7/q010.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q011",
+    "group": 7,
+    "number": 11,
+    "question": {
+      "en": "What does this pavement marking indicate?"
+    },
+    "options": [
+      {
+        "en": "A place for picking up and dropping off passengers."
+      },
+      {
+        "en": "A public transit vehicle stop."
+      },
+      {
+        "en": "A public transit vehicle stop and taxi parking area."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g7/q011.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q012",
+    "group": 7,
+    "number": 12,
+    "question": {
+      "en": "What does the solid yellow horizontal pavement marking indicate?"
+    },
+    "options": [
+      {
+        "en": "A location where stopping and parking of vehicles are prohibited."
+      },
+      {
+        "en": "A location where stopping is permitted to drop off passengers or unload the vehicle."
+      },
+      {
+        "en": "A location where parking of vehicles is prohibited."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g7/q012.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q013",
+    "group": 7,
+    "number": 13,
+    "question": {
+      "en": "Is the driver permitted to cross the solid pavement marking that indicates the boundaries of vehicle parking spaces?"
+    },
+    "options": [
+      {
+        "en": "Prohibited."
+      },
+      {
+        "en": "Permitted."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g7/q013.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q014",
+    "group": 7,
+    "number": 14,
+    "question": {
+      "en": "In which direction or directions indicated by the arrows is traffic permitted?"
+    },
+    "options": [
+      {
+        "en": "Straight ahead only."
+      },
+      {
+        "en": "To the left and by making a U-turn."
+      },
+      {
+        "en": "Straight ahead, to the left, and by making a U-turn."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g7/q014.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q015",
+    "group": 7,
+    "number": 15,
+    "question": {
+      "en": "What does this pavement marking indicate?"
+    },
+    "options": [
+      {
+        "en": "A pedestrian crossing where traffic is controlled by a traffic signal."
+      },
+      {
+        "en": "A location where a bicycle path crosses the roadway."
+      },
+      {
+        "en": "A location where a pedestrian path crosses the roadway."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g7/q015.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q016",
+    "group": 7,
+    "number": 16,
+    "question": {
+      "en": "How many lanes does a road have when traffic flows in opposite directions are separated by double solid lines?"
+    },
+    "options": [
+      {
+        "en": "Two lanes."
+      },
+      {
+        "en": "Two or three lanes."
+      },
+      {
+        "en": "Three lanes."
+      },
+      {
+        "en": "Four or more lanes."
+      }
+    ],
+    "answer": 4,
+    "image": "images/g7/q016.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q017",
+    "group": 7,
+    "number": 17,
+    "question": {
+      "en": "What do the arrows marked on the roadway warn about?"
+    },
+    "options": [
+      {
+        "en": "They warn the driver of an approaching hazardous section of road."
+      },
+      {
+        "en": "They warn of an approaching end of the traffic lane."
+      },
+      {
+        "en": "They indicate the direction of a hazardous turn in the road."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g7/q017.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q018",
+    "group": 7,
+    "number": 18,
+    "question": {
+      "en": "Which of these pavement-marking lines is used to designate lanes with reversible traffic?"
+    },
+    "options": [
+      {
+        "en": "Line 1."
+      },
+      {
+        "en": "Line 2."
+      },
+      {
+        "en": "Line 3."
+      },
+      {
+        "en": "Lines 2 and 3."
+      },
+      {
+        "en": "Lines 3 and 4."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g7/q018.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q019",
+    "group": 7,
+    "number": 19,
+    "question": {
+      "en": "Where is the solid yellow line indicating locations where stopping and parking are prohibited marked?"
+    },
+    "options": [
+      {
+        "en": "On the roadway."
+      },
+      {
+        "en": "Near the edge of the roadway."
+      },
+      {
+        "en": "Near the edge of the roadway or on the upper surface of the curb."
+      },
+      {
+        "en": "Only on the upper surface of the curb."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g7/q019.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q020",
+    "group": 7,
+    "number": 20,
+    "question": {
+      "en": "With which traffic sign may a broken yellow pavement marking be used?"
+    },
+    "options": [
+      {
+        "en": "“No Stopping.”"
+      },
+      {
+        "en": "“No Parking.”"
+      },
+      {
+        "en": "“No Parking on Odd-Numbered Days of the Month.”"
+      }
+    ],
+    "answer": 2,
+    "image": "images/g7/q020.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q021",
+    "group": 7,
+    "number": 21,
+    "question": {
+      "en": "Which vehicles are permitted to proceed in the right lane of the roadway?"
+    },
+    "options": [
+      {
+        "en": "All motor vehicles."
+      },
+      {
+        "en": "Public transit vehicles and taxis."
+      },
+      {
+        "en": "Bicycles only."
+      },
+      {
+        "en": "Public transit vehicles only."
+      }
+    ],
+    "answer": 4,
+    "image": "images/g7/q021.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q022",
+    "group": 7,
+    "number": 22,
+    "question": {
+      "en": "This pavement marking has the following meaning:"
+    },
+    "options": [
+      {
+        "en": "It indicates curbside parking spaces where the positioning of motor vehicles is specified."
+      },
+      {
+        "en": "It indicates locations where stopping of motor vehicles is prohibited."
+      },
+      {
+        "en": "It indicates public transit vehicle stops and taxi parking areas."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g7/q022.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q023",
+    "group": 7,
+    "number": 23,
+    "question": {
+      "en": "This horizontal pavement marking indicates:"
+    },
+    "options": [
+      {
+        "en": "A narrowing of the roadway where the number of traffic lanes in the given direction decreases."
+      },
+      {
+        "en": "A location where the driver must stop, if necessary, to yield to vehicles proceeding on the intersecting road."
+      },
+      {
+        "en": "An approach to a location where stopping is prohibited."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g7/q023.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q024",
+    "group": 7,
+    "number": 24,
+    "question": {
+      "en": "Is it permitted to enter a channelizing island marked with wide white lines?"
+    },
+    "options": [
+      {
+        "en": "Permitted only for stopping."
+      },
+      {
+        "en": "Permitted when backing."
+      },
+      {
+        "en": "Prohibited."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g7/q024.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q025",
+    "group": 7,
+    "number": 25,
+    "question": {
+      "en": "What should the driver do when approaching an intersection with a “Stop Line” pavement marking and a green traffic signal?"
+    },
+    "options": [
+      {
+        "en": "Stop at the “Stop Line” and then resume driving."
+      },
+      {
+        "en": "Proceed through the intersection without stopping."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g7-q026",
+    "group": 7,
+    "number": 26,
+    "question": {
+      "en": "What does this pavement marking indicate?"
+    },
+    "options": [
+      {
+        "en": "A pedestrian crossing."
+      },
+      {
+        "en": "A location where a bicycle path crosses the roadway."
+      },
+      {
+        "en": "A location designated for driving livestock across the road."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g7/q026.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q027",
+    "group": 7,
+    "number": 27,
+    "question": {
+      "en": "Where must the driver stop the vehicle when this pavement marking is present?"
+    },
+    "options": [
+      {
+        "en": "At the pavement marking."
+      },
+      {
+        "en": "On the pavement marking."
+      },
+      {
+        "en": "At least 5 m before the pavement marking."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g7/q027.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q028",
+    "group": 7,
+    "number": 28,
+    "question": {
+      "en": "What does this pavement marking mean?"
+    },
+    "options": [
+      {
+        "en": "A traffic lane designated for public transit vehicles."
+      },
+      {
+        "en": "A traffic lane designated for special-purpose vehicles."
+      },
+      {
+        "en": "It indicates the boundaries of traffic lanes where reversible traffic control is in effect."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g7/q028.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q029",
+    "group": 7,
+    "number": 29,
+    "question": {
+      "en": "Is it permitted to make a U-turn at the indicated location?"
+    },
+    "options": [
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Prohibited."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g7/q029.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q030",
+    "group": 7,
+    "number": 30,
+    "question": {
+      "en": "When this pavement marking is present, is the driver of a bus operating on a tourist route permitted to enter the lane marked “A”?"
+    },
+    "options": [
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Prohibited."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g7/q030.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q031",
+    "group": 7,
+    "number": 31,
+    "question": {
+      "en": "What does the wide broken-line pavement marking indicate?"
+    },
+    "options": [
+      {
+        "en": "The boundary between the roadway and the shoulder."
+      },
+      {
+        "en": "The boundary between a main traffic lane of the roadway and an acceleration lane."
+      },
+      {
+        "en": "The boundary between a main traffic lane of the roadway and a deceleration lane."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g7/q031.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q032",
+    "group": 7,
+    "number": 32,
+    "question": {
+      "en": "Which automobile is permitted to stop within the area where these signs are in effect?"
+    },
+    "options": [
+      {
+        "en": "The red automobile."
+      },
+      {
+        "en": "Both automobiles."
+      },
+      {
+        "en": "Neither automobile."
+      },
+      {
+        "en": "The yellow automobile displaying the “Disabled” identification sign."
+      }
+    ],
+    "answer": 4,
+    "image": "images/g7/q032.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q033",
+    "group": 7,
+    "number": 33,
+    "question": {
+      "en": "In which image has the driver stopped correctly to drop off passengers?"
+    },
+    "options": [
+      {
+        "en": "In the left image."
+      },
+      {
+        "en": "In both images."
+      },
+      {
+        "en": "In the right image."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g7/q033.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q034",
+    "group": 7,
+    "number": 34,
+    "question": {
+      "en": "The signal to stop a train is:"
+    },
+    "options": [
+      {
+        "en": "A circular motion of the arm (during daylight, with a brightly colored cloth or another clearly visible object; at night, with a torch or lantern)."
+      },
+      {
+        "en": "An arm raised above the head holding a disk or red flag."
+      },
+      {
+        "en": "An arm extended forward."
+      },
+      {
+        "en": "An arm extended forward and moved up and down."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g7-q035",
+    "group": 7,
+    "number": 35,
+    "question": {
+      "en": "In populated areas, on roads with one traffic lane in each direction and no tram tracks in the center, stopping and parking on the left side of the road are:"
+    },
+    "options": [
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Prohibited."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g7-q036",
+    "group": 7,
+    "number": 36,
+    "question": {
+      "en": "At what distance from the “Stop Line” or the “STOP” sign must a vehicle be stopped in order to yield to an approaching train?"
+    },
+    "options": [
+      {
+        "en": "1.5 m."
+      },
+      {
+        "en": "2.5 m."
+      },
+      {
+        "en": "5 m."
+      },
+      {
+        "en": "10 m."
+      },
+      {
+        "en": "Immediately at the “Stop Line” and/or the sign."
+      }
+    ],
+    "answer": 5,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g7-q037",
+    "group": 7,
+    "number": 37,
+    "question": {
+      "en": "Is stopping at the indicated location permitted?"
+    },
+    "options": [
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Prohibited."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g7/q037.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q038",
+    "group": 7,
+    "number": 38,
+    "question": {
+      "en": "Is the automobile permitted to stop at this location?"
+    },
+    "options": [
+      {
+        "en": "Prohibited because the distance between the broken pavement marking and the stopped vehicle is less than 3 m."
+      },
+      {
+        "en": "Prohibited on even-numbered days of the month."
+      },
+      {
+        "en": "Permitted."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g7/q038.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q039",
+    "group": 7,
+    "number": 39,
+    "question": {
+      "en": "Which vehicle driver has violated the parking rules?"
+    },
+    "options": [
+      {
+        "en": "The driver of the blue automobile."
+      },
+      {
+        "en": "The driver of the red automobile."
+      },
+      {
+        "en": "Both drivers have violated the rules."
+      },
+      {
+        "en": "Neither driver has violated the rules."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g7/q039.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q040",
+    "group": 7,
+    "number": 40,
+    "question": {
+      "en": "Outside populated areas, where is parking for extended rest, overnight stays, or other purposes permitted?"
+    },
+    "options": [
+      {
+        "en": "On the shoulders of the road."
+      },
+      {
+        "en": "In areas designated for parking or outside the boundaries of the road."
+      },
+      {
+        "en": "On the right side of the roadway, provided it does not interfere with other vehicle traffic."
+      },
+      {
+        "en": "On the left side of the road, provided road traffic safety is ensured."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g7-q041",
+    "group": 7,
+    "number": 41,
+    "question": {
+      "en": "Stopping is prohibited if the distance between the solid line and the stopped vehicle is:"
+    },
+    "options": [
+      {
+        "en": "6 m."
+      },
+      {
+        "en": "5.5 m."
+      },
+      {
+        "en": "4 m."
+      },
+      {
+        "en": "3.5 m."
+      },
+      {
+        "en": "2.5 m."
+      }
+    ],
+    "answer": 5,
+    "image": "images/g7/q041.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q042",
+    "group": 7,
+    "number": 42,
+    "question": {
+      "en": "If traffic across a railroad crossing is prohibited and there are no traffic signals, traffic signs, pavement markings, or barrier gate, the driver must stop:"
+    },
+    "options": [
+      {
+        "en": "At least 5 m from the nearest rail."
+      },
+      {
+        "en": "At least 7 m from the nearest rail."
+      },
+      {
+        "en": "At least 10 m from the nearest rail."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g7-q043",
+    "group": 7,
+    "number": 43,
+    "question": {
+      "en": "Within what distance of a railroad crossing is vehicle parking prohibited?"
+    },
+    "options": [
+      {
+        "en": "15 m."
+      },
+      {
+        "en": "50 m."
+      },
+      {
+        "en": "100 m."
+      },
+      {
+        "en": "150 m."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g7-q044",
+    "group": 7,
+    "number": 44,
+    "question": {
+      "en": "Which answer correctly identifies the drivers who have violated the stopping rules?"
+    },
+    "options": [
+      {
+        "en": "The drivers of the red automobile and the motorcycle."
+      },
+      {
+        "en": "The driver of the blue automobile."
+      },
+      {
+        "en": "The motorcycle operator."
+      },
+      {
+        "en": "The drivers of all the vehicles."
+      }
+    ],
+    "answer": 4,
+    "image": "images/g7/q044.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q045",
+    "group": 7,
+    "number": 45,
+    "question": {
+      "en": "Which vehicle drivers have stopped incorrectly to drop off passengers?"
+    },
+    "options": [
+      {
+        "en": "The passenger-car driver."
+      },
+      {
+        "en": "The motorcycle operator."
+      },
+      {
+        "en": "The bus driver."
+      },
+      {
+        "en": "The motorcycle operator and the bus driver."
+      },
+      {
+        "en": "All drivers."
+      }
+    ],
+    "answer": 4,
+    "image": "images/g7/q045.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q046",
+    "group": 7,
+    "number": 46,
+    "question": {
+      "en": "If traffic across a railroad crossing is prohibited and there are no traffic signals, traffic signs, or pavement markings, the driver must stop:"
+    },
+    "options": [
+      {
+        "en": "At least 5 m before the barrier gate."
+      },
+      {
+        "en": "At least 3 m before the barrier gate."
+      },
+      {
+        "en": "Immediately before the barrier gate."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g7-q047",
+    "group": 7,
+    "number": 47,
+    "question": {
+      "en": "What does the letter “A” marked in a traffic lane of the roadway mean?"
+    },
+    "options": [
+      {
+        "en": "The road (route) number."
+      },
+      {
+        "en": "A special lane designated for public transit vehicles."
+      },
+      {
+        "en": "A special lane designated for category A vehicles."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g7/q047.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q048",
+    "group": 7,
+    "number": 48,
+    "question": {
+      "en": "Is the vehicle permitted to stop at the indicated location to drop off passengers?"
+    },
+    "options": [
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Prohibited."
+      },
+      {
+        "en": "Permitted, but only by driving onto the sidewalk."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g7/q048.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q049",
+    "group": 7,
+    "number": 49,
+    "question": {
+      "en": "Is it permitted to continue in the direction indicated by the arrow?"
+    },
+    "options": [
+      {
+        "en": "Prohibited."
+      },
+      {
+        "en": "Permitted in all cases."
+      },
+      {
+        "en": "Permitted for the purpose of stopping to drop off passengers."
+      },
+      {
+        "en": "Permitted for the purpose of passing the truck."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g7/q049.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q050",
+    "group": 7,
+    "number": 50,
+    "question": {
+      "en": "This type of vertical pavement marking indicates:"
+    },
+    "options": [
+      {
+        "en": "The lower edges of a bridge or tunnel."
+      },
+      {
+        "en": "The entrance to an unlit tunnel."
+      },
+      {
+        "en": "Any element of a road structure that creates a hazard for traffic."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g7/q050.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q051",
+    "group": 7,
+    "number": 51,
+    "question": {
+      "en": "What should the passenger-car driver do if the bus driver has begun braking?"
+    },
+    "options": [
+      {
+        "en": "Continue driving."
+      },
+      {
+        "en": "Reduce speed, stop if necessary, and continue after making sure there are no pedestrians in the crossing."
+      },
+      {
+        "en": "Stop and continue only after the bus resumes driving."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g7/q051.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q052",
+    "group": 7,
+    "number": 52,
+    "question": {
+      "en": "The bus driver has stopped to pick up passengers. The passenger car is proceeding at a speed of 70 km/h. Which vehicle driver is violating the requirements of the traffic rules?"
+    },
+    "options": [
+      {
+        "en": "Neither driver."
+      },
+      {
+        "en": "The bus driver."
+      },
+      {
+        "en": "The passenger-car driver."
+      },
+      {
+        "en": "Both drivers."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g7/q052.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q053",
+    "group": 7,
+    "number": 53,
+    "question": {
+      "en": "Where must the driver stop in this situation?"
+    },
+    "options": [
+      {
+        "en": "Stopping is not required."
+      },
+      {
+        "en": "Before the traffic signal."
+      },
+      {
+        "en": "Before the “Stop Line” pavement marking."
+      },
+      {
+        "en": "Before the intersection of the traffic lanes."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g7/q053.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q054",
+    "group": 7,
+    "number": 54,
+    "question": {
+      "en": "The bus has stopped to yield to a pedestrian. In this situation, is the passenger-car driver violating the requirements of the traffic rules?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g7/q054.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q055",
+    "group": 7,
+    "number": 55,
+    "question": {
+      "en": "Where must the bus driver stop in order to yield to the passenger car before continuing to the left?"
+    },
+    "options": [
+      {
+        "en": "Before the traffic sign."
+      },
+      {
+        "en": "At the pavement marking."
+      },
+      {
+        "en": "At a safe location at the driver’s discretion."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g7/q055.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q056",
+    "group": 7,
+    "number": 56,
+    "question": {
+      "en": "Where must the driver stop in this situation?"
+    },
+    "options": [
+      {
+        "en": "At the first traffic sign."
+      },
+      {
+        "en": "Before the “Stop Line” pavement marking."
+      },
+      {
+        "en": "At the second traffic sign."
+      },
+      {
+        "en": "Stopping is not required."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g7/q056.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q057",
+    "group": 7,
+    "number": 57,
+    "question": {
+      "en": "Which vehicles are permitted to stop within the area where this sign is in effect?"
+    },
+    "options": [
+      {
+        "en": "Only public transit vehicles."
+      },
+      {
+        "en": "Only vehicles driven by persons with disabilities."
+      },
+      {
+        "en": "Only taxis with the taximeter activated."
+      },
+      {
+        "en": "Stopping is prohibited for all vehicles."
+      }
+    ],
+    "answer": 4,
+    "image": "images/g7/q057.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q058",
+    "group": 7,
+    "number": 58,
+    "question": {
+      "en": "Within the area where these traffic signs are in effect, is stopping to pick up passengers permitted?"
+    },
+    "options": [
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Prohibited."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g7/q058.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q059",
+    "group": 7,
+    "number": 59,
+    "question": {
+      "en": "For which vehicles is the lane marked with the letter “A” designated?"
+    },
+    "options": [
+      {
+        "en": "Only buses operating on an established route."
+      },
+      {
+        "en": "Trolleybuses and taxis."
+      },
+      {
+        "en": "Public transit vehicles."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g7/q059.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q060",
+    "group": 7,
+    "number": 60,
+    "question": {
+      "en": "Is stopping permitted at the indicated location?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g7/q060.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q061",
+    "group": 7,
+    "number": 61,
+    "question": {
+      "en": "Is parking permitted in this situation?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "Only during daylight hours."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g7/q061.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q062",
+    "group": 7,
+    "number": 62,
+    "question": {
+      "en": "At which of the indicated locations is stopping permitted?"
+    },
+    "options": [
+      {
+        "en": "Only A."
+      },
+      {
+        "en": "Only B."
+      },
+      {
+        "en": "Only B and C."
+      },
+      {
+        "en": "At none of the locations."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g7/q062.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q063",
+    "group": 7,
+    "number": 63,
+    "question": {
+      "en": "At which location is stopping permitted?"
+    },
+    "options": [
+      {
+        "en": "Only B."
+      },
+      {
+        "en": "Only A and B."
+      },
+      {
+        "en": "Only A and C."
+      },
+      {
+        "en": "At none of the locations."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g7/q063.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q064",
+    "group": 7,
+    "number": 64,
+    "question": {
+      "en": "Is stopping permitted at the indicated location?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "Prohibited."
+      },
+      {
+        "en": "Only for the purpose of picking up a passenger."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g7/q064.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q065",
+    "group": 7,
+    "number": 65,
+    "question": {
+      "en": "In the indicated situation, is stopping permitted for the purpose of picking up a passenger?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g7/q065.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q066",
+    "group": 7,
+    "number": 66,
+    "question": {
+      "en": "In which of the indicated cases is stopping permitted?"
+    },
+    "options": [
+      {
+        "en": "Only B."
+      },
+      {
+        "en": "Only C."
+      },
+      {
+        "en": "A and C."
+      },
+      {
+        "en": "In all cases."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g7/q066.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q067",
+    "group": 7,
+    "number": 67,
+    "question": {
+      "en": "Stopping is prohibited:"
+    },
+    "options": [
+      {
+        "en": "At a railroad crossing."
+      },
+      {
+        "en": "At a railroad crossing and within 50 m of it."
+      },
+      {
+        "en": "At a railroad crossing and within 50 m before it."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g7-q068",
+    "group": 7,
+    "number": 68,
+    "question": {
+      "en": "Parking is prohibited:"
+    },
+    "options": [
+      {
+        "en": "At a railroad crossing."
+      },
+      {
+        "en": "At a railroad crossing and within 50 m of it."
+      },
+      {
+        "en": "At a railroad crossing and within 50 m before it."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g7-q069",
+    "group": 7,
+    "number": 69,
+    "question": {
+      "en": "Which option shows a vehicle stopped correctly?"
+    },
+    "options": [
+      {
+        "en": "Only C."
+      },
+      {
+        "en": "Only A and C."
+      },
+      {
+        "en": "Only B and C."
+      },
+      {
+        "en": "In all three cases."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g7/q069.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q070",
+    "group": 7,
+    "number": 70,
+    "question": {
+      "en": "Must you yield to the truck?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g7/q070.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q071",
+    "group": 7,
+    "number": 71,
+    "question": {
+      "en": "Stopping at the indicated location is:"
+    },
+    "options": [
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Prohibited."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g7/q071.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q072",
+    "group": 7,
+    "number": 72,
+    "question": {
+      "en": "When is it permitted to cross the pavement marking?"
+    },
+    "options": [
+      {
+        "en": "Before the pedestrian crossing."
+      },
+      {
+        "en": "After the pedestrian crossing."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g7/q072.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q073",
+    "group": 7,
+    "number": 73,
+    "question": {
+      "en": "Has the truck driver violated the stopping rules?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g7/q073.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q074",
+    "group": 7,
+    "number": 74,
+    "question": {
+      "en": "In the indicated situation, is stopping permitted for the purpose of picking up a passenger?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "Permitted only for the driver of a public transit vehicle."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g7/q074.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q075",
+    "group": 7,
+    "number": 75,
+    "question": {
+      "en": "Which driver has violated the parking rules?"
+    },
+    "options": [
+      {
+        "en": "Both drivers."
+      },
+      {
+        "en": "Only the passenger-car driver."
+      },
+      {
+        "en": "Only the driver of the motorcycle."
+      },
+      {
+        "en": "No one."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g7/q075.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q076",
+    "group": 7,
+    "number": 76,
+    "question": {
+      "en": "Which option shows a driver parked in a prohibited position?"
+    },
+    "options": [
+      {
+        "en": "Only A."
+      },
+      {
+        "en": "Only B."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g7/q076.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q077",
+    "group": 7,
+    "number": 77,
+    "question": {
+      "en": "Is stopping permitted at the indicated location?"
+    },
+    "options": [
+      {
+        "en": "Only for the purpose of dropping off a passenger."
+      },
+      {
+        "en": "Prohibited."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g7/q077.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q078",
+    "group": 7,
+    "number": 78,
+    "question": {
+      "en": "At which of the indicated locations is parking permitted?"
+    },
+    "options": [
+      {
+        "en": "Only A."
+      },
+      {
+        "en": "Only C."
+      },
+      {
+        "en": "A or C."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g7/q078.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q079",
+    "group": 7,
+    "number": 79,
+    "question": {
+      "en": "Is stopping permitted at the indicated location?"
+    },
+    "options": [
+      {
+        "en": "No."
+      },
+      {
+        "en": "Yes."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g7/q079.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q080",
+    "group": 7,
+    "number": 80,
+    "question": {
+      "en": "Who has violated the stopping rules?"
+    },
+    "options": [
+      {
+        "en": "Both drivers."
+      },
+      {
+        "en": "Only the truck driver."
+      },
+      {
+        "en": "Only the passenger-car driver."
+      },
+      {
+        "en": "No one."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g7/q080.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q081",
+    "group": 7,
+    "number": 81,
+    "question": {
+      "en": "In which case has the driver violated the stopping rules?"
+    },
+    "options": [
+      {
+        "en": "Only A."
+      },
+      {
+        "en": "Only B."
+      },
+      {
+        "en": "Neither driver."
+      },
+      {
+        "en": "Both drivers have violated the rules."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g7/q081.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q082",
+    "group": 7,
+    "number": 82,
+    "question": {
+      "en": "In which case has the driver violated the parking rules?"
+    },
+    "options": [
+      {
+        "en": "Only A."
+      },
+      {
+        "en": "Only B."
+      },
+      {
+        "en": "Both drivers have violated the rules."
+      },
+      {
+        "en": "Neither driver."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g7/q082.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q083",
+    "group": 7,
+    "number": 83,
+    "question": {
+      "en": "Is parking permitted at the indicated location?"
+    },
+    "options": [
+      {
+        "en": "Prohibited."
+      },
+      {
+        "en": "Permitted."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g7/q083.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q084",
+    "group": 7,
+    "number": 84,
+    "question": {
+      "en": "Is stopping on the bridge permitted for the purpose of picking up a passenger?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g7/q084.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q085",
+    "group": 7,
+    "number": 85,
+    "question": {
+      "en": "Which driver has violated the stopping rules?"
+    },
+    "options": [
+      {
+        "en": "The automobile driver."
+      },
+      {
+        "en": "The driver of the motorcycle."
+      },
+      {
+        "en": "Both drivers."
+      },
+      {
+        "en": "No one."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g7/q085.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q086",
+    "group": 7,
+    "number": 86,
+    "question": {
+      "en": "Which driver has stopped correctly?"
+    },
+    "options": [
+      {
+        "en": "Only C."
+      },
+      {
+        "en": "B or C."
+      },
+      {
+        "en": "All drivers."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g7/q086.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q087",
+    "group": 7,
+    "number": 87,
+    "question": {
+      "en": "Is stopping permitted at the indicated location?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g7/q087.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q088",
+    "group": 7,
+    "number": 88,
+    "question": {
+      "en": "Which driver has violated the parking rules?"
+    },
+    "options": [
+      {
+        "en": "The truck driver."
+      },
+      {
+        "en": "The passenger-car driver."
+      },
+      {
+        "en": "No one."
+      },
+      {
+        "en": "Both drivers."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g7/q088.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q089",
+    "group": 7,
+    "number": 89,
+    "question": {
+      "en": "Is the driver of a truck weighing less than 3.5 metric tons permitted to park in the manner indicated on the supplemental plaque?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g7/q089.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q090",
+    "group": 7,
+    "number": 90,
+    "question": {
+      "en": "Is stopping permitted at the indicated location?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g7/q090.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q091",
+    "group": 7,
+    "number": 91,
+    "question": {
+      "en": "At which of the indicated locations is stopping permitted?"
+    },
+    "options": [
+      {
+        "en": "Only A."
+      },
+      {
+        "en": "Only B."
+      },
+      {
+        "en": "At any of the locations."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g7/q091.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q092",
+    "group": 7,
+    "number": 92,
+    "question": {
+      "en": "Parking at the indicated location is:"
+    },
+    "options": [
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Prohibited."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g7/q092.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q093",
+    "group": 7,
+    "number": 93,
+    "question": {
+      "en": "Which driver has violated the parking rules?"
+    },
+    "options": [
+      {
+        "en": "Only A."
+      },
+      {
+        "en": "Only B."
+      },
+      {
+        "en": "No one."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g7/q093.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q094",
+    "group": 7,
+    "number": 94,
+    "question": {
+      "en": "Stopping at the indicated location is:"
+    },
+    "options": [
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Permitted for the purpose of picking up a passenger."
+      },
+      {
+        "en": "Prohibited."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g7/q094.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q095",
+    "group": 7,
+    "number": 95,
+    "question": {
+      "en": "Which driver has violated the stopping rules?"
+    },
+    "options": [
+      {
+        "en": "Only B."
+      },
+      {
+        "en": "Only B and C."
+      },
+      {
+        "en": "All of them."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g7/q095.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q096",
+    "group": 7,
+    "number": 96,
+    "question": {
+      "en": "Are the drivers permitted to stop at the indicated location?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "Only the driver of the motorcycle."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g7/q096.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q097",
+    "group": 7,
+    "number": 97,
+    "question": {
+      "en": "In which of the indicated cases is stopping permitted?"
+    },
+    "options": [
+      {
+        "en": "Only C."
+      },
+      {
+        "en": "Only B and C."
+      },
+      {
+        "en": "In all cases."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g7/q097.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q098",
+    "group": 7,
+    "number": 98,
+    "question": {
+      "en": "Is stopping in this position permitted?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "Only for passenger cars."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g7/q098.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q099",
+    "group": 7,
+    "number": 99,
+    "question": {
+      "en": "Stopping at the indicated location is:"
+    },
+    "options": [
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Permitted if the distance from the vehicle to the pavement marking is more than 3 meters."
+      },
+      {
+        "en": "Prohibited."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g7/q099.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q100",
+    "group": 7,
+    "number": 100,
+    "question": {
+      "en": "This pavement marking indicates:"
+    },
+    "options": [
+      {
+        "en": "Right-of-way when changing lanes."
+      },
+      {
+        "en": "Approach to a curved section of road."
+      },
+      {
+        "en": "Approach to the end of the lane."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g7/q100.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q101",
+    "group": 7,
+    "number": 101,
+    "question": {
+      "en": "What does this pavement marking indicate?"
+    },
+    "options": [
+      {
+        "en": "Approach to the “Stop Line” at a signal-controlled intersection."
+      },
+      {
+        "en": "Approach to the “Stop Line” pavement marking when it is used together with a “STOP” sign."
+      },
+      {
+        "en": "Approach to a barrier gate."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g7/q101.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q102",
+    "group": 7,
+    "number": 102,
+    "question": {
+      "en": "Vertical markings on barriers indicate:"
+    },
+    "options": [
+      {
+        "en": "Approach to a railroad crossing."
+      },
+      {
+        "en": "Approach to a dangerous intersection."
+      },
+      {
+        "en": "Movement along a dangerous section of road."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g7/q102.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q103",
+    "group": 7,
+    "number": 103,
+    "question": {
+      "en": "This triangular pavement marking indicates:"
+    },
+    "options": [
+      {
+        "en": "Approach to a dangerous turn."
+      },
+      {
+        "en": "Approach to a location where drivers must yield."
+      },
+      {
+        "en": "Approach to a location where vehicles must stop."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g7/q103.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q104",
+    "group": 7,
+    "number": 104,
+    "question": {
+      "en": "These broken pavement markings within the intersection indicate:"
+    },
+    "options": [
+      {
+        "en": "Permitted directions of traffic."
+      },
+      {
+        "en": "Traffic lanes within the intersection."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g7/q104.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q105",
+    "group": 7,
+    "number": 105,
+    "question": {
+      "en": "With this pavement marking, passing is:"
+    },
+    "options": [
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Prohibited."
+      },
+      {
+        "en": "Permitted only when passing tractors."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g7/q105.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q106",
+    "group": 7,
+    "number": 106,
+    "question": {
+      "en": "This vertical pavement marking:"
+    },
+    "options": [
+      {
+        "en": "Marks all vertical elements adjacent to the roadway."
+      },
+      {
+        "en": "Marks only those elements of road structures that present a hazard to drivers."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g7/q106.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q107",
+    "group": 7,
+    "number": 107,
+    "question": {
+      "en": "With this pavement marking, may you enter the intersection if doing so does not interfere with the passenger-car driver?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g7/q107.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q108",
+    "group": 7,
+    "number": 108,
+    "question": {
+      "en": "Which driver following the indicated path does not violate the pavement-marking requirements?"
+    },
+    "options": [
+      {
+        "en": "Only A."
+      },
+      {
+        "en": "Only B."
+      },
+      {
+        "en": "Both violate the requirements."
+      },
+      {
+        "en": "Neither violates the requirements."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g7/q108.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q109",
+    "group": 7,
+    "number": 109,
+    "question": {
+      "en": "In which case is it permitted to cross the solid pavement marking?"
+    },
+    "options": [
+      {
+        "en": "Only B, when stopping."
+      },
+      {
+        "en": "In neither case."
+      },
+      {
+        "en": "In both cases, when stopping."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g7/q109.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q110",
+    "group": 7,
+    "number": 110,
+    "question": {
+      "en": "What does the broken pavement marking indicate?"
+    },
+    "options": [
+      {
+        "en": "The right to stop on the shoulder."
+      },
+      {
+        "en": "The edges of the roadway on a two-lane road."
+      },
+      {
+        "en": "The right to proceed on the shoulder."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g7/q110.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q111",
+    "group": 7,
+    "number": 111,
+    "question": {
+      "en": "In this situation, proceeding along this path is:"
+    },
+    "options": [
+      {
+        "en": "Permitted only when passing."
+      },
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Prohibited."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g7/q111.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q112",
+    "group": 7,
+    "number": 112,
+    "question": {
+      "en": "Is parking permitted at the indicated location?"
+    },
+    "options": [
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Permitted without driving onto the sidewalk."
+      },
+      {
+        "en": "Prohibited."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g7/q112.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q113",
+    "group": 7,
+    "number": 113,
+    "question": {
+      "en": "With this pavement marking, passing is:"
+    },
+    "options": [
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Permitted if the vehicle ahead is a slow-moving vehicle."
+      },
+      {
+        "en": "Prohibited."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g7/q113.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q114",
+    "group": 7,
+    "number": 114,
+    "question": {
+      "en": "May you continue beyond the sign?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "Yes, up to the “Stop Line.”"
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g7/q114.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q115",
+    "group": 7,
+    "number": 115,
+    "question": {
+      "en": "When orange and white pavement markings conflict, drivers:"
+    },
+    "options": [
+      {
+        "en": "May follow whichever pavement marking is more convenient."
+      },
+      {
+        "en": "Must follow the white pavement marking."
+      },
+      {
+        "en": "Must follow the orange pavement marking."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g7-q116",
+    "group": 7,
+    "number": 116,
+    "question": {
+      "en": "Which driver is permitted to cross the solid pavement marking when stopping?"
+    },
+    "options": [
+      {
+        "en": "Both drivers."
+      },
+      {
+        "en": "The driver proceeding from the opposite direction."
+      },
+      {
+        "en": "Neither driver is permitted."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g7/q116.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q117",
+    "group": 7,
+    "number": 117,
+    "question": {
+      "en": "Is stopping permitted at the indicated location?"
+    },
+    "options": [
+      {
+        "en": "For motorcycles only."
+      },
+      {
+        "en": "No."
+      },
+      {
+        "en": "Yes."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g7/q117.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q118",
+    "group": 7,
+    "number": 118,
+    "question": {
+      "en": "This pavement marking:"
+    },
+    "options": [
+      {
+        "en": "Indicates the boundaries of a Residential Zone."
+      },
+      {
+        "en": "Indicates a speed hump."
+      },
+      {
+        "en": "Prohibits further traffic."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g7/q118.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q119",
+    "group": 7,
+    "number": 119,
+    "question": {
+      "en": "This pavement marking prohibits:"
+    },
+    "options": [
+      {
+        "en": "Passing."
+      },
+      {
+        "en": "Driving around an obstruction."
+      },
+      {
+        "en": "Making a U-turn."
+      },
+      {
+        "en": "Traffic to the left of it or over it."
+      }
+    ],
+    "answer": 4,
+    "image": "images/g7/q119.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q120",
+    "group": 7,
+    "number": 120,
+    "question": {
+      "en": "This pavement marking indicates:"
+    },
+    "options": [
+      {
+        "en": "The route or road number."
+      },
+      {
+        "en": "The recommended speed."
+      },
+      {
+        "en": "The maximum permitted speed on the indicated road section."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g7/q120.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q121",
+    "group": 7,
+    "number": 121,
+    "question": {
+      "en": "The marking applied to the roadway indicates:"
+    },
+    "options": [
+      {
+        "en": "The distance from the nearest intersection."
+      },
+      {
+        "en": "The distance from the nearest populated area."
+      },
+      {
+        "en": "The road or route number."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g7/q121.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q122",
+    "group": 7,
+    "number": 122,
+    "question": {
+      "en": "On which side may the obstruction be passed?"
+    },
+    "options": [
+      {
+        "en": "Only A."
+      },
+      {
+        "en": "Only B."
+      },
+      {
+        "en": "Either side."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g7/q122.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q123",
+    "group": 7,
+    "number": 123,
+    "question": {
+      "en": "Which vehicles may use the rightmost lane of this road?"
+    },
+    "options": [
+      {
+        "en": "Trolleybuses and public transit buses."
+      },
+      {
+        "en": "Trolleybuses and buses."
+      },
+      {
+        "en": "Buses only."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g7/q123.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q124",
+    "group": 7,
+    "number": 124,
+    "question": {
+      "en": "Is parking permitted at the indicated location?"
+    },
+    "options": [
+      {
+        "en": "Prohibited."
+      },
+      {
+        "en": "Only on the sidewalk."
+      },
+      {
+        "en": "Only for motorcycles."
+      },
+      {
+        "en": "Permitted."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g7/q124.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q125",
+    "group": 7,
+    "number": 125,
+    "question": {
+      "en": "The increasing length of the broken pavement-marking segments indicates:"
+    },
+    "options": [
+      {
+        "en": "Approach to the end of the lane."
+      },
+      {
+        "en": "Approach to a dangerous road section."
+      },
+      {
+        "en": "That the pavement marking will soon become a solid line."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g7/q125.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q126",
+    "group": 7,
+    "number": 126,
+    "question": {
+      "en": "In the indicated situation, proceeding straight ahead is:"
+    },
+    "options": [
+      {
+        "en": "Prohibited."
+      },
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Permitted after changing to the right lane."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g7/q126.webp",
+    "explanation": null
+  },
+  {
+    "id": "g7-q127",
+    "group": 7,
+    "number": 127,
+    "question": {
+      "en": "How many traffic lanes does this road have?"
+    },
+    "options": [
+      {
+        "en": "Two."
+      },
+      {
+        "en": "Four."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g7/q127.webp",
+    "explanation": null
+  }
+]

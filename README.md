@@ -1,8 +1,8 @@
 # Armenian Driving Theory — study app
 
 An unofficial study tool for the Armenian driving-licence theory exam.
-Covers **Group 1** (147 questions) and **Group 2** (82 questions), ABC categories,
-in English and Russian.
+Covers all ten question groups of the ABC categories (1,050 questions), in
+English and Russian.
 
 Questions: [Road Police of the Republic of Armenia](https://roadpolice.am).
 Question text, options and answers are copied from the official PDF unchanged.
@@ -108,25 +108,24 @@ language needs its "Answer" and "page" words added to `LABELS` in the script.
 
 ## Add a new group
 
-Example: Group 3 with 90 questions.
+Example: a Group 11 with 90 questions.
 
-1. Put the PDFs at `data/raw/group-3-en.pdf` and `data/raw/group-3-ru.pdf`.
+1. Put the PDFs at `data/raw/group-11-en.pdf` and `data/raw/group-11-ru.pdf`.
 2. Extract them (set the real question count, printed on the PDF's first page):
 
    ```bash
-   .venv\Scripts\python -X utf8 scripts/extract.py --group 3 --expected 90
-   .venv\Scripts\python -X utf8 scripts/extract.py --group 3 --lang ru --expected 90 --share-images-with en
+   .venv\Scripts\python -X utf8 scripts/extract.py --group 11 --expected 90
+   .venv\Scripts\python -X utf8 scripts/extract.py --group 11 --lang ru --expected 90 --share-images-with en
    ```
 
-   This writes `data/group-3-en.json`, `data/group-3-ru.json`,
-   `data/images/g3/`, `data/review-g3.html` and `data/review-g3-ru.html`.
+   This writes `data/group-11-en.json`, `data/group-11-ru.json`,
+   `data/images/g11/`, `data/review-g11.html` and `data/review-g11-ru.html`.
    Check the review pages against the PDFs.
-3. Add one entry to `GROUPS` in `src/config.ts` (`topic` is the short
-   description shown on the home card):
+3. Add one line to `GROUPS` in `src/config.ts`: the id, the number of
+   questions and the short topic shown on the home card:
 
    ```ts
-   { id: 3, files: { en: 'group-3-en.json', ru: 'group-3-ru.json' }, categories: 'ABC',
-     topic: { en: '…', ru: '…' } },
+   group(11, 90, { en: '…', ru: '…' }),
    ```
 
 The home screen, practice, mistakes and progress tracking pick it up from there.

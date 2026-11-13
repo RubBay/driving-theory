@@ -1,0 +1,1222 @@
+[
+  {
+    "id": "g8-q001",
+    "group": 8,
+    "number": 1,
+    "question": {
+      "en": "What is the maximum permitted speed for passenger cars on roads outside populated areas?"
+    },
+    "options": [
+      {
+        "en": "110 km/h."
+      },
+      {
+        "en": "100 km/h."
+      },
+      {
+        "en": "90 km/h."
+      },
+      {
+        "en": "80 km/h."
+      },
+      {
+        "en": "70 km/h."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g8-q002",
+    "group": 8,
+    "number": 2,
+    "question": {
+      "en": "Trucks carrying people in an equipped cargo bed are permitted to proceed at a speed not exceeding:"
+    },
+    "options": [
+      {
+        "en": "60 km/h."
+      },
+      {
+        "en": "70 km/h."
+      },
+      {
+        "en": "80 km/h."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g8-q003",
+    "group": 8,
+    "number": 3,
+    "question": {
+      "en": "Vehicles transporting organized groups of children are permitted to proceed at a speed not exceeding:"
+    },
+    "options": [
+      {
+        "en": "60 km/h."
+      },
+      {
+        "en": "70 km/h."
+      },
+      {
+        "en": "80 km/h."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g8-q004",
+    "group": 8,
+    "number": 4,
+    "question": {
+      "en": "In populated areas, vehicles are permitted to proceed at a speed not exceeding:"
+    },
+    "options": [
+      {
+        "en": "60 km/h."
+      },
+      {
+        "en": "80 km/h."
+      },
+      {
+        "en": "90 km/h."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g8-q005",
+    "group": 8,
+    "number": 5,
+    "question": {
+      "en": "At what speed are trucks with a maximum authorized mass not exceeding 3.5 metric tons permitted to proceed outside populated areas?"
+    },
+    "options": [
+      {
+        "en": "Not exceeding 90 km/h."
+      },
+      {
+        "en": "Not exceeding 70 km/h."
+      },
+      {
+        "en": "Not exceeding 80 km/h."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g8-q006",
+    "group": 8,
+    "number": 6,
+    "question": {
+      "en": "During towing, if the hazard warning lights are absent or malfunctioning, the emergency warning triangle must be placed:"
+    },
+    "options": [
+      {
+        "en": "At the rear of the towed vehicle."
+      },
+      {
+        "en": "At the front of the towing vehicle."
+      },
+      {
+        "en": "On either vehicle, in a visible location, at the driver’s discretion."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g8-q007",
+    "group": 8,
+    "number": 7,
+    "question": {
+      "en": "When towing with a rigid coupling, the distance between the vehicles must not exceed:"
+    },
+    "options": [
+      {
+        "en": "2 m."
+      },
+      {
+        "en": "3 m."
+      },
+      {
+        "en": "4 m."
+      },
+      {
+        "en": "5 m."
+      },
+      {
+        "en": "6 m."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g8-q008",
+    "group": 8,
+    "number": 8,
+    "question": {
+      "en": "When towing with a rigid or flexible coupling, is it permitted to carry people in the cargo bed of a truck?"
+    },
+    "options": [
+      {
+        "en": "Permitted in the cargo beds of both the towing and towed trucks."
+      },
+      {
+        "en": "Permitted only in the cargo bed of the towed truck."
+      },
+      {
+        "en": "Permitted only in the cargo bed of the towing truck."
+      },
+      {
+        "en": "Prohibited in the cargo beds of both trucks."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g8-q009",
+    "group": 8,
+    "number": 9,
+    "question": {
+      "en": "When towing with a rigid or flexible coupling, in which of the following cases is carrying people in the towed vehicle permitted?"
+    },
+    "options": [
+      {
+        "en": "In a bus."
+      },
+      {
+        "en": "In a passenger car."
+      },
+      {
+        "en": "In the cargo bed of a truck when towing with a rigid coupling."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g8-q010",
+    "group": 8,
+    "number": 10,
+    "question": {
+      "en": "What is the maximum permitted speed when towing with a motor vehicle?"
+    },
+    "options": [
+      {
+        "en": "30 km/h."
+      },
+      {
+        "en": "40 km/h."
+      },
+      {
+        "en": "50 km/h."
+      },
+      {
+        "en": "60 km/h."
+      },
+      {
+        "en": "70 km/h."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g8-q011",
+    "group": 8,
+    "number": 11,
+    "question": {
+      "en": "Under icy road conditions, towing is prohibited:"
+    },
+    "options": [
+      {
+        "en": "With a flexible coupling."
+      },
+      {
+        "en": "With a rigid coupling."
+      },
+      {
+        "en": "By the partial-loading method."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g8-q012",
+    "group": 8,
+    "number": 12,
+    "question": {
+      "en": "What is the maximum speed at which towing may be performed under the indicated conditions?"
+    },
+    "options": [
+      {
+        "en": "30 km/h."
+      },
+      {
+        "en": "50 km/h."
+      },
+      {
+        "en": "70 km/h."
+      },
+      {
+        "en": "80 km/h."
+      }
+    ],
+    "answer": 2,
+    "image": "images/g8/q012.webp",
+    "explanation": null
+  },
+  {
+    "id": "g8-q013",
+    "group": 8,
+    "number": 13,
+    "question": {
+      "en": "When towing with a flexible or rigid coupling, is carrying people in the towed motor vehicle permitted?"
+    },
+    "options": [
+      {
+        "en": "Permitted in a bus and trolleybus."
+      },
+      {
+        "en": "Permitted only in a passenger car."
+      },
+      {
+        "en": "Permitted in the cargo bed of a truck and in a passenger car."
+      },
+      {
+        "en": "Permitted in the cab of a truck and in a passenger car."
+      },
+      {
+        "en": "Prohibited."
+      }
+    ],
+    "answer": 4,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g8-q014",
+    "group": 8,
+    "number": 14,
+    "question": {
+      "en": "Under icy road conditions, towing:"
+    },
+    "options": [
+      {
+        "en": "Is prohibited."
+      },
+      {
+        "en": "Is permitted."
+      },
+      {
+        "en": "Is permitted when towing with a rigid coupling or by the partial-loading method."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g8-q015",
+    "group": 8,
+    "number": 15,
+    "question": {
+      "en": "What is the maximum permitted speed when towing a vehicle with a flexible coupling?"
+    },
+    "options": [
+      {
+        "en": "70 km/h."
+      },
+      {
+        "en": "60 km/h."
+      },
+      {
+        "en": "50 km/h."
+      },
+      {
+        "en": "40 km/h."
+      },
+      {
+        "en": "30 km/h."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g8-q016",
+    "group": 8,
+    "number": 16,
+    "question": {
+      "en": "In which case is towing prohibited?"
+    },
+    "options": [
+      {
+        "en": "Under icy road conditions with a rigid coupling."
+      },
+      {
+        "en": "Under icy road conditions with a flexible coupling."
+      },
+      {
+        "en": "By motorcycles with sidecars."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g8-q017",
+    "group": 8,
+    "number": 17,
+    "question": {
+      "en": "When towing motor vehicles outside populated areas, the speed must not exceed:"
+    },
+    "options": [
+      {
+        "en": "30 km/h."
+      },
+      {
+        "en": "40 km/h."
+      },
+      {
+        "en": "50 km/h."
+      },
+      {
+        "en": "60 km/h."
+      },
+      {
+        "en": "70 km/h."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g8-q018",
+    "group": 8,
+    "number": 18,
+    "question": {
+      "en": "Is towing motorcycles permitted?"
+    },
+    "options": [
+      {
+        "en": "Towing motorcycles with sidecars is permitted."
+      },
+      {
+        "en": "Towing motorcycles without sidecars is permitted."
+      },
+      {
+        "en": "Permitted in both cases."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g8-q019",
+    "group": 8,
+    "number": 19,
+    "question": {
+      "en": "When towing, what distance between the vehicles must be maintained by a flexible coupling?"
+    },
+    "options": [
+      {
+        "en": "1–3 m."
+      },
+      {
+        "en": "2–4 m."
+      },
+      {
+        "en": "3–6 m."
+      },
+      {
+        "en": "4–6 m."
+      },
+      {
+        "en": "4–8 m."
+      }
+    ],
+    "answer": 4,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g8-q020",
+    "group": 8,
+    "number": 20,
+    "question": {
+      "en": "What is the maximum permitted speed on freeways for passenger cars towing a trailer?"
+    },
+    "options": [
+      {
+        "en": "110 km/h."
+      },
+      {
+        "en": "100 km/h."
+      },
+      {
+        "en": "90 km/h."
+      },
+      {
+        "en": "80 km/h."
+      },
+      {
+        "en": "70 km/h."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g8-q021",
+    "group": 8,
+    "number": 21,
+    "question": {
+      "en": "When towing with a rigid coupling, the distance between the vehicles must not exceed:"
+    },
+    "options": [
+      {
+        "en": "4 m."
+      },
+      {
+        "en": "5 m."
+      },
+      {
+        "en": "6 m."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g8-q022",
+    "group": 8,
+    "number": 22,
+    "question": {
+      "en": "When towing a motor vehicle by the partial-loading method, carrying passengers is permitted:"
+    },
+    "options": [
+      {
+        "en": "In the cargo bed of the towing vehicle."
+      },
+      {
+        "en": "In the cab of the towed vehicle."
+      },
+      {
+        "en": "In the cargo bed of the towed vehicle."
+      },
+      {
+        "en": "In the cab of the towing vehicle."
+      }
+    ],
+    "answer": 4,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g8-q023",
+    "group": 8,
+    "number": 23,
+    "question": {
+      "en": "Is towing motorcycles with sidecars permitted?"
+    },
+    "options": [
+      {
+        "en": "Permitted only with a rigid coupling."
+      },
+      {
+        "en": "Prohibited."
+      },
+      {
+        "en": "Permitted."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g8-q024",
+    "group": 8,
+    "number": 24,
+    "question": {
+      "en": "What is the maximum permitted speed when towing with a flexible coupling?"
+    },
+    "options": [
+      {
+        "en": "70 km/h."
+      },
+      {
+        "en": "60 km/h."
+      },
+      {
+        "en": "50 km/h."
+      },
+      {
+        "en": "40 km/h."
+      },
+      {
+        "en": "30 km/h."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g8-q025",
+    "group": 8,
+    "number": 25,
+    "question": {
+      "en": "Cargo must be positioned and, when necessary, secured on the vehicle so that it:"
+    },
+    "options": [
+      {
+        "en": "Does not extend above the sides of the cargo bed."
+      },
+      {
+        "en": "Does not create significant noise, raise dust, or pollute the road or the environment."
+      },
+      {
+        "en": "Does not extend more than 0.8 m beyond the rear edge of the vehicle."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g8-q026",
+    "group": 8,
+    "number": 26,
+    "question": {
+      "en": "Children may be carried in the front seat of a passenger car that is not equipped with a child restraint system if they have reached the age of:"
+    },
+    "options": [
+      {
+        "en": "10 years."
+      },
+      {
+        "en": "11 years."
+      },
+      {
+        "en": "12 years."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g8-q027",
+    "group": 8,
+    "number": 27,
+    "question": {
+      "en": "Is carrying people in a cargo trailer permitted?"
+    },
+    "options": [
+      {
+        "en": "Prohibited."
+      },
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Permitted only for persons accompanying the cargo."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g8-q028",
+    "group": 8,
+    "number": 28,
+    "question": {
+      "en": "Is carrying children under 12 years of age on the rear seat of a motorcycle permitted?"
+    },
+    "options": [
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Prohibited."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g8-q029",
+    "group": 8,
+    "number": 29,
+    "question": {
+      "en": "While the vehicle is moving, are persons permitted to be in the cargo bed of a truck if it is not equipped for carrying people?"
+    },
+    "options": [
+      {
+        "en": "Prohibited."
+      },
+      {
+        "en": "Permitted on roads that are not freeways."
+      },
+      {
+        "en": "Permitted only for persons accompanying the cargo or proceeding to receive it, provided they are seated on seats installed below the level of the sides of the cargo bed."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g8-q030",
+    "group": 8,
+    "number": 30,
+    "question": {
+      "en": "Carrying people in a cargo trailer is:"
+    },
+    "options": [
+      {
+        "en": "Prohibited."
+      },
+      {
+        "en": "Permitted."
+      },
+      {
+        "en": "Permitted only for persons accompanying the cargo."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g8-q031",
+    "group": 8,
+    "number": 31,
+    "question": {
+      "en": "When towing with a flexible or rigid coupling, is carrying people in the towed motor vehicle permitted?"
+    },
+    "options": [
+      {
+        "en": "Permitted in a bus and trolleybus."
+      },
+      {
+        "en": "Permitted in the cab of a truck and in a passenger car."
+      },
+      {
+        "en": "Permitted in the cargo bed of a truck and in a passenger car."
+      },
+      {
+        "en": "Prohibited."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g8-q032",
+    "group": 8,
+    "number": 32,
+    "question": {
+      "en": "What is the maximum speed permitted for a motorcycle in areas designated by the “Residential Zone” and “End of Residential Zone” signs?"
+    },
+    "options": [
+      {
+        "en": "20 km/h."
+      },
+      {
+        "en": "30 km/h."
+      },
+      {
+        "en": "40 km/h."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g8-q033",
+    "group": 8,
+    "number": 33,
+    "question": {
+      "en": "When carrying people in an equipped cargo bed, the truck driver must proceed at a speed not exceeding:"
+    },
+    "options": [
+      {
+        "en": "50 km/h."
+      },
+      {
+        "en": "60 km/h."
+      },
+      {
+        "en": "70 km/h."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g8-q034",
+    "group": 8,
+    "number": 34,
+    "question": {
+      "en": "During towing, the towed vehicle must have the following activated:"
+    },
+    "options": [
+      {
+        "en": "High-beam headlights."
+      },
+      {
+        "en": "Low-beam headlights."
+      },
+      {
+        "en": "Hazard warning lights."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g8-q035",
+    "group": 8,
+    "number": 35,
+    "question": {
+      "en": "What is the maximum permitted speed for vehicles within areas where the “Residential Zone” and “End of Residential Zone” traffic signs apply?"
+    },
+    "options": [
+      {
+        "en": "Not exceeding 5 km/h."
+      },
+      {
+        "en": "Not exceeding 10 km/h."
+      },
+      {
+        "en": "Not exceeding 20 km/h."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g8-q036",
+    "group": 8,
+    "number": 36,
+    "question": {
+      "en": "What is the maximum permitted speed for the driver of a truck with a maximum authorized mass not exceeding 3.5 metric tons within the area of effect of these signs?"
+    },
+    "options": [
+      {
+        "en": "No more than 50 km/h."
+      },
+      {
+        "en": "No more than 70 km/h."
+      },
+      {
+        "en": "No more than 90 km/h."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g8/q036.webp",
+    "explanation": null
+  },
+  {
+    "id": "g8-q037",
+    "group": 8,
+    "number": 37,
+    "question": {
+      "en": "When towing a motor vehicle, in which lane may you continue on this road?"
+    },
+    "options": [
+      {
+        "en": "The right lane only."
+      },
+      {
+        "en": "Any lane."
+      }
+    ],
+    "answer": 1,
+    "image": "images/g8/q037.webp",
+    "explanation": null
+  },
+  {
+    "id": "g8-q038",
+    "group": 8,
+    "number": 38,
+    "question": {
+      "en": "What conditions must a driver take into account when selecting a speed within the permitted limits?"
+    },
+    "options": [
+      {
+        "en": "The condition of the road surface."
+      },
+      {
+        "en": "Visibility in the direction of movement."
+      },
+      {
+        "en": "Both of the above conditions."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g8-q039",
+    "group": 8,
+    "number": 39,
+    "question": {
+      "en": "Within the permitted limits, what maximum speed should a driver select?"
+    },
+    "options": [
+      {
+        "en": "A speed that ensures full control of the vehicle."
+      },
+      {
+        "en": "The driver may select any speed that does not exceed the maximum permitted speed."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g8-q040",
+    "group": 8,
+    "number": 40,
+    "question": {
+      "en": "A driver is prohibited from:"
+    },
+    "options": [
+      {
+        "en": "Exceeding the maximum speed specified by the technical characteristics of the vehicle."
+      },
+      {
+        "en": "Exceeding the speed specified by the “Speed Limit” identification sign displayed on the vehicle."
+      },
+      {
+        "en": "Driving at an unnecessarily low speed and thereby impeding the movement of other vehicles."
+      },
+      {
+        "en": "Braking suddenly unless necessary to prevent a traffic accident."
+      },
+      {
+        "en": "All of the above actions."
+      }
+    ],
+    "answer": 5,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g8-q041",
+    "group": 8,
+    "number": 41,
+    "question": {
+      "en": "Which sign limits speed?"
+    },
+    "options": [
+      {
+        "en": "1 and 3."
+      },
+      {
+        "en": "1 and 4."
+      },
+      {
+        "en": "2"
+      },
+      {
+        "en": "2 and 3."
+      }
+    ],
+    "answer": 3,
+    "image": "images/g8/q041.webp",
+    "explanation": null
+  },
+  {
+    "id": "g8-q042",
+    "group": 8,
+    "number": 42,
+    "question": {
+      "en": "A driver is prohibited from:"
+    },
+    "options": [
+      {
+        "en": "Crossing a railroad crossing at a speed greater than 30 km/h."
+      },
+      {
+        "en": "Crossing a railroad crossing at a speed below 30 km/h."
+      },
+      {
+        "en": "Proceeding across a railroad crossing, without the permission of the head of the railroad track section, in slow-moving vehicles with a speed below 8 km/h or in tractors coupled to sledges."
+      }
+    ],
+    "answer": 3,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g8-q043",
+    "group": 8,
+    "number": 43,
+    "question": {
+      "en": "When approaching an intersection, the driver must operate the vehicle at a speed that:"
+    },
+    "options": [
+      {
+        "en": "Does not exceed the maximum permitted speed established for that road section."
+      },
+      {
+        "en": "Allows the driver to stop and yield to vehicles having the right-of-way."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g8-q044",
+    "group": 8,
+    "number": 44,
+    "question": {
+      "en": "A driver is prohibited from increasing speed:"
+    },
+    "options": [
+      {
+        "en": "If doing so would prevent a driver who is passing from completing the passing maneuver."
+      },
+      {
+        "en": "If doing so is necessary to clear the way for a driver who has stopped in order to yield."
+      },
+      {
+        "en": "If doing so is necessary to clear the intersection."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g8-q045",
+    "group": 8,
+    "number": 45,
+    "question": {
+      "en": "A driver must reduce speed:"
+    },
+    "options": [
+      {
+        "en": "When approaching a vehicle displaying the “Transportation of Children” identification sign while children are boarding or exiting."
+      },
+      {
+        "en": "If blinded."
+      },
+      {
+        "en": "When an obstruction or danger to traffic arises."
+      },
+      {
+        "en": "When approaching a vehicle displaying flashing blue and red beacons and using a special audible signal, as well as when approaching a stationary vehicle displaying flashing blue or flashing blue and red beacons."
+      },
+      {
+        "en": "In all of the above cases."
+      }
+    ],
+    "answer": 5,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g8-q046",
+    "group": 8,
+    "number": 46,
+    "question": {
+      "en": "If cargo protrudes 0.5 m beyond the side of the vehicle, measured from the outer edge of the marker light, must it be marked during daylight hours with the “Oversized Cargo” identification sign and, at night or under conditions of insufficient visibility, additionally with a white light or reflector at the front and a red light or reflector at the rear?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g8-q047",
+    "group": 8,
+    "number": 47,
+    "question": {
+      "en": "A truck whose driver holds a driver’s license for Categories B and C, and which meets the requirements for transporting people in a truck, may carry up to:"
+    },
+    "options": [
+      {
+        "en": "8 passengers."
+      },
+      {
+        "en": "9 passengers."
+      },
+      {
+        "en": "4 passengers."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g8-q048",
+    "group": 8,
+    "number": 48,
+    "question": {
+      "en": "It is prohibited to transport children under 12 years of age:"
+    },
+    "options": [
+      {
+        "en": "In the cargo bed of a truck with sideboards."
+      },
+      {
+        "en": "In the enclosed cargo body of a truck."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g8-q049",
+    "group": 8,
+    "number": 49,
+    "question": {
+      "en": "If cargo protrudes 1.2 m beyond the rear end of the vehicle, must it be marked during daylight hours with the “Oversized Cargo” identification sign and, at night or under conditions of insufficient visibility, additionally with a white light or reflector at the front and a red light or reflector at the rear?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 1,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g8-q050",
+    "group": 8,
+    "number": 50,
+    "question": {
+      "en": "Transportation of cargo is prohibited if the cargo:"
+    },
+    "options": [
+      {
+        "en": "Restricts the driver’s field of vision."
+      },
+      {
+        "en": "Makes the vehicle difficult to control or reduces its stability."
+      },
+      {
+        "en": "Obscures exterior lights or reflectors, license plates, or identification signs, or prevents hand signals from being seen."
+      },
+      {
+        "en": "In all of the above cases."
+      }
+    ],
+    "answer": 4,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g8-q051",
+    "group": 8,
+    "number": 51,
+    "question": {
+      "en": "If the condition or placement of the cargo does not allow it to be transported in compliance with the rules, the driver must:"
+    },
+    "options": [
+      {
+        "en": "Deliver the cargo safely to the nearest unloading location."
+      },
+      {
+        "en": "Correct the violations or stop proceeding."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g8-q052",
+    "group": 8,
+    "number": 52,
+    "question": {
+      "en": "If cargo protrudes 0.6 m beyond the rear end of the vehicle, must it be marked during daylight hours with the “Oversized Cargo” identification sign and, at night or under conditions of insufficient visibility, additionally with a white light or reflector at the front and a red light or reflector at the rear?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  },
+  {
+    "id": "g8-q053",
+    "group": 8,
+    "number": 53,
+    "question": {
+      "en": "If cargo protrudes 0.3 m beyond the side of the vehicle, measured from the outer edge of the marker light, must it be marked during daylight hours with the “Oversized Cargo” identification sign and, at night or under conditions of insufficient visibility, additionally with a white light or reflector at the front and a red light or reflector at the rear?"
+    },
+    "options": [
+      {
+        "en": "Yes."
+      },
+      {
+        "en": "No."
+      }
+    ],
+    "answer": 2,
+    "image": null,
+    "explanation": null
+  }
+]

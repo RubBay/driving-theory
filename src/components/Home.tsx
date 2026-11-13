@@ -2,7 +2,6 @@ import { useState } from 'react'
 import { GROUPS } from '../config'
 import { t, tx } from '../i18n'
 import { updateSettings, useSettings } from '../lib/settings'
-import { useGroupQuestions } from '../lib/data'
 import { percentages, resetGroup, summarize, useGroupProgress } from '../lib/progress'
 import { href } from '../lib/router'
 import { useHighlights } from '../lib/highlights'
@@ -27,7 +26,6 @@ export default function Home() {
 }
 
 function GroupCard({ group }: { group: GroupConfig }) {
-  const data = useGroupQuestions(group)
   const progress = useGroupProgress(group.id)
   const [confirming, setConfirming] = useState(false)
   const run = useRun(group.id)
@@ -39,9 +37,9 @@ function GroupCard({ group }: { group: GroupConfig }) {
   const toggle = () =>
     updateSettings({ openGroups: open ? openGroups.filter((id) => id !== group.id) : [...openGroups, group.id] })
 
-  const total = data.status === 'ready' ? data.questions.length : null
+  const total = group.questions
   const { answered, correct, wrong, mistakes, attemptsCorrect, attempts } = summarize(progress)
-  const pct = (n: number) => (total ? `${(n / total) * 100}%` : '0%')
+  const pct = (n: number) => `${(n / total) * 100}%`
   const bodyId = `g${group.id}-body`
 
   return (
@@ -61,12 +59,12 @@ function GroupCard({ group }: { group: GroupConfig }) {
             </span>
             <span className="text-sm text-muted">
               {t('group.categories', { categories: group.categories })}
-              {total != null && ` · ${t('group.questions', { count: total })}`}
+              {` · ${t('group.questions', { count: total })}`}
             </span>
           </span>
           {group.topic && <span className="mt-1 block font-medium">{tx(group.topic)}</span>}
           <span className="mt-2 block text-sm text-muted">
-            {t('group.summary', { answered, total: total ?? '…', mistakes, highlighted })}
+            {t('group.summary', { answered, total: total, mistakes, highlighted })}
           </span>
           {runSummary && (
             <span className="block text-sm text-accent">
@@ -95,14 +93,6 @@ function GroupCard({ group }: { group: GroupConfig }) {
       >
       <div id={bodyId} className="min-h-0 overflow-hidden" inert={!open}>
       <div className="px-4 pb-4 sm:px-5 sm:pb-5">
-      {data.status === 'error' && (
-        <div className="mt-3 rounded-lg border border-bad-border bg-bad-bg p-3 text-bad-fg" role="alert">
-          <p>{t('common.loadError')}</p>
-          <button type="button" className={`${btn.secondary} mt-2`} onClick={data.retry}>
-            {t('common.retry')}
-          </button>
-        </div>
-      )}
 
       <dl className="grid grid-cols-3 gap-2 text-center">
         <Stat label={t('group.answered')} value={answered} />
@@ -114,14 +104,14 @@ function GroupCard({ group }: { group: GroupConfig }) {
         className="mt-4 flex h-3 overflow-hidden rounded-full bg-surface-2"
         role="progressbar"
         aria-valuemin={0}
-        aria-valuemax={total ?? 0}
+        aria-valuemax={total}
         aria-valuenow={answered}
-        aria-label={t('group.progress', { answered, total: total ?? '…' })}
+        aria-label={t('group.progress', { answered, total: total })}
       >
         <div className="bg-ok-border" style={{ width: pct(correct) }} />
         <div className="bg-bad-border" style={{ width: pct(wrong) }} />
       </div>
-      <p className="mt-1 text-sm text-muted">{t('group.progress', { answered, total: total ?? '…' })}</p>
+      <p className="mt-1 text-sm text-muted">{t('group.progress', { answered, total: total })}</p>
       {attempts > 0 && (
         <p className="text-sm text-muted">
           {t('group.accuracy', {
