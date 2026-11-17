@@ -134,3 +134,8 @@ export function summarize(progress: GroupProgress) {
   }
   return { answered: correct + wrong, correct, wrong, mistakes, attemptsCorrect, attempts }
 }
+
+/** Progress of every group, keyed by group id (for totals across groups). */
+export function useAllProgress(): Record<number, GroupProgress> {
+  return useStore(store)
+}

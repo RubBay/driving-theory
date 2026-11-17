@@ -1,46 +1,59 @@
 @import 'tailwindcss';
 
 /* Colour tokens. Dark is the default; light is opt-in via data-theme="light". */
+/* Roadmark tokens. Night (dark) is the default; Day (light) is opt-in via data-theme="light". */
 :root {
   color-scheme: dark;
-  --bg: #0f1419;
-  --surface: #1a2129;
-  --surface-2: #242d38;
-  --border: #46535f;
-  --fg: #e8edf2;
-  --muted: #a9b5c2;
-  --accent: #6cb2ff;
-  --accent-fg: #08121f;
-  --ok-bg: #123d24;
-  --ok-border: #46c476;
-  --ok-fg: #c4f5d5;
-  --bad-bg: #4a1a1e;
-  --bad-border: #f4707b;
-  --bad-fg: #ffd6d9;
-  --focus: #ffd24a;
-  --hl: #f5c518;
-  --hl-bg: #3d3310;
+  --bg: #111317;
+  --surface: #1b1e23;
+  --surface-2: #262a30;
+  --border: #68707b;
+  --fg: #eef0f3;
+  --muted: #a9b0ba;
+  --accent: #74afff;
+  --accent-fg: #ffffff;
+  --sign: #1d66d6;
+  --sign-fg: #ffffff;
+  --lane: #ffc629;
+  --road: #23272d;
+  --marking: #f2f2ee;
+  --ok-bg: #10391f;
+  --ok-border: #3fc777;
+  --ok-fg: #c3f4d4;
+  --bad-bg: #451519;
+  --bad-border: #f26d77;
+  --bad-fg: #ffd5d8;
+  --focus: #ffc629;
+  --hl: #ffc629;
+  --hl-bg: #3b310e;
+  --shadow-card: 0 1px 0 rgb(0 0 0 / 0.25), 0 8px 24px -12px rgb(0 0 0 / 0.45);
 }
 
 :root[data-theme='light'] {
   color-scheme: light;
-  --bg: #f4f6f9;
+  --bg: #f2f0eb;
   --surface: #ffffff;
-  --surface-2: #e9edf2;
-  --border: #8b96a3;
-  --fg: #14181d;
-  --muted: #4d5865;
-  --accent: #1160c0;
+  --surface-2: #e7e4dd;
+  --border: #8c877d;
+  --fg: #17191c;
+  --muted: #545961;
+  --accent: #1356bd;
   --accent-fg: #ffffff;
-  --ok-bg: #dbf4e3;
-  --ok-border: #1c8242;
-  --ok-fg: #0c4521;
-  --bad-bg: #fde1e3;
-  --bad-border: #c22d3a;
-  --bad-fg: #74131c;
+  --sign: #1356bd;
+  --sign-fg: #ffffff;
+  --lane: #f0b000;
+  --road: #2b3036;
+  --marking: #f7f7f4;
+  --ok-bg: #dbf3e2;
+  --ok-border: #1b7f40;
+  --ok-fg: #0b4420;
+  --bad-bg: #fde0e2;
+  --bad-border: #c0283a;
+  --bad-fg: #731019;
   --focus: #b3470a;
-  --hl: #9a6b00;
-  --hl-bg: #fff1c2;
+  --hl: #8a5d00;
+  --hl-bg: #ffefbd;
+  --shadow-card: 0 1px 0 rgb(40 30 10 / 0.06), 0 8px 24px -14px rgb(40 30 10 / 0.25);
 }
 
 @theme inline {
@@ -52,6 +65,11 @@
   --color-muted: var(--muted);
   --color-accent: var(--accent);
   --color-accent-fg: var(--accent-fg);
+  --color-sign: var(--sign);
+  --color-sign-fg: var(--sign-fg);
+  --color-lane: var(--lane);
+  --color-road: var(--road);
+  --color-marking: var(--marking);
   --color-ok-bg: var(--ok-bg);
   --color-ok-border: var(--ok-border);
   --color-ok-fg: var(--ok-fg);
@@ -71,6 +89,7 @@ body {
   background: var(--bg);
   color: var(--fg);
   font-family:
+    'Overpass',
     system-ui,
     -apple-system,
     'Segoe UI',
@@ -100,4 +119,59 @@ button:disabled {
 
 dialog::backdrop {
   background: rgb(0 0 0 / 0.65);
+}
+
+/* Roadmark motifs */
+.shadow-card {
+  box-shadow: var(--shadow-card);
+}
+
+/* Lane divider: yellow dashes like a lane line. */
+.lane-line {
+  height: 4px;
+  background: repeating-linear-gradient(90deg, var(--lane) 0 24px, transparent 24px 40px);
+}
+
+/* Road progress: an asphalt track with a dashed centre line; the driven stretch sits on top. */
+.road-track {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  border-radius: 9999px;
+  background: var(--road);
+}
+.road-track::after {
+  content: '';
+  position: absolute;
+  left: 6px;
+  right: 6px;
+  top: 50%;
+  height: 2px;
+  margin-top: -1px;
+  background: repeating-linear-gradient(90deg, var(--marking) 0 10px, transparent 10px 20px);
+  opacity: 0.55;
+  pointer-events: none;
+}
+
+/* Sign plate: white inner line inset from the edge, like an information sign. */
+.sign-plate {
+  position: relative;
+  background: var(--sign);
+  color: var(--sign-fg);
+}
+.sign-plate::before {
+  content: '';
+  position: absolute;
+  inset: 3px;
+  border: 2px solid var(--sign-fg);
+  border-radius: 9px;
+  pointer-events: none;
+}
+
+.kicker {
+  font-size: 0.8125rem;
+  line-height: 1rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }

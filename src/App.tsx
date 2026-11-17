@@ -4,6 +4,7 @@ import { AVAILABLE_LANGS, LANG_NAMES, setLang, t } from './i18n'
 import { href, useRoute } from './lib/router'
 import { updateSettings, useSettings } from './lib/settings'
 import Home from './components/Home'
+import { LogoMark } from './components/icons'
 
 // The question screens are split out so the home screen loads fast.
 const Practice = lazy(() => import('./components/Practice'))
@@ -36,10 +37,11 @@ export default function App() {
 
   return (
     <div className="flex min-h-dvh flex-col">
-      <header className="border-b border-border bg-surface">
-        <div className="mx-auto flex h-14 max-w-6xl items-center justify-between gap-3 px-4">
-          <a href={href.home} className="rounded font-semibold text-fg no-underline">
-            {t('app.title')}
+      <header className="sticky top-0 z-20 bg-surface/95 backdrop-blur supports-[backdrop-filter]:bg-surface/85">
+        <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-3 px-4">
+          <a href={href.home} className="flex min-w-0 items-center gap-2.5 rounded-lg text-fg no-underline">
+            <LogoMark className="size-9 shrink-0" />
+            <span className="truncate text-lg leading-tight font-extrabold tracking-tight">{t('app.title')}</span>
           </a>
           <div className="flex items-center gap-2">
           <div role="group" aria-label={t('lang.label')} className="flex h-11 rounded-lg border border-border bg-surface-2 p-0.5">
@@ -53,7 +55,7 @@ export default function App() {
                 aria-label={LANG_NAMES[code]?.name ?? code}
                 title={LANG_NAMES[code]?.name ?? code}
                 className={`min-w-10 rounded-md px-2 text-sm font-semibold ${
-                  lang === code ? 'bg-accent text-accent-fg' : 'text-muted'
+                  lang === code ? 'bg-sign text-sign-fg' : 'text-muted hover:text-fg'
                 }`}
               >
                 {LANG_NAMES[code]?.short ?? code.toUpperCase()}
@@ -80,13 +82,15 @@ export default function App() {
           </button>
           </div>
         </div>
+        <div className="lane-line" aria-hidden="true" />
       </header>
 
       <main className="mx-auto w-full max-w-6xl flex-1 px-4 py-5">
         <Suspense fallback={<Message text={t('common.loading')} />}>{screen}</Suspense>
       </main>
 
-      <footer className="border-t border-border bg-surface">
+      <footer className="mt-6 bg-surface">
+        <div className="lane-line opacity-60" aria-hidden="true" />
         <div className="mx-auto max-w-6xl px-4 py-4 text-sm text-muted">
           <p>
             {t('footer.source')}{' '}

@@ -15,6 +15,12 @@ const ru: Record<StringKey, string> = {
   'footer.unofficial':
     'Это неофициальное учебное пособие. Оно не связано с Дорожной полицией и не одобрено ею.',
 
+  'home.kicker': 'Ваш путь к водительским правам',
+  'home.statQuestions': '{count|вопрос|вопроса|вопросов}',
+  'home.statGroups': '{count|группа|группы|групп}',
+  'home.statPractised': 'пройдено',
+  'home.pickGroup': 'Выберите группу и отправляйтесь в путь по вопросам.',
+  'group.percentDone': 'пройдено {pct}%',
   'home.heading': 'Подготовка к теоретическому экзамену',
   'home.intro': 'Официальный банк вопросов, по одному вопросу за раз.',
   'group.title': 'Группа {n}',

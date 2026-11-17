@@ -226,7 +226,7 @@ export default function Runner({
 
         <div className="mt-2 flex items-baseline gap-3">
           <p
-            className="text-2xl font-bold tabular-nums"
+            className="text-3xl font-black tracking-tight tabular-nums"
             aria-label={t('runner.positionLabel', { current: index + 1, total })}
           >
             {t('runner.position', { current: index + 1, total })}
@@ -260,7 +260,7 @@ export default function Runner({
           )}
         </div>
 
-        <h1 className="mt-3 text-lg leading-snug font-semibold sm:text-xl">{tx(q.question)}</h1>
+        <h1 className="mt-4 text-lg leading-snug font-bold sm:text-xl">{tx(q.question)}</h1>
 
         {img && (
           <button
@@ -278,19 +278,24 @@ export default function Runner({
             const n = i + 1
             const showCorrect = locked && n === q.answer
             const showWrong = view.wrongs.includes(n)
-            let cls = 'border-border bg-surface text-fg'
-            if (showCorrect) cls = 'border-ok-border bg-ok-bg text-ok-fg'
-            else if (showWrong) cls = 'border-bad-border bg-bad-bg text-bad-fg'
-            else if (locked) cls = 'border-border bg-surface text-muted'
+            let cls = 'border-border bg-surface text-fg hover:border-accent hover:bg-surface-2'
+            let disc = 'border-2 border-current'
+            if (showCorrect) {
+              cls = 'border-ok-border bg-ok-bg text-ok-fg'
+              disc = 'border-2 border-ok-border bg-ok-border text-surface'
+            } else if (showWrong) {
+              cls = 'border-bad-border bg-bad-bg text-bad-fg'
+              disc = 'border-2 border-bad-border bg-bad-border text-surface'
+            } else if (locked) cls = 'border-border bg-surface text-muted'
             return (
               <li key={n}>
                 <button
                   type="button"
                   onClick={() => answer(n)}
                   disabled={locked || showWrong}
-                  className={`flex min-h-14 w-full items-center gap-3 rounded-xl border-2 px-3 py-3 text-left text-base ${cls}`}
+                  className={`flex min-h-14 w-full items-center gap-3 rounded-xl border-2 px-3 py-3 text-left text-base font-medium transition-colors motion-reduce:transition-none ${cls}`}
                 >
-                  <span className="grid size-8 shrink-0 place-items-center rounded-full border border-current text-sm font-bold" aria-hidden="true">
+                  <span className={`grid size-8 shrink-0 place-items-center rounded-full text-sm font-black ${disc}`} aria-hidden="true">
                     {n}
                   </span>
                   <span className="sr-only">{n}.</span>
@@ -306,13 +311,14 @@ export default function Runner({
         <div className="mt-3 min-h-6" role="status" aria-live="polite">
           {feedback && (
             <div
-              className={`rounded-xl border px-3 py-2 ${
+              className={`flex items-start gap-3 rounded-xl border px-3 py-2.5 ${
                 hasWrong && !view.correct
                   ? 'border-bad-border bg-bad-bg text-bad-fg'
                   : 'border-ok-border bg-ok-bg text-ok-fg'
               }`}
             >
-              {feedback}
+              <TrafficLight go={!(hasWrong && !view.correct)} />
+              <div className="min-w-0 flex-1">{feedback}</div>
             </div>
           )}
         </div>
@@ -333,7 +339,7 @@ export default function Runner({
           {tools}
         </div>
 
-        <div className="sticky bottom-0 z-10 -mx-4 mt-4 grid grid-cols-2 gap-2 border-t border-border bg-bg px-4 py-3 lg:static lg:mx-0 lg:border-0 lg:px-0">
+        <div className="sticky bottom-0 z-10 -mx-4 mt-4 grid grid-cols-2 gap-2 border-t border-border bg-bg/95 px-4 py-3 backdrop-blur lg:static lg:mx-0 lg:border-0 lg:px-0">
           <button type="button" className={btn.secondary} onClick={() => go(index - 1)} disabled={index === 0}>
             {t('runner.previous')}
           </button>
@@ -351,7 +357,7 @@ export default function Runner({
 
       <aside
         aria-label={t('runner.navigator')}
-        className={`${hideNavigator ? 'hidden' : ''} mt-4 rounded-2xl border border-border bg-surface p-3 lg:sticky lg:top-4 lg:mt-0 lg:shrink-0 lg:transition-[width] lg:duration-200 motion-reduce:transition-none ${
+        className={`${hideNavigator ? 'hidden' : ''} shadow-card mt-4 rounded-[20px] border border-border bg-surface p-3 lg:sticky lg:top-24 lg:mt-0 lg:shrink-0 lg:transition-[width] lg:duration-200 motion-reduce:transition-none ${
           navOpen ? 'lg:w-80' : 'lg:w-52'
         }`}
       >
@@ -442,6 +448,16 @@ function Mark({ ok, label }: { ok?: boolean; label: string }) {
         {ok ? <path d="M5 12.5l4.5 4.5L19 7.5" /> : <path d="M6 6l12 12M18 6L6 18" />}
       </svg>
       <span className="sr-only">({label})</span>
+    </span>
+  )
+}
+
+/** Two-lamp signal beside the feedback: green for go, red for stop; the lit lamp carries the meaning. */
+function TrafficLight({ go }: { go: boolean }) {
+  return (
+    <span className="mt-0.5 flex shrink-0 flex-col gap-1 rounded-full bg-road p-1" aria-hidden="true">
+      <span className={`size-3 rounded-full ${go ? 'bg-marking/20' : 'bg-bad-border'}`} />
+      <span className={`size-3 rounded-full ${go ? 'bg-ok-border' : 'bg-marking/20'}`} />
     </span>
   )
 }

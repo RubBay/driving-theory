@@ -12,6 +12,12 @@ const en = {
   'footer.unofficial':
     'This is an unofficial study tool. It is not affiliated with or endorsed by the Road Police.',
 
+  'home.kicker': 'Your route to the licence',
+  'home.statQuestions': '{count|question|questions}',
+  'home.statGroups': '{count|group|groups}',
+  'home.statPractised': 'practised',
+  'home.pickGroup': 'Pick a group and start driving through the questions.',
+  'group.percentDone': '{pct}% done',
   'home.heading': 'Theory exam practice',
   'home.intro': 'The official question bank, one question at a time.',
   'group.title': 'Group {n}',

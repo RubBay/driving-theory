@@ -59,7 +59,7 @@ function StartScreen({ group, questions, runs }: { group: GroupConfig; questions
         </svg>
         {t('common.back')}
       </a>
-      <h1 className="mt-2 text-2xl font-bold">{t('start.heading')}</h1>
+      <h1 className="mt-2 text-3xl font-black tracking-tight">{t('start.heading')}</h1>
       <p className="mt-1 text-muted">{t('start.intro')}</p>
       <div className="mt-5 grid gap-3">
         {choices.map((c) => {
@@ -73,11 +73,16 @@ function StartScreen({ group, questions, runs }: { group: GroupConfig; questions
               key={c.mode}
               type="button"
               onClick={() => (run ? setActiveMode(group.id, c.mode) : startRun(group.id, questions, c.mode))}
-              className="rounded-2xl border-2 border-border bg-surface p-4 text-left text-fg hover:border-accent"
+              className="shadow-card flex items-start gap-4 rounded-[20px] border-2 border-border bg-surface p-4 text-left text-fg hover:border-accent sm:p-5"
             >
-              <span className="block text-lg font-semibold">{c.title}</span>
-              <span className="mt-1 block text-muted">{c.body}</span>
-              <span className={`mt-2 block text-sm font-medium ${run ? 'text-accent' : 'text-muted'}`}>{status}</span>
+              <span className="sign-plate grid size-12 shrink-0 place-items-center rounded-xl" aria-hidden="true">
+                <ModeIcon mode={c.mode} />
+              </span>
+              <span className="min-w-0 flex-1">
+                <span className="block text-lg font-extrabold">{c.title}</span>
+                <span className="mt-1 block text-muted">{c.body}</span>
+                <span className={`mt-2 block text-sm font-semibold ${run ? 'text-accent' : 'text-muted'}`}>{status}</span>
+              </span>
             </button>
           )
         })}
@@ -205,5 +210,18 @@ function SummaryStat({ label, value, tone }: { label: string; value: number; ton
       <dt className="text-sm">{label}</dt>
       <dd className="text-3xl font-bold tabular-nums">{value}</dd>
     </div>
+  )
+}
+
+/** Shuffle: crossing arrows. Question by question: a straight road ahead. */
+function ModeIcon({ mode }: { mode: RunMode }) {
+  return (
+    <svg viewBox="0 0 24 24" className="size-6" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+      {mode === 'shuffle' ? (
+        <path d="M3 7h3.5c2 0 3.2 1 4.3 2.7l2.4 4.6C14.3 16 15.5 17 17.5 17H21M3 17h3.5c1.4 0 2.4-.5 3.2-1.4M14.3 8.4C15.1 7.5 16.1 7 17.5 7H21M18 4l3 3-3 3M18 14l3 3-3 3" />
+      ) : (
+        <path d="M12 21V3M7 8l5-5 5 5M5 21l2-9M19 21l-2-9" />
+      )}
+    </svg>
   )
 }
