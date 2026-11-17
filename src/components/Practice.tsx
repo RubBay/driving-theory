@@ -2,17 +2,19 @@ import { useEffect, useMemo, useState } from 'react'
 import { Message } from '../App'
 import { t } from '../i18n'
 import { useGroupQuestions } from '../lib/data'
+import { formatDuration } from '../lib/format'
 import { href } from '../lib/router'
 import {
-  clearRun,
   finishRun,
   isDone,
+  setActiveMode,
   setRunCurrent,
   setRunView,
   startRun,
   summarizeRun,
   useActiveTimer,
-  useRun,
+  useGroupRuns,
+  type GroupRuns,
   type Run,
   type RunMode,
 } from '../lib/run'
@@ -23,7 +25,8 @@ import { btn } from './ui'
 
 export default function Practice({ group }: { group: GroupConfig }) {
   const data = useGroupQuestions(group)
-  const run = useRun(group.id)
+  const runs = useGroupRuns(group.id)
+  const run = runs.active ? runs[runs.active] : undefined
   if (data.status === 'loading') return <Message text={t('common.loading')} />
   if (data.status === 'error')
     return (
@@ -33,15 +36,20 @@ export default function Practice({ group }: { group: GroupConfig }) {
         </button>
       </Message>
     )
-  if (!run) return <StartScreen group={group} questions={data.questions} />
+  if (!run) return <StartScreen group={group} questions={data.questions} runs={runs} />
   return <PracticeRun group={group} questions={data.questions} run={run} />
 }
 
-/** Choose the order once, at the start: it cannot change during a run. */
-function StartScreen({ group, questions }: { group: GroupConfig; questions: Question[] }) {
+/**
+ * Choose a mode. Each mode keeps its own run: "Question by question" is for going
+ * through and checking all the answers; "Shuffle" is the practice whose progress,
+ * result and time are shown on the home screen.
+ */
+function StartScreen({ group, questions, runs }: { group: GroupConfig; questions: Question[]; runs: GroupRuns }) {
+  const count = questions.length
   const choices: { mode: RunMode; title: string; body: string }[] = [
-    { mode: 'ordered', title: t('start.ordered'), body: t('start.orderedBody', { count: questions.length }) },
-    { mode: 'shuffle', title: t('start.shuffle'), body: t('start.shuffleBody', { count: questions.length }) },
+    { mode: 'shuffle', title: t('start.shuffle'), body: t('start.shuffleBody', { count }) },
+    { mode: 'ordered', title: t('start.ordered'), body: t('start.orderedBody', { count }) },
   ]
   return (
     <div className="mx-auto max-w-xl">
@@ -54,17 +62,25 @@ function StartScreen({ group, questions }: { group: GroupConfig; questions: Ques
       <h1 className="mt-2 text-2xl font-bold">{t('start.heading')}</h1>
       <p className="mt-1 text-muted">{t('start.intro')}</p>
       <div className="mt-5 grid gap-3">
-        {choices.map((c) => (
-          <button
-            key={c.mode}
-            type="button"
-            onClick={() => startRun(group.id, questions, c.mode)}
-            className="rounded-2xl border-2 border-border bg-surface p-4 text-left text-fg hover:border-accent"
-          >
-            <span className="block text-lg font-semibold">{c.title}</span>
-            <span className="mt-1 block text-muted">{c.body}</span>
-          </button>
-        ))}
+        {choices.map((c) => {
+          const run = runs[c.mode]
+          const sum = run ? summarizeRun(run) : null
+          let status = t('start.notStarted')
+          if (run && sum && run.finishedAt) status = t('start.finished', { correct: sum.correct, wrong: sum.wrong })
+          else if (sum) status = t('start.inProgress', { done: sum.done, total: sum.total })
+          return (
+            <button
+              key={c.mode}
+              type="button"
+              onClick={() => (run ? setActiveMode(group.id, c.mode) : startRun(group.id, questions, c.mode))}
+              className="rounded-2xl border-2 border-border bg-surface p-4 text-left text-fg hover:border-accent"
+            >
+              <span className="block text-lg font-semibold">{c.title}</span>
+              <span className="mt-1 block text-muted">{c.body}</span>
+              <span className={`mt-2 block text-sm font-medium ${run ? 'text-accent' : 'text-muted'}`}>{status}</span>
+            </button>
+          )
+        })}
       </div>
     </div>
   )
@@ -81,20 +97,29 @@ function PracticeRun({ group, questions, run }: { group: GroupConfig; questions:
   const finished = Boolean(run.finishedAt)
   const [showSummary, setShowSummary] = useState(finished)
   const [confirmNew, setConfirmNew] = useState(false)
+  const mode = run.mode
+  // Only Shuffle is timed and ends with a result; "Question by question" is for checking answers.
+  const timed = mode === 'shuffle'
 
-  useActiveTimer(group.id, !finished)
+  useActiveTimer(group.id, mode, timed && !finished)
 
   // The run ends when every question has an answer recorded (or its answer shown).
   const allDone = order.length > 0 && order.every((q) => isDone(run.views[q.id]))
   useEffect(() => {
     if (allDone && !finished) {
-      finishRun(group.id)
-      setShowSummary(true)
+      finishRun(group.id, mode)
+      if (timed) setShowSummary(true)
     }
-  }, [allDone, finished, group.id])
+  }, [allDone, finished, group.id, mode, timed])
 
-  const newPractice = () => {
-    clearRun(group.id)
+  /** Begin this mode again from the start (a new random order for Shuffle). */
+  const startOver = () => {
+    setShowSummary(false)
+    startRun(group.id, questions, mode)
+    window.scrollTo(0, 0)
+  }
+  const changeMode = () => {
+    setActiveMode(group.id, undefined)
     window.scrollTo(0, 0)
   }
 
@@ -106,30 +131,35 @@ function PracticeRun({ group, questions, run }: { group: GroupConfig; questions:
         title={t('practice.title')}
         questions={order}
         index={index}
-        hideNavigator={run.mode === 'shuffle'}
+        hideNavigator={mode === 'shuffle'}
         views={run.views}
-        onViewChange={(id, view) => setRunView(group.id, id, view)}
-        onIndex={(i) => setRunCurrent(group.id, order[i].id)}
+        onViewChange={(id, view) => setRunView(group.id, mode, id, view)}
+        onIndex={(i) => setRunCurrent(group.id, mode, order[i].id)}
         status={
           <p className="mt-1 text-sm text-muted">
-            {run.mode === 'shuffle' ? t('run.modeShuffle') : t('run.modeOrdered')} ·{' '}
+            {mode === 'shuffle' ? t('run.modeShuffle') : t('run.modeOrdered')} ·{' '}
             {t('run.done', { done: summary.done, total: summary.total })}
           </p>
         }
         tools={
-          finished ? (
-            <button type="button" className={btn.secondary} onClick={() => setShowSummary(true)}>
-              {t('run.results')}
+          <>
+            <button type="button" className={btn.secondary} onClick={changeMode}>
+              {t('run.changeMode')}
             </button>
-          ) : (
-            <button type="button" className={btn.secondary} onClick={() => setConfirmNew(true)}>
-              {t('run.new')}
-            </button>
-          )
+            {finished && timed ? (
+              <button type="button" className={btn.secondary} onClick={() => setShowSummary(true)}>
+                {t('run.results')}
+              </button>
+            ) : (
+              <button type="button" className={btn.secondary} onClick={() => setConfirmNew(true)}>
+                {t('run.startOver')}
+              </button>
+            )}
+          </>
         }
       />
 
-      {showSummary && finished && (
+      {showSummary && finished && timed && (
         <Dialog title={t('summary.title')} onClose={() => setShowSummary(false)}>
           <p className="mt-1 text-muted">{t('summary.intro', { total: summary.total })}</p>
           <dl className="mt-4 grid grid-cols-2 gap-2 text-center">
@@ -145,8 +175,8 @@ function PracticeRun({ group, questions, run }: { group: GroupConfig; questions:
             <button type="button" className={btn.secondary} onClick={() => setShowSummary(false)}>
               {t('summary.review')}
             </button>
-            <button type="button" className={btn.primary} onClick={newPractice}>
-              {t('run.new')}
+            <button type="button" className={btn.primary} onClick={startOver}>
+              {t('run.again')}
             </button>
           </div>
         </Dialog>
@@ -155,11 +185,11 @@ function PracticeRun({ group, questions, run }: { group: GroupConfig; questions:
       {confirmNew && (
         <ConfirmDialog
           title={t('run.newTitle')}
-          body={t('run.newBody', { done: summary.done, total: summary.total })}
+          body={t(timed ? 'run.newBody' : 'run.newBodyOrdered', { done: summary.done, total: summary.total })}
           confirmLabel={t('run.newConfirm')}
           onConfirm={() => {
             setConfirmNew(false)
-            newPractice()
+            startOver()
           }}
           onCancel={() => setConfirmNew(false)}
         />
@@ -176,11 +206,4 @@ function SummaryStat({ label, value, tone }: { label: string; value: number; ton
       <dd className="text-3xl font-bold tabular-nums">{value}</dd>
     </div>
   )
-}
-
-function formatDuration(ms: number): string {
-  const totalMin = Math.floor(ms / 60000)
-  if (totalMin < 1) return t('time.seconds', { s: Math.max(1, Math.round(ms / 1000)) })
-  if (totalMin < 60) return t('time.minutes', { m: totalMin })
-  return t('time.hours', { h: Math.floor(totalMin / 60), m: totalMin % 60 })
 }

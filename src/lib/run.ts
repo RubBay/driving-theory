@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react'
 import type { Question } from '../types'
 import type { QuestionProgress } from './progress'
-import { createStore, useStore } from './storage'
+import { createStore, readJSON, useStore } from './storage'
 
 /** What the screen shows for one question during a run (or a "My mistakes" round). */
 export interface View {
@@ -40,18 +40,49 @@ export interface Run {
   finishedAt?: number
 }
 
-type AllRuns = Record<string, Run>
-
-const store = createStore<AllRuns>('adt:run:v1', {})
-
-export function useRun(groupId: number): Run | undefined {
-  return useStore(store)[groupId]
+/**
+ * The practice runs of one group. Each mode keeps its own run, so switching
+ * between "Question by question" (for checking answers) and "Shuffle" (the
+ * practice whose progress the home screen shows) never loses either one.
+ */
+export interface GroupRuns {
+  /** The mode open in Practice; none = show the start screen. */
+  active?: RunMode
+  ordered?: Run
+  shuffle?: Run
 }
 
-function update(groupId: number, fn: (run: Run) => Run): void {
-  store.set((all) => {
-    const run = all[groupId]
-    return run ? { ...all, [groupId]: fn(run) } : all
+type AllRuns = Record<string, GroupRuns>
+
+const EMPTY: GroupRuns = {}
+const store = createStore<AllRuns>('adt:runs:v2', {})
+
+// Upgrade from the first version, which kept a single run per group.
+{
+  const old = readJSON<Record<string, Run>>('adt:run:v1', {})
+  if (Object.keys(store.get()).length === 0 && Object.keys(old).length > 0) {
+    const upgraded: AllRuns = {}
+    for (const [groupId, run] of Object.entries(old)) {
+      if (run && (run.mode === 'ordered' || run.mode === 'shuffle')) {
+        upgraded[groupId] = { active: run.mode, [run.mode]: run }
+      }
+    }
+    store.set(upgraded)
+  }
+}
+
+export function useGroupRuns(groupId: number): GroupRuns {
+  return useStore(store)[groupId] ?? EMPTY
+}
+
+function updateGroup(groupId: number, fn: (runs: GroupRuns) => GroupRuns): void {
+  store.set((all) => ({ ...all, [groupId]: fn(all[groupId] ?? {}) }))
+}
+
+function update(groupId: number, mode: RunMode, fn: (run: Run) => Run): void {
+  updateGroup(groupId, (runs) => {
+    const run = runs[mode]
+    return run ? { ...runs, [mode]: fn(run) } : runs
   })
 }
 
@@ -64,15 +95,20 @@ function shuffled<T>(list: T[]): T[] {
   return out
 }
 
+/** Start a fresh run of this mode (replacing any earlier one of the same mode) and open it. */
 export function startRun(groupId: number, questions: Question[], mode: RunMode): void {
   const order = (mode === 'shuffle' ? shuffled(questions) : questions).map((q) => q.id)
-  store.set((all) => ({
-    ...all,
-    [groupId]: { mode, order, currentId: order[0], startedAt: Date.now(), activeMs: 0, views: {} },
-  }))
+  const run: Run = { mode, order, currentId: order[0], startedAt: Date.now(), activeMs: 0, views: {} }
+  updateGroup(groupId, (runs) => ({ ...runs, active: mode, [mode]: run }))
 }
 
-export function clearRun(groupId: number): void {
+/** Open an existing run, or show the start screen with `undefined`. */
+export function setActiveMode(groupId: number, mode: RunMode | undefined): void {
+  updateGroup(groupId, (runs) => ({ ...runs, active: mode }))
+}
+
+/** Delete every run of the group (used by Reset progress). */
+export function clearRuns(groupId: number): void {
   store.set((all) => {
     const rest = { ...all }
     delete rest[groupId]
@@ -80,20 +116,20 @@ export function clearRun(groupId: number): void {
   })
 }
 
-export function setRunCurrent(groupId: number, currentId: string): void {
-  update(groupId, (run) => ({ ...run, currentId }))
+export function setRunCurrent(groupId: number, mode: RunMode, currentId: string): void {
+  update(groupId, mode, (run) => ({ ...run, currentId }))
 }
 
-export function setRunView(groupId: number, id: string, view: View): void {
-  update(groupId, (run) => ({ ...run, views: { ...run.views, [id]: view } }))
+export function setRunView(groupId: number, mode: RunMode, id: string, view: View): void {
+  update(groupId, mode, (run) => ({ ...run, views: { ...run.views, [id]: view } }))
 }
 
-export function addRunTime(groupId: number, ms: number): void {
-  if (ms > 0) update(groupId, (run) => (run.finishedAt ? run : { ...run, activeMs: run.activeMs + ms }))
+export function addRunTime(groupId: number, mode: RunMode, ms: number): void {
+  if (ms > 0) update(groupId, mode, (run) => (run.finishedAt ? run : { ...run, activeMs: run.activeMs + ms }))
 }
 
-export function finishRun(groupId: number): void {
-  update(groupId, (run) => (run.finishedAt ? run : { ...run, finishedAt: Date.now() }))
+export function finishRun(groupId: number, mode: RunMode): void {
+  update(groupId, mode, (run) => (run.finishedAt ? run : { ...run, finishedAt: Date.now() }))
 }
 
 /** A question is done once its first pick has been recorded or its answer was shown. */
@@ -123,7 +159,7 @@ const SAVE_EVERY_MS = 15 * 1000
  * Count the time spent on the practice screen while the page is visible and the
  * user is not idle. The total is saved with the run, so it survives reloads.
  */
-export function useActiveTimer(groupId: number, running: boolean): void {
+export function useActiveTimer(groupId: number, mode: RunMode, running: boolean): void {
   const pending = useRef(0)
   useEffect(() => {
     if (!running) return
@@ -131,7 +167,7 @@ export function useActiveTimer(groupId: number, running: boolean): void {
     let lastActivity = Date.now()
     let lastSave = Date.now()
     const flush = () => {
-      addRunTime(groupId, pending.current)
+      addRunTime(groupId, mode, pending.current)
       pending.current = 0
       lastSave = Date.now()
     }
@@ -164,5 +200,5 @@ export function useActiveTimer(groupId: number, running: boolean): void {
       document.removeEventListener('visibilitychange', onVisibility)
       window.removeEventListener('pagehide', flush)
     }
-  }, [groupId, running])
+  }, [groupId, mode, running])
 }

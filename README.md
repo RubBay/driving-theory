@@ -134,21 +134,27 @@ differently, validation fails rather than producing wrong data.
 
 ## How progress works
 
-- **Practice**: you start by choosing "Question by question" (1 to N in order)
-  or "Shuffle". The order is fixed for the whole practice and saved, so you can
-  close the app and continue later; "New practice" starts over.
+- **Practice** has two modes, each with its own saved place, so you can switch
+  between them ("Change mode") and close the app at any time:
+  - **Shuffle**: all questions in a random order. This is the practice whose
+    progress, result and time the home screen shows.
+  - **Question by question**: 1 to N in order, for going through and checking
+    the answers. Not shown on the home screen, not timed, no results window.
+  - "Start over" begins the current mode again (a new order for Shuffle).
+  - Answers in both modes still count in each question's record and in
+    My mistakes.
   - Each question is answered once per practice, decided by your first pick:
     several wrong picks (or wrong, then right) count as a single mistake. Wrong
     picks turn red and stay red; the other options stay open, without giving
     the correct one away. The correct answer is marked when you pick it, press
     "Show answer" (which records nothing), or have picked every wrong option.
-  - When every question has been answered, a summary shows how many were right
-    and wrong and the time spent. Time counts only while the practice screen is
+  - When every question of a Shuffle has been answered, a summary shows how
+    many were right and wrong and the time spent. Time counts only while the practice screen is
     visible and in use (it pauses after 5 minutes without a tap or key press).
 - **Home screen**: each group is a card that opens and closes with the + / −
   button (all closed at first; the choice is remembered). A closed card still
-  shows the group number, categories, question count, topic, how many are
-  answered, mistakes, highlights and a practice in progress.
+  shows the group number, categories, question count, topic, the Shuffle
+  progress (or the last Shuffle result and time), mistakes and highlights.
 - **Highlighted questions**: the highlighter button next to the question
   number saves a question (a yellow dot marks it in the question grid). On the
   home screen, "Highlighted" lists them all; open one to see it with a grid of

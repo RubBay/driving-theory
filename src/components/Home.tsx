@@ -2,10 +2,11 @@ import { useState } from 'react'
 import { GROUPS } from '../config'
 import { t, tx } from '../i18n'
 import { updateSettings, useSettings } from '../lib/settings'
-import { percentages, resetGroup, summarize, useGroupProgress } from '../lib/progress'
+import { resetGroup, summarize, useGroupProgress } from '../lib/progress'
 import { href } from '../lib/router'
 import { useHighlights } from '../lib/highlights'
-import { clearRun, summarizeRun, useRun } from '../lib/run'
+import { formatDuration } from '../lib/format'
+import { clearRuns, setActiveMode, summarizeRun, useGroupRuns } from '../lib/run'
 import type { GroupConfig } from '../types'
 import { ConfirmDialog } from './Dialog'
 import { HighlighterIcon } from './icons'
@@ -28,9 +29,8 @@ export default function Home() {
 function GroupCard({ group }: { group: GroupConfig }) {
   const progress = useGroupProgress(group.id)
   const [confirming, setConfirming] = useState(false)
-  const run = useRun(group.id)
+  const runs = useGroupRuns(group.id)
   const highlighted = useHighlights(group.id).length
-  const runSummary = run && !run.finishedAt ? summarizeRun(run) : null
 
   const { openGroups } = useSettings()
   const open = openGroups.includes(group.id)
@@ -38,8 +38,18 @@ function GroupCard({ group }: { group: GroupConfig }) {
     updateSettings({ openGroups: open ? openGroups.filter((id) => id !== group.id) : [...openGroups, group.id] })
 
   const total = group.questions
-  const { answered, correct, wrong, mistakes, attemptsCorrect, attempts } = summarize(progress)
-  const pct = (n: number) => `${(n / total) * 100}%`
+  const { answered, mistakes } = summarize(progress)
+  // The home card shows the Shuffle practice only; "Question by question" is for checking answers.
+  const shuffle = runs.shuffle
+  const s = shuffle ? summarizeRun(shuffle) : { done: 0, correct: 0, wrong: 0, shown: 0, total }
+  const { done, correct, wrong } = s
+  const shuffleFinished = Boolean(shuffle?.finishedAt)
+  const shuffleStatus = !shuffle
+    ? t('group.shuffleNone')
+    : shuffleFinished
+      ? t('group.shuffleFinished', { correct, wrong, total: s.total, time: formatDuration(shuffle.activeMs) })
+      : t('group.shuffleProgress', { done, total: s.total, correct, wrong })
+  const pct = (n: number) => `${(n / (s.total || total)) * 100}%`
   const bodyId = `g${group.id}-body`
 
   return (
@@ -63,14 +73,10 @@ function GroupCard({ group }: { group: GroupConfig }) {
             </span>
           </span>
           {group.topic && <span className="mt-1 block font-medium">{tx(group.topic)}</span>}
-          <span className="mt-2 block text-sm text-muted">
-            {t('group.summary', { answered, total: total, mistakes, highlighted })}
+          <span className={`mt-2 block text-sm ${shuffle && !shuffleFinished ? 'text-accent' : 'text-muted'}`}>
+            {shuffleStatus}
           </span>
-          {runSummary && (
-            <span className="block text-sm text-accent">
-              {t('group.inProgress', { done: runSummary.done, total: runSummary.total })}
-            </span>
-          )}
+          <span className="block text-sm text-muted">{t('group.summary', { mistakes, highlighted })}</span>
           {!open && (
             <span className="mt-2 flex h-1.5 overflow-hidden rounded-full bg-surface-2" aria-hidden="true">
               <span className="bg-ok-border" style={{ width: pct(correct) }} />
@@ -95,7 +101,7 @@ function GroupCard({ group }: { group: GroupConfig }) {
       <div className="px-4 pb-4 sm:px-5 sm:pb-5">
 
       <dl className="grid grid-cols-3 gap-2 text-center">
-        <Stat label={t('group.answered')} value={answered} />
+        <Stat label={t('group.done')} value={done} />
         <Stat label={t('group.correct')} value={correct} tone="ok" />
         <Stat label={t('group.wrong')} value={wrong} tone="bad" />
       </dl>
@@ -104,29 +110,21 @@ function GroupCard({ group }: { group: GroupConfig }) {
         className="mt-4 flex h-3 overflow-hidden rounded-full bg-surface-2"
         role="progressbar"
         aria-valuemin={0}
-        aria-valuemax={total}
-        aria-valuenow={answered}
-        aria-label={t('group.progress', { answered, total: total })}
+        aria-valuemax={s.total}
+        aria-valuenow={done}
+        aria-label={shuffleStatus}
       >
         <div className="bg-ok-border" style={{ width: pct(correct) }} />
         <div className="bg-bad-border" style={{ width: pct(wrong) }} />
       </div>
-      <p className="mt-1 text-sm text-muted">{t('group.progress', { answered, total: total })}</p>
-      {attempts > 0 && (
-        <p className="text-sm text-muted">
-          {t('group.accuracy', {
-            pct: percentages(attemptsCorrect, attempts - attemptsCorrect).correct,
-            correct: attemptsCorrect,
-            attempts,
-          })}
-        </p>
-      )}
 
       <div className="mt-4 grid gap-2 sm:grid-cols-2">
-        <a href={href.practice(group.id)} className={`${btn.primary} sm:col-span-2`}>
-          {runSummary
-            ? t('group.continue', { done: runSummary.done, total: runSummary.total })
-            : t('group.practice')}
+        <a
+          href={href.practice(group.id)}
+          onClick={() => setActiveMode(group.id, shuffle && !shuffleFinished ? 'shuffle' : undefined)}
+          className={`${btn.primary} sm:col-span-2`}
+        >
+          {shuffle && !shuffleFinished ? t('group.continue', { done, total: s.total }) : t('group.practice')}
         </a>
         <a href={href.mistakes(group.id)} className={btn.secondary}>
           {t('group.mistakes')}
@@ -137,7 +135,7 @@ function GroupCard({ group }: { group: GroupConfig }) {
           {t('highlights.title')}
           <span className="rounded-full bg-hl-bg px-2 py-0.5 text-sm text-hl">{highlighted}</span>
         </a>
-        <button type="button" className={`${btn.danger} sm:col-span-2`} onClick={() => setConfirming(true)} disabled={answered === 0 && !run}>
+        <button type="button" className={`${btn.danger} sm:col-span-2`} onClick={() => setConfirming(true)} disabled={answered === 0 && !runs.ordered && !runs.shuffle}>
           {t('group.reset')}
         </button>
       </div>
@@ -152,7 +150,7 @@ function GroupCard({ group }: { group: GroupConfig }) {
           confirmLabel={t('group.resetConfirm')}
           onConfirm={() => {
             resetGroup(group.id)
-            clearRun(group.id) // a practice in progress starts over too
+            clearRuns(group.id) // practices in progress start over too
             setConfirming(false)
           }}
           onCancel={() => setConfirming(false)}
