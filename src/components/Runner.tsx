@@ -31,6 +31,8 @@ interface Props {
   onViewChange?: (id: string, view: View) => void
   /** Shown under the question counter (e.g. run progress). */
   status?: ReactNode
+  /** Colour the question grid by these results instead of each question's last answer overall. */
+  gridResults?: Record<string, 'correct' | 'wrong' | undefined>
   /** Where the back link at the top goes (default: home). */
   backHref?: string
   backLabel?: string
@@ -59,6 +61,7 @@ export default function Runner({
   backLabel,
   forceNavigatorOpen = false,
   navigatorTitle,
+  gridResults,
 }: Props) {
   const progress = useGroupProgress(group.id)
   const [localViews, setLocalViews] = useState<Record<string, View>>({})
@@ -392,7 +395,7 @@ export default function Runner({
         <ol className="mt-3 grid max-h-[26rem] list-none grid-cols-6 gap-1.5 overflow-y-auto p-1">
           {byNumber.map(({ item, i }) => {
             const entry = progress[item.id]
-            const st = entry?.lastResult
+            const st = gridResults ? gridResults[item.id] : entry?.lastResult
             const pct = entry ? percentages(entry.correctCount, entry.wrongCount).correct : null
             const status = t(st === 'correct' ? 'status.correct' : st === 'wrong' ? 'status.wrong' : 'status.unanswered')
             const current = i === index

@@ -55,7 +55,7 @@ const ru: Record<StringKey, string> = {
   'start.intro':
     'Каждый режим запоминает, где вы остановились, поэтому между ними можно переключаться в любой момент.',
   'start.ordered': 'По порядку',
-  'start.orderedBody': 'Пройдите все {count} {count|вопрос|вопроса|вопросов} по порядку, с 1 по {count}, и проверьте ответы. Не учитывается в прогрессе на главной странице.',
+  'start.orderedBody': 'Не учитывается в прогрессе на главной странице.',
   'start.shuffle': 'Вперемешку',
   'start.shuffleBody': 'Все {count} {count|вопрос|вопроса|вопросов} в случайном порядке. Прогресс, результат и время показываются на главной странице.',
   'start.notStarted': 'Не начато',
@@ -63,6 +63,7 @@ const ru: Record<StringKey, string> = {
   'start.finished': 'Завершено: верно {correct} · неверно {wrong}',
   'run.modeOrdered': 'По порядку',
   'run.modeShuffle': 'Вперемешку',
+  'run.reviewing': 'Результат тренировки вперемешку · проверка ответов',
   'run.done': 'Пройдено {done} из {total}',
   'run.changeMode': 'Сменить режим',
   'run.startOver': 'Начать заново',

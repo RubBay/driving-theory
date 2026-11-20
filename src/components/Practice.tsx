@@ -97,7 +97,6 @@ function PracticeRun({ group, questions, run }: { group: GroupConfig; questions:
     () => run.order.map((id) => byId.get(id)).filter((q): q is Question => Boolean(q)),
     [run.order, byId],
   )
-  const index = Math.max(0, order.findIndex((q) => q.id === run.currentId))
   const summary = summarizeRun(run)
   const finished = Boolean(run.finishedAt)
   const [showSummary, setShowSummary] = useState(finished)
@@ -105,6 +104,20 @@ function PracticeRun({ group, questions, run }: { group: GroupConfig; questions:
   const mode = run.mode
   // Only Shuffle is timed and ends with a result; "Question by question" is for checking answers.
   const timed = mode === 'shuffle'
+  // A finished Shuffle turns into a review: questions in number order with the grid open,
+  // coloured by the answers given in this shuffle.
+  const reviewing = finished && timed
+  const shown = useMemo(
+    () => (reviewing ? [...order].sort((a, b) => a.number - b.number) : order),
+    [order, reviewing],
+  )
+  const index = Math.max(0, shown.findIndex((q) => q.id === run.currentId))
+  const gridResults = useMemo(() => {
+    if (!reviewing) return undefined
+    const out: Record<string, 'correct' | 'wrong' | undefined> = {}
+    for (const q of order) out[q.id] = run.views[q.id]?.counted
+    return out
+  }, [reviewing, order, run.views])
 
   useActiveTimer(group.id, mode, timed && !finished)
 
@@ -123,6 +136,12 @@ function PracticeRun({ group, questions, run }: { group: GroupConfig; questions:
     startRun(group.id, questions, mode)
     window.scrollTo(0, 0)
   }
+  /** Close the results and check the answers from question 1, with the grid open. */
+  const review = () => {
+    setShowSummary(false)
+    if (shown[0]) setRunCurrent(group.id, mode, shown[0].id)
+    window.scrollTo(0, 0)
+  }
   const changeMode = () => {
     setActiveMode(group.id, undefined)
     window.scrollTo(0, 0)
@@ -134,16 +153,19 @@ function PracticeRun({ group, questions, run }: { group: GroupConfig; questions:
         group={group}
         mode="practice"
         title={t('practice.title')}
-        questions={order}
+        questions={shown}
         index={index}
-        hideNavigator={mode === 'shuffle'}
+        hideNavigator={mode === 'shuffle' && !reviewing}
+        forceNavigatorOpen={reviewing}
+        gridResults={gridResults}
         views={run.views}
         onViewChange={(id, view) => setRunView(group.id, mode, id, view)}
-        onIndex={(i) => setRunCurrent(group.id, mode, order[i].id)}
+        onIndex={(i) => setRunCurrent(group.id, mode, shown[i].id)}
         status={
           <p className="mt-1 text-sm text-muted">
-            {mode === 'shuffle' ? t('run.modeShuffle') : t('run.modeOrdered')} ·{' '}
-            {t('run.done', { done: summary.done, total: summary.total })}
+            {reviewing
+              ? t('run.reviewing')
+              : `${mode === 'shuffle' ? t('run.modeShuffle') : t('run.modeOrdered')} · ${t('run.done', { done: summary.done, total: summary.total })}`}
           </p>
         }
         tools={
@@ -177,7 +199,7 @@ function PracticeRun({ group, questions, run }: { group: GroupConfig; questions:
           </p>
           <p className="mt-1 text-sm text-muted">{t('summary.timeNote')}</p>
           <div className="mt-5 grid grid-cols-2 gap-2">
-            <button type="button" className={btn.secondary} onClick={() => setShowSummary(false)}>
+            <button type="button" className={btn.secondary} onClick={review}>
               {t('summary.review')}
             </button>
             <button type="button" className={btn.primary} onClick={startOver}>

@@ -149,7 +149,9 @@ differently, validation fails rather than producing wrong data.
     the correct one away. The correct answer is marked when you pick it, press
     "Show answer" (which records nothing), or have picked every wrong option.
   - When every question of a Shuffle has been answered, a summary shows how
-    many were right and wrong and the time spent. Time counts only while the practice screen is
+    many were right and wrong and the time spent. "Review answers" then shows
+    that shuffle in number order with the question grid open, coloured by the
+    answers you gave. Time counts only while the practice screen is
     visible and in use (it pauses after 5 minutes without a tap or key press).
 - **Home screen**: each group is a card that opens and closes with the + / −
   button (all closed at first; the choice is remembered). A closed card still
